@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 700 500" data-graphic-id="division_parallel_base" role="img" aria-label="Distinctio IV — Dividing Triangle ABG Parallel to Base BG via Semicircle Mean Proportional">
+  <title>Distinctio IV — Dividing Triangle ABG Parallel to Base BG via Semicircle Mean Proportional</title>
+  <defs>
+    <marker id="geom-tick-1" viewBox="-4 -8 8 16" markerWidth="8" markerHeight="16" orient="auto">
+      <line x1="0" y1="-5" x2="0" y2="5" stroke="currentColor" stroke-width="1.5" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -8 12 16" markerWidth="12" markerHeight="16" orient="auto">
+      <line x1="-2" y1="-5" x2="-2" y2="5" stroke="currentColor" stroke-width="1.5" />
+      <line x1="2" y1="-5" x2="2" y2="5" stroke="currentColor" stroke-width="1.5" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-8 -8 16 16" markerWidth="16" markerHeight="16" orient="auto">
+      <line x1="-4" y1="-5" x2="-4" y2="5" stroke="currentColor" stroke-width="1.5" />
+      <line x1="0" y1="-5" x2="0" y2="5" stroke="currentColor" stroke-width="1.5" />
+      <line x1="4" y1="-5" x2="4" y2="5" stroke="currentColor" stroke-width="1.5" />
+    </marker>
+  </defs>
+  <style>
+.euclid-graphic {
+    --svg-bg: #fafaf9;
+    --ink: #1c1917;
+    --label-halo: rgba(250, 250, 249, 0.92);
+    --carrier: #475569;
+    --circle-main: #0284c7;
+    --circle-guide: #64748b;
+    --bisector: #0d9488;
+    --parallel: #6366f1;
+    --golden: #d97706;
+    --tetra: #e11d48;
+    --octa: #0284c7;
+    --cube: #059669;
+    --icosa: #7c3aed;
+    --grid: #94a3b8;
+    --share-p: #f59e0b;
+    --share-q: #0ea5e9;
+    --pes-strip: #10b981;
+    --pt-given: #0f172a;
+    --pt-result: #0369a1;
+    --pt-mid: #0f766e;
+    --pt-golden: #d97706;
+    font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    .euclid-graphic {
+      --svg-bg: #141417;
+      --ink: #f4f4f5;
+      --label-halo: rgba(20, 20, 23, 0.92);
+      --carrier: #94a3b8;
+      --circle-main: #38bdf8;
+      --circle-guide: #94a3b8;
+      --bisector: #2dd4bf;
+      --parallel: #818cf8;
+      --golden: #fbbf24;
+      --tetra: #fb7185;
+      --octa: #38bdf8;
+      --cube: #34d399;
+      --icosa: #c084fc;
+      --grid: #64748b;
+      --share-p: #fbbf24;
+      --share-q: #38bdf8;
+      --pes-strip: #34d399;
+      --pt-given: #e2e8f0;
+      --pt-result: #38bdf8;
+      --pt-mid: #2dd4bf;
+      --pt-golden: #fbbf24;
+    }
+  }
+  .euclid-graphic .svg-bg { fill: var(--svg-bg); }
+  .euclid-graphic .geom-circle { fill: none; stroke: var(--circle-main); stroke-width: 2.1; opacity: 0.9; }
+  .euclid-graphic .geom-circle.incircle-curve { stroke: var(--golden); stroke-width: 2.35; }
+  .euclid-graphic .geom-circle.guide-circle { stroke: var(--circle-guide); stroke-width: 1.35; stroke-dasharray: 5 4; opacity: 0.68; }
+  .euclid-graphic .geom-circle.transfer-circle { stroke: var(--golden); stroke-width: 1.45; stroke-dasharray: 6 4; opacity: 0.78; }
+  .euclid-graphic .geom-line { fill: none; stroke: var(--carrier); stroke-width: 1.45; stroke-linecap: round; opacity: 0.72; }
+  .euclid-graphic .geom-line.carrier-line { stroke: var(--carrier); stroke-width: 1.85; opacity: 0.88; }
+  .euclid-graphic .geom-line.bisector-line { stroke: var(--bisector); stroke-width: 1.55; stroke-dasharray: 6 3.5; opacity: 0.85; }
+  .euclid-graphic .geom-line.parallel-line { stroke: var(--parallel); stroke-width: 1.65; stroke-dasharray: 5 3.5; opacity: 0.88; }
+  .euclid-graphic .geom-line.tangent-line { stroke: var(--icosa); stroke-width: 1.75; opacity: 0.88; }
+  .euclid-graphic .geom-segment { fill: none; stroke: var(--carrier); stroke-width: 2.1; stroke-linecap: round; }
+  .euclid-graphic .geom-segment.grid-seg { stroke: var(--grid); stroke-width: 1.05; opacity: 0.48; }
+  .euclid-graphic .geom-segment.bisector-seg { stroke: var(--bisector); stroke-width: 1.9; stroke-dasharray: 5 3; }
+  .euclid-graphic .geom-segment.inradius-seg { stroke: var(--golden); stroke-width: 2.2; }
+  .euclid-graphic .geom-segment.cut-seg { stroke: var(--golden); stroke-width: 3.0; }
+  .euclid-graphic .geom-segment.golden-seg { stroke: var(--golden); stroke-width: 3.2; opacity: 0.95; }
+  .euclid-graphic .geom-segment.tetra-seg { stroke: var(--tetra); stroke-width: 2.75; }
+  .euclid-graphic .geom-segment.octa-seg { stroke: var(--octa); stroke-width: 2.75; }
+  .euclid-graphic .geom-segment.cube-seg { stroke: var(--cube); stroke-width: 2.75; }
+  .euclid-graphic .geom-segment.icosa-seg { stroke: var(--icosa); stroke-width: 2.75; }
+  .euclid-graphic .geom-polygon { fill: var(--share-q); fill-opacity: 0.05; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round; }
+  .euclid-graphic .geom-polygon.share-p-poly { fill: var(--share-p); fill-opacity: 0.13; stroke: var(--golden); stroke-width: 1.8; }
+  .euclid-graphic .geom-polygon.share-q-poly { fill: var(--share-q); fill-opacity: 0.08; stroke: var(--circle-main); stroke-width: 1.6; }
+  .euclid-graphic .geom-polygon.pes-strip-poly { fill: var(--pes-strip); fill-opacity: 0.14; stroke: var(--cube); stroke-width: 1.7; }
+  .euclid-graphic .geom-polygon.denarius-poly { fill: var(--share-p); fill-opacity: 0.28; stroke: var(--golden); stroke-width: 2.2; }
+  .euclid-graphic .geom-point { fill: var(--pt-given); stroke: var(--svg-bg); stroke-width: 1.5; }
+  .euclid-graphic .geom-point.result-point { fill: var(--pt-result); }
+  .euclid-graphic .geom-point.mid-point { fill: var(--pt-mid); }
+  .euclid-graphic .geom-point.golden-point { fill: var(--pt-golden); stroke-width: 1.8; }
+  .euclid-graphic .geom-label {
+    fill: var(--ink);
+    font-size: 13.5px;
+    font-weight: 600;
+    paint-order: stroke fill;
+    stroke: var(--label-halo);
+    stroke-width: 3.6px;
+    stroke-linejoin: round;
+    user-select: none;
+  }
+  .euclid-graphic .geom-label-sub { font-size: 10px; font-weight: 600; }
+  </style>
+  <rect class="svg-bg" x="0" y="0" width="700" height="500" rx="6" fill="none" />
+  <g id="elements">
+    <g id="graphics">
+      <polygon class="geom-polygon" points="313.78,186.66 170.41,408.46 540.15,408.46" data-ref="&lt; A B G &gt;" data-aliases="triABG | &lt; G B A &gt; | &lt; B G A &gt; | &lt; G A B &gt;" fill="none" />
+      <polygon class="geom-polygon share-p-poly" points="313.78,186.66 212.4,343.5 473.85,343.5" data-ref="&lt; A E Z &gt;" data-aliases="polyAEZ | &lt; Z E A &gt; | &lt; E Z A &gt; | &lt; Z A E &gt;" fill="none" />
+      <polygon class="geom-polygon share-q-poly" points="212.4,343.5 170.41,408.46 540.15,408.46 473.85,343.5" data-ref="&lt; E B G Z &gt;" data-aliases="polyEBGZ | &lt; Z G B E &gt; | &lt; B G Z E &gt; | &lt; G Z E B &gt; | &lt; Z E B G &gt;" fill="none" />
+      <circle class="geom-circle guide-circle" cx="277.94" cy="242.11" r="198.08" data-ref="( O1 B )" data-aliases="circBD | ( O1 D ) | ( O1 K ) | ( B D K )" fill="none"><title>( O1 B ): (x - 57/14)**2 + (y - 18*sqrt(6)/7)**2 - 225/4 = 0</title></circle>
+      <circle class="geom-circle transfer-circle" cx="313.78" cy="186.66" r="186.75" data-ref="( A K )" data-aliases="circAK | ( A E )" fill="none"><title>( A K ): (x - 38/7)**2 + (y - 24*sqrt(6)/7)**2 - 50 = 0</title></circle>
+      <path class="geom-line carrier-line" d="M 14 408.46 L 350 408.46 L 686 408.46" data-ref="[ B G ]" data-aliases="lnBG | / B G / | [ G B ] | / G B /" fill="none"><title>[ B G ]: y = 0</title></path>
+      <path class="geom-line carrier-line" d="M 120.29 486 L 272.84 250 L 425.39 14" data-ref="[ B E ]" data-aliases="lnBA | [ B A ] | / B A / | [ B D ] | / B D / | / B E / | [ A B ] | / A B / | [ A D ] | / A D / | [ A E ] | / A E / | [ D B ] | / D B / | [ D A ] | / D A / | [ D E ] | / D E / | [ E B ] | / E B / | [ E A ] | / E A / | [ E D ] | / E D /" fill="none"><title>[ B E ]: -24*sqrt(6)*x/7 + 38*y/7 = 0</title></path>
+      <path class="geom-line carrier-line" d="M 619.29 486 L 378.42 250 L 137.56 14" data-ref="[ G Z ]" data-aliases="lnGA | [ G A ] | / G A / | / G Z / | [ A G ] | / A G / | [ A Z ] | / A Z / | [ Z G ] | / Z G / | [ Z A ] | / Z A /" fill="none"><title>[ G Z ]: -24*sqrt(6)*x/7 - 60*y/7 + 48*sqrt(6) = 0</title></path>
+      <path class="geom-line parallel-line" d="M 14 343.5 L 350 343.5 L 686 343.5" data-ref="[ E Z ]" data-aliases="lnEZ | / E Z / | [ Z E ] | / Z E /" fill="none"><title>[ E Z ]: 14*y - 48*sqrt(6) + 48*sqrt(3) = 0</title></path>
+      <path class="geom-segment bisector-seg" d="M 313.78 186.66 L 349.62 131.21 L 385.47 75.76" data-ref="/ A D /" data-aliases="segAD | / D A / | [ A D ] | [ D A ]" fill="none"><title>/ A D /: length = 5</title></path>
+      <path class="geom-segment bisector-seg" d="M 313.78 186.66 L 235.36 135.97 L 156.94 85.28" data-ref="/ A K /" data-aliases="segAK | / K A / | [ A K ] | [ K A ]" fill="none"><title>/ A K /: length = 5*sqrt(2)</title></path>
+      <path class="geom-segment cut-seg golden-seg" d="M 212.4 343.5 L 343.13 343.5 L 473.85 343.5" data-ref="/ E Z /" data-aliases="segEZ | / Z E / | [ E Z ] | [ Z E ]" fill="none"><title>/ E Z /: length = 2*sqrt(-11456002*sqrt(2) - 3073*sqrt(77489 - 43824*sqrt(2)) + 10426*sqrt(2)*sqrt(77489 - 43824*sqrt(2)) + 17787997)/(-sqrt(77489 - 43824*sqrt(2)) - 88*sqrt(2) + 249 + 2*sqrt(2)*sqrt(77489 - 43824*sqrt(2)))</title></path>
+    </g>
+    <g id="highlights"></g>
+    <g id="points">
+      <circle class="geom-point given-point result-point" cx="170.41" cy="408.46" r="4.4" data-ref="B" data-latex-x="0" data-latex-y="0"><title>B = (0, 0)</title></circle>
+      <circle class="geom-point given-point result-point" cx="540.15" cy="408.46" r="4.4" data-ref="G" data-latex-x="14" data-latex-y="0"><title>G = (14, 0)</title></circle>
+      <circle class="geom-point given-point result-point" cx="313.78" cy="186.66" r="4.4" data-ref="A" data-latex-x="\frac{38}{7}" data-latex-y="\frac{24 \sqrt{6}}{7}"><title>A = (38/7, 24*sqrt(6)/7)</title></circle>
+      <circle class="geom-point mid-point result-point" cx="385.47" cy="75.76" r="4.4" data-ref="D" data-latex-x="\frac{57}{7}" data-latex-y="\frac{36 \sqrt{6}}{7}"><title>D = (57/7, 36*sqrt(6)/7)</title></circle>
+      <circle class="geom-point-halo" cx="156.94" cy="85.28" r="8.6" fill="none" stroke="currentColor" stroke-opacity="0.35" stroke-width="1.6" />
+      <circle class="geom-point result-point" cx="156.94" cy="85.28" r="4.4" data-ref="K" data-latex-x="\frac{38}{7} - \frac{24 \sqrt{3}}{7}" data-latex-y="\frac{19 \sqrt{2}}{7} + \frac{24 \sqrt{6}}{7}"><title>K = (38/7 - 24*sqrt(3)/7, 19*sqrt(2)/7 + 24*sqrt(6)/7)</title></circle>
+      <circle class="geom-point-halo" cx="212.4" cy="343.5" r="8.6" fill="none" stroke="currentColor" stroke-opacity="0.35" stroke-width="1.6" />
+      <circle class="geom-point result-point" cx="212.4" cy="343.5" r="4.4" data-ref="E" data-latex-x="\frac{38}{7} - \frac{19 \sqrt{2}}{7}" data-latex-y="- \frac{24 \sqrt{3}}{7} + \frac{24 \sqrt{6}}{7}"><title>E = (38/7 - 19*sqrt(2)/7, -24*sqrt(3)/7 + 24*sqrt(6)/7)</title></circle>
+      <circle class="geom-point-halo" cx="473.85" cy="343.5" r="8.6" fill="none" stroke="currentColor" stroke-opacity="0.35" stroke-width="1.6" />
+      <circle class="geom-point result-point" cx="473.85" cy="343.5" r="4.4" data-ref="Z" data-latex-x="\frac{- 48 \sqrt{6} \left(- \frac{19 \sqrt{2} \sqrt{\frac{77489}{4} - 10956 \sqrt{2}}}{1743 - 616 \sqrt{2}} + \frac{19 \sqrt{2}}{14} + \frac{30}{7} + \frac{68 \sqrt{\frac{77489}{4} - 10956 \sqrt{2}}}{\frac{1743}{2} - 308 \sqrt{2}}\right) - \frac{1440 \sqrt{3}}{7} - \frac{97920 \sqrt{3} \sqrt{\frac{77489}{4} - 10956 \sqrt{2}}}{7 \left(12201 - 4312 \sqrt{2}\right)} - \frac{14760 \sqrt{3} \sqrt{\frac{77489}{4} - 10956 \sqrt{2}}}{7 \left(\frac{12201}{2} - 2156 \sqrt{2}\right)} - \frac{27360 \sqrt{3} \sqrt{\frac{77489}{4} - 10956 \sqrt{2}}}{7 \left(24402 - 8624 \sqrt{2}\right)} + \frac{13680 \sqrt{6} \sqrt{\frac{77489}{4} - 10956 \sqrt{2}}}{7 \left(24402 - 8624 \sqrt{2}\right)} + \frac{25020 \sqrt{6} \sqrt{\frac{77489}{4} - 10956 \sqrt{2}}}{7 \left(\frac{12201}{2} - 2156 \sqrt{2}\right)} + \frac{84240 \sqrt{6} \sqrt{\frac{77489}{4} - 10956 \sqrt{2}}}{7 \left(12201 - 4312 \sqrt{2}\right)} + \frac{1440 \sqrt{6}}{7}}{- \frac{24 \sqrt{6} \left(- \frac{19 \sqrt{2} \sqrt{\frac{77489}{4} - 10956 \sqrt{2}}}{1743 - 616 \sqrt{2}} + \frac{19 \sqrt{2}}{14} + \frac{30}{7} + \frac{68 \sqrt{\frac{77489}{4} - 10956 \sqrt{2}}}{\frac{1743}{2} - 308 \sqrt{2}}\right)}{7} - \frac{720 \sqrt{6} \sqrt{\frac{77489}{4} - 10956 \sqrt{2}}}{7 \left(\frac{1743}{2} - 308 \sqrt{2}\right)} - \frac{720 \sqrt{3}}{49} + \frac{720 \sqrt{3} \sqrt{\frac{77489}{4} - 10956 \sqrt{2}}}{7 \left(\frac{1743}{2} - 308 \sqrt{2}\right)} + \frac{720 \sqrt{6}}{49}}" data-latex-y="\frac{\frac{24 \sqrt{6} \left(- 24 \sqrt{6} - \frac{1404 \sqrt{6} \sqrt{\frac{77489}{4} - 10956 \sqrt{2}}}{12201 - 4312 \sqrt{2}} - \frac{417 \sqrt{6} \sqrt{\frac{77489}{4} - 10956 \sqrt{2}}}{\frac{12201}{2} - 2156 \sqrt{2}} - \frac{228 \sqrt{6} \sqrt{\frac{77489}{4} - 10956 \sqrt{2}}}{24402 - 8624 \sqrt{2}} + \frac{456 \sqrt{3} \sqrt{\frac{77489}{4} - 10956 \sqrt{2}}}{24402 - 8624 \sqrt{2}} + \frac{246 \sqrt{3} \sqrt{\frac{77489}{4} - 10956 \sqrt{2}}}{\frac{12201}{2} - 2156 \sqrt{2}} + \frac{1632 \sqrt{3} \sqrt{\frac{77489}{4} - 10956 \sqrt{2}}}{12201 - 4312 \sqrt{2}} + 24 \sqrt{3}\right)}{7} + 48 \sqrt{6} \left(- \frac{12 \sqrt{6} \sqrt{\frac{77489}{4} - 10956 \sqrt{2}}}{\frac{1743}{2} - 308 \sqrt{2}} - \frac{12 \sqrt{3}}{7} + \frac{12 \sqrt{3} \sqrt{\frac{77489}{4} - 10956 \sqrt{2}}}{\frac{1743}{2} - 308 \sqrt{2}} + \frac{12 \sqrt{6}}{7}\right)}{- \frac{24 \sqrt{6} \left(- \frac{19 \sqrt{2} \sqrt{\frac{77489}{4} - 10956 \sqrt{2}}}{1743 - 616 \sqrt{2}} + \frac{19 \sqrt{2}}{14} + \frac{30}{7} + \frac{68 \sqrt{\frac{77489}{4} - 10956 \sqrt{2}}}{\frac{1743}{2} - 308 \sqrt{2}}\right)}{7} - \frac{720 \sqrt{6} \sqrt{\frac{77489}{4} - 10956 \sqrt{2}}}{7 \left(\frac{1743}{2} - 308 \sqrt{2}\right)} - \frac{720 \sqrt{3}}{49} + \frac{720 \sqrt{3} \sqrt{\frac{77489}{4} - 10956 \sqrt{2}}}{7 \left(\frac{1743}{2} - 308 \sqrt{2}\right)} + \frac{720 \sqrt{6}}{49}}"><title>Z = ((-48*sqrt(6)*(-19*sqrt(2)*sqrt(77489/4 - 10956*sqrt(2))/(1743 - 616*sqrt(2)) + 19*sqrt(2)/14 + 30/7 + 68*sqrt(77489/4 - 10956*sqrt(2))/(1743/2 - 308*sqrt(2))) - 1440*sqrt(3)/7 - 97920*sqrt(3)*sqrt(77489/4 - 10956*sqrt(2))/(7*(12201 - 4312*sqrt(2))) - 14760*sqrt(3)*sqrt(77489/4 - 10956*sqrt(2))/(7*(12201/2 - 2156*sqrt(2))) - 27360*sqrt(3)*sqrt(77489/4 - 10956*sqrt(2))/(7*(24402 - 8624*sqrt(2))) + 13680*sqrt(6)*sqrt(77489/4 - 10956*sqrt(2))/(7*(24402 - 8624*sqrt(2))) + 25020*sqrt(6)*sqrt(77489/4 - 10956*sqrt(2))/(7*(12201/2 - 2156*sqrt(2))) + 84240*sqrt(6)*sqrt(77489/4 - 10956*sqrt(2))/(7*(12201 - 4312*sqrt(2))) + 1440*sqrt(6)/7)/(-24*sqrt(6)*(-19*sqrt(2)*sqrt(77489/4 - 10956*sqrt(2))/(1743 - 616*sqrt(2)) + 19*sqrt(2)/14 + 30/7 + 68*sqrt(77489/4 - 10956*sqrt(2))/(1743/2 - 308*sqrt(2)))/7 - 720*sqrt(6)*sqrt(77489/4 - 10956*sqrt(2))/(7*(1743/2 - 308*sqrt(2))) - 720*sqrt(3)/49 + 720*sqrt(3)*sqrt(77489/4 - 10956*sqrt(2))/(7*(1743/2 - 308*sqrt(2))) + 720*sqrt(6)/49), (24*sqrt(6)*(-24*sqrt(6) - 1404*sqrt(6)*sqrt(77489/4 - 10956*sqrt(2))/(12201 - 4312*sqrt(2)) - 417*sqrt(6)*sqrt(77489/4 - 10956*sqrt(2))/(12201/2 - 2156*sqrt(2)) - 228*sqrt(6)*sqrt(77489/4 - 10956*sqrt(2))/(24402 - 8624*sqrt(2)) + 456*sqrt(3)*sqrt(77489/4 - 10956*sqrt(2))/(24402 - 8624*sqrt(2)) + 246*sqrt(3)*sqrt(77489/4 - 10956*sqrt(2))/(12201/2 - 2156*sqrt(2)) + 1632*sqrt(3)*sqrt(77489/4 - 10956*sqrt(2))/(12201 - 4312*sqrt(2)) + 24*sqrt(3))/7 + 48*sqrt(6)*(-12*sqrt(6)*sqrt(77489/4 - 10956*sqrt(2))/(1743/2 - 308*sqrt(2)) - 12*sqrt(3)/7 + 12*sqrt(3)*sqrt(77489/4 - 10956*sqrt(2))/(1743/2 - 308*sqrt(2)) + 12*sqrt(6)/7))/(-24*sqrt(6)*(-19*sqrt(2)*sqrt(77489/4 - 10956*sqrt(2))/(1743 - 616*sqrt(2)) + 19*sqrt(2)/14 + 30/7 + 68*sqrt(77489/4 - 10956*sqrt(2))/(1743/2 - 308*sqrt(2)))/7 - 720*sqrt(6)*sqrt(77489/4 - 10956*sqrt(2))/(7*(1743/2 - 308*sqrt(2))) - 720*sqrt(3)/49 + 720*sqrt(3)*sqrt(77489/4 - 10956*sqrt(2))/(7*(1743/2 - 308*sqrt(2))) + 720*sqrt(6)/49))</title></circle>
+    </g>
+    <g id="labels">
+      <text class="geom-label" x="151.21" y="397.89" data-ref="B">B</text>
+      <text class="geom-label" x="534.3" y="393.32" data-ref="G">G</text>
+      <text class="geom-label" x="328.88" y="191.42" data-ref="A">A</text>
+      <text class="geom-label" x="366.26" y="65.19" data-ref="D">D</text>
+      <text class="geom-label" x="151.09" y="70.14" data-ref="K">K</text>
+      <text class="geom-label" x="193.2" y="332.92" data-ref="E">E</text>
+      <text class="geom-label" x="468" y="328.36" data-ref="Z">Z</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,458 @@
+src.geometor.fibonacci.polyhedra_golden
+=======================================
+
+.. py:module:: src.geometor.fibonacci.polyhedra_golden
+
+.. autoapi-nested-parse::
+
+   Exact regular polyhedra in a sphere ($d=6$), extreme & mean ratio ($\phi$), *Distinctio VIII*, *Flos*, and *Liber Abaci*.
+
+   Grounded directly in Baldassarre Boncompagni's critical Latin editions (*Scritti di Leonardo Pisano*,
+   Vol. I, 1857 & Vol. II, 1862):
+
+   - **Distinctio VI — The Five Regular Polyhedra in a Sphere of Diameter $6$** (Vol. II, pp. 190–202,
+     ``fol. 122v–130v``): Exact symbolic metrics and straightedge-and-compass planar constructions for
+     the tetrahedron ($e_4^2 = 24$), octahedron ($e_8^2 = 18$), cube ($e_6^2 = 12$), dodecahedron
+     ($e_{12} = \sqrt{15} - \sqrt{3}$, $e_{12}^2 = 18 - \sqrt{180}$), and icosahedron
+     ($e_{20}^2 = 18 - \sqrt{64\frac{4}{5}}$), together with Hypsicles' Book XIV volume proportion
+     $V_{12} : V_{20} = e_6 : e_{20} = \sqrt{\frac{5 + \sqrt{5}}{6}}$.
+   - **Distinctio VII — Optical Surveying with the *Quadrans*** (Vol. II, pp. 202–206, ``fol. 131r–133v``):
+     Exact geometric model of Fibonacci's 12-part *umbra recta / umbra versa* quadrant ``dhai``.
+   - **Distinctio VIII — *Subtilitates Geometricae*** (Vol. II, pp. 207–224, ``fol. 134r–148r``):
+     Inscribing the regular pentagon and decagon in a circle of diameter $10$ both algebraically via
+     Ptolemy's theorem ($x^4 + 3125 = 125 x^2$) and geometrically via Euclid XIII.9–10.
+   - ***Flos* (1225) & *Liber Abaci* (1202/1228) Bridges**:
+     John of Palermo's *congruum* challenge ($x = \frac{41}{12}$, $x^2 \pm 5 = \square$), the cubic
+     $x^3 + 2x^2 + 10x = 20$ solved to six sexagesimal places ($1;22,7,42,33,4,40$), and the twelve-month
+     rabbit recurrence $F_{n+1} = F_n + F_{n-1}$ whose ratios $F_{n+1}/F_n$ converge monotonically in
+     alternating bounds to $\phi = \frac{1 + \sqrt{5}}{2}$.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   src.geometor.fibonacci.polyhedra_golden.PHI
+   src.geometor.fibonacci.polyhedra_golden.PSI
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics
+   src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult
+   src.geometor.fibonacci.polyhedra_golden.GoldenChordResult
+   src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult
+   src.geometor.fibonacci.polyhedra_golden.RabbitConvergentRow
+   src.geometor.fibonacci.polyhedra_golden.FlosCubicResult
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   src.geometor.fibonacci.polyhedra_golden.polyhedra_in_sphere
+   src.geometor.fibonacci.polyhedra_golden.verify_hypsicles_xiv_ratio
+   src.geometor.fibonacci.polyhedra_golden.construct_sphere_polyhedra_section
+   src.geometor.fibonacci.polyhedra_golden.construct_dodecahedron_golden_chord
+   src.geometor.fibonacci.polyhedra_golden.construct_pentagon_decagon_in_circle
+   src.geometor.fibonacci.polyhedra_golden.solve_pentagon_ptolemy_quartic
+   src.geometor.fibonacci.polyhedra_golden.construct_quadrans_surveying
+   src.geometor.fibonacci.polyhedra_golden.fibonacci_rabbit_convergents
+   src.geometor.fibonacci.polyhedra_golden.verify_cassini_identity
+   src.geometor.fibonacci.polyhedra_golden.flos_sexagesimal_cubic
+   src.geometor.fibonacci.polyhedra_golden.flos_congruum_squares
+
+
+Module Contents
+---------------
+
+.. py:data:: PHI
+   :type:  sympy.Expr
+
+.. py:data:: PSI
+   :type:  sympy.Expr
+
+.. py:class:: PolyhedronMetrics
+
+   Exact symbolic invariants of a regular polyhedron inscribed in a sphere of diameter $d$.
+
+
+   .. py:attribute:: name
+      :type:  str
+
+
+   .. py:attribute:: latin_name
+      :type:  str
+
+
+   .. py:attribute:: faces
+      :type:  int
+
+
+   .. py:attribute:: vertices
+      :type:  int
+
+
+   .. py:attribute:: edges
+      :type:  int
+
+
+   .. py:attribute:: sphere_diameter
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: edge
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: edge_sq
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: face_circumradius_sq
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: insphere_radius_sq
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: surface_area
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: volume
+      :type:  sympy.Expr
+
+
+.. py:function:: polyhedra_in_sphere(diameter: int | sympy.Expr = 6) -> dict[str, PolyhedronMetrics]
+
+   Return exact symbolic metrics for all five Platonic solids in a sphere of ``diameter`` (default $6$).
+
+   Matches Fibonacci's exact expressions in *Practica Geometriae*, *Distinctio VI* (Boncompagni 1862,
+   pp. 190–202) for $d = 6$:
+
+   - Tetrahedron (*pyramis*): $e_4^2 = 24$, $V_4 = 8\sqrt{3}$.
+   - Cube (*cubus*): $e_6^2 = 12$, $V_6 = 24\sqrt{3} = 3 V_4$.
+   - Octahedron (*octaedron*): $e_8^2 = 18$, $V_8 = 36$.
+   - Dodecahedron (*duodecaedron*): $e_{12} = \sqrt{15} - \sqrt{3}$, $e_{12}^2 = 18 - 6\sqrt{5}$,
+     $r_{f,12}^2 = 6 - \frac{6}{5}\sqrt{5}$, $r_{\text{in},12}^2 = 3 + \frac{6}{5}\sqrt{5}$.
+   - Icosahedron (*ycosaedron*): $e_{20}^2 = 18 - \frac{18}{5}\sqrt{5}$,
+     $r_{f,20}^2 = 6 - \frac{6}{5}\sqrt{5}$, $r_{\text{in},20}^2 = 3 + \frac{6}{5}\sqrt{5}$.
+
+
+.. py:function:: verify_hypsicles_xiv_ratio(diameter: int | sympy.Expr = 6) -> sympy.Expr
+
+   Verify Hypsicles' Book XIV theorem (*Distinctio VI*, pp. 200–202): $V_{12}/V_{20} = S_{12}/S_{20} = e_6/e_{20}$.
+
+   Returns the shared exact closed-form ratio $\sqrt{\frac{5 + \sqrt{5}}{6}}$.
+
+
+.. py:class:: SpherePolyhedraSectionResult
+
+   Exact Euclid XIII.18 / *Distinctio VI* construction of all 5 polyhedron edges in diameter $AI = 6$.
+
+
+   .. py:attribute:: model
+      :type:  geometor.model.Model
+
+
+   .. py:attribute:: pt_a
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_i
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_o
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_k
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_b
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_c
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_m
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_n
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: quadrances
+      :type:  dict[str, sympy.Expr]
+
+
+.. py:function:: construct_sphere_polyhedra_section() -> SpherePolyhedraSectionResult
+
+   Construct all five regular polyhedron edges inside sphere diameter $AI = 6$ (Euclid XIII.18; Dist. VI).
+
+   On great circle ``(O, A)`` with $A = (-3, 0)$, $I = (3, 0)$, $O = (0, 0)$:
+
+   - Trisection point $K = (-1, 0)$ ($AK = 2 = \frac{1}{3} AI$) and perpendicular $KB$ to circle give
+     **Cube edge** $AB$ ($Q = 12$) and **Tetrahedron edge** $BI$ ($Q = 24$).
+   - Center perpendicular $OC$ to $C = (0, 3)$ gives **Octahedron edge** $AC$ ($Q = 18$).
+   - Golden section $N$ of cube edge $[AB]$ gives **Dodecahedron edge** $AN$ ($Q = 18 - 6\sqrt{5}$).
+   - Tangent $[IP] \perp [AI]$ of length $AI = 6$ joined to center $O$ cuts the circle at $M$, giving
+     **Icosahedron edge** $MI$ ($Q = 18 - \frac{18}{5}\sqrt{5}$).
+
+
+.. py:class:: GoldenChordResult
+
+   Exact model & invariants for Fibonacci's extreme-and-mean-ratio division (*Distinctio VI*, pp. 196–197).
+
+
+   .. py:attribute:: model
+      :type:  geometor.model.Model
+
+
+   .. py:attribute:: pt_b
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_e
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_m
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_c
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_d
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_g
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_a
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: chord_length
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: golden_major
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: golden_minor
+      :type:  sympy.Expr
+
+
+.. py:function:: construct_dodecahedron_golden_chord() -> GoldenChordResult
+
+   Construct *Modus diuidendi lineam media et extrema proportione* on chord $BE = 2\sqrt{3}$ (pp. 196–197).
+
+   Follows Boncompagni pp. 196–197 step-for-step:
+
+   1. Pentagon diagonal / cube edge $BE = \sqrt{12} = 2\sqrt{3}$ from $B=(0,0)$ to $E=(2\sqrt{3}, 0)$.
+   2. Midpoint $M = (\sqrt{3}, 0)$ and perpendicular $[EC] \perp [BE]$ with $EC = EM = \sqrt{3}$.
+   3. Hypotenuse $[BC]$ has $BC^2 = BE^2 + EC^2 = 12 + 3 = 15$ ($BC = \sqrt{15}$).
+   4. Circle $(C, E)$ cuts $[BC]$ at $D$, leaving $BD = \sqrt{15} - \sqrt{3}$; circle $(B, D)$ transfers
+      $BD$ onto $[BE]$ at golden cut $G = (\sqrt{15} - \sqrt{3}, 0)$ and meets circle $(E, G)$ at apex $A$
+      of the dodecahedron's pentagonal cap $\triangle ABE$ ($AB = AE = BG = \sqrt{15} - \sqrt{3}$).
+
+
+.. py:class:: PentagonDecagonResult
+
+   Exact model & invariants for Fibonacci's pentagon & decagon in diameter $10$ (*Distinctio VIII*).
+
+
+   .. py:attribute:: model
+      :type:  geometor.model.Model
+
+
+   .. py:attribute:: center_i
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: apex_d
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: midpoint_h
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: golden_pt_k
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pentagon_vertices
+      :type:  tuple[sympy.geometry.Point, ...]
+
+
+   .. py:attribute:: decagon_vertex
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: radius
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: decagon_side
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: decagon_side_sq
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: pentagon_side
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: pentagon_side_sq
+      :type:  sympy.Expr
+
+
+.. py:function:: construct_pentagon_decagon_in_circle() -> PentagonDecagonResult
+
+   Inscribe the regular pentagon & decagon in a circle of diameter $10$ (*Distinctio VIII*, pp. 207–208).
+
+   Follows Fibonacci's Euclidean demonstration on p. 208 (Euclid XIII.9–10):
+
+   - Circle center $I = (0, 0)$, horizontal diameter $C=(-5,0)$ to $A=(5,0)$, apex $D=(0,5)$ ($R = 5$).
+   - Midpoint $H = (\frac{5}{2}, 0)$ of $[IA]$, segment $[HD]$ of length $\sqrt{31\frac{1}{4}} = \frac{5\sqrt{5}}{2}$.
+   - Circle $(H, D)$ cuts $[CA]$ at $K = (\frac{5 - 5\sqrt{5}}{2}, 0)$:
+
+     * $IK = \frac{5\sqrt{5} - 5}{2} = \sqrt{31\frac{1}{4}} - 2\frac{1}{2} = s_{10}$ (regular decagon side).
+     * $DK = \sqrt{ID^2 + IK^2} = \sqrt{62\frac{1}{2} - \sqrt{781\frac{1}{4}}} = s_5$ (regular pentagon side).
+
+
+.. py:function:: solve_pentagon_ptolemy_quartic(diameter: int | sympy.Expr = 10) -> tuple[sympy.Expr, sympy.Expr]
+
+   Solve Fibonacci's *Distinctio VIII* algebraic biquadratic (`census census`) for pentagon side & diagonal.
+
+   In *Distinctio VIII* (Boncompagni pp. 207–208), setting diameter $d = 10$ and unknown chord
+   $x$ (*res*, $x^2 =$ *census*, $x^4 =$ *census census*), Ptolemy's theorem on the cyclic pentagon
+   yields $x^4 + \frac{5}{16} d^4 = \frac{5}{4} d^2 x^2$ (for $d = 10$: $x^4 + 3125 = 125 x^2$).
+   Returns ``(pentagon_side, pentagon_diagonal)`` as exact nested radicals.
+
+
+.. py:function:: construct_quadrans_surveying() -> geometor.model.Model
+
+   Construct Fibonacci's optical *Quadrans* (`dhai`, 12-part shadow square) from *Distinctio VII* (p. 204).
+
+   Models the surveyor's quadrant square $DHAI$ of side $12$ (*puncta*), graduated quarter-circle arc
+   centered at sighting pinnule $D = (0, 12)$ through $H = (12, 12)$ and $I = (0, 0)$, *umbra recta*
+   division on $[IA]$, *umbra versa* division on $[AH]$, and plumb line $[DP]$ cutting $[IA]$ at $8$
+   *puncta* (giving tower height : horizontal distance $= 12 : 8 = 3 : 2$).
+
+
+.. py:class:: RabbitConvergentRow
+
+   Single month entry from Fibonacci's *Liber Abaci* Ch. 12 rabbit recurrence ($1202/1228$).
+
+
+   .. py:attribute:: month
+      :type:  int
+
+
+   .. py:attribute:: fibonacci_index
+      :type:  int
+
+
+   .. py:attribute:: pairs
+      :type:  sympy.Integer
+
+
+   .. py:attribute:: prev_pairs
+      :type:  sympy.Integer
+
+
+   .. py:attribute:: ratio_to_prev
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: cassini_determinant
+      :type:  sympy.Integer
+
+
+   .. py:attribute:: phi_error_abs
+      :type:  sympy.Expr
+
+
+.. py:function:: fibonacci_rabbit_convergents(months: int = 12) -> list[RabbitConvergentRow]
+
+   Build Fibonacci's *Liber Abaci* Ch. 12 rabbit table (Boncompagni Vol. I, pp. 283–284).
+
+   Starting with $1$ fertile pair (`paria 1` = $F_2 = 1$) at month $0$, month $m \in \{1, \dots, 12\}$
+   has $F_{m+2}$ pairs: ``2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377``.
+
+
+.. py:function:: verify_cassini_identity(max_n: int = 15) -> bool
+
+   Verify exact Binet closed form and Cassini identity $F_{n-1} F_{n+1} - F_n^2 = (-1)^n$.
+
+
+.. py:class:: FlosCubicResult
+
+   Exact rational & algebraic analysis of Fibonacci's *Flos* (1225) cubic $x^3 + 2x^2 + 10x = 20$.
+
+
+   .. py:attribute:: sexagesimal_digits
+      :type:  tuple[int, ...]
+
+
+   .. py:attribute:: rational_root
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: polynomial_value_at_rational
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: residual_from_20
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: exact_cardano_root
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: abs_root_error
+      :type:  sympy.Expr
+
+
+.. py:function:: flos_sexagesimal_cubic() -> FlosCubicResult
+
+   Evaluate Fibonacci's 1225 *Flos* sexagesimal root $1; 22, 7, 42, 33, 4, 40$ (Boncompagni Vol. II, p. 234).
+
+   In *Flos*, Leonardo Pisano proves against Euclid Book X that no rational or quadratic-irrational
+   line satisfies $x^3 + 2x^2 + 10x = 20$, and gives its root to six sexagesimal places:
+   $1 + \frac{22}{60} + \frac{7}{60^2} + \frac{42}{60^3} + \frac{33}{60^4} + \frac{4}{60^5} + \frac{40}{60^6} = \frac{1596577777}{1166400000}$.
+
+
+.. py:function:: flos_congruum_squares() -> tuple[sympy.Rational, sympy.Rational, sympy.Rational]
+
+   Return John of Palermo's *Flos* / *Liber Quadratorum* rational square triple for $x^2 \pm 5 = \square$.
+
+   On Boncompagni Vol. II p. 227, Fibonacci solves $x^2 - 5 = a^2$ and $x^2 + 5 = b^2$ via the
+   *congruum* $720 = 5 \times 12^2$ (from $(31^2, 41^2, 49^2)$ in arithmetic progression with step $720$),
+   yielding $(a, x, b) = (\frac{31}{12}, \frac{41}{12}, \frac{49}{12})$.
+
+

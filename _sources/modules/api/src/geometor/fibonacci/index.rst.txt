@@ -1,0 +1,43 @@
+src.geometor.fibonacci
+======================
+
+.. py:module:: src.geometor.fibonacci
+
+.. autoapi-nested-parse::
+
+   GEOMETOR Fibonacci: Digital Scriptorium Codex & exact symbolic constructions for Leonardo Pisano.
+
+   Covers *Practica Geometriae* (1220), *Liber Abaci* (1202/1228), and *Flos* (1225),
+   grounded in Baldassarre Boncompagni's critical Latin editions (1857, 1862).
+
+
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 1
+
+   /modules/api/src/geometor/fibonacci/__main__/index
+   /modules/api/src/geometor/fibonacci/divisions/index
+   /modules/api/src/geometor/fibonacci/mensuration/index
+   /modules/api/src/geometor/fibonacci/polyhedra_golden/index
+   /modules/api/src/geometor/fibonacci/render/index
+   /modules/api/src/geometor/fibonacci/sphinx_ext/index
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   src.geometor.fibonacci.__version__
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+   :value: '0.1.0'
+
+

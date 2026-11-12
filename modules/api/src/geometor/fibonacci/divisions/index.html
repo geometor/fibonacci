@@ -1,0 +1,516 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>src.geometor.fibonacci.divisions &mdash; GEOMETOR • fibonacci</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/custom.css?v=8542bf54" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../../../../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../../../../../index.html">
+        <h1>GEOMETOR • fibonacci</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">fibonacci</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../../../../../practica_geometriae/index.html"  >LEONARDI PISANI PRACTICA GEOMETRIAE (1220)</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../../../../../index.html" title="Return to Project Portal">&larr; fibonacci</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../../../../../../index.html">GEOMETOR • fibonacci</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="module-src.geometor.fibonacci.divisions">
+        <span id="src-geometor-fibonacci-divisions"></span><h1>src.geometor.fibonacci.divisions<a class="headerlink" href="#module-src.geometor.fibonacci.divisions" title="Link to this heading">¶</a></h1>
+        <p>Exact Euclidean constructions for <em>Practica Geometriae</em>, Distinctio IV (<em>De divisione camporum</em>).</p>
+        <p>Preserves and formalizes in <code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.model</span></code> Leonardo Pisano’s celebrated 1220 Latin
+        transmission and expansion of <strong>Euclid’s lost treatise *On Divisions of Figures*</strong> (Boncompagni
+        1862, Vol. II, pp. 110–148):</p>
+        <ol class="arabic simple">
+        <li><p><strong>Dividing a Triangle from a Point on a Side</strong> (pp. 111–112, <code class="docutils literal notranslate"><span class="pre">fol.</span> <span class="pre">68v–69r</span></code>):
+        Straightedge-and-compass division of $\triangle ABG$ in exact ratio $p : q$ by a line $[DZ]$
+        drawn from any given point $D$ on side $[BG]$, using Euclid I.31 parallel transfer $[EZ] \parallel [AD]$
+        and Euclid I.37 equal-area shearing ($\triangle ADE = \triangle ADZ$).</p></li>
+        <li><p><strong>Dividing a Triangle Parallel to the Base</strong> (p. 119, <code class="docutils literal notranslate"><span class="pre">fol.</span> <span class="pre">73r–73v</span></code>):
+        Straightedge-and-compass division of $\triangle ABG$ in exact ratio $p : q$ by $[EZ] \parallel [BG]$
+        via Euclid VI.13 semicircle mean proportional $AE = \sqrt{\frac{p}{p+q}}\, AB$.</p></li>
+        <li><p><strong>Concurrency of Medians &amp; Three-Consort Centroid Division</strong> (pp. 112–113, 120, <code class="docutils literal notranslate"><span class="pre">fol.</span> <span class="pre">69r–74r</span></code>):
+        Fibonacci’s <em>Preparatoria</em> proving the $2 : 1$ concurrency of medians at centroid $D$ ($X(2)$)
+        and partitioning $\triangle ABG$ into three equal consort triangles $\triangle DAB, \triangle DBG, \triangle DGA$.</p></li>
+        <li><p><strong>Dividing a Trapezoid Parallel to its Bases</strong> (<em>Distinctio IV, Pars II</em>):
+        Root-mean-square chord $c = \sqrt{\frac{q a^2 + p b^2}{p + q}}$, linking planar field division
+        to three squares in arithmetic progression ($7^2, 13^2, 17^2$) in <em>Liber Quadratorum</em> (1225).</p></li>
+        </ol>
+        <section class="level-2" id="classes">
+        <h2>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.fibonacci.divisions.SidePointDivisionResult" title="src.geometor.fibonacci.divisions.SidePointDivisionResult"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SidePointDivisionResult</span></code></a></p></td>
+        <td><p>Exact model &amp; invariants for dividing $triangle ABG$ from a point $D$ on side $BG$.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.fibonacci.divisions.ParallelDivisionResult" title="src.geometor.fibonacci.divisions.ParallelDivisionResult"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ParallelDivisionResult</span></code></a></p></td>
+        <td><p>Exact model &amp; invariants for dividing $triangle ABG$ by $[EZ] parallel [BG]$.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.fibonacci.divisions.CentroidDivisionResult" title="src.geometor.fibonacci.divisions.CentroidDivisionResult"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CentroidDivisionResult</span></code></a></p></td>
+        <td><p>Exact model &amp; invariants for Fibonacci's median concurrency &amp; 3-consort centroid partition.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.fibonacci.divisions.TrapezoidDivisionResult" title="src.geometor.fibonacci.divisions.TrapezoidDivisionResult"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TrapezoidDivisionResult</span></code></a></p></td>
+        <td><p>Exact symbolic result for dividing a trapezoid parallel to bases $a$ and $b$ in ratio $p : q$.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.fibonacci.divisions.construct_midpoint" title="src.geometor.fibonacci.divisions.construct_midpoint"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_midpoint</span></code></a>(model, pt_p, pt_q, *[, pt_id, ...]) → sympy.geometry.Point</p></td>
+        <td><p>Construct the exact midpoint of $[PQ]$ via Euclid I.10 symmetric circles.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.fibonacci.divisions.construct_parallel_line" title="src.geometor.fibonacci.divisions.construct_parallel_line"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_parallel_line</span></code></a>(model, ref_p1, ref_p2, ...[, ...]) → sympy.geometry.Line</p></td>
+        <td><p>Construct the line through <code class="docutils literal notranslate"><span class="pre">through_pt</span></code> parallel to $[text{ref_p1},text{ref_p2}]$ (Euclid I.31).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.fibonacci.divisions.construct_triangle_side_point_division" title="src.geometor.fibonacci.divisions.construct_triangle_side_point_division"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_triangle_side_point_division</span></code></a>(*[, p, q, ...]) → SidePointDivisionResult</p></td>
+        <td><p>Divide $triangle ABG$ $(13, 14, 15)$ in ratio $p : q$ from point $D$ on $[BG]$ (Boncompagni p. 112).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.fibonacci.divisions.construct_triangle_parallel_division" title="src.geometor.fibonacci.divisions.construct_triangle_parallel_division"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_triangle_parallel_division</span></code></a>(*[, p, q, preset]) → ParallelDivisionResult</p></td>
+        <td><p>Divide $triangle ABG$ in ratio $p : q$ by $[EZ] parallel [BG]$ via Euclid VI.13 mean proportional.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.fibonacci.divisions.construct_triangle_medians_centroid" title="src.geometor.fibonacci.divisions.construct_triangle_medians_centroid"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_triangle_medians_centroid</span></code></a>() → CentroidDivisionResult</p></td>
+        <td><p>Construct Fibonacci's <em>Preparatoria</em> on medians &amp; 3-consort centroid division (pp. 112–113, 120).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.fibonacci.divisions.trapezoid_parallel_division" title="src.geometor.fibonacci.divisions.trapezoid_parallel_division"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trapezoid_parallel_division</span></code></a>([top_base_a, ...]) → TrapezoidDivisionResult</p></td>
+        <td><p>Compute the exact parallel dividing line of a trapezoid (<em>Distinctio IV, Pars II</em>).</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.construct_midpoint">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.divisions.</span></span><span class="sig-name descname"><span class="pre">construct_midpoint</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pt_p</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pt_q</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">pt_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">classes</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">guide</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.geometry.Point</span></span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.construct_midpoint" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the exact midpoint of $[PQ]$ via Euclid I.10 symmetric circles.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.construct_parallel_line">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.divisions.</span></span><span class="sig-name descname"><span class="pre">construct_parallel_line</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_p1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ref_p2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">through_pt</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">line_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">classes</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">guide</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.geometry.Line</span></span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.construct_parallel_line" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the line through <code class="docutils literal notranslate"><span class="pre">through_pt</span></code> parallel to $[\text{ref\_p1}\,\text{ref\_p2}]$ (Euclid I.31).</p>
+        <p>Uses central reflection across the midpoint $M$ of $[\text{ref\_p2}, \text{through\_pt}]$ so
+        quadrilateral $(\text{ref\_p1}, \text{ref\_p2}, \text{S}, \text{through\_pt})$ is an exact
+        parallelogram over any symbolic subfield of $\mathbb{R}$.</p>
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.SidePointDivisionResult">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.divisions.</span></span><span class="sig-name descname"><span class="pre">SidePointDivisionResult</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.SidePointDivisionResult" title="Link to this definition">¶</a></dt>
+        <dd><p>Exact model &amp; invariants for dividing $\triangle ABG$ from a point $D$ on side $BG$.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.SidePointDivisionResult.model">
+        <span class="sig-name descname"><span class="pre">model</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">geometor.model.Model</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.SidePointDivisionResult.model" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.SidePointDivisionResult.pt_a">
+        <span class="sig-name descname"><span class="pre">pt_a</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.SidePointDivisionResult.pt_a" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.SidePointDivisionResult.pt_b">
+        <span class="sig-name descname"><span class="pre">pt_b</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.SidePointDivisionResult.pt_b" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.SidePointDivisionResult.pt_g">
+        <span class="sig-name descname"><span class="pre">pt_g</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.SidePointDivisionResult.pt_g" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.SidePointDivisionResult.pt_d">
+        <span class="sig-name descname"><span class="pre">pt_d</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.SidePointDivisionResult.pt_d" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.SidePointDivisionResult.pt_e">
+        <span class="sig-name descname"><span class="pre">pt_e</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.SidePointDivisionResult.pt_e" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.SidePointDivisionResult.pt_z">
+        <span class="sig-name descname"><span class="pre">pt_z</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.SidePointDivisionResult.pt_z" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.SidePointDivisionResult.ratio_p">
+        <span class="sig-name descname"><span class="pre">ratio_p</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.SidePointDivisionResult.ratio_p" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.SidePointDivisionResult.ratio_q">
+        <span class="sig-name descname"><span class="pre">ratio_q</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.SidePointDivisionResult.ratio_q" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.SidePointDivisionResult.gz_length">
+        <span class="sig-name descname"><span class="pre">gz_length</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.SidePointDivisionResult.gz_length" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.SidePointDivisionResult.area_dzg">
+        <span class="sig-name descname"><span class="pre">area_dzg</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.SidePointDivisionResult.area_dzg" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.SidePointDivisionResult.area_abdz">
+        <span class="sig-name descname"><span class="pre">area_abdz</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.SidePointDivisionResult.area_abdz" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.SidePointDivisionResult.area_total">
+        <span class="sig-name descname"><span class="pre">area_total</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.SidePointDivisionResult.area_total" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.construct_triangle_side_point_division">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.divisions.</span></span><span class="sig-name descname"><span class="pre">construct_triangle_side_point_division</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">p</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">d_offset_from_b</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">5</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#src.geometor.fibonacci.divisions.SidePointDivisionResult" title="src.geometor.fibonacci.divisions.SidePointDivisionResult"><span class="pre">SidePointDivisionResult</span></a></span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.construct_triangle_side_point_division" title="Link to this definition">¶</a></dt>
+        <dd><p>Divide $\triangle ABG$ $(13, 14, 15)$ in ratio $p : q$ from point $D$ on $[BG]$ (Boncompagni p. 112).</p>
+        <p>Assumes $D$ lies between $B$ and the fractional base division point $E$ (so $BD &lt; BE$, i.e.,
+        $Z$ falls on side $[AG]$ just as in Fibonacci’s figure on p. 112 where $BD = 5$, $BE = 7$,
+        $DG = 9$, and $GZ = 11\frac{2}{3}$).</p>
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.ParallelDivisionResult">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.divisions.</span></span><span class="sig-name descname"><span class="pre">ParallelDivisionResult</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.ParallelDivisionResult" title="Link to this definition">¶</a></dt>
+        <dd><p>Exact model &amp; invariants for dividing $\triangle ABG$ by $[EZ] \parallel [BG]$.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.ParallelDivisionResult.model">
+        <span class="sig-name descname"><span class="pre">model</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">geometor.model.Model</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.ParallelDivisionResult.model" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.ParallelDivisionResult.pt_a">
+        <span class="sig-name descname"><span class="pre">pt_a</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.ParallelDivisionResult.pt_a" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.ParallelDivisionResult.pt_b">
+        <span class="sig-name descname"><span class="pre">pt_b</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.ParallelDivisionResult.pt_b" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.ParallelDivisionResult.pt_g">
+        <span class="sig-name descname"><span class="pre">pt_g</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.ParallelDivisionResult.pt_g" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.ParallelDivisionResult.pt_d">
+        <span class="sig-name descname"><span class="pre">pt_d</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.ParallelDivisionResult.pt_d" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.ParallelDivisionResult.pt_k">
+        <span class="sig-name descname"><span class="pre">pt_k</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.ParallelDivisionResult.pt_k" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.ParallelDivisionResult.pt_e">
+        <span class="sig-name descname"><span class="pre">pt_e</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.ParallelDivisionResult.pt_e" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.ParallelDivisionResult.pt_z">
+        <span class="sig-name descname"><span class="pre">pt_z</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.ParallelDivisionResult.pt_z" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.ParallelDivisionResult.ratio_p">
+        <span class="sig-name descname"><span class="pre">ratio_p</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.ParallelDivisionResult.ratio_p" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.ParallelDivisionResult.ratio_q">
+        <span class="sig-name descname"><span class="pre">ratio_q</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.ParallelDivisionResult.ratio_q" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.ParallelDivisionResult.ae_quadrance">
+        <span class="sig-name descname"><span class="pre">ae_quadrance</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.ParallelDivisionResult.ae_quadrance" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.ParallelDivisionResult.az_quadrance">
+        <span class="sig-name descname"><span class="pre">az_quadrance</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.ParallelDivisionResult.az_quadrance" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.ParallelDivisionResult.ez_quadrance">
+        <span class="sig-name descname"><span class="pre">ez_quadrance</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.ParallelDivisionResult.ez_quadrance" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.ParallelDivisionResult.area_aez">
+        <span class="sig-name descname"><span class="pre">area_aez</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.ParallelDivisionResult.area_aez" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.ParallelDivisionResult.area_ebgz">
+        <span class="sig-name descname"><span class="pre">area_ebgz</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.ParallelDivisionResult.area_ebgz" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.ParallelDivisionResult.area_total">
+        <span class="sig-name descname"><span class="pre">area_total</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.ParallelDivisionResult.area_total" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.construct_triangle_parallel_division">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.divisions.</span></span><span class="sig-name descname"><span class="pre">construct_triangle_parallel_division</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">p</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">preset</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'10-14-12'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#src.geometor.fibonacci.divisions.ParallelDivisionResult" title="src.geometor.fibonacci.divisions.ParallelDivisionResult"><span class="pre">ParallelDivisionResult</span></a></span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.construct_triangle_parallel_division" title="Link to this definition">¶</a></dt>
+        <dd><p>Divide $\triangle ABG$ in ratio $p : q$ by $[EZ] \parallel [BG]$ via Euclid VI.13 mean proportional.</p>
+        <p>Supports two exact symbolic presets:</p>
+        <ul class="simple">
+        <li><p><code class="docutils literal notranslate"><span class="pre">&quot;10-14-12&quot;</span></code> (default): Fibonacci’s exact numerical triangle on Boncompagni p. 119
+        ($AB = 10$, $BG = 14$, $GA = 12$), where $p = q = 1$ yields $AE^2 = 50$, $AZ^2 = 72$, $EZ^2 = 98$.</p></li>
+        <li><p><code class="docutils literal notranslate"><span class="pre">&quot;13-14-15&quot;</span></code>: Heronian triangle $A=(5, 12)$, $B=(0, 0)$, $G=(14, 0)$.</p></li>
+        </ul>
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.CentroidDivisionResult">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.divisions.</span></span><span class="sig-name descname"><span class="pre">CentroidDivisionResult</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.CentroidDivisionResult" title="Link to this definition">¶</a></dt>
+        <dd><p>Exact model &amp; invariants for Fibonacci’s median concurrency &amp; 3-consort centroid partition.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.CentroidDivisionResult.model">
+        <span class="sig-name descname"><span class="pre">model</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">geometor.model.Model</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.CentroidDivisionResult.model" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.CentroidDivisionResult.pt_a">
+        <span class="sig-name descname"><span class="pre">pt_a</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.CentroidDivisionResult.pt_a" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.CentroidDivisionResult.pt_b">
+        <span class="sig-name descname"><span class="pre">pt_b</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.CentroidDivisionResult.pt_b" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.CentroidDivisionResult.pt_g">
+        <span class="sig-name descname"><span class="pre">pt_g</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.CentroidDivisionResult.pt_g" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.CentroidDivisionResult.mid_e">
+        <span class="sig-name descname"><span class="pre">mid_e</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.CentroidDivisionResult.mid_e" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.CentroidDivisionResult.mid_z">
+        <span class="sig-name descname"><span class="pre">mid_z</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.CentroidDivisionResult.mid_z" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.CentroidDivisionResult.mid_t">
+        <span class="sig-name descname"><span class="pre">mid_t</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.CentroidDivisionResult.mid_t" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.CentroidDivisionResult.centroid_d">
+        <span class="sig-name descname"><span class="pre">centroid_d</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.CentroidDivisionResult.centroid_d" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.CentroidDivisionResult.consort_area">
+        <span class="sig-name descname"><span class="pre">consort_area</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.CentroidDivisionResult.consort_area" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.CentroidDivisionResult.total_area">
+        <span class="sig-name descname"><span class="pre">total_area</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.CentroidDivisionResult.total_area" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.construct_triangle_medians_centroid">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.divisions.</span></span><span class="sig-name descname"><span class="pre">construct_triangle_medians_centroid</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#src.geometor.fibonacci.divisions.CentroidDivisionResult" title="src.geometor.fibonacci.divisions.CentroidDivisionResult"><span class="pre">CentroidDivisionResult</span></a></span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.construct_triangle_medians_centroid" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct Fibonacci’s <em>Preparatoria</em> on medians &amp; 3-consort centroid division (pp. 112–113, 120).</p>
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.TrapezoidDivisionResult">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.divisions.</span></span><span class="sig-name descname"><span class="pre">TrapezoidDivisionResult</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.TrapezoidDivisionResult" title="Link to this definition">¶</a></dt>
+        <dd><p>Exact symbolic result for dividing a trapezoid parallel to bases $a$ and $b$ in ratio $p : q$.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.TrapezoidDivisionResult.top_base_a">
+        <span class="sig-name descname"><span class="pre">top_base_a</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.TrapezoidDivisionResult.top_base_a" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.TrapezoidDivisionResult.bottom_base_b">
+        <span class="sig-name descname"><span class="pre">bottom_base_b</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.TrapezoidDivisionResult.bottom_base_b" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.TrapezoidDivisionResult.height">
+        <span class="sig-name descname"><span class="pre">height</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.TrapezoidDivisionResult.height" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.TrapezoidDivisionResult.ratio_p">
+        <span class="sig-name descname"><span class="pre">ratio_p</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.TrapezoidDivisionResult.ratio_p" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.TrapezoidDivisionResult.ratio_q">
+        <span class="sig-name descname"><span class="pre">ratio_q</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.TrapezoidDivisionResult.ratio_q" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.TrapezoidDivisionResult.dividing_chord_c">
+        <span class="sig-name descname"><span class="pre">dividing_chord_c</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.TrapezoidDivisionResult.dividing_chord_c" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.TrapezoidDivisionResult.upper_height">
+        <span class="sig-name descname"><span class="pre">upper_height</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.TrapezoidDivisionResult.upper_height" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.TrapezoidDivisionResult.lower_height">
+        <span class="sig-name descname"><span class="pre">lower_height</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.TrapezoidDivisionResult.lower_height" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.TrapezoidDivisionResult.upper_area">
+        <span class="sig-name descname"><span class="pre">upper_area</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.TrapezoidDivisionResult.upper_area" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.TrapezoidDivisionResult.lower_area">
+        <span class="sig-name descname"><span class="pre">lower_area</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.TrapezoidDivisionResult.lower_area" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.divisions.trapezoid_parallel_division">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.divisions.</span></span><span class="sig-name descname"><span class="pre">trapezoid_parallel_division</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">top_base_a</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">7</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bottom_base_b</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">17</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">10</span></span></em>, <em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">p</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#src.geometor.fibonacci.divisions.TrapezoidDivisionResult" title="src.geometor.fibonacci.divisions.TrapezoidDivisionResult"><span class="pre">TrapezoidDivisionResult</span></a></span></span><a class="headerlink" href="#src.geometor.fibonacci.divisions.trapezoid_parallel_division" title="Link to this definition">¶</a></dt>
+        <dd><p>Compute the exact parallel dividing line of a trapezoid (<em>Distinctio IV, Pars II</em>).</p>
+        <p>For parallel bases $a$ (top) and $b$ (bottom), the parallel chord $c$ cutting off upper area :
+        lower area $= p : q$ satisfies $c^2 = \frac{q a^2 + p b^2}{p + q}$. On $(a, b) = (7, 17)$ with
+        $p = q = 1$, $c = \sqrt{(49 + 289)/2} = 13$, exhibiting the arithmetic progression of squares
+        $(7^2, 13^2, 17^2)$ with <em>congruum</em> $120$ celebrated in Fibonacci’s <em>Liber Quadratorum</em> (1225).</p>
+        </dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../../../index.html">GEOMETOR • fibonacci</a>
+          </div>
+          <div class="book-nav-next">
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../../../../../log/2026-11-12-initial-codex.html">2026-11-12 — Initial Four-Track Codex & Exact Symbolic Suite</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../../../../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1220 / 1225 (Boncompagni 1857–1862 Public Domain) • Digital Codex & Translations GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../../../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

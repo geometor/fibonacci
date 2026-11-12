@@ -1,0 +1,507 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>src.geometor.fibonacci.mensuration &mdash; GEOMETOR • fibonacci</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/custom.css?v=8542bf54" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../../../../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../../../../../index.html">
+        <h1>GEOMETOR • fibonacci</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">fibonacci</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../../../../../practica_geometriae/index.html"  >LEONARDI PISANI PRACTICA GEOMETRIAE (1220)</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../../../../../index.html" title="Return to Project Portal">&larr; fibonacci</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../../../../../../index.html">GEOMETOR • fibonacci</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="module-src.geometor.fibonacci.mensuration">
+        <span id="src-geometor-fibonacci-mensuration"></span><h1>src.geometor.fibonacci.mensuration<a class="headerlink" href="#module-src.geometor.fibonacci.mensuration" title="Link to this heading">¶</a></h1>
+        <p>Exact symbolic Pisan metrology, Heron’s incenter proof, and 96-gon circle bounds (<em>Practica Geometriae</em>, Dist. I &amp; III).</p>
+        <p>Grounded directly in Baldassarre Boncompagni’s 1862 critical Latin edition (<em>Scritti di Leonardo
+        Pisano</em>, Vol. II: <em>Leonardi Pisani Practica Geometriae ed Opuscoli</em>, Rome, 1862):</p>
+        <ul class="simple">
+        <li><p><strong>Pisan Surveyor’s Metrology</strong> (<em>Introductoria</em> &amp; <em>Distinctio I</em>, pp. 3–5, <code class="docutils literal notranslate"><span class="pre">fol.</span> <span class="pre">2v–3v</span></code>):
+        Exact rational conversions across the Pisan rod (<em>pertica</em>), <em>pes</em>, <em>uncia</em>, <em>denarius</em>,
+        <em>scala</em>, <em>panorum</em>, <em>stariorum</em> ($66$ square <em>perticae</em>), and <em>modiorum</em> ($24$ <em>stariora</em>).</p></li>
+        <li><p><strong>Heron’s Formula &amp; Geometric Incenter Proof</strong> (<em>Distinctio III</em>, pp. 39–41, <code class="docutils literal notranslate"><span class="pre">fol.</span> <span class="pre">23v–25r</span></code>):
+        Exact <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code> straightedge-and-compass construction of incenter $T$,
+        perpendiculars $TH, TE, TZ$, tangent excesses $(s-a, s-b, s-c)$, and semiperimeter extension
+        on Fibonacci’s $(13, 14, 15)$ scalene triangle, alongside symbolic polynomial verification over
+        $\mathbb{Z}[a, b, c]$.</p></li>
+        <li><p><strong>Fibonacci’s Circle Measurement</strong> (<em>Distinctio III</em>, pp. 88–91, <code class="docutils literal notranslate"><span class="pre">fol.</span> <span class="pre">53v–55v</span></code>):
+        Fibonacci’s small-number Pisan reformulation of Archimedes’ 96-gon ($1440 : 458\frac{1}{5}$ and
+        $1440 : 458\frac{4}{9}$), yielding $\pi_{\text{Fib}} = \frac{1440}{458\frac{1}{3}} = \frac{864}{275}$
+        and his exact rational identity $\frac{864}{275 - \frac{1}{11}} = \frac{22}{7}$.</p></li>
+        </ul>
+        <section class="level-2" id="attributes">
+        <h2>Attributes<a class="headerlink" href="#attributes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.fibonacci.mensuration.PISAN_AREA_PERTICAE" title="src.geometor.fibonacci.mensuration.PISAN_AREA_PERTICAE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PISAN_AREA_PERTICAE</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="classes">
+        <h2>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.fibonacci.mensuration.PisanLinearMeasure" title="src.geometor.fibonacci.mensuration.PisanLinearMeasure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PisanLinearMeasure</span></code></a></p></td>
+        <td><p>Exact Pisan linear length in <em>perticae</em>, <em>pedes</em> ($1/6$), and <em>unciae</em> ($1/108$).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.fibonacci.mensuration.PisanAreaBreakdown" title="src.geometor.fibonacci.mensuration.PisanAreaBreakdown"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PisanAreaBreakdown</span></code></a></p></td>
+        <td><p>Canonical decomposition of an exact Pisan field area (<em>embadum</em>).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.fibonacci.mensuration.HeronProofResult" title="src.geometor.fibonacci.mensuration.HeronProofResult"><code class="xref py py-obj docutils literal notranslate"><span class="pre">HeronProofResult</span></code></a></p></td>
+        <td><p>Exact symbolic model and invariants for Fibonacci's incenter proof of Heron's formula.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.fibonacci.mensuration.CircleBoundsResult" title="src.geometor.fibonacci.mensuration.CircleBoundsResult"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CircleBoundsResult</span></code></a></p></td>
+        <td><p>Exact rational bounds on $pi$ from <em>Practica Geometriae</em>, Dist. III (pp. 88–91).</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.fibonacci.mensuration.decompose_pisan_area" title="src.geometor.fibonacci.mensuration.decompose_pisan_area"><code class="xref py py-obj docutils literal notranslate"><span class="pre">decompose_pisan_area</span></code></a>(area_perticae) → PisanAreaBreakdown</p></td>
+        <td><p>Decompose an exact superficial <em>perticae</em> count into Pisan episcopate land units.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.fibonacci.mensuration.multiply_pisan_lengths" title="src.geometor.fibonacci.mensuration.multiply_pisan_lengths"><code class="xref py py-obj docutils literal notranslate"><span class="pre">multiply_pisan_lengths</span></code></a>(width, length) → PisanAreaBreakdown</p></td>
+        <td><p>Multiply two Pisan linear lengths (<em>Distinctio I</em>, pp. 3–5) into exact superficial units.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.fibonacci.mensuration.heron_area_exact" title="src.geometor.fibonacci.mensuration.heron_area_exact"><code class="xref py py-obj docutils literal notranslate"><span class="pre">heron_area_exact</span></code></a>(a, b, c) → tuple[sympy.Expr, tuple[sympy.Expr, sympy.Expr, sympy.Expr], sympy.Expr, sympy.Expr]</p></td>
+        <td><p>Compute semiperimeter, excesses, squared area, and exact Heron area for sides $(a, b, c)$.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.fibonacci.mensuration.verify_heron_polynomial_identity" title="src.geometor.fibonacci.mensuration.verify_heron_polynomial_identity"><code class="xref py py-obj docutils literal notranslate"><span class="pre">verify_heron_polynomial_identity</span></code></a>() → sympy.Expr</p></td>
+        <td><p>Verify symbolically over $mathbb{Z}[x, y, z]$ that $r^2 (x+y+z)^2 = (x+y+z) x y z$.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.fibonacci.mensuration.construct_pisan_pertica_grid" title="src.geometor.fibonacci.mensuration.construct_pisan_pertica_grid"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_pisan_pertica_grid</span></code></a>() → geometor.model.Model</p></td>
+        <td><p>Construct the exact $6 times 6$ <em>denarius</em> grid of the Pisan <em>pertica superficialis</em>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.fibonacci.mensuration.construct_heron_incenter_proof" title="src.geometor.fibonacci.mensuration.construct_heron_incenter_proof"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_heron_incenter_proof</span></code></a>() → HeronProofResult</p></td>
+        <td><p>Construct Fibonacci's geometric proof of Heron's formula (<em>Distinctio III</em>, pp. 40–41).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.fibonacci.mensuration.fibonacci_circle_bounds" title="src.geometor.fibonacci.mensuration.fibonacci_circle_bounds"><code class="xref py py-obj docutils literal notranslate"><span class="pre">fibonacci_circle_bounds</span></code></a>() → CircleBoundsResult</p></td>
+        <td><p>Return Fibonacci's exact 96-gon rational bounds and $pi_{text{Fib}} = frac{864}{275}$.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.fibonacci.mensuration.construct_circle_archimedean_step" title="src.geometor.fibonacci.mensuration.construct_circle_archimedean_step"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_circle_archimedean_step</span></code></a>() → geometor.model.Model</p></td>
+        <td><p>Construct Fibonacci's circle <cite>.abgd.</cite> with inscribed &amp; circumscribed 6-gon and 12-gon bisection (pp. 88–90).</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py data">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.PISAN_AREA_PERTICAE">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.mensuration.</span></span><span class="sig-name descname"><span class="pre">PISAN_AREA_PERTICAE</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.PISAN_AREA_PERTICAE" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.PisanLinearMeasure">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.mensuration.</span></span><span class="sig-name descname"><span class="pre">PisanLinearMeasure</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.PisanLinearMeasure" title="Link to this definition">¶</a></dt>
+        <dd><p>Exact Pisan linear length in <em>perticae</em>, <em>pedes</em> ($1/6$), and <em>unciae</em> ($1/108$).</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Variables<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>perticae</strong> – Whole or rational Pisan rods (<em>perticae</em>).</p></li>
+        <li><p><strong>pedes</strong> – Linear feet ($1  ext{ pertica} = 6       ext{ pedes}$).</p></li>
+        <li><p><strong>unciae</strong> – Linear inches/points ($1        ext{ pes} = 18  ext{ unciae}$, $1       ext{ pertica} = 108     ext{ unciae}$).</p></li>
+        </ul>
+        </dd>
+        </dl>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.PisanLinearMeasure.perticae">
+        <span class="sig-name descname"><span class="pre">perticae</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.PisanLinearMeasure.perticae" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.PisanLinearMeasure.pedes">
+        <span class="sig-name descname"><span class="pre">pedes</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.PisanLinearMeasure.pedes" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.PisanLinearMeasure.unciae">
+        <span class="sig-name descname"><span class="pre">unciae</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.PisanLinearMeasure.unciae" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py method">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.PisanLinearMeasure.to_perticae">
+        <span class="sig-name descname"><span class="pre">to_perticae</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.Rational</span></span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.PisanLinearMeasure.to_perticae" title="Link to this definition">¶</a></dt>
+        <dd><p>Convert this linear measure into exact rational <em>perticae</em>.</p>
+        </dd></dl>
+
+        <dl class="py method">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.PisanLinearMeasure.to_pedes">
+        <span class="sig-name descname"><span class="pre">to_pedes</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.Rational</span></span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.PisanLinearMeasure.to_pedes" title="Link to this definition">¶</a></dt>
+        <dd><p>Convert this linear measure into exact rational <em>pedes</em>.</p>
+        </dd></dl>
+
+        <dl class="py method">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.PisanLinearMeasure.to_unciae">
+        <span class="sig-name descname"><span class="pre">to_unciae</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.Rational</span></span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.PisanLinearMeasure.to_unciae" title="Link to this definition">¶</a></dt>
+        <dd><p>Convert this linear measure into exact rational <em>unciae</em> (<em>puncta</em>).</p>
+        </dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.PisanAreaBreakdown">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.mensuration.</span></span><span class="sig-name descname"><span class="pre">PisanAreaBreakdown</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.PisanAreaBreakdown" title="Link to this definition">¶</a></dt>
+        <dd><p>Canonical decomposition of an exact Pisan field area (<em>embadum</em>).</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.PisanAreaBreakdown.total_perticae">
+        <span class="sig-name descname"><span class="pre">total_perticae</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.PisanAreaBreakdown.total_perticae" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.PisanAreaBreakdown.total_denarii">
+        <span class="sig-name descname"><span class="pre">total_denarii</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.PisanAreaBreakdown.total_denarii" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.PisanAreaBreakdown.modiora">
+        <span class="sig-name descname"><span class="pre">modiora</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.PisanAreaBreakdown.modiora" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.PisanAreaBreakdown.stariora">
+        <span class="sig-name descname"><span class="pre">stariora</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.PisanAreaBreakdown.stariora" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.PisanAreaBreakdown.panora">
+        <span class="sig-name descname"><span class="pre">panora</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.PisanAreaBreakdown.panora" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.PisanAreaBreakdown.perticae">
+        <span class="sig-name descname"><span class="pre">perticae</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.PisanAreaBreakdown.perticae" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.PisanAreaBreakdown.pedes_superficiales">
+        <span class="sig-name descname"><span class="pre">pedes_superficiales</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.PisanAreaBreakdown.pedes_superficiales" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.PisanAreaBreakdown.unciae_superficiales">
+        <span class="sig-name descname"><span class="pre">unciae_superficiales</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.PisanAreaBreakdown.unciae_superficiales" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.decompose_pisan_area">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.mensuration.</span></span><span class="sig-name descname"><span class="pre">decompose_pisan_area</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">area_perticae</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#src.geometor.fibonacci.mensuration.PisanAreaBreakdown" title="src.geometor.fibonacci.mensuration.PisanAreaBreakdown"><span class="pre">PisanAreaBreakdown</span></a></span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.decompose_pisan_area" title="Link to this definition">¶</a></dt>
+        <dd><p>Decompose an exact superficial <em>perticae</em> count into Pisan episcopate land units.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.multiply_pisan_lengths">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.mensuration.</span></span><span class="sig-name descname"><span class="pre">multiply_pisan_lengths</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">width</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#src.geometor.fibonacci.mensuration.PisanLinearMeasure" title="src.geometor.fibonacci.mensuration.PisanLinearMeasure"><span class="pre">PisanLinearMeasure</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">length</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#src.geometor.fibonacci.mensuration.PisanLinearMeasure" title="src.geometor.fibonacci.mensuration.PisanLinearMeasure"><span class="pre">PisanLinearMeasure</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#src.geometor.fibonacci.mensuration.PisanAreaBreakdown" title="src.geometor.fibonacci.mensuration.PisanAreaBreakdown"><span class="pre">PisanAreaBreakdown</span></a></span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.multiply_pisan_lengths" title="Link to this definition">¶</a></dt>
+        <dd><p>Multiply two Pisan linear lengths (<em>Distinctio I</em>, pp. 3–5) into exact superficial units.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.heron_area_exact">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.mensuration.</span></span><span class="sig-name descname"><span class="pre">heron_area_exact</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">b</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">c</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.heron_area_exact" title="Link to this definition">¶</a></dt>
+        <dd><p>Compute semiperimeter, excesses, squared area, and exact Heron area for sides $(a, b, c)$.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.verify_heron_polynomial_identity">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.mensuration.</span></span><span class="sig-name descname"><span class="pre">verify_heron_polynomial_identity</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.Expr</span></span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.verify_heron_polynomial_identity" title="Link to this definition">¶</a></dt>
+        <dd><p>Verify symbolically over $\mathbb{Z}[x, y, z]$ that $r^2 (x+y+z)^2 = (x+y+z) x y z$.</p>
+        <p>In Fibonacci’s geometric proof (<em>Distinctio III</em>, pp. 40–41), a triangle with tangent
+        segments $x = s - a$, $y = s - b$, $z = s - c$ and inradius $r$ satisfies both
+        $\Delta = r(x + y + z)$ and the similar-triangle proportion $r^2 (x + y + z) = x y z$
+        (since $\tan(\alpha/2)\tan(\beta/2) + \tan(\beta/2)\tan(\gamma/2) + \tan(\gamma/2)\tan(\alpha/2) = 1$).
+        Returns <code class="docutils literal notranslate"><span class="pre">0</span></code> after exact algebraic simplification.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.construct_pisan_pertica_grid">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.mensuration.</span></span><span class="sig-name descname"><span class="pre">construct_pisan_pertica_grid</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">geometor.model.Model</span></span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.construct_pisan_pertica_grid" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the exact $6 \times 6$ <em>denarius</em> grid of the Pisan <em>pertica superficialis</em>.</p>
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.HeronProofResult">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.mensuration.</span></span><span class="sig-name descname"><span class="pre">HeronProofResult</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.HeronProofResult" title="Link to this definition">¶</a></dt>
+        <dd><p>Exact symbolic model and invariants for Fibonacci’s incenter proof of Heron’s formula.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.HeronProofResult.model">
+        <span class="sig-name descname"><span class="pre">model</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">geometor.model.Model</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.HeronProofResult.model" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.HeronProofResult.pt_a">
+        <span class="sig-name descname"><span class="pre">pt_a</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.HeronProofResult.pt_a" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.HeronProofResult.pt_b">
+        <span class="sig-name descname"><span class="pre">pt_b</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.HeronProofResult.pt_b" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.HeronProofResult.pt_g">
+        <span class="sig-name descname"><span class="pre">pt_g</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.HeronProofResult.pt_g" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.HeronProofResult.incenter_t">
+        <span class="sig-name descname"><span class="pre">incenter_t</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.HeronProofResult.incenter_t" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.HeronProofResult.foot_h">
+        <span class="sig-name descname"><span class="pre">foot_h</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.HeronProofResult.foot_h" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.HeronProofResult.foot_e">
+        <span class="sig-name descname"><span class="pre">foot_e</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.HeronProofResult.foot_e" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.HeronProofResult.foot_z">
+        <span class="sig-name descname"><span class="pre">foot_z</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.HeronProofResult.foot_z" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.HeronProofResult.semiperimeter_pt_l">
+        <span class="sig-name descname"><span class="pre">semiperimeter_pt_l</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.HeronProofResult.semiperimeter_pt_l" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.HeronProofResult.sides">
+        <span class="sig-name descname"><span class="pre">sides</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.HeronProofResult.sides" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.HeronProofResult.semiperimeter">
+        <span class="sig-name descname"><span class="pre">semiperimeter</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.HeronProofResult.semiperimeter" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.HeronProofResult.excesses">
+        <span class="sig-name descname"><span class="pre">excesses</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.HeronProofResult.excesses" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.HeronProofResult.inradius">
+        <span class="sig-name descname"><span class="pre">inradius</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.HeronProofResult.inradius" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.HeronProofResult.area">
+        <span class="sig-name descname"><span class="pre">area</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.HeronProofResult.area" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.construct_heron_incenter_proof">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.mensuration.</span></span><span class="sig-name descname"><span class="pre">construct_heron_incenter_proof</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#src.geometor.fibonacci.mensuration.HeronProofResult" title="src.geometor.fibonacci.mensuration.HeronProofResult"><span class="pre">HeronProofResult</span></a></span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.construct_heron_incenter_proof" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct Fibonacci’s geometric proof of Heron’s formula (<em>Distinctio III</em>, pp. 40–41).</p>
+        <p>Uses the canonical $(13, 14, 15)$ triangle $A=(5, 12)$, $B=(0, 0)$, $G=(14, 0)$ so that
+        every bisector, perpendicular foot, tangent segment, and auxiliary construction point has
+        100% exact rational coordinates in $\mathbb{Q}$:</p>
+        <ul class="simple">
+        <li><p>Sides: $AB = 13$, $BG = 14$, $GA = 15$, semiperimeter $s = 21$.</p></li>
+        <li><p>Incenter: $T = (6, 4)$ ($X(1)$), inradius $r = TH = TE = TZ = 4$.</p></li>
+        <li><p>Tangent excesses: $AE = AZ = 7 = s - BG$, $BE = BH = 6 = s - GA$, $GH = GZ = 8 = s - AB$.</p></li>
+        <li><p>Extended base point: $L = (21, 0)$ on ray $BG$ with $GL = AE = 7$, so $BL = s = 21$ and
+        $\operatorname{Area}(\triangle ABG) = TH \cdot BL = 4 \times 21 = 84 = \sqrt{21 \cdot 7 \cdot 6 \cdot 8}$.</p></li>
+        </ul>
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.CircleBoundsResult">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.mensuration.</span></span><span class="sig-name descname"><span class="pre">CircleBoundsResult</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.CircleBoundsResult" title="Link to this definition">¶</a></dt>
+        <dd><p>Exact rational bounds on $\pi$ from <em>Practica Geometriae</em>, Dist. III (pp. 88–91).</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.CircleBoundsResult.perimeter_numerator">
+        <span class="sig-name descname"><span class="pre">perimeter_numerator</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Integer</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.CircleBoundsResult.perimeter_numerator" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.CircleBoundsResult.circumscribed_96_denom">
+        <span class="sig-name descname"><span class="pre">circumscribed_96_denom</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.CircleBoundsResult.circumscribed_96_denom" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.CircleBoundsResult.inscribed_96_denom">
+        <span class="sig-name descname"><span class="pre">inscribed_96_denom</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.CircleBoundsResult.inscribed_96_denom" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.CircleBoundsResult.mean_denom">
+        <span class="sig-name descname"><span class="pre">mean_denom</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.CircleBoundsResult.mean_denom" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.CircleBoundsResult.fibonacci_lower">
+        <span class="sig-name descname"><span class="pre">fibonacci_lower</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.CircleBoundsResult.fibonacci_lower" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.CircleBoundsResult.fibonacci_upper">
+        <span class="sig-name descname"><span class="pre">fibonacci_upper</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.CircleBoundsResult.fibonacci_upper" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.CircleBoundsResult.fibonacci_pi">
+        <span class="sig-name descname"><span class="pre">fibonacci_pi</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.CircleBoundsResult.fibonacci_pi" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.CircleBoundsResult.archimedes_lower">
+        <span class="sig-name descname"><span class="pre">archimedes_lower</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.CircleBoundsResult.archimedes_lower" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.CircleBoundsResult.archimedes_upper">
+        <span class="sig-name descname"><span class="pre">archimedes_upper</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.CircleBoundsResult.archimedes_upper" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.CircleBoundsResult.archimedes_denominator_shift">
+        <span class="sig-name descname"><span class="pre">archimedes_denominator_shift</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.CircleBoundsResult.archimedes_denominator_shift" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.fibonacci_circle_bounds">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.mensuration.</span></span><span class="sig-name descname"><span class="pre">fibonacci_circle_bounds</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#src.geometor.fibonacci.mensuration.CircleBoundsResult" title="src.geometor.fibonacci.mensuration.CircleBoundsResult"><span class="pre">CircleBoundsResult</span></a></span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.fibonacci_circle_bounds" title="Link to this definition">¶</a></dt>
+        <dd><p>Return Fibonacci’s exact 96-gon rational bounds and $\pi_{\text{Fib}} = \frac{864}{275}$.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.mensuration.construct_circle_archimedean_step">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.mensuration.</span></span><span class="sig-name descname"><span class="pre">construct_circle_archimedean_step</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">geometor.model.Model</span></span></span><a class="headerlink" href="#src.geometor.fibonacci.mensuration.construct_circle_archimedean_step" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct Fibonacci’s circle <cite>.abgd.</cite> with inscribed &amp; circumscribed 6-gon and 12-gon bisection (pp. 88–90).</p>
+        <p>Models circle center $C=(0,0)$, diameter $[GA]$ from $G=(-15, 0)$ to $A=(15, 0)$ (radius $15$),
+        tangent at $A$ carrying the circumscribed hexagon half-side $AE = 5\sqrt{3}$ ($\angle ACE = 30^\circ$),
+        its angle bisector $[CF]$ cutting the tangent at the circumscribed dodecagon half-side
+        $AF = 15(2 - \sqrt{3})$, and the corresponding inscribed hexagon/dodecagon chords.</p>
+        </dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../../../index.html">GEOMETOR • fibonacci</a>
+          </div>
+          <div class="book-nav-next">
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../../../../../log/2026-11-12-initial-codex.html">2026-11-12 — Initial Four-Track Codex & Exact Symbolic Suite</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../../../../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1220 / 1225 (Boncompagni 1857–1862 Public Domain) • Digital Codex & Translations GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../../../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,496 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exact Symbolic Demonstrations &mdash; GEOMETOR • fibonacci</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=8542bf54" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../index.html">
+        <h1>GEOMETOR • fibonacci</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">fibonacci</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../practica_geometriae/index.html"  >LEONARDI PISANI PRACTICA GEOMETRIAE (1220)</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../index.html" title="Return to Project Portal">&larr; fibonacci</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GEOMETOR • fibonacci</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../index.html" title="Leonardo Pisano (Fibonacci)">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../modules/index.html" title="Python API Reference"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="exact-symbolic-demonstrations">
+        <span id="demos"></span><h1>Exact Symbolic Demonstrations<a class="headerlink" href="#exact-symbolic-demonstrations" title="Link to this heading">¶</a></h1>
+        <p class="rubric"><em>Runnable SymPy &amp; geometor.model Verification Suites</em></p>
+        <p>In strict accordance with GEOMETOR’s separation of archival treatise text and executable code, all symbolic constructions, polynomial verifications, and CLI tables live in <code class="docutils literal notranslate"><span class="pre">src/geometor/fibonacci/</span></code> and <code class="docutils literal notranslate"><span class="pre">demos/</span></code> rather than inside the historical codex pages.</p>
+        <p>Run any demonstration directly from the repository root:</p>
+        <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>uv<span class="w"> </span>run<span class="w"> </span>--no-sync<span class="w"> </span>python3<span class="w"> </span>demos/mensuration_demo.py
+        uv<span class="w"> </span>run<span class="w"> </span>--no-sync<span class="w"> </span>python3<span class="w"> </span>demos/divisions_demo.py
+        uv<span class="w"> </span>run<span class="w"> </span>--no-sync<span class="w"> </span>python3<span class="w"> </span>demos/polyhedra_golden_demo.py
+        </pre></div>
+        </div>
+        <hr class="docutils" />
+        <section class="level-2" id="mensuration-heron-s-incenter-proof-circle-bounds">
+        <h2>1. Mensuration, Heron’s Incenter Proof &amp; Circle Bounds<a class="headerlink" href="#mensuration-heron-s-incenter-proof-circle-bounds" title="Link to this heading">¶</a></h2>
+        <p><code class="docutils literal notranslate"><span class="pre">demos/mensuration_demo.py</span></code> exercises <code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.fibonacci.mensuration</span></code> across <em>Distinctio I</em> and <em>Distinctio III</em>:</p>
+        <ul class="simple">
+        <li><p>Exact rational conversion across the Pisan <span class="glossary-term" data-term="pertica" title="pertica (pertica pisana) (Pisan surveying rod (linear or superficial)): Fundamental Pisan unit of land measurement: 1 linear pertica = 6 linear pedes = 108 unciae (puncta); 1 superficial (square) pertica = 6 superficial pedes = 36 denarii = 108 superficial unciae (Practica Geometriae, Introductoria, p. 3).">pertica</span>, <span class="glossary-term" data-term="pes" title="pes (linealis / superficialis) (Pisan foot (1/6 of a pertica)): As a linear measure, 1/6 of a pertica (= 18 unciae). As a superficial strip (&#x27;pes terrae&#x27;), a rectangle 1 pertica (6 linear pedes) long by 1 linear pes wide, equal to 1/6 of a square pertica or 6 denarii (Introductoria, p. 3).">pes</span>, <span class="glossary-term" data-term="uncia" title="uncia / punctum (inch or point (1/18 of a Pisan pes; 1/108 of a pertica)): Fine subdivision of the Pisan rod: 18 linear unciae make 1 linear pes, and 108 linear unciae make 1 pertica. Superficially, 18 superficial unciae make 1 superficial pes (Introductoria, p. 3).">uncia</span>, <span class="glossary-term" data-term="denarius" title="denarius de mensura (measuring denarius (1 square pes = 1/36 square pertica)): Unit square of side 1 linear pes inside the 6 × 6 grid of the square pertica, so that 6 denarii equal 1 superficial pes and 36 denarii equal 1 superficial pertica (Distinctio I, pp. 3–5).">denarius</span>, <span class="glossary-term" data-term="panorum" title="panorum (panorum (5 1/2 square perticae)): Pisan agrarian land measure equal to 5 1/2 superficial perticae (= 1/12 of a stariorum), used throughout the episcopate of Pisa (Introductoria, p. 3).">panorum</span>, and <span class="glossary-term" data-term="stariorum" title="stariorum (stariorum (12 panora = 66 square perticae)): Principal Pisan grain-seeding field area equal to 12 panora or 66 superficial perticae; 24 stariora constitute 1 modiorum (= 1584 square perticae) (Introductoria, pp. 3–5).">stariorum</span> ($66$ square <em>perticae</em>).</p></li>
+        <li><p>Symbolic verification over $\mathbb{Z}[x, y, z]$ and geometric <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code> construction of Fibonacci’s incenter proof of Heron’s formula on $(13, 14, 15)$ ($T = (6, 4)$, $r = 4$, $s = 21$, $\Delta = 84$).</p></li>
+        <li><p>Exact rational comparison of Fibonacci’s 96-gon bounds $\frac{6480}{2063} &lt; \pi &lt; \frac{7200}{2291}$ and $\pi_{\text{Fib}} = \frac{864}{275}$ against Archimedes’ $\frac{223}{71}$ and $\frac{22}{7}$.</p></li>
+        </ul>
+        <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos">  1</span><span class="sd">"""Runnable demonstration of *Practica Geometriae* Distinctio I &amp; III: Pisan Metrology, Heron's Proof &amp; Circle Bounds."""</span>
+        <span class="linenos">  2</span>
+        <span class="linenos">  3</span><span class="kn">from</span><span class="w"> </span><span class="nn">__future__</span><span class="w"> </span><span class="kn">import</span> <span class="n">annotations</span>
+        <span class="linenos">  4</span>
+        <span class="linenos">  5</span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+        <span class="linenos">  6</span><span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+        <span class="linenos">  7</span>
+        <span class="linenos">  8</span><span class="n">ROOT</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+        <span class="linenos">  9</span><span class="n">SRC</span> <span class="o">=</span> <span class="n">ROOT</span> <span class="o">/</span> <span class="s2">"src"</span>
+        <span class="linenos"> 10</span><span class="k">if</span> <span class="nb">str</span><span class="p">(</span><span class="n">SRC</span><span class="p">)</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="p">:</span>
+        <span class="linenos"> 11</span>    <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">SRC</span><span class="p">))</span>
+        <span class="linenos"> 12</span>
+        <span class="linenos"> 13</span><span class="kn">import</span><span class="w"> </span><span class="nn">sympy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">sp</span>  <span class="c1"># noqa: E402</span>
+        <span class="linenos"> 14</span><span class="kn">from</span><span class="w"> </span><span class="nn">rich.console</span><span class="w"> </span><span class="kn">import</span> <span class="n">Console</span>  <span class="c1"># noqa: E402</span>
+        <span class="linenos"> 15</span><span class="kn">from</span><span class="w"> </span><span class="nn">rich.table</span><span class="w"> </span><span class="kn">import</span> <span class="n">Table</span>  <span class="c1"># noqa: E402</span>
+        <span class="linenos"> 16</span>
+        <span class="linenos"> 17</span><span class="kn">from</span><span class="w"> </span><span class="nn">geometor.fibonacci</span><span class="w"> </span><span class="kn">import</span> <span class="p">(</span>  <span class="c1"># noqa: E402</span>
+        <span class="linenos"> 18</span>    <span class="n">PisanLinearMeasure</span><span class="p">,</span>
+        <span class="linenos"> 19</span>    <span class="n">construct_heron_incenter_proof</span><span class="p">,</span>
+        <span class="linenos"> 20</span>    <span class="n">decompose_pisan_area</span><span class="p">,</span>
+        <span class="linenos"> 21</span>    <span class="n">fibonacci_circle_bounds</span><span class="p">,</span>
+        <span class="linenos"> 22</span>    <span class="n">heron_area_exact</span><span class="p">,</span>
+        <span class="linenos"> 23</span>    <span class="n">multiply_pisan_lengths</span><span class="p">,</span>
+        <span class="linenos"> 24</span>    <span class="n">verify_heron_polynomial_identity</span><span class="p">,</span>
+        <span class="linenos"> 25</span><span class="p">)</span>
+        <span class="linenos"> 26</span>
+        <span class="linenos"> 27</span>
+        <span class="linenos"> 28</span><span class="k">def</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="linenos"> 29</span>    <span class="n">console</span> <span class="o">=</span> <span class="n">Console</span><span class="p">()</span>
+        <span class="linenos"> 30</span>
+        <span class="linenos"> 31</span>    <span class="c1"># 1. Pisan Surveyor's Metrology (Introductoria &amp; Distinctio I, Boncompagni pp. 3–5)</span>
+        <span class="linenos"> 32</span>    <span class="n">t_metro</span> <span class="o">=</span> <span class="n">Table</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">"Distinctio I — Pisan Surveyor's Metrology (1 Stariorum = 66 Perticae)"</span><span class="p">)</span>
+        <span class="linenos"> 33</span>    <span class="n">t_metro</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Width"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"cyan"</span><span class="p">)</span>
+        <span class="linenos"> 34</span>    <span class="n">t_metro</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Length"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"cyan"</span><span class="p">)</span>
+        <span class="linenos"> 35</span>    <span class="n">t_metro</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Superficial Perticae"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"green"</span><span class="p">)</span>
+        <span class="linenos"> 36</span>    <span class="n">t_metro</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Stariora / Panora / Perticae / Pedes / Unciae"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"gold1"</span><span class="p">)</span>
+        <span class="linenos"> 37</span>
+        <span class="linenos"> 38</span>    <span class="n">examples</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="linenos"> 39</span>        <span class="c1"># Boncompagni p. 5: width = 7 perticae, length = 9 perticae, 2 pedes, 10 2/7 unciae -&gt; 66 perticae = 1 stariorum</span>
+        <span class="linenos"> 40</span>        <span class="p">(</span>
+        <span class="linenos"> 41</span>            <span class="n">PisanLinearMeasure</span><span class="p">(</span><span class="n">perticae</span><span class="o">=</span><span class="mi">7</span><span class="p">),</span>
+        <span class="linenos"> 42</span>            <span class="n">PisanLinearMeasure</span><span class="p">(</span><span class="n">perticae</span><span class="o">=</span><span class="mi">9</span><span class="p">,</span> <span class="n">pedes</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">unciae</span><span class="o">=</span><span class="n">sp</span><span class="o">.</span><span class="n">Rational</span><span class="p">(</span><span class="mi">72</span><span class="p">,</span> <span class="mi">7</span><span class="p">)),</span>
+        <span class="linenos"> 43</span>        <span class="p">),</span>
+        <span class="linenos"> 44</span>        <span class="p">(</span>
+        <span class="linenos"> 45</span>            <span class="n">PisanLinearMeasure</span><span class="p">(</span><span class="n">perticae</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">pedes</span><span class="o">=</span><span class="mi">3</span><span class="p">),</span>
+        <span class="linenos"> 46</span>            <span class="n">PisanLinearMeasure</span><span class="p">(</span><span class="n">perticae</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span> <span class="n">pedes</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">unciae</span><span class="o">=</span><span class="mi">9</span><span class="p">),</span>
+        <span class="linenos"> 47</span>        <span class="p">),</span>
+        <span class="linenos"> 48</span>        <span class="p">(</span>
+        <span class="linenos"> 49</span>            <span class="n">PisanLinearMeasure</span><span class="p">(</span><span class="n">perticae</span><span class="o">=</span><span class="mi">36</span><span class="p">),</span>
+        <span class="linenos"> 50</span>            <span class="n">PisanLinearMeasure</span><span class="p">(</span><span class="n">perticae</span><span class="o">=</span><span class="mi">44</span><span class="p">),</span>
+        <span class="linenos"> 51</span>        <span class="p">),</span>
+        <span class="linenos"> 52</span>    <span class="p">]</span>
+        <span class="linenos"> 53</span>    <span class="k">for</span> <span class="n">w</span><span class="p">,</span> <span class="n">ln</span> <span class="ow">in</span> <span class="n">examples</span><span class="p">:</span>
+        <span class="linenos"> 54</span>        <span class="n">res</span> <span class="o">=</span> <span class="n">multiply_pisan_lengths</span><span class="p">(</span><span class="n">w</span><span class="p">,</span> <span class="n">ln</span><span class="p">)</span>
+        <span class="linenos"> 55</span>        <span class="n">t_metro</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="linenos"> 56</span>            <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">w</span><span class="o">.</span><span class="n">perticae</span><span class="si">}</span><span class="s2">p </span><span class="si">{</span><span class="n">w</span><span class="o">.</span><span class="n">pedes</span><span class="si">}</span><span class="s2">ft </span><span class="si">{</span><span class="n">w</span><span class="o">.</span><span class="n">unciae</span><span class="si">}</span><span class="s2">in"</span><span class="p">,</span>
+        <span class="linenos"> 57</span>            <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">ln</span><span class="o">.</span><span class="n">perticae</span><span class="si">}</span><span class="s2">p </span><span class="si">{</span><span class="n">ln</span><span class="o">.</span><span class="n">pedes</span><span class="si">}</span><span class="s2">ft </span><span class="si">{</span><span class="n">ln</span><span class="o">.</span><span class="n">unciae</span><span class="si">}</span><span class="s2">in"</span><span class="p">,</span>
+        <span class="linenos"> 58</span>            <span class="nb">str</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">total_perticae</span><span class="p">),</span>
+        <span class="linenos"> 59</span>            <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">res</span><span class="o">.</span><span class="n">modiora</span><span class="si">}</span><span class="s2"> mod, </span><span class="si">{</span><span class="n">res</span><span class="o">.</span><span class="n">stariora</span><span class="si">}</span><span class="s2"> star, </span><span class="si">{</span><span class="n">res</span><span class="o">.</span><span class="n">panora</span><span class="si">}</span><span class="s2"> pan, "</span>
+        <span class="linenos"> 60</span>            <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">res</span><span class="o">.</span><span class="n">perticae</span><span class="si">}</span><span class="s2"> pert, </span><span class="si">{</span><span class="n">res</span><span class="o">.</span><span class="n">pedes_superficiales</span><span class="si">}</span><span class="s2"> ped, </span><span class="si">{</span><span class="n">res</span><span class="o">.</span><span class="n">unciae_superficiales</span><span class="si">}</span><span class="s2"> unc"</span><span class="p">,</span>
+        <span class="linenos"> 61</span>        <span class="p">)</span>
+        <span class="linenos"> 62</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="n">t_metro</span><span class="p">)</span>
+        <span class="linenos"> 63</span>    <span class="n">_</span> <span class="o">=</span> <span class="n">decompose_pisan_area</span><span class="p">(</span><span class="mi">66</span><span class="p">)</span>
+        <span class="linenos"> 64</span>
+        <span class="linenos"> 65</span>    <span class="c1"># 2. Heron's Formula &amp; Incenter Proof (Distinctio III, Boncompagni pp. 40–41)</span>
+        <span class="linenos"> 66</span>    <span class="n">poly_res</span> <span class="o">=</span> <span class="n">verify_heron_polynomial_identity</span><span class="p">()</span>
+        <span class="linenos"> 67</span>    <span class="n">heron_proof</span> <span class="o">=</span> <span class="n">construct_heron_incenter_proof</span><span class="p">()</span>
+        <span class="linenos"> 68</span>    <span class="n">s22</span><span class="p">,</span> <span class="n">exc22</span><span class="p">,</span> <span class="n">sq22</span><span class="p">,</span> <span class="n">area22</span> <span class="o">=</span> <span class="n">heron_area_exact</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span>
+        <span class="linenos"> 69</span>
+        <span class="linenos"> 70</span>    <span class="n">t_heron</span> <span class="o">=</span> <span class="n">Table</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">"Distinctio III — Heron's Formula &amp; Geometric Incenter Proof"</span><span class="p">)</span>
+        <span class="linenos"> 71</span>    <span class="n">t_heron</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Triangle / Check"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"cyan"</span><span class="p">)</span>
+        <span class="linenos"> 72</span>    <span class="n">t_heron</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Semiperimeter s"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"white"</span><span class="p">)</span>
+        <span class="linenos"> 73</span>    <span class="n">t_heron</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Excesses (s-a, s-b, s-c)"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"white"</span><span class="p">)</span>
+        <span class="linenos"> 74</span>    <span class="n">t_heron</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Exact Area"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"green"</span><span class="p">)</span>
+        <span class="linenos"> 75</span>    <span class="n">t_heron</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="linenos"> 76</span>        <span class="s2">"Boncompagni p. 40 Numerical (13, 11, 20)"</span><span class="p">,</span>
+        <span class="linenos"> 77</span>        <span class="nb">str</span><span class="p">(</span><span class="n">s22</span><span class="p">),</span>
+        <span class="linenos"> 78</span>        <span class="nb">str</span><span class="p">(</span><span class="n">exc22</span><span class="p">),</span>
+        <span class="linenos"> 79</span>        <span class="sa">f</span><span class="s2">"sqrt(</span><span class="si">{</span><span class="n">sq22</span><span class="si">}</span><span class="s2">) = </span><span class="si">{</span><span class="n">area22</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+        <span class="linenos"> 80</span>    <span class="p">)</span>
+        <span class="linenos"> 81</span>    <span class="n">t_heron</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="linenos"> 82</span>        <span class="s2">"Geometric Incenter Model (13, 14, 15)"</span><span class="p">,</span>
+        <span class="linenos"> 83</span>        <span class="nb">str</span><span class="p">(</span><span class="n">heron_proof</span><span class="o">.</span><span class="n">semiperimeter</span><span class="p">),</span>
+        <span class="linenos"> 84</span>        <span class="nb">str</span><span class="p">(</span><span class="n">heron_proof</span><span class="o">.</span><span class="n">excesses</span><span class="p">),</span>
+        <span class="linenos"> 85</span>        <span class="sa">f</span><span class="s2">"r * s = </span><span class="si">{</span><span class="n">heron_proof</span><span class="o">.</span><span class="n">inradius</span><span class="si">}</span><span class="s2"> * </span><span class="si">{</span><span class="n">heron_proof</span><span class="o">.</span><span class="n">semiperimeter</span><span class="si">}</span><span class="s2"> = </span><span class="si">{</span><span class="n">heron_proof</span><span class="o">.</span><span class="n">area</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+        <span class="linenos"> 86</span>    <span class="p">)</span>
+        <span class="linenos"> 87</span>    <span class="n">t_heron</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="linenos"> 88</span>        <span class="s2">"Polynomial Identity Z[x,y,z] Residual"</span><span class="p">,</span>
+        <span class="linenos"> 89</span>        <span class="s2">"-"</span><span class="p">,</span>
+        <span class="linenos"> 90</span>        <span class="s2">"a=y+z, b=z+x, c=x+y"</span><span class="p">,</span>
+        <span class="linenos"> 91</span>        <span class="sa">f</span><span class="s2">"residual = </span><span class="si">{</span><span class="n">poly_res</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+        <span class="linenos"> 92</span>    <span class="p">)</span>
+        <span class="linenos"> 93</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="n">t_heron</span><span class="p">)</span>
+        <span class="linenos"> 94</span>
+        <span class="linenos"> 95</span>    <span class="c1"># 3. Fibonacci's 96-gon Circle Measurement (Distinctio III, Boncompagni pp. 88–91)</span>
+        <span class="linenos"> 96</span>    <span class="n">cb</span> <span class="o">=</span> <span class="n">fibonacci_circle_bounds</span><span class="p">()</span>
+        <span class="linenos"> 97</span>    <span class="n">t_pi</span> <span class="o">=</span> <span class="n">Table</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">"Distinctio III — Fibonacci's 96-gon Circle Bounds vs. Archimedes"</span><span class="p">)</span>
+        <span class="linenos"> 98</span>    <span class="n">t_pi</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Quantity"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"cyan"</span><span class="p">)</span>
+        <span class="linenos"> 99</span>    <span class="n">t_pi</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Exact Rational"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"green"</span><span class="p">)</span>
+        <span class="linenos">100</span>    <span class="n">t_pi</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Decimal (10 d.p.)"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"gold1"</span><span class="p">)</span>
+        <span class="linenos">101</span>    <span class="n">t_pi</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span><span class="s2">"Archimedes Lower (3 + 10/71)"</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">cb</span><span class="o">.</span><span class="n">archimedes_lower</span><span class="p">),</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="nb">float</span><span class="p">(</span><span class="n">cb</span><span class="o">.</span><span class="n">archimedes_lower</span><span class="p">)</span><span class="si">:</span><span class="s2">.10f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="linenos">102</span>    <span class="n">t_pi</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span><span class="s2">"Fibonacci 96-gon Inscribed (1440 / 458 4/9)"</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">cb</span><span class="o">.</span><span class="n">fibonacci_lower</span><span class="p">),</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="nb">float</span><span class="p">(</span><span class="n">cb</span><span class="o">.</span><span class="n">fibonacci_lower</span><span class="p">)</span><span class="si">:</span><span class="s2">.10f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="linenos">103</span>    <span class="n">t_pi</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span><span class="s2">"True pi"</span><span class="p">,</span> <span class="s2">"pi"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="nb">float</span><span class="p">(</span><span class="n">sp</span><span class="o">.</span><span class="n">pi</span><span class="o">.</span><span class="n">evalf</span><span class="p">())</span><span class="si">:</span><span class="s2">.10f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="linenos">104</span>    <span class="n">t_pi</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span><span class="s2">"Fibonacci Mean Ratio (1440 / 458 1/3)"</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">cb</span><span class="o">.</span><span class="n">fibonacci_pi</span><span class="p">),</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="nb">float</span><span class="p">(</span><span class="n">cb</span><span class="o">.</span><span class="n">fibonacci_pi</span><span class="p">)</span><span class="si">:</span><span class="s2">.10f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="linenos">105</span>    <span class="n">t_pi</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span><span class="s2">"Fibonacci 96-gon Circumscribed (1440 / 458 1/5)"</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">cb</span><span class="o">.</span><span class="n">fibonacci_upper</span><span class="p">),</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="nb">float</span><span class="p">(</span><span class="n">cb</span><span class="o">.</span><span class="n">fibonacci_upper</span><span class="p">)</span><span class="si">:</span><span class="s2">.10f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="linenos">106</span>    <span class="n">t_pi</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span><span class="s2">"Archimedes Upper (864 / (275 - 1/11))"</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">cb</span><span class="o">.</span><span class="n">archimedes_upper</span><span class="p">),</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="nb">float</span><span class="p">(</span><span class="n">cb</span><span class="o">.</span><span class="n">archimedes_upper</span><span class="p">)</span><span class="si">:</span><span class="s2">.10f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="linenos">107</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="n">t_pi</span><span class="p">)</span>
+        <span class="linenos">108</span>
+        <span class="linenos">109</span>
+        <span class="linenos">110</span><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">"__main__"</span><span class="p">:</span>
+        <span class="linenos">111</span>    <span class="n">main</span><span class="p">()</span>
+        </pre></div>
+        </div>
+        </section>
+        <hr class="docutils" />
+        <section class="level-2" id="division-of-planar-fields-de-divisione-camporum">
+        <h2>2. Division of Planar Fields (<em>De divisione camporum</em>)<a class="headerlink" href="#division-of-planar-fields-de-divisione-camporum" title="Link to this heading">¶</a></h2>
+        <p><code class="docutils literal notranslate"><span class="pre">demos/divisions_demo.py</span></code> exercises <code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.fibonacci.divisions</span></code> on <em>Distinctio IV</em> (preserving Euclid’s <em>On Divisions of Figures</em>):</p>
+        <ul class="simple">
+        <li><p>Straightedge-and-compass division of $\triangle ABG$ from an arbitrary point $D$ on side $[BG]$ in ratio $p : q$ via parallel transfer $[EZ] \parallel [AD]$ ($GZ = \frac{35}{3} = 11\frac{2}{3}$ when $BD = 5$, $p = q = 1$).</p></li>
+        <li><p>Semicircle mean-proportional construction ($AE^2 = \frac{p}{p+q} AB^2$) cutting $\triangle ABG$ parallel to base $[BG]$, reproducing Boncompagni p. 119 ($AE^2 = 50$, $AZ^2 = 72$, $EZ^2 = 98$ on sides $10, 14, 12$).</p></li>
+        <li><p>Concurrency of medians at centroid $D = X(2)$ in $2 : 1$ ratio, partitioning $\triangle ABG$ into three equal consort shares, plus root-mean-square trapezoid bisection on $(7, 17)$ yielding chord $13$ ($7^2, 13^2, 17^2$ in arithmetic progression).</p></li>
+        </ul>
+        <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="sd">"""Runnable demonstration of *Practica Geometriae* Distinctio IV (*De divisione camporum*)."""</span>
+        <span class="linenos"> 2</span>
+        <span class="linenos"> 3</span><span class="kn">from</span><span class="w"> </span><span class="nn">__future__</span><span class="w"> </span><span class="kn">import</span> <span class="n">annotations</span>
+        <span class="linenos"> 4</span>
+        <span class="linenos"> 5</span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+        <span class="linenos"> 6</span><span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+        <span class="linenos"> 7</span>
+        <span class="linenos"> 8</span><span class="n">ROOT</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+        <span class="linenos"> 9</span><span class="n">SRC</span> <span class="o">=</span> <span class="n">ROOT</span> <span class="o">/</span> <span class="s2">"src"</span>
+        <span class="linenos">10</span><span class="k">if</span> <span class="nb">str</span><span class="p">(</span><span class="n">SRC</span><span class="p">)</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="p">:</span>
+        <span class="linenos">11</span>    <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">SRC</span><span class="p">))</span>
+        <span class="linenos">12</span>
+        <span class="linenos">13</span><span class="kn">from</span><span class="w"> </span><span class="nn">rich.console</span><span class="w"> </span><span class="kn">import</span> <span class="n">Console</span>  <span class="c1"># noqa: E402</span>
+        <span class="linenos">14</span><span class="kn">from</span><span class="w"> </span><span class="nn">rich.table</span><span class="w"> </span><span class="kn">import</span> <span class="n">Table</span>  <span class="c1"># noqa: E402</span>
+        <span class="linenos">15</span>
+        <span class="linenos">16</span><span class="kn">from</span><span class="w"> </span><span class="nn">geometor.fibonacci</span><span class="w"> </span><span class="kn">import</span> <span class="p">(</span>  <span class="c1"># noqa: E402</span>
+        <span class="linenos">17</span>    <span class="n">construct_triangle_medians_centroid</span><span class="p">,</span>
+        <span class="linenos">18</span>    <span class="n">construct_triangle_parallel_division</span><span class="p">,</span>
+        <span class="linenos">19</span>    <span class="n">construct_triangle_side_point_division</span><span class="p">,</span>
+        <span class="linenos">20</span>    <span class="n">trapezoid_parallel_division</span><span class="p">,</span>
+        <span class="linenos">21</span><span class="p">)</span>
+        <span class="linenos">22</span>
+        <span class="linenos">23</span>
+        <span class="linenos">24</span><span class="k">def</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="linenos">25</span>    <span class="n">console</span> <span class="o">=</span> <span class="n">Console</span><span class="p">()</span>
+        <span class="linenos">26</span>
+        <span class="linenos">27</span>    <span class="c1"># 1. Dividing Triangle ABG from a Point D on Side BG (Boncompagni p. 112)</span>
+        <span class="linenos">28</span>    <span class="n">side_bisect</span> <span class="o">=</span> <span class="n">construct_triangle_side_point_division</span><span class="p">(</span><span class="n">p</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">q</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">d_offset_from_b</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+        <span class="linenos">29</span>    <span class="n">side_third</span> <span class="o">=</span> <span class="n">construct_triangle_side_point_division</span><span class="p">(</span><span class="n">p</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">q</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">d_offset_from_b</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+        <span class="linenos">30</span>
+        <span class="linenos">31</span>    <span class="n">t_side</span> <span class="o">=</span> <span class="n">Table</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">"Distinctio IV — Dividing Triangle (13, 14, 15) from Point D on Side BG (BD = 5)"</span><span class="p">)</span>
+        <span class="linenos">32</span>    <span class="n">t_side</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Target Ratio p : q"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"cyan"</span><span class="p">)</span>
+        <span class="linenos">33</span>    <span class="n">t_side</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Base Point E"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"white"</span><span class="p">)</span>
+        <span class="linenos">34</span>    <span class="n">t_side</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Cut Point Z on AG"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"white"</span><span class="p">)</span>
+        <span class="linenos">35</span>    <span class="n">t_side</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Exact GZ"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"gold1"</span><span class="p">)</span>
+        <span class="linenos">36</span>    <span class="n">t_side</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Share Areas (DZG : ABDZ)"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"green"</span><span class="p">)</span>
+        <span class="linenos">37</span>    <span class="k">for</span> <span class="n">res</span> <span class="ow">in</span> <span class="p">(</span><span class="n">side_bisect</span><span class="p">,</span> <span class="n">side_third</span><span class="p">):</span>
+        <span class="linenos">38</span>        <span class="n">t_side</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="linenos">39</span>            <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">res</span><span class="o">.</span><span class="n">ratio_p</span><span class="si">}</span><span class="s2"> : </span><span class="si">{</span><span class="n">res</span><span class="o">.</span><span class="n">ratio_q</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+        <span class="linenos">40</span>            <span class="nb">str</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">pt_e</span><span class="p">),</span>
+        <span class="linenos">41</span>            <span class="nb">str</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">pt_z</span><span class="p">),</span>
+        <span class="linenos">42</span>            <span class="nb">str</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">gz_length</span><span class="p">),</span>
+        <span class="linenos">43</span>            <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">res</span><span class="o">.</span><span class="n">area_dzg</span><span class="si">}</span><span class="s2"> : </span><span class="si">{</span><span class="n">res</span><span class="o">.</span><span class="n">area_abdz</span><span class="si">}</span><span class="s2"> (sum = </span><span class="si">{</span><span class="n">res</span><span class="o">.</span><span class="n">area_total</span><span class="si">}</span><span class="s2">)"</span><span class="p">,</span>
+        <span class="linenos">44</span>        <span class="p">)</span>
+        <span class="linenos">45</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="n">t_side</span><span class="p">)</span>
+        <span class="linenos">46</span>
+        <span class="linenos">47</span>    <span class="c1"># 2. Dividing Triangle Parallel to Base via Euclid VI.13 Mean Proportional (Boncompagni p. 119)</span>
+        <span class="linenos">48</span>    <span class="n">par_101412</span> <span class="o">=</span> <span class="n">construct_triangle_parallel_division</span><span class="p">(</span><span class="n">p</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">q</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">preset</span><span class="o">=</span><span class="s2">"10-14-12"</span><span class="p">)</span>
+        <span class="linenos">49</span>    <span class="n">par_131415</span> <span class="o">=</span> <span class="n">construct_triangle_parallel_division</span><span class="p">(</span><span class="n">p</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">q</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">preset</span><span class="o">=</span><span class="s2">"13-14-15"</span><span class="p">)</span>
+        <span class="linenos">50</span>
+        <span class="linenos">51</span>    <span class="n">t_par</span> <span class="o">=</span> <span class="n">Table</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">"Distinctio IV — Dividing Triangle Parallel to Base BG via Semicircle Mean Proportional"</span><span class="p">)</span>
+        <span class="linenos">52</span>    <span class="n">t_par</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Triangle &amp; Ratio"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"cyan"</span><span class="p">)</span>
+        <span class="linenos">53</span>    <span class="n">t_par</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"AE^2"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"gold1"</span><span class="p">)</span>
+        <span class="linenos">54</span>    <span class="n">t_par</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"AZ^2"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"gold1"</span><span class="p">)</span>
+        <span class="linenos">55</span>    <span class="n">t_par</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"EZ^2"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"gold1"</span><span class="p">)</span>
+        <span class="linenos">56</span>    <span class="n">t_par</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Exact Areas (AEZ : EBGZ)"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"green"</span><span class="p">)</span>
+        <span class="linenos">57</span>    <span class="n">t_par</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="linenos">58</span>        <span class="s2">"(10, 14, 12), 1 : 1 (Boncompagni p. 119)"</span><span class="p">,</span>
+        <span class="linenos">59</span>        <span class="nb">str</span><span class="p">(</span><span class="n">par_101412</span><span class="o">.</span><span class="n">ae_quadrance</span><span class="p">),</span>
+        <span class="linenos">60</span>        <span class="nb">str</span><span class="p">(</span><span class="n">par_101412</span><span class="o">.</span><span class="n">az_quadrance</span><span class="p">),</span>
+        <span class="linenos">61</span>        <span class="nb">str</span><span class="p">(</span><span class="n">par_101412</span><span class="o">.</span><span class="n">ez_quadrance</span><span class="p">),</span>
+        <span class="linenos">62</span>        <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">par_101412</span><span class="o">.</span><span class="n">area_aez</span><span class="si">}</span><span class="s2"> : </span><span class="si">{</span><span class="n">par_101412</span><span class="o">.</span><span class="n">area_ebgz</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+        <span class="linenos">63</span>    <span class="p">)</span>
+        <span class="linenos">64</span>    <span class="n">t_par</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="linenos">65</span>        <span class="s2">"(13, 14, 15), 1 : 2"</span><span class="p">,</span>
+        <span class="linenos">66</span>        <span class="nb">str</span><span class="p">(</span><span class="n">par_131415</span><span class="o">.</span><span class="n">ae_quadrance</span><span class="p">),</span>
+        <span class="linenos">67</span>        <span class="nb">str</span><span class="p">(</span><span class="n">par_131415</span><span class="o">.</span><span class="n">az_quadrance</span><span class="p">),</span>
+        <span class="linenos">68</span>        <span class="nb">str</span><span class="p">(</span><span class="n">par_131415</span><span class="o">.</span><span class="n">ez_quadrance</span><span class="p">),</span>
+        <span class="linenos">69</span>        <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">par_131415</span><span class="o">.</span><span class="n">area_aez</span><span class="si">}</span><span class="s2"> : </span><span class="si">{</span><span class="n">par_131415</span><span class="o">.</span><span class="n">area_ebgz</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+        <span class="linenos">70</span>    <span class="p">)</span>
+        <span class="linenos">71</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="n">t_par</span><span class="p">)</span>
+        <span class="linenos">72</span>
+        <span class="linenos">73</span>    <span class="c1"># 3. Medians Concurrency &amp; Three-Consort Centroid Partition (Boncompagni pp. 112–113, 120)</span>
+        <span class="linenos">74</span>    <span class="n">cent</span> <span class="o">=</span> <span class="n">construct_triangle_medians_centroid</span><span class="p">()</span>
+        <span class="linenos">75</span>    <span class="c1"># 4. Trapezoid Parallel Bisection &amp; Three Squares in Arithmetic Progression (7^2, 13^2, 17^2)</span>
+        <span class="linenos">76</span>    <span class="n">trap</span> <span class="o">=</span> <span class="n">trapezoid_parallel_division</span><span class="p">(</span><span class="n">top_base_a</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span> <span class="n">bottom_base_b</span><span class="o">=</span><span class="mi">17</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">p</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">q</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+        <span class="linenos">77</span>
+        <span class="linenos">78</span>    <span class="n">t_more</span> <span class="o">=</span> <span class="n">Table</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">"Distinctio IV — Three-Consort Centroid &amp; Trapezoid Root-Mean-Square Cut"</span><span class="p">)</span>
+        <span class="linenos">79</span>    <span class="n">t_more</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Construction"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"cyan"</span><span class="p">)</span>
+        <span class="linenos">80</span>    <span class="n">t_more</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Exact Invariants"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"green"</span><span class="p">)</span>
+        <span class="linenos">81</span>    <span class="n">t_more</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="linenos">82</span>        <span class="s2">"Three-Consort Centroid D = X(2) on (13, 14, 15)"</span><span class="p">,</span>
+        <span class="linenos">83</span>        <span class="sa">f</span><span class="s2">"D = </span><span class="si">{</span><span class="n">cent</span><span class="o">.</span><span class="n">centroid_d</span><span class="si">}</span><span class="s2">, Area(DAB) = Area(DBG) = Area(DGA) = </span><span class="si">{</span><span class="n">cent</span><span class="o">.</span><span class="n">consort_area</span><span class="si">}</span><span class="s2"> (Total = </span><span class="si">{</span><span class="n">cent</span><span class="o">.</span><span class="n">total_area</span><span class="si">}</span><span class="s2">)"</span><span class="p">,</span>
+        <span class="linenos">84</span>    <span class="p">)</span>
+        <span class="linenos">85</span>    <span class="n">t_more</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="linenos">86</span>        <span class="s2">"Trapezoid Parallel Bisection (a=7, b=17, h=10)"</span><span class="p">,</span>
+        <span class="linenos">87</span>        <span class="sa">f</span><span class="s2">"Chord c = </span><span class="si">{</span><span class="n">trap</span><span class="o">.</span><span class="n">dividing_chord_c</span><span class="si">}</span><span class="s2"> (7^2 + 17^2 = 2 * 13^2 = 338), Areas = </span><span class="si">{</span><span class="n">trap</span><span class="o">.</span><span class="n">upper_area</span><span class="si">}</span><span class="s2"> : </span><span class="si">{</span><span class="n">trap</span><span class="o">.</span><span class="n">lower_area</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+        <span class="linenos">88</span>    <span class="p">)</span>
+        <span class="linenos">89</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="n">t_more</span><span class="p">)</span>
+        <span class="linenos">90</span>
+        <span class="linenos">91</span>
+        <span class="linenos">92</span><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">"__main__"</span><span class="p">:</span>
+        <span class="linenos">93</span>    <span class="n">main</span><span class="p">()</span>
+        </pre></div>
+        </div>
+        </section>
+        <hr class="docutils" />
+        <section class="level-2" id="regular-polyhedra-extreme-mean-ratio-flos-liber-abaci">
+        <h2>3. Regular Polyhedra, Extreme &amp; Mean Ratio, <em>Flos</em> &amp; <em>Liber Abaci</em><a class="headerlink" href="#regular-polyhedra-extreme-mean-ratio-flos-liber-abaci" title="Link to this heading">¶</a></h2>
+        <p><code class="docutils literal notranslate"><span class="pre">demos/polyhedra_golden_demo.py</span></code> exercises <code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.fibonacci.polyhedra_golden</span></code> across <em>Distinctio VI–VIII</em>, <em>Flos</em> (1225), and <em>Liber Abaci</em> Ch. 12:</p>
+        <ul class="simple">
+        <li><p>Simultaneous planar construction of all five Platonic solid edges in a sphere of diameter $6$ ($e_4^2 = 24$, $e_8^2 = 18$, $e_6^2 = 12$, $e_{12}^2 = 18 - 6\sqrt{5}$, $e_{20}^2 = 18 - \frac{18}{5}\sqrt{5}$) and Hypsicles’ Book XIV theorem $V_{12}/V_{20} = e_6/e_{20} = \sqrt{\frac{5 + \sqrt{5}}{6}}$.</p></li>
+        <li><p>Inscription of the regular pentagon and decagon in diameter $10$ via Euclid XIII.9–10 and Ptolemy’s <em>census census</em> quartic $x^4 + 3125 = 125x^2$.</p></li>
+        <li><p>Verification of John of Palermo’s <em>congruum</em> triple $(\frac{31}{12}, \frac{41}{12}, \frac{49}{12})$, the <em>Flos</em> sexagesimal cubic root $1;22,7,42,33,4,40 = \frac{39931699}{29160000}$, and the twelve-month rabbit ratio convergents $F_{n+1}/F_n \to \phi$.</p></li>
+        </ul>
+        <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos">  1</span><span class="sd">"""Runnable demonstration of *Practica Geometriae* Dist. VI–VIII, *Flos* (1225), and *Liber Abaci* Ch. 12."""</span>
+        <span class="linenos">  2</span>
+        <span class="linenos">  3</span><span class="kn">from</span><span class="w"> </span><span class="nn">__future__</span><span class="w"> </span><span class="kn">import</span> <span class="n">annotations</span>
+        <span class="linenos">  4</span>
+        <span class="linenos">  5</span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+        <span class="linenos">  6</span><span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+        <span class="linenos">  7</span>
+        <span class="linenos">  8</span><span class="n">ROOT</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+        <span class="linenos">  9</span><span class="n">SRC</span> <span class="o">=</span> <span class="n">ROOT</span> <span class="o">/</span> <span class="s2">"src"</span>
+        <span class="linenos"> 10</span><span class="k">if</span> <span class="nb">str</span><span class="p">(</span><span class="n">SRC</span><span class="p">)</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="p">:</span>
+        <span class="linenos"> 11</span>    <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">SRC</span><span class="p">))</span>
+        <span class="linenos"> 12</span>
+        <span class="linenos"> 13</span><span class="kn">import</span><span class="w"> </span><span class="nn">sympy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">sp</span>  <span class="c1"># noqa: E402</span>
+        <span class="linenos"> 14</span><span class="kn">from</span><span class="w"> </span><span class="nn">rich.console</span><span class="w"> </span><span class="kn">import</span> <span class="n">Console</span>  <span class="c1"># noqa: E402</span>
+        <span class="linenos"> 15</span><span class="kn">from</span><span class="w"> </span><span class="nn">rich.table</span><span class="w"> </span><span class="kn">import</span> <span class="n">Table</span>  <span class="c1"># noqa: E402</span>
+        <span class="linenos"> 16</span>
+        <span class="linenos"> 17</span><span class="kn">from</span><span class="w"> </span><span class="nn">geometor.fibonacci</span><span class="w"> </span><span class="kn">import</span> <span class="p">(</span>  <span class="c1"># noqa: E402</span>
+        <span class="linenos"> 18</span>    <span class="n">PHI</span><span class="p">,</span>
+        <span class="linenos"> 19</span>    <span class="n">construct_dodecahedron_golden_chord</span><span class="p">,</span>
+        <span class="linenos"> 20</span>    <span class="n">construct_pentagon_decagon_in_circle</span><span class="p">,</span>
+        <span class="linenos"> 21</span>    <span class="n">construct_sphere_polyhedra_section</span><span class="p">,</span>
+        <span class="linenos"> 22</span>    <span class="n">fibonacci_rabbit_convergents</span><span class="p">,</span>
+        <span class="linenos"> 23</span>    <span class="n">flos_congruum_squares</span><span class="p">,</span>
+        <span class="linenos"> 24</span>    <span class="n">flos_sexagesimal_cubic</span><span class="p">,</span>
+        <span class="linenos"> 25</span>    <span class="n">polyhedra_in_sphere</span><span class="p">,</span>
+        <span class="linenos"> 26</span>    <span class="n">solve_pentagon_ptolemy_quartic</span><span class="p">,</span>
+        <span class="linenos"> 27</span>    <span class="n">verify_cassini_identity</span><span class="p">,</span>
+        <span class="linenos"> 28</span>    <span class="n">verify_hypsicles_xiv_ratio</span><span class="p">,</span>
+        <span class="linenos"> 29</span><span class="p">)</span>
+        <span class="linenos"> 30</span>
+        <span class="linenos"> 31</span>
+        <span class="linenos"> 32</span><span class="k">def</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="linenos"> 33</span>    <span class="n">console</span> <span class="o">=</span> <span class="n">Console</span><span class="p">()</span>
+        <span class="linenos"> 34</span>
+        <span class="linenos"> 35</span>    <span class="c1"># 1. Five Regular Polyhedra in a Sphere of Diameter d = 6 (Distinctio VI, pp. 190–202)</span>
+        <span class="linenos"> 36</span>    <span class="n">solids</span> <span class="o">=</span> <span class="n">polyhedra_in_sphere</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span>
+        <span class="linenos"> 37</span>    <span class="n">section</span> <span class="o">=</span> <span class="n">construct_sphere_polyhedra_section</span><span class="p">()</span>
+        <span class="linenos"> 38</span>    <span class="n">chord</span> <span class="o">=</span> <span class="n">construct_dodecahedron_golden_chord</span><span class="p">()</span>
+        <span class="linenos"> 39</span>    <span class="n">xiv_ratio</span> <span class="o">=</span> <span class="n">verify_hypsicles_xiv_ratio</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span>
+        <span class="linenos"> 40</span>
+        <span class="linenos"> 41</span>    <span class="n">t_poly</span> <span class="o">=</span> <span class="n">Table</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">"Distinctio VI — Five Regular Polyhedra in a Sphere of Diameter d = 6"</span><span class="p">)</span>
+        <span class="linenos"> 42</span>    <span class="n">t_poly</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Polyhedron"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"cyan"</span><span class="p">)</span>
+        <span class="linenos"> 43</span>    <span class="n">t_poly</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Exact Edge e"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"white"</span><span class="p">)</span>
+        <span class="linenos"> 44</span>    <span class="n">t_poly</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Embadum e^2"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"gold1"</span><span class="p">)</span>
+        <span class="linenos"> 45</span>    <span class="n">t_poly</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Face r_f^2"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"white"</span><span class="p">)</span>
+        <span class="linenos"> 46</span>    <span class="n">t_poly</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Insphere r_in^2"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"white"</span><span class="p">)</span>
+        <span class="linenos"> 47</span>    <span class="n">t_poly</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Volume"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"green"</span><span class="p">)</span>
+        <span class="linenos"> 48</span>    <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">solids</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="linenos"> 49</span>        <span class="k">assert</span> <span class="n">sp</span><span class="o">.</span><span class="n">simplify</span><span class="p">(</span><span class="n">section</span><span class="o">.</span><span class="n">quadrances</span><span class="p">[</span><span class="n">key</span><span class="p">]</span> <span class="o">-</span> <span class="n">s</span><span class="o">.</span><span class="n">edge_sq</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span>
+        <span class="linenos"> 50</span>        <span class="n">t_poly</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="linenos"> 51</span>            <span class="n">s</span><span class="o">.</span><span class="n">name</span><span class="p">,</span>
+        <span class="linenos"> 52</span>            <span class="nb">str</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">edge</span><span class="p">),</span>
+        <span class="linenos"> 53</span>            <span class="nb">str</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">edge_sq</span><span class="p">),</span>
+        <span class="linenos"> 54</span>            <span class="nb">str</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">face_circumradius_sq</span><span class="p">),</span>
+        <span class="linenos"> 55</span>            <span class="nb">str</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">insphere_radius_sq</span><span class="p">),</span>
+        <span class="linenos"> 56</span>            <span class="nb">str</span><span class="p">(</span><span class="n">sp</span><span class="o">.</span><span class="n">simplify</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">volume</span><span class="p">)),</span>
+        <span class="linenos"> 57</span>        <span class="p">)</span>
+        <span class="linenos"> 58</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="n">t_poly</span><span class="p">)</span>
+        <span class="linenos"> 59</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span>
+        <span class="linenos"> 60</span>        <span class="sa">f</span><span class="s2">"[bold green]Golden Chord BG[/bold green] = </span><span class="si">{</span><span class="n">chord</span><span class="o">.</span><span class="n">golden_major</span><span class="si">}</span><span class="s2">, "</span>
+        <span class="linenos"> 61</span>        <span class="sa">f</span><span class="s2">"[bold green]Hypsicles Book XIV Ratio V_12 / V_20[/bold green] = </span><span class="si">{</span><span class="n">xiv_ratio</span><span class="si">}</span><span class="se">\n</span><span class="s2">"</span>
+        <span class="linenos"> 62</span>    <span class="p">)</span>
+        <span class="linenos"> 63</span>
+        <span class="linenos"> 64</span>    <span class="c1"># 2. Pentagon &amp; Decagon in Diameter 10 (Distinctio VIII, pp. 207–208) + Flos (1225)</span>
+        <span class="linenos"> 65</span>    <span class="n">pent</span> <span class="o">=</span> <span class="n">construct_pentagon_decagon_in_circle</span><span class="p">()</span>
+        <span class="linenos"> 66</span>    <span class="n">alg_side</span><span class="p">,</span> <span class="n">alg_diag</span> <span class="o">=</span> <span class="n">solve_pentagon_ptolemy_quartic</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+        <span class="linenos"> 67</span>    <span class="n">cubic</span> <span class="o">=</span> <span class="n">flos_sexagesimal_cubic</span><span class="p">()</span>
+        <span class="linenos"> 68</span>    <span class="n">cong_a</span><span class="p">,</span> <span class="n">cong_x</span><span class="p">,</span> <span class="n">cong_b</span> <span class="o">=</span> <span class="n">flos_congruum_squares</span><span class="p">()</span>
+        <span class="linenos"> 69</span>
+        <span class="linenos"> 70</span>    <span class="n">t_sub</span> <span class="o">=</span> <span class="n">Table</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">"Distinctio VIII &amp; Flos (1225) — Algebraic &amp; Geometric Subtleties"</span><span class="p">)</span>
+        <span class="linenos"> 71</span>    <span class="n">t_sub</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Problem"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"cyan"</span><span class="p">)</span>
+        <span class="linenos"> 72</span>    <span class="n">t_sub</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Exact Symbolic Result"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"green"</span><span class="p">)</span>
+        <span class="linenos"> 73</span>    <span class="n">t_sub</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="linenos"> 74</span>        <span class="s2">"Decagon &amp; Pentagon in d = 10 (Euclid XIII.9–10)"</span><span class="p">,</span>
+        <span class="linenos"> 75</span>        <span class="sa">f</span><span class="s2">"s_10 = </span><span class="si">{</span><span class="n">pent</span><span class="o">.</span><span class="n">decagon_side</span><span class="si">}</span><span class="s2">, s_5 = </span><span class="si">{</span><span class="n">pent</span><span class="o">.</span><span class="n">pentagon_side</span><span class="si">}</span><span class="s2"> (Ptolemy quartic diag/side = </span><span class="si">{</span><span class="n">sp</span><span class="o">.</span><span class="n">simplify</span><span class="p">(</span><span class="n">alg_diag</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">alg_side</span><span class="p">)</span><span class="si">}</span><span class="s2">)"</span><span class="p">,</span>
+        <span class="linenos"> 76</span>    <span class="p">)</span>
+        <span class="linenos"> 77</span>    <span class="n">t_sub</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="linenos"> 78</span>        <span class="s2">"Flos Congruum Challenge x^2 +/- 5 = square"</span><span class="p">,</span>
+        <span class="linenos"> 79</span>        <span class="sa">f</span><span class="s2">"(a, x, b) = (</span><span class="si">{</span><span class="n">cong_a</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">cong_x</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">cong_b</span><span class="si">}</span><span class="s2">) =&gt; x^2 - 5 = </span><span class="si">{</span><span class="n">cong_a</span><span class="o">**</span><span class="mi">2</span><span class="si">}</span><span class="s2">, x^2 + 5 = </span><span class="si">{</span><span class="n">cong_b</span><span class="o">**</span><span class="mi">2</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+        <span class="linenos"> 80</span>    <span class="p">)</span>
+        <span class="linenos"> 81</span>    <span class="n">t_sub</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="linenos"> 82</span>        <span class="s2">"Flos Cubic x^3 + 2x^2 + 10x = 20"</span><span class="p">,</span>
+        <span class="linenos"> 83</span>        <span class="sa">f</span><span class="s2">"1;22,7,42,33,4,40 = </span><span class="si">{</span><span class="n">cubic</span><span class="o">.</span><span class="n">rational_root</span><span class="si">}</span><span class="s2">, |x_Fib - x_exact| = </span><span class="si">{</span><span class="nb">float</span><span class="p">(</span><span class="n">cubic</span><span class="o">.</span><span class="n">abs_root_error</span><span class="o">.</span><span class="n">evalf</span><span class="p">())</span><span class="si">:</span><span class="s2">.3e</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+        <span class="linenos"> 84</span>    <span class="p">)</span>
+        <span class="linenos"> 85</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="n">t_sub</span><span class="p">)</span>
+        <span class="linenos"> 86</span>
+        <span class="linenos"> 87</span>    <span class="c1"># 3. Liber Abaci Ch. 12 Rabbit Recurrence -&gt; Golden Ratio phi</span>
+        <span class="linenos"> 88</span>    <span class="n">verify_cassini_identity</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span>
+        <span class="linenos"> 89</span>    <span class="n">t_rab</span> <span class="o">=</span> <span class="n">Table</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="sa">f</span><span class="s2">"Liber Abaci Ch. 12 — Twelve-Month Rabbit Convergents to phi = </span><span class="si">{</span><span class="n">PHI</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="linenos"> 90</span>    <span class="n">t_rab</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Month"</span><span class="p">,</span> <span class="n">justify</span><span class="o">=</span><span class="s2">"right"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"cyan"</span><span class="p">)</span>
+        <span class="linenos"> 91</span>    <span class="n">t_rab</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Pairs F_{m+2}"</span><span class="p">,</span> <span class="n">justify</span><span class="o">=</span><span class="s2">"right"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"white"</span><span class="p">)</span>
+        <span class="linenos"> 92</span>    <span class="n">t_rab</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Ratio F_{m+2}/F_{m+1}"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"green"</span><span class="p">)</span>
+        <span class="linenos"> 93</span>    <span class="n">t_rab</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Cassini Det"</span><span class="p">,</span> <span class="n">justify</span><span class="o">=</span><span class="s2">"right"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"gold1"</span><span class="p">)</span>
+        <span class="linenos"> 94</span>    <span class="n">t_rab</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"|Ratio - phi|"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"magenta"</span><span class="p">)</span>
+        <span class="linenos"> 95</span>    <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">fibonacci_rabbit_convergents</span><span class="p">(</span><span class="mi">12</span><span class="p">):</span>
+        <span class="linenos"> 96</span>        <span class="n">t_rab</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="linenos"> 97</span>            <span class="nb">str</span><span class="p">(</span><span class="n">row</span><span class="o">.</span><span class="n">month</span><span class="p">),</span>
+        <span class="linenos"> 98</span>            <span class="nb">str</span><span class="p">(</span><span class="n">row</span><span class="o">.</span><span class="n">pairs</span><span class="p">),</span>
+        <span class="linenos"> 99</span>            <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">row</span><span class="o">.</span><span class="n">ratio_to_prev</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="nb">float</span><span class="p">(</span><span class="n">row</span><span class="o">.</span><span class="n">ratio_to_prev</span><span class="p">)</span><span class="si">:</span><span class="s2">.8f</span><span class="si">}</span><span class="s2">)"</span><span class="p">,</span>
+        <span class="linenos">100</span>            <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="nb">int</span><span class="p">(</span><span class="n">row</span><span class="o">.</span><span class="n">cassini_determinant</span><span class="p">)</span><span class="si">:</span><span class="s2">+d</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+        <span class="linenos">101</span>            <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="nb">float</span><span class="p">(</span><span class="n">row</span><span class="o">.</span><span class="n">phi_error_abs</span><span class="o">.</span><span class="n">evalf</span><span class="p">())</span><span class="si">:</span><span class="s2">.3e</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+        <span class="linenos">102</span>        <span class="p">)</span>
+        <span class="linenos">103</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="n">t_rab</span><span class="p">)</span>
+        <span class="linenos">104</span>
+        <span class="linenos">105</span>
+        <span class="linenos">106</span><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">"__main__"</span><span class="p">:</span>
+        <span class="linenos">107</span>    <span class="n">main</span><span class="p">()</span>
+        </pre></div>
+        </div>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../index.html" title="Leonardo Pisano (Fibonacci)">&larr; <span class="nav-label">Leonardo Pisano (Fibonacci)</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GEOMETOR • fibonacci</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../modules/index.html" title="Python API Reference"><span class="nav-label">Python API Reference</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../log/2026-11-12-initial-codex.html">2026-11-12 — Initial Four-Track Codex & Exact Symbolic Suite</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1220 / 1225 (Boncompagni 1857–1862 Public Domain) • Digital Codex & Translations GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

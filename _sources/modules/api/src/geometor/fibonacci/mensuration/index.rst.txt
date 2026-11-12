@@ -1,0 +1,317 @@
+src.geometor.fibonacci.mensuration
+==================================
+
+.. py:module:: src.geometor.fibonacci.mensuration
+
+.. autoapi-nested-parse::
+
+   Exact symbolic Pisan metrology, Heron's incenter proof, and 96-gon circle bounds (*Practica Geometriae*, Dist. I & III).
+
+   Grounded directly in Baldassarre Boncompagni's 1862 critical Latin edition (*Scritti di Leonardo
+   Pisano*, Vol. II: *Leonardi Pisani Practica Geometriae ed Opuscoli*, Rome, 1862):
+
+   - **Pisan Surveyor's Metrology** (*Introductoria* & *Distinctio I*, pp. 3–5, ``fol. 2v–3v``):
+     Exact rational conversions across the Pisan rod (*pertica*), *pes*, *uncia*, *denarius*,
+     *scala*, *panorum*, *stariorum* ($66$ square *perticae*), and *modiorum* ($24$ *stariora*).
+   - **Heron's Formula & Geometric Incenter Proof** (*Distinctio III*, pp. 39–41, ``fol. 23v–25r``):
+     Exact :class:`~geometor.model.Model` straightedge-and-compass construction of incenter $T$,
+     perpendiculars $TH, TE, TZ$, tangent excesses $(s-a, s-b, s-c)$, and semiperimeter extension
+     on Fibonacci's $(13, 14, 15)$ scalene triangle, alongside symbolic polynomial verification over
+     $\mathbb{Z}[a, b, c]$.
+   - **Fibonacci's Circle Measurement** (*Distinctio III*, pp. 88–91, ``fol. 53v–55v``):
+     Fibonacci's small-number Pisan reformulation of Archimedes' 96-gon ($1440 : 458\frac{1}{5}$ and
+     $1440 : 458\frac{4}{9}$), yielding $\pi_{\text{Fib}} = \frac{1440}{458\frac{1}{3}} = \frac{864}{275}$
+     and his exact rational identity $\frac{864}{275 - \frac{1}{11}} = \frac{22}{7}$.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   src.geometor.fibonacci.mensuration.PISAN_AREA_PERTICAE
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   src.geometor.fibonacci.mensuration.PisanLinearMeasure
+   src.geometor.fibonacci.mensuration.PisanAreaBreakdown
+   src.geometor.fibonacci.mensuration.HeronProofResult
+   src.geometor.fibonacci.mensuration.CircleBoundsResult
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   src.geometor.fibonacci.mensuration.decompose_pisan_area
+   src.geometor.fibonacci.mensuration.multiply_pisan_lengths
+   src.geometor.fibonacci.mensuration.heron_area_exact
+   src.geometor.fibonacci.mensuration.verify_heron_polynomial_identity
+   src.geometor.fibonacci.mensuration.construct_pisan_pertica_grid
+   src.geometor.fibonacci.mensuration.construct_heron_incenter_proof
+   src.geometor.fibonacci.mensuration.fibonacci_circle_bounds
+   src.geometor.fibonacci.mensuration.construct_circle_archimedean_step
+
+
+Module Contents
+---------------
+
+.. py:data:: PISAN_AREA_PERTICAE
+   :type:  dict[str, sympy.Rational]
+
+.. py:class:: PisanLinearMeasure
+
+   Exact Pisan linear length in *perticae*, *pedes* ($1/6$), and *unciae* ($1/108$).
+
+   :ivar perticae: Whole or rational Pisan rods (*perticae*).
+   :ivar pedes: Linear feet ($1  ext{ pertica} = 6       ext{ pedes}$).
+   :ivar unciae: Linear inches/points ($1        ext{ pes} = 18  ext{ unciae}$, $1       ext{ pertica} = 108     ext{ unciae}$).
+
+
+
+   .. py:attribute:: perticae
+      :type:  int | sympy.Rational
+      :value: 0
+
+
+
+   .. py:attribute:: pedes
+      :type:  int | sympy.Rational
+      :value: 0
+
+
+
+   .. py:attribute:: unciae
+      :type:  int | sympy.Rational
+      :value: 0
+
+
+
+   .. py:method:: to_perticae() -> sympy.Rational
+
+      Convert this linear measure into exact rational *perticae*.
+
+
+
+   .. py:method:: to_pedes() -> sympy.Rational
+
+      Convert this linear measure into exact rational *pedes*.
+
+
+
+   .. py:method:: to_unciae() -> sympy.Rational
+
+      Convert this linear measure into exact rational *unciae* (*puncta*).
+
+
+
+.. py:class:: PisanAreaBreakdown
+
+   Canonical decomposition of an exact Pisan field area (*embadum*).
+
+
+   .. py:attribute:: total_perticae
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: total_denarii
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: modiora
+      :type:  int
+
+
+   .. py:attribute:: stariora
+      :type:  int
+
+
+   .. py:attribute:: panora
+      :type:  int
+
+
+   .. py:attribute:: perticae
+      :type:  int
+
+
+   .. py:attribute:: pedes_superficiales
+      :type:  int
+
+
+   .. py:attribute:: unciae_superficiales
+      :type:  sympy.Rational
+
+
+.. py:function:: decompose_pisan_area(area_perticae: int | sympy.Rational) -> PisanAreaBreakdown
+
+   Decompose an exact superficial *perticae* count into Pisan episcopate land units.
+
+
+.. py:function:: multiply_pisan_lengths(width: PisanLinearMeasure, length: PisanLinearMeasure) -> PisanAreaBreakdown
+
+   Multiply two Pisan linear lengths (*Distinctio I*, pp. 3–5) into exact superficial units.
+
+
+.. py:function:: heron_area_exact(a: int | sympy.Expr, b: int | sympy.Expr, c: int | sympy.Expr) -> tuple[sympy.Expr, tuple[sympy.Expr, sympy.Expr, sympy.Expr], sympy.Expr, sympy.Expr]
+
+   Compute semiperimeter, excesses, squared area, and exact Heron area for sides $(a, b, c)$.
+
+
+.. py:function:: verify_heron_polynomial_identity() -> sympy.Expr
+
+   Verify symbolically over $\mathbb{Z}[x, y, z]$ that $r^2 (x+y+z)^2 = (x+y+z) x y z$.
+
+   In Fibonacci's geometric proof (*Distinctio III*, pp. 40–41), a triangle with tangent
+   segments $x = s - a$, $y = s - b$, $z = s - c$ and inradius $r$ satisfies both
+   $\Delta = r(x + y + z)$ and the similar-triangle proportion $r^2 (x + y + z) = x y z$
+   (since $\tan(\alpha/2)\tan(\beta/2) + \tan(\beta/2)\tan(\gamma/2) + \tan(\gamma/2)\tan(\alpha/2) = 1$).
+   Returns ``0`` after exact algebraic simplification.
+
+
+.. py:function:: construct_pisan_pertica_grid() -> geometor.model.Model
+
+   Construct the exact $6 \times 6$ *denarius* grid of the Pisan *pertica superficialis*.
+
+
+.. py:class:: HeronProofResult
+
+   Exact symbolic model and invariants for Fibonacci's incenter proof of Heron's formula.
+
+
+   .. py:attribute:: model
+      :type:  geometor.model.Model
+
+
+   .. py:attribute:: pt_a
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_b
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_g
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: incenter_t
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: foot_h
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: foot_e
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: foot_z
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: semiperimeter_pt_l
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: sides
+      :type:  tuple[sympy.Expr, sympy.Expr, sympy.Expr]
+
+
+   .. py:attribute:: semiperimeter
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: excesses
+      :type:  tuple[sympy.Expr, sympy.Expr, sympy.Expr]
+
+
+   .. py:attribute:: inradius
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: area
+      :type:  sympy.Expr
+
+
+.. py:function:: construct_heron_incenter_proof() -> HeronProofResult
+
+   Construct Fibonacci's geometric proof of Heron's formula (*Distinctio III*, pp. 40–41).
+
+   Uses the canonical $(13, 14, 15)$ triangle $A=(5, 12)$, $B=(0, 0)$, $G=(14, 0)$ so that
+   every bisector, perpendicular foot, tangent segment, and auxiliary construction point has
+   100% exact rational coordinates in $\mathbb{Q}$:
+
+   - Sides: $AB = 13$, $BG = 14$, $GA = 15$, semiperimeter $s = 21$.
+   - Incenter: $T = (6, 4)$ ($X(1)$), inradius $r = TH = TE = TZ = 4$.
+   - Tangent excesses: $AE = AZ = 7 = s - BG$, $BE = BH = 6 = s - GA$, $GH = GZ = 8 = s - AB$.
+   - Extended base point: $L = (21, 0)$ on ray $BG$ with $GL = AE = 7$, so $BL = s = 21$ and
+     $\operatorname{Area}(\triangle ABG) = TH \cdot BL = 4 \times 21 = 84 = \sqrt{21 \cdot 7 \cdot 6 \cdot 8}$.
+
+
+.. py:class:: CircleBoundsResult
+
+   Exact rational bounds on $\pi$ from *Practica Geometriae*, Dist. III (pp. 88–91).
+
+
+   .. py:attribute:: perimeter_numerator
+      :type:  sympy.Integer
+
+
+   .. py:attribute:: circumscribed_96_denom
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: inscribed_96_denom
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: mean_denom
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: fibonacci_lower
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: fibonacci_upper
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: fibonacci_pi
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: archimedes_lower
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: archimedes_upper
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: archimedes_denominator_shift
+      :type:  sympy.Rational
+
+
+.. py:function:: fibonacci_circle_bounds() -> CircleBoundsResult
+
+   Return Fibonacci's exact 96-gon rational bounds and $\pi_{\text{Fib}} = \frac{864}{275}$.
+
+
+.. py:function:: construct_circle_archimedean_step() -> geometor.model.Model
+
+   Construct Fibonacci's circle `.abgd.` with inscribed & circumscribed 6-gon and 12-gon bisection (pp. 88–90).
+
+   Models circle center $C=(0,0)$, diameter $[GA]$ from $G=(-15, 0)$ to $A=(15, 0)$ (radius $15$),
+   tangent at $A$ carrying the circumscribed hexagon half-side $AE = 5\sqrt{3}$ ($\angle ACE = 30^\circ$),
+   its angle bisector $[CF]$ cutting the tangent at the circumscribed dodecagon half-side
+   $AF = 15(2 - \sqrt{3})$, and the corresponding inscribed hexagon/dodecagon chords.
+
+

@@ -1,0 +1,690 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>src.geometor.fibonacci.polyhedra_golden &mdash; GEOMETOR • fibonacci</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" type="text/css" href="../../../../../../_static/custom.css?v=8542bf54" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../../../../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../../../../../index.html">
+        <h1>GEOMETOR • fibonacci</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">fibonacci</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../../../../../practica_geometriae/index.html"  >LEONARDI PISANI PRACTICA GEOMETRIAE (1220)</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../../../../../index.html" title="Return to Project Portal">&larr; fibonacci</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../../../../../../index.html">GEOMETOR • fibonacci</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="module-src.geometor.fibonacci.polyhedra_golden">
+        <span id="src-geometor-fibonacci-polyhedra-golden"></span><h1>src.geometor.fibonacci.polyhedra_golden<a class="headerlink" href="#module-src.geometor.fibonacci.polyhedra_golden" title="Link to this heading">¶</a></h1>
+        <p>Exact regular polyhedra in a sphere ($d=6$), extreme &amp; mean ratio ($\phi$), <em>Distinctio VIII</em>, <em>Flos</em>, and <em>Liber Abaci</em>.</p>
+        <p>Grounded directly in Baldassarre Boncompagni’s critical Latin editions (<em>Scritti di Leonardo Pisano</em>,
+        Vol. I, 1857 &amp; Vol. II, 1862):</p>
+        <ul class="simple">
+        <li><p><strong>Distinctio VI — The Five Regular Polyhedra in a Sphere of Diameter $6$</strong> (Vol. II, pp. 190–202,
+        <code class="docutils literal notranslate"><span class="pre">fol.</span> <span class="pre">122v–130v</span></code>): Exact symbolic metrics and straightedge-and-compass planar constructions for
+        the tetrahedron ($e_4^2 = 24$), octahedron ($e_8^2 = 18$), cube ($e_6^2 = 12$), dodecahedron
+        ($e_{12} = \sqrt{15} - \sqrt{3}$, $e_{12}^2 = 18 - \sqrt{180}$), and icosahedron
+        ($e_{20}^2 = 18 - \sqrt{64\frac{4}{5}}$), together with Hypsicles’ Book XIV volume proportion
+        $V_{12} : V_{20} = e_6 : e_{20} = \sqrt{\frac{5 + \sqrt{5}}{6}}$.</p></li>
+        <li><p><strong>Distinctio VII — Optical Surveying with the *Quadrans*</strong> (Vol. II, pp. 202–206, <code class="docutils literal notranslate"><span class="pre">fol.</span> <span class="pre">131r–133v</span></code>):
+        Exact geometric model of Fibonacci’s 12-part <em>umbra recta / umbra versa</em> quadrant <code class="docutils literal notranslate"><span class="pre">dhai</span></code>.</p></li>
+        <li><p><strong>Distinctio VIII — *Subtilitates Geometricae*</strong> (Vol. II, pp. 207–224, <code class="docutils literal notranslate"><span class="pre">fol.</span> <span class="pre">134r–148r</span></code>):
+        Inscribing the regular pentagon and decagon in a circle of diameter $10$ both algebraically via
+        Ptolemy’s theorem ($x^4 + 3125 = 125 x^2$) and geometrically via Euclid XIII.9–10.</p></li>
+        <li><p><strong>*Flos* (1225) &amp; *Liber Abaci* (1202/1228) Bridges</strong>:
+        John of Palermo’s <em>congruum</em> challenge ($x = \frac{41}{12}$, $x^2 \pm 5 = \square$), the cubic
+        $x^3 + 2x^2 + 10x = 20$ solved to six sexagesimal places ($1;22,7,42,33,4,40$), and the twelve-month
+        rabbit recurrence $F_{n+1} = F_n + F_{n-1}$ whose ratios $F_{n+1}/F_n$ converge monotonically in
+        alternating bounds to $\phi = \frac{1 + \sqrt{5}}{2}$.</p></li>
+        </ul>
+        <section class="level-2" id="attributes">
+        <h2>Attributes<a class="headerlink" href="#attributes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.PHI" title="src.geometor.fibonacci.polyhedra_golden.PHI"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PHI</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.PSI" title="src.geometor.fibonacci.polyhedra_golden.PSI"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PSI</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="classes">
+        <h2>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics" title="src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PolyhedronMetrics</span></code></a></p></td>
+        <td><p>Exact symbolic invariants of a regular polyhedron inscribed in a sphere of diameter $d$.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult" title="src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SpherePolyhedraSectionResult</span></code></a></p></td>
+        <td><p>Exact Euclid XIII.18 / <em>Distinctio VI</em> construction of all 5 polyhedron edges in diameter $AI = 6$.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.GoldenChordResult" title="src.geometor.fibonacci.polyhedra_golden.GoldenChordResult"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GoldenChordResult</span></code></a></p></td>
+        <td><p>Exact model &amp; invariants for Fibonacci's extreme-and-mean-ratio division (<em>Distinctio VI</em>, pp. 196–197).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult" title="src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PentagonDecagonResult</span></code></a></p></td>
+        <td><p>Exact model &amp; invariants for Fibonacci's pentagon &amp; decagon in diameter $10$ (<em>Distinctio VIII</em>).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.RabbitConvergentRow" title="src.geometor.fibonacci.polyhedra_golden.RabbitConvergentRow"><code class="xref py py-obj docutils literal notranslate"><span class="pre">RabbitConvergentRow</span></code></a></p></td>
+        <td><p>Single month entry from Fibonacci's <em>Liber Abaci</em> Ch. 12 rabbit recurrence ($1202/1228$).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.FlosCubicResult" title="src.geometor.fibonacci.polyhedra_golden.FlosCubicResult"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FlosCubicResult</span></code></a></p></td>
+        <td><p>Exact rational &amp; algebraic analysis of Fibonacci's <em>Flos</em> (1225) cubic $x^3 + 2x^2 + 10x = 20$.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.polyhedra_in_sphere" title="src.geometor.fibonacci.polyhedra_golden.polyhedra_in_sphere"><code class="xref py py-obj docutils literal notranslate"><span class="pre">polyhedra_in_sphere</span></code></a>([diameter]) → dict[str, PolyhedronMetrics]</p></td>
+        <td><p>Return exact symbolic metrics for all five Platonic solids in a sphere of <code class="docutils literal notranslate"><span class="pre">diameter</span></code> (default $6$).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.verify_hypsicles_xiv_ratio" title="src.geometor.fibonacci.polyhedra_golden.verify_hypsicles_xiv_ratio"><code class="xref py py-obj docutils literal notranslate"><span class="pre">verify_hypsicles_xiv_ratio</span></code></a>([diameter]) → sympy.Expr</p></td>
+        <td><p>Verify Hypsicles' Book XIV theorem (<em>Distinctio VI</em>, pp. 200–202): $V_{12}/V_{20} = S_{12}/S_{20} = e_6/e_{20}$.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.construct_sphere_polyhedra_section" title="src.geometor.fibonacci.polyhedra_golden.construct_sphere_polyhedra_section"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_sphere_polyhedra_section</span></code></a>() → SpherePolyhedraSectionResult</p></td>
+        <td><p>Construct all five regular polyhedron edges inside sphere diameter $AI = 6$ (Euclid XIII.18; Dist. VI).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.construct_dodecahedron_golden_chord" title="src.geometor.fibonacci.polyhedra_golden.construct_dodecahedron_golden_chord"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_dodecahedron_golden_chord</span></code></a>() → GoldenChordResult</p></td>
+        <td><p>Construct <em>Modus diuidendi lineam media et extrema proportione</em> on chord $BE = 2sqrt{3}$ (pp. 196–197).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.construct_pentagon_decagon_in_circle" title="src.geometor.fibonacci.polyhedra_golden.construct_pentagon_decagon_in_circle"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_pentagon_decagon_in_circle</span></code></a>() → PentagonDecagonResult</p></td>
+        <td><p>Inscribe the regular pentagon &amp; decagon in a circle of diameter $10$ (<em>Distinctio VIII</em>, pp. 207–208).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.solve_pentagon_ptolemy_quartic" title="src.geometor.fibonacci.polyhedra_golden.solve_pentagon_ptolemy_quartic"><code class="xref py py-obj docutils literal notranslate"><span class="pre">solve_pentagon_ptolemy_quartic</span></code></a>([diameter]) → tuple[sympy.Expr, sympy.Expr]</p></td>
+        <td><p>Solve Fibonacci's <em>Distinctio VIII</em> algebraic biquadratic (<cite>census census</cite>) for pentagon side &amp; diagonal.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.construct_quadrans_surveying" title="src.geometor.fibonacci.polyhedra_golden.construct_quadrans_surveying"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_quadrans_surveying</span></code></a>() → geometor.model.Model</p></td>
+        <td><p>Construct Fibonacci's optical <em>Quadrans</em> (<cite>dhai</cite>, 12-part shadow square) from <em>Distinctio VII</em> (p. 204).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.fibonacci_rabbit_convergents" title="src.geometor.fibonacci.polyhedra_golden.fibonacci_rabbit_convergents"><code class="xref py py-obj docutils literal notranslate"><span class="pre">fibonacci_rabbit_convergents</span></code></a>([months]) → list[RabbitConvergentRow]</p></td>
+        <td><p>Build Fibonacci's <em>Liber Abaci</em> Ch. 12 rabbit table (Boncompagni Vol. I, pp. 283–284).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.verify_cassini_identity" title="src.geometor.fibonacci.polyhedra_golden.verify_cassini_identity"><code class="xref py py-obj docutils literal notranslate"><span class="pre">verify_cassini_identity</span></code></a>([max_n]) → bool</p></td>
+        <td><p>Verify exact Binet closed form and Cassini identity $F_{n-1} F_{n+1} - F_n^2 = (-1)^n$.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.flos_sexagesimal_cubic" title="src.geometor.fibonacci.polyhedra_golden.flos_sexagesimal_cubic"><code class="xref py py-obj docutils literal notranslate"><span class="pre">flos_sexagesimal_cubic</span></code></a>() → FlosCubicResult</p></td>
+        <td><p>Evaluate Fibonacci's 1225 <em>Flos</em> sexagesimal root $1; 22, 7, 42, 33, 4, 40$ (Boncompagni Vol. II, p. 234).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.flos_congruum_squares" title="src.geometor.fibonacci.polyhedra_golden.flos_congruum_squares"><code class="xref py py-obj docutils literal notranslate"><span class="pre">flos_congruum_squares</span></code></a>() → tuple[sympy.Rational, sympy.Rational, sympy.Rational]</p></td>
+        <td><p>Return John of Palermo's <em>Flos</em> / <em>Liber Quadratorum</em> rational square triple for $x^2 pm 5 = square$.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py data">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PHI">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.polyhedra_golden.</span></span><span class="sig-name descname"><span class="pre">PHI</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PHI" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py data">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PSI">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.polyhedra_golden.</span></span><span class="sig-name descname"><span class="pre">PSI</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PSI" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.polyhedra_golden.</span></span><span class="sig-name descname"><span class="pre">PolyhedronMetrics</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics" title="Link to this definition">¶</a></dt>
+        <dd><p>Exact symbolic invariants of a regular polyhedron inscribed in a sphere of diameter $d$.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics.name">
+        <span class="sig-name descname"><span class="pre">name</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics.name" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics.latin_name">
+        <span class="sig-name descname"><span class="pre">latin_name</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics.latin_name" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics.faces">
+        <span class="sig-name descname"><span class="pre">faces</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics.faces" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics.vertices">
+        <span class="sig-name descname"><span class="pre">vertices</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics.vertices" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics.edges">
+        <span class="sig-name descname"><span class="pre">edges</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics.edges" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics.sphere_diameter">
+        <span class="sig-name descname"><span class="pre">sphere_diameter</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics.sphere_diameter" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics.edge">
+        <span class="sig-name descname"><span class="pre">edge</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics.edge" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics.edge_sq">
+        <span class="sig-name descname"><span class="pre">edge_sq</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics.edge_sq" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics.face_circumradius_sq">
+        <span class="sig-name descname"><span class="pre">face_circumradius_sq</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics.face_circumradius_sq" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics.insphere_radius_sq">
+        <span class="sig-name descname"><span class="pre">insphere_radius_sq</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics.insphere_radius_sq" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics.surface_area">
+        <span class="sig-name descname"><span class="pre">surface_area</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics.surface_area" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics.volume">
+        <span class="sig-name descname"><span class="pre">volume</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics.volume" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.polyhedra_in_sphere">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.polyhedra_golden.</span></span><span class="sig-name descname"><span class="pre">polyhedra_in_sphere</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">diameter</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">6</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics" title="src.geometor.fibonacci.polyhedra_golden.PolyhedronMetrics"><span class="pre">PolyhedronMetrics</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.polyhedra_in_sphere" title="Link to this definition">¶</a></dt>
+        <dd><p>Return exact symbolic metrics for all five Platonic solids in a sphere of <code class="docutils literal notranslate"><span class="pre">diameter</span></code> (default $6$).</p>
+        <p>Matches Fibonacci’s exact expressions in <em>Practica Geometriae</em>, <em>Distinctio VI</em> (Boncompagni 1862,
+        pp. 190–202) for $d = 6$:</p>
+        <ul class="simple">
+        <li><p>Tetrahedron (<em>pyramis</em>): $e_4^2 = 24$, $V_4 = 8\sqrt{3}$.</p></li>
+        <li><p>Cube (<em>cubus</em>): $e_6^2 = 12$, $V_6 = 24\sqrt{3} = 3 V_4$.</p></li>
+        <li><p>Octahedron (<em>octaedron</em>): $e_8^2 = 18$, $V_8 = 36$.</p></li>
+        <li><p>Dodecahedron (<em>duodecaedron</em>): $e_{12} = \sqrt{15} - \sqrt{3}$, $e_{12}^2 = 18 - 6\sqrt{5}$,
+        $r_{f,12}^2 = 6 - \frac{6}{5}\sqrt{5}$, $r_{\text{in},12}^2 = 3 + \frac{6}{5}\sqrt{5}$.</p></li>
+        <li><p>Icosahedron (<em>ycosaedron</em>): $e_{20}^2 = 18 - \frac{18}{5}\sqrt{5}$,
+        $r_{f,20}^2 = 6 - \frac{6}{5}\sqrt{5}$, $r_{\text{in},20}^2 = 3 + \frac{6}{5}\sqrt{5}$.</p></li>
+        </ul>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.verify_hypsicles_xiv_ratio">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.polyhedra_golden.</span></span><span class="sig-name descname"><span class="pre">verify_hypsicles_xiv_ratio</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">diameter</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">6</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.Expr</span></span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.verify_hypsicles_xiv_ratio" title="Link to this definition">¶</a></dt>
+        <dd><p>Verify Hypsicles’ Book XIV theorem (<em>Distinctio VI</em>, pp. 200–202): $V_{12}/V_{20} = S_{12}/S_{20} = e_6/e_{20}$.</p>
+        <p>Returns the shared exact closed-form ratio $\sqrt{\frac{5 + \sqrt{5}}{6}}$.</p>
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.polyhedra_golden.</span></span><span class="sig-name descname"><span class="pre">SpherePolyhedraSectionResult</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult" title="Link to this definition">¶</a></dt>
+        <dd><p>Exact Euclid XIII.18 / <em>Distinctio VI</em> construction of all 5 polyhedron edges in diameter $AI = 6$.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult.model">
+        <span class="sig-name descname"><span class="pre">model</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">geometor.model.Model</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult.model" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult.pt_a">
+        <span class="sig-name descname"><span class="pre">pt_a</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult.pt_a" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult.pt_i">
+        <span class="sig-name descname"><span class="pre">pt_i</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult.pt_i" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult.pt_o">
+        <span class="sig-name descname"><span class="pre">pt_o</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult.pt_o" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult.pt_k">
+        <span class="sig-name descname"><span class="pre">pt_k</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult.pt_k" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult.pt_b">
+        <span class="sig-name descname"><span class="pre">pt_b</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult.pt_b" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult.pt_c">
+        <span class="sig-name descname"><span class="pre">pt_c</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult.pt_c" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult.pt_m">
+        <span class="sig-name descname"><span class="pre">pt_m</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult.pt_m" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult.pt_n">
+        <span class="sig-name descname"><span class="pre">pt_n</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult.pt_n" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult.quadrances">
+        <span class="sig-name descname"><span class="pre">quadrances</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult.quadrances" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.construct_sphere_polyhedra_section">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.polyhedra_golden.</span></span><span class="sig-name descname"><span class="pre">construct_sphere_polyhedra_section</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult" title="src.geometor.fibonacci.polyhedra_golden.SpherePolyhedraSectionResult"><span class="pre">SpherePolyhedraSectionResult</span></a></span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.construct_sphere_polyhedra_section" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct all five regular polyhedron edges inside sphere diameter $AI = 6$ (Euclid XIII.18; Dist. VI).</p>
+        <p>On great circle <code class="docutils literal notranslate"><span class="pre">(O,</span> <span class="pre">A)</span></code> with $A = (-3, 0)$, $I = (3, 0)$, $O = (0, 0)$:</p>
+        <ul class="simple">
+        <li><p>Trisection point $K = (-1, 0)$ ($AK = 2 = \frac{1}{3} AI$) and perpendicular $KB$ to circle give
+        <strong>Cube edge</strong> $AB$ ($Q = 12$) and <strong>Tetrahedron edge</strong> $BI$ ($Q = 24$).</p></li>
+        <li><p>Center perpendicular $OC$ to $C = (0, 3)$ gives <strong>Octahedron edge</strong> $AC$ ($Q = 18$).</p></li>
+        <li><p>Golden section $N$ of cube edge $[AB]$ gives <strong>Dodecahedron edge</strong> $AN$ ($Q = 18 - 6\sqrt{5}$).</p></li>
+        <li><p>Tangent $[IP] \perp [AI]$ of length $AI = 6$ joined to center $O$ cuts the circle at $M$, giving
+        <strong>Icosahedron edge</strong> $MI$ ($Q = 18 - \frac{18}{5}\sqrt{5}$).</p></li>
+        </ul>
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.GoldenChordResult">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.polyhedra_golden.</span></span><span class="sig-name descname"><span class="pre">GoldenChordResult</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.GoldenChordResult" title="Link to this definition">¶</a></dt>
+        <dd><p>Exact model &amp; invariants for Fibonacci’s extreme-and-mean-ratio division (<em>Distinctio VI</em>, pp. 196–197).</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.GoldenChordResult.model">
+        <span class="sig-name descname"><span class="pre">model</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">geometor.model.Model</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.GoldenChordResult.model" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.GoldenChordResult.pt_b">
+        <span class="sig-name descname"><span class="pre">pt_b</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.GoldenChordResult.pt_b" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.GoldenChordResult.pt_e">
+        <span class="sig-name descname"><span class="pre">pt_e</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.GoldenChordResult.pt_e" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.GoldenChordResult.pt_m">
+        <span class="sig-name descname"><span class="pre">pt_m</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.GoldenChordResult.pt_m" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.GoldenChordResult.pt_c">
+        <span class="sig-name descname"><span class="pre">pt_c</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.GoldenChordResult.pt_c" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.GoldenChordResult.pt_d">
+        <span class="sig-name descname"><span class="pre">pt_d</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.GoldenChordResult.pt_d" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.GoldenChordResult.pt_g">
+        <span class="sig-name descname"><span class="pre">pt_g</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.GoldenChordResult.pt_g" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.GoldenChordResult.pt_a">
+        <span class="sig-name descname"><span class="pre">pt_a</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.GoldenChordResult.pt_a" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.GoldenChordResult.chord_length">
+        <span class="sig-name descname"><span class="pre">chord_length</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.GoldenChordResult.chord_length" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.GoldenChordResult.golden_major">
+        <span class="sig-name descname"><span class="pre">golden_major</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.GoldenChordResult.golden_major" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.GoldenChordResult.golden_minor">
+        <span class="sig-name descname"><span class="pre">golden_minor</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.GoldenChordResult.golden_minor" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.construct_dodecahedron_golden_chord">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.polyhedra_golden.</span></span><span class="sig-name descname"><span class="pre">construct_dodecahedron_golden_chord</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.GoldenChordResult" title="src.geometor.fibonacci.polyhedra_golden.GoldenChordResult"><span class="pre">GoldenChordResult</span></a></span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.construct_dodecahedron_golden_chord" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct <em>Modus diuidendi lineam media et extrema proportione</em> on chord $BE = 2\sqrt{3}$ (pp. 196–197).</p>
+        <p>Follows Boncompagni pp. 196–197 step-for-step:</p>
+        <ol class="arabic simple">
+        <li><p>Pentagon diagonal / cube edge $BE = \sqrt{12} = 2\sqrt{3}$ from $B=(0,0)$ to $E=(2\sqrt{3}, 0)$.</p></li>
+        <li><p>Midpoint $M = (\sqrt{3}, 0)$ and perpendicular $[EC] \perp [BE]$ with $EC = EM = \sqrt{3}$.</p></li>
+        <li><p>Hypotenuse $[BC]$ has $BC^2 = BE^2 + EC^2 = 12 + 3 = 15$ ($BC = \sqrt{15}$).</p></li>
+        <li><p>Circle $(C, E)$ cuts $[BC]$ at $D$, leaving $BD = \sqrt{15} - \sqrt{3}$; circle $(B, D)$ transfers
+        $BD$ onto $[BE]$ at golden cut $G = (\sqrt{15} - \sqrt{3}, 0)$ and meets circle $(E, G)$ at apex $A$
+        of the dodecahedron’s pentagonal cap $\triangle ABE$ ($AB = AE = BG = \sqrt{15} - \sqrt{3}$).</p></li>
+        </ol>
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.polyhedra_golden.</span></span><span class="sig-name descname"><span class="pre">PentagonDecagonResult</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult" title="Link to this definition">¶</a></dt>
+        <dd><p>Exact model &amp; invariants for Fibonacci’s pentagon &amp; decagon in diameter $10$ (<em>Distinctio VIII</em>).</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult.model">
+        <span class="sig-name descname"><span class="pre">model</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">geometor.model.Model</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult.model" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult.center_i">
+        <span class="sig-name descname"><span class="pre">center_i</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult.center_i" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult.apex_d">
+        <span class="sig-name descname"><span class="pre">apex_d</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult.apex_d" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult.midpoint_h">
+        <span class="sig-name descname"><span class="pre">midpoint_h</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult.midpoint_h" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult.golden_pt_k">
+        <span class="sig-name descname"><span class="pre">golden_pt_k</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult.golden_pt_k" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult.pentagon_vertices">
+        <span class="sig-name descname"><span class="pre">pentagon_vertices</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult.pentagon_vertices" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult.decagon_vertex">
+        <span class="sig-name descname"><span class="pre">decagon_vertex</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult.decagon_vertex" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult.radius">
+        <span class="sig-name descname"><span class="pre">radius</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult.radius" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult.decagon_side">
+        <span class="sig-name descname"><span class="pre">decagon_side</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult.decagon_side" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult.decagon_side_sq">
+        <span class="sig-name descname"><span class="pre">decagon_side_sq</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult.decagon_side_sq" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult.pentagon_side">
+        <span class="sig-name descname"><span class="pre">pentagon_side</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult.pentagon_side" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult.pentagon_side_sq">
+        <span class="sig-name descname"><span class="pre">pentagon_side_sq</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult.pentagon_side_sq" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.construct_pentagon_decagon_in_circle">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.polyhedra_golden.</span></span><span class="sig-name descname"><span class="pre">construct_pentagon_decagon_in_circle</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult" title="src.geometor.fibonacci.polyhedra_golden.PentagonDecagonResult"><span class="pre">PentagonDecagonResult</span></a></span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.construct_pentagon_decagon_in_circle" title="Link to this definition">¶</a></dt>
+        <dd><p>Inscribe the regular pentagon &amp; decagon in a circle of diameter $10$ (<em>Distinctio VIII</em>, pp. 207–208).</p>
+        <p>Follows Fibonacci’s Euclidean demonstration on p. 208 (Euclid XIII.9–10):</p>
+        <ul class="simple">
+        <li><p>Circle center $I = (0, 0)$, horizontal diameter $C=(-5,0)$ to $A=(5,0)$, apex $D=(0,5)$ ($R = 5$).</p></li>
+        <li><p>Midpoint $H = (\frac{5}{2}, 0)$ of $[IA]$, segment $[HD]$ of length $\sqrt{31\frac{1}{4}} = \frac{5\sqrt{5}}{2}$.</p></li>
+        <li><p>Circle $(H, D)$ cuts $[CA]$ at $K = (\frac{5 - 5\sqrt{5}}{2}, 0)$:</p>
+        <ul>
+        <li><p>$IK = \frac{5\sqrt{5} - 5}{2} = \sqrt{31\frac{1}{4}} - 2\frac{1}{2} = s_{10}$ (regular decagon side).</p></li>
+        <li><p>$DK = \sqrt{ID^2 + IK^2} = \sqrt{62\frac{1}{2} - \sqrt{781\frac{1}{4}}} = s_5$ (regular pentagon side).</p></li>
+        </ul>
+        </li>
+        </ul>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.solve_pentagon_ptolemy_quartic">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.polyhedra_golden.</span></span><span class="sig-name descname"><span class="pre">solve_pentagon_ptolemy_quartic</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">diameter</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">10</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.solve_pentagon_ptolemy_quartic" title="Link to this definition">¶</a></dt>
+        <dd><p>Solve Fibonacci’s <em>Distinctio VIII</em> algebraic biquadratic (<cite>census census</cite>) for pentagon side &amp; diagonal.</p>
+        <p>In <em>Distinctio VIII</em> (Boncompagni pp. 207–208), setting diameter $d = 10$ and unknown chord
+        $x$ (<em>res</em>, $x^2 =$ <em>census</em>, $x^4 =$ <em>census census</em>), Ptolemy’s theorem on the cyclic pentagon
+        yields $x^4 + \frac{5}{16} d^4 = \frac{5}{4} d^2 x^2$ (for $d = 10$: $x^4 + 3125 = 125 x^2$).
+        Returns <code class="docutils literal notranslate"><span class="pre">(pentagon_side,</span> <span class="pre">pentagon_diagonal)</span></code> as exact nested radicals.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.construct_quadrans_surveying">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.polyhedra_golden.</span></span><span class="sig-name descname"><span class="pre">construct_quadrans_surveying</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">geometor.model.Model</span></span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.construct_quadrans_surveying" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct Fibonacci’s optical <em>Quadrans</em> (<cite>dhai</cite>, 12-part shadow square) from <em>Distinctio VII</em> (p. 204).</p>
+        <p>Models the surveyor’s quadrant square $DHAI$ of side $12$ (<em>puncta</em>), graduated quarter-circle arc
+        centered at sighting pinnule $D = (0, 12)$ through $H = (12, 12)$ and $I = (0, 0)$, <em>umbra recta</em>
+        division on $[IA]$, <em>umbra versa</em> division on $[AH]$, and plumb line $[DP]$ cutting $[IA]$ at $8$
+        <em>puncta</em> (giving tower height : horizontal distance $= 12 : 8 = 3 : 2$).</p>
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.RabbitConvergentRow">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.polyhedra_golden.</span></span><span class="sig-name descname"><span class="pre">RabbitConvergentRow</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.RabbitConvergentRow" title="Link to this definition">¶</a></dt>
+        <dd><p>Single month entry from Fibonacci’s <em>Liber Abaci</em> Ch. 12 rabbit recurrence ($1202/1228$).</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.RabbitConvergentRow.month">
+        <span class="sig-name descname"><span class="pre">month</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.RabbitConvergentRow.month" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.RabbitConvergentRow.fibonacci_index">
+        <span class="sig-name descname"><span class="pre">fibonacci_index</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.RabbitConvergentRow.fibonacci_index" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.RabbitConvergentRow.pairs">
+        <span class="sig-name descname"><span class="pre">pairs</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Integer</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.RabbitConvergentRow.pairs" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.RabbitConvergentRow.prev_pairs">
+        <span class="sig-name descname"><span class="pre">prev_pairs</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Integer</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.RabbitConvergentRow.prev_pairs" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.RabbitConvergentRow.ratio_to_prev">
+        <span class="sig-name descname"><span class="pre">ratio_to_prev</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.RabbitConvergentRow.ratio_to_prev" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.RabbitConvergentRow.cassini_determinant">
+        <span class="sig-name descname"><span class="pre">cassini_determinant</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Integer</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.RabbitConvergentRow.cassini_determinant" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.RabbitConvergentRow.phi_error_abs">
+        <span class="sig-name descname"><span class="pre">phi_error_abs</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.RabbitConvergentRow.phi_error_abs" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.fibonacci_rabbit_convergents">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.polyhedra_golden.</span></span><span class="sig-name descname"><span class="pre">fibonacci_rabbit_convergents</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">months</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">12</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.RabbitConvergentRow" title="src.geometor.fibonacci.polyhedra_golden.RabbitConvergentRow"><span class="pre">RabbitConvergentRow</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.fibonacci_rabbit_convergents" title="Link to this definition">¶</a></dt>
+        <dd><p>Build Fibonacci’s <em>Liber Abaci</em> Ch. 12 rabbit table (Boncompagni Vol. I, pp. 283–284).</p>
+        <p>Starting with $1$ fertile pair (<cite>paria 1</cite> = $F_2 = 1$) at month $0$, month $m \in \{1, \dots, 12\}$
+        has $F_{m+2}$ pairs: <code class="docutils literal notranslate"><span class="pre">2,</span> <span class="pre">3,</span> <span class="pre">5,</span> <span class="pre">8,</span> <span class="pre">13,</span> <span class="pre">21,</span> <span class="pre">34,</span> <span class="pre">55,</span> <span class="pre">89,</span> <span class="pre">144,</span> <span class="pre">233,</span> <span class="pre">377</span></code>.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.verify_cassini_identity">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.polyhedra_golden.</span></span><span class="sig-name descname"><span class="pre">verify_cassini_identity</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">max_n</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">15</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.verify_cassini_identity" title="Link to this definition">¶</a></dt>
+        <dd><p>Verify exact Binet closed form and Cassini identity $F_{n-1} F_{n+1} - F_n^2 = (-1)^n$.</p>
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.FlosCubicResult">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.polyhedra_golden.</span></span><span class="sig-name descname"><span class="pre">FlosCubicResult</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.FlosCubicResult" title="Link to this definition">¶</a></dt>
+        <dd><p>Exact rational &amp; algebraic analysis of Fibonacci’s <em>Flos</em> (1225) cubic $x^3 + 2x^2 + 10x = 20$.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.FlosCubicResult.sexagesimal_digits">
+        <span class="sig-name descname"><span class="pre">sexagesimal_digits</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.FlosCubicResult.sexagesimal_digits" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.FlosCubicResult.rational_root">
+        <span class="sig-name descname"><span class="pre">rational_root</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.FlosCubicResult.rational_root" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.FlosCubicResult.polynomial_value_at_rational">
+        <span class="sig-name descname"><span class="pre">polynomial_value_at_rational</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.FlosCubicResult.polynomial_value_at_rational" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.FlosCubicResult.residual_from_20">
+        <span class="sig-name descname"><span class="pre">residual_from_20</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.FlosCubicResult.residual_from_20" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.FlosCubicResult.exact_cardano_root">
+        <span class="sig-name descname"><span class="pre">exact_cardano_root</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.FlosCubicResult.exact_cardano_root" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.FlosCubicResult.abs_root_error">
+        <span class="sig-name descname"><span class="pre">abs_root_error</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.FlosCubicResult.abs_root_error" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.flos_sexagesimal_cubic">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.polyhedra_golden.</span></span><span class="sig-name descname"><span class="pre">flos_sexagesimal_cubic</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#src.geometor.fibonacci.polyhedra_golden.FlosCubicResult" title="src.geometor.fibonacci.polyhedra_golden.FlosCubicResult"><span class="pre">FlosCubicResult</span></a></span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.flos_sexagesimal_cubic" title="Link to this definition">¶</a></dt>
+        <dd><p>Evaluate Fibonacci’s 1225 <em>Flos</em> sexagesimal root $1; 22, 7, 42, 33, 4, 40$ (Boncompagni Vol. II, p. 234).</p>
+        <p>In <em>Flos</em>, Leonardo Pisano proves against Euclid Book X that no rational or quadratic-irrational
+        line satisfies $x^3 + 2x^2 + 10x = 20$, and gives its root to six sexagesimal places:
+        $1 + \frac{22}{60} + \frac{7}{60^2} + \frac{42}{60^3} + \frac{33}{60^4} + \frac{4}{60^5} + \frac{40}{60^6} = \frac{1596577777}{1166400000}$.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="src.geometor.fibonacci.polyhedra_golden.flos_congruum_squares">
+        <span class="sig-prename descclassname"><span class="pre">src.geometor.fibonacci.polyhedra_golden.</span></span><span class="sig-name descname"><span class="pre">flos_congruum_squares</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#src.geometor.fibonacci.polyhedra_golden.flos_congruum_squares" title="Link to this definition">¶</a></dt>
+        <dd><p>Return John of Palermo’s <em>Flos</em> / <em>Liber Quadratorum</em> rational square triple for $x^2 \pm 5 = \square$.</p>
+        <p>On Boncompagni Vol. II p. 227, Fibonacci solves $x^2 - 5 = a^2$ and $x^2 + 5 = b^2$ via the
+        <em>congruum</em> $720 = 5 \times 12^2$ (from $(31^2, 41^2, 49^2)$ in arithmetic progression with step $720$),
+        yielding $(a, x, b) = (\frac{31}{12}, \frac{41}{12}, \frac{49}{12})$.</p>
+        </dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../../../index.html">GEOMETOR • fibonacci</a>
+          </div>
+          <div class="book-nav-next">
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../../../../../log/2026-11-12-initial-codex.html">2026-11-12 — Initial Four-Track Codex & Exact Symbolic Suite</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../../../../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1220 / 1225 (Boncompagni 1857–1862 Public Domain) • Digital Codex & Translations GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../../../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

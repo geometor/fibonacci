@@ -1,0 +1,321 @@
+src.geometor.fibonacci.divisions
+================================
+
+.. py:module:: src.geometor.fibonacci.divisions
+
+.. autoapi-nested-parse::
+
+   Exact Euclidean constructions for *Practica Geometriae*, Distinctio IV (*De divisione camporum*).
+
+   Preserves and formalizes in :mod:`geometor.model` Leonardo Pisano's celebrated 1220 Latin
+   transmission and expansion of **Euclid's lost treatise *On Divisions of Figures*** (Boncompagni
+   1862, Vol. II, pp. 110–148):
+
+   1. **Dividing a Triangle from a Point on a Side** (pp. 111–112, ``fol. 68v–69r``):
+      Straightedge-and-compass division of $\triangle ABG$ in exact ratio $p : q$ by a line $[DZ]$
+      drawn from any given point $D$ on side $[BG]$, using Euclid I.31 parallel transfer $[EZ] \parallel [AD]$
+      and Euclid I.37 equal-area shearing ($\triangle ADE = \triangle ADZ$).
+   2. **Dividing a Triangle Parallel to the Base** (p. 119, ``fol. 73r–73v``):
+      Straightedge-and-compass division of $\triangle ABG$ in exact ratio $p : q$ by $[EZ] \parallel [BG]$
+      via Euclid VI.13 semicircle mean proportional $AE = \sqrt{\frac{p}{p+q}}\, AB$.
+   3. **Concurrency of Medians & Three-Consort Centroid Division** (pp. 112–113, 120, ``fol. 69r–74r``):
+      Fibonacci's *Preparatoria* proving the $2 : 1$ concurrency of medians at centroid $D$ ($X(2)$)
+      and partitioning $\triangle ABG$ into three equal consort triangles $\triangle DAB, \triangle DBG, \triangle DGA$.
+   4. **Dividing a Trapezoid Parallel to its Bases** (*Distinctio IV, Pars II*):
+      Root-mean-square chord $c = \sqrt{\frac{q a^2 + p b^2}{p + q}}$, linking planar field division
+      to three squares in arithmetic progression ($7^2, 13^2, 17^2$) in *Liber Quadratorum* (1225).
+
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   src.geometor.fibonacci.divisions.SidePointDivisionResult
+   src.geometor.fibonacci.divisions.ParallelDivisionResult
+   src.geometor.fibonacci.divisions.CentroidDivisionResult
+   src.geometor.fibonacci.divisions.TrapezoidDivisionResult
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   src.geometor.fibonacci.divisions.construct_midpoint
+   src.geometor.fibonacci.divisions.construct_parallel_line
+   src.geometor.fibonacci.divisions.construct_triangle_side_point_division
+   src.geometor.fibonacci.divisions.construct_triangle_parallel_division
+   src.geometor.fibonacci.divisions.construct_triangle_medians_centroid
+   src.geometor.fibonacci.divisions.trapezoid_parallel_division
+
+
+Module Contents
+---------------
+
+.. py:function:: construct_midpoint(model: geometor.model.Model, pt_p: sympy.geometry.Point, pt_q: sympy.geometry.Point, *, pt_id: str = '', classes: list[str] | None = None, guide: bool = False) -> sympy.geometry.Point
+
+   Construct the exact midpoint of $[PQ]$ via Euclid I.10 symmetric circles.
+
+
+.. py:function:: construct_parallel_line(model: geometor.model.Model, ref_p1: sympy.geometry.Point, ref_p2: sympy.geometry.Point, through_pt: sympy.geometry.Point, *, line_id: str = '', classes: list[str] | None = None, guide: bool = False) -> sympy.geometry.Line
+
+   Construct the line through ``through_pt`` parallel to $[\text{ref\_p1}\,\text{ref\_p2}]$ (Euclid I.31).
+
+   Uses central reflection across the midpoint $M$ of $[\text{ref\_p2}, \text{through\_pt}]$ so
+   quadrilateral $(\text{ref\_p1}, \text{ref\_p2}, \text{S}, \text{through\_pt})$ is an exact
+   parallelogram over any symbolic subfield of $\mathbb{R}$.
+
+
+.. py:class:: SidePointDivisionResult
+
+   Exact model & invariants for dividing $\triangle ABG$ from a point $D$ on side $BG$.
+
+
+   .. py:attribute:: model
+      :type:  geometor.model.Model
+
+
+   .. py:attribute:: pt_a
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_b
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_g
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_d
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_e
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_z
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: ratio_p
+      :type:  int
+
+
+   .. py:attribute:: ratio_q
+      :type:  int
+
+
+   .. py:attribute:: gz_length
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: area_dzg
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: area_abdz
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: area_total
+      :type:  sympy.Expr
+
+
+.. py:function:: construct_triangle_side_point_division(*, p: int = 1, q: int = 1, d_offset_from_b: int | sympy.Rational = 5) -> SidePointDivisionResult
+
+   Divide $\triangle ABG$ $(13, 14, 15)$ in ratio $p : q$ from point $D$ on $[BG]$ (Boncompagni p. 112).
+
+   Assumes $D$ lies between $B$ and the fractional base division point $E$ (so $BD < BE$, i.e.,
+   $Z$ falls on side $[AG]$ just as in Fibonacci's figure on p. 112 where $BD = 5$, $BE = 7$,
+   $DG = 9$, and $GZ = 11\frac{2}{3}$).
+
+
+.. py:class:: ParallelDivisionResult
+
+   Exact model & invariants for dividing $\triangle ABG$ by $[EZ] \parallel [BG]$.
+
+
+   .. py:attribute:: model
+      :type:  geometor.model.Model
+
+
+   .. py:attribute:: pt_a
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_b
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_g
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_d
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_k
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_e
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_z
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: ratio_p
+      :type:  int
+
+
+   .. py:attribute:: ratio_q
+      :type:  int
+
+
+   .. py:attribute:: ae_quadrance
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: az_quadrance
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: ez_quadrance
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: area_aez
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: area_ebgz
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: area_total
+      :type:  sympy.Expr
+
+
+.. py:function:: construct_triangle_parallel_division(*, p: int = 1, q: int = 1, preset: str = '10-14-12') -> ParallelDivisionResult
+
+   Divide $\triangle ABG$ in ratio $p : q$ by $[EZ] \parallel [BG]$ via Euclid VI.13 mean proportional.
+
+   Supports two exact symbolic presets:
+
+   - ``"10-14-12"`` (default): Fibonacci's exact numerical triangle on Boncompagni p. 119
+     ($AB = 10$, $BG = 14$, $GA = 12$), where $p = q = 1$ yields $AE^2 = 50$, $AZ^2 = 72$, $EZ^2 = 98$.
+   - ``"13-14-15"``: Heronian triangle $A=(5, 12)$, $B=(0, 0)$, $G=(14, 0)$.
+
+
+.. py:class:: CentroidDivisionResult
+
+   Exact model & invariants for Fibonacci's median concurrency & 3-consort centroid partition.
+
+
+   .. py:attribute:: model
+      :type:  geometor.model.Model
+
+
+   .. py:attribute:: pt_a
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_b
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: pt_g
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: mid_e
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: mid_z
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: mid_t
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: centroid_d
+      :type:  sympy.geometry.Point
+
+
+   .. py:attribute:: consort_area
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: total_area
+      :type:  sympy.Expr
+
+
+.. py:function:: construct_triangle_medians_centroid() -> CentroidDivisionResult
+
+   Construct Fibonacci's *Preparatoria* on medians & 3-consort centroid division (pp. 112–113, 120).
+
+
+.. py:class:: TrapezoidDivisionResult
+
+   Exact symbolic result for dividing a trapezoid parallel to bases $a$ and $b$ in ratio $p : q$.
+
+
+   .. py:attribute:: top_base_a
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: bottom_base_b
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: height
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: ratio_p
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: ratio_q
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: dividing_chord_c
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: upper_height
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: lower_height
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: upper_area
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: lower_area
+      :type:  sympy.Expr
+
+
+.. py:function:: trapezoid_parallel_division(top_base_a: int | sympy.Expr = 7, bottom_base_b: int | sympy.Expr = 17, height: int | sympy.Expr = 10, *, p: int | sympy.Expr = 1, q: int | sympy.Expr = 1) -> TrapezoidDivisionResult
+
+   Compute the exact parallel dividing line of a trapezoid (*Distinctio IV, Pars II*).
+
+   For parallel bases $a$ (top) and $b$ (bottom), the parallel chord $c$ cutting off upper area :
+   lower area $= p : q$ satisfies $c^2 = \frac{q a^2 + p b^2}{p + q}$. On $(a, b) = (7, 17)$ with
+   $p = q = 1$, $c = \sqrt{(49 + 289)/2} = 13$, exhibiting the arithmetic progression of squares
+   $(7^2, 13^2, 17^2)$ with *congruum* $120$ celebrated in Fibonacci's *Liber Quadratorum* (1225).
+
+

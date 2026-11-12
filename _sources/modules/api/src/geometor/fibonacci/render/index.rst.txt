@@ -1,0 +1,56 @@
+src.geometor.fibonacci.render
+=============================
+
+.. py:module:: src.geometor.fibonacci.render
+
+.. autoapi-nested-parse::
+
+   Publication-grade interactive `.euclid-graphic` SVG renderer for GEOMETOR Fibonacci.
+
+   Generates crisp pixel-space SVGs directly from :class:`~geometor.model.Model`
+   instances while preserving exact SymPy coordinates in metadata attributes and
+   ``<title>`` tooltips. Outputs conform simultaneously to:
+
+   1. **Standalone SVG viewing** (GitHub ``README.rst``, browsers, ``prefers-color-scheme``
+      dark/light palettes via an embedded ``<style>`` sheet), and
+   2. **PHOTON Publish interactive Book Codices** (``svg.euclid-graphic``, ``#elements``,
+      ``#graphics``, ``#highlights``, ``#points``, ``#labels``, ``#geom-tick-1..3``
+      markers, 3-vertex ``<path>`` segments, ``data-ref``, and ``data-aliases``).
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   src.geometor.fibonacci.render.EMBEDDED_SVG_STYLE
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   src.geometor.fibonacci.render.render_svg_string
+   src.geometor.fibonacci.render.export_svg
+
+
+Module Contents
+---------------
+
+.. py:data:: EMBEDDED_SVG_STYLE
+   :type:  str
+   :value: ''
+
+
+.. py:function:: render_svg_string(model: geometor.model.Model, *, graphic_id: str = 'g1', title: str = 'Fibonacci Practica Geometriae Construction', width: int = 680, height: int = 440, margin: float = 44.0, bbox: tuple[float, float, float, float] | None = None, focus_points: collections.abc.Sequence[sympy.geometry.Point] | None = None, include_guides: bool = False, show_labels: bool = True, label_overrides: dict[str, tuple[str, str]] | None = None, highlight_point_ids: collections.abc.Sequence[str] | None = None) -> str
+
+   Render a :class:`~geometor.model.Model` into a complete interactive `.euclid-graphic` SVG string.
+
+
+.. py:function:: export_svg(model: geometor.model.Model, output_path: str | pathlib.Path, *, graphic_id: str = 'g1', title: str = 'Fibonacci Practica Geometriae Construction', width: int = 680, height: int = 440, margin: float = 44.0, bbox: tuple[float, float, float, float] | None = None, focus_points: collections.abc.Sequence[sympy.geometry.Point] | None = None, include_guides: bool = False, show_labels: bool = True, label_overrides: dict[str, tuple[str, str]] | None = None, highlight_point_ids: collections.abc.Sequence[str] | None = None) -> pathlib.Path
+
+   Write an interactive `.euclid-graphic` SVG rendering of ``model`` to ``output_path``.
+
+

@@ -1,0 +1,62 @@
+src.geometor.fibonacci.sphinx_ext
+=================================
+
+.. py:module:: src.geometor.fibonacci.sphinx_ext
+
+.. autoapi-nested-parse::
+
+   Runtime Sphinx & photon-platform/publish integration for GEOMETOR Fibonacci.
+
+   Registers the ``la`` ("Latin (1220 / Boncompagni 1862)") companion track in
+   ``photon_platform.publish.book`` at build time (without modifying any sibling
+   repository) alongside ``en``, ``summary``, and ``notes``, and binds offline-safe
+   local intersphinx inventories across the GEOMETOR canon.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   src.geometor.fibonacci.sphinx_ext.LATIN_TRACK_LABEL
+   src.geometor.fibonacci.sphinx_ext.SISTER_REPOS
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   src.geometor.fibonacci.sphinx_ext.register_latin_book_track
+   src.geometor.fibonacci.sphinx_ext.configure_local_intersphinx
+   src.geometor.fibonacci.sphinx_ext.setup
+
+
+Module Contents
+---------------
+
+.. py:data:: LATIN_TRACK_LABEL
+   :value: 'Latin (1220 / Boncompagni 1862)'
+
+
+.. py:data:: SISTER_REPOS
+   :type:  tuple[str, ...]
+   :value: ('euclid', 'elements', 'heron', 'archimedes', 'pacioli', 'divine', 'phyllotaxis', 'pappus',...
+
+
+.. py:function:: register_latin_book_track() -> None
+
+   Customize ``photon_platform.publish.book`` so ``<stem>-la`` renders with the Boncompagni 1862 label.
+
+
+.. py:function:: configure_local_intersphinx(intersphinx_mapping: dict[str, Any], project_root: pathlib.Path) -> None
+
+   Bind local ``objects.inv`` files for sister GEOMETOR repositories and drop offline-unreachable targets.
+
+
+.. py:function:: setup(app: Any) -> dict[str, Any]
+
+   Sphinx extension entry point.
+
+
