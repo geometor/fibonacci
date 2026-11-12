@@ -1,0 +1,121 @@
+{
+  "project": "geometor-fibonacci",
+  "author": "Leonardo Pisano (Fibonacci, c. 1170 – c. 1245)",
+  "license_policy": "100% Public Domain archival Latin sources (Boncompagni 1857, 1862) with 100% original GEOMETOR English translations. Zero text derived from copyrighted modern translations (e.g. Barnabas Hughes 2008 or Laurence Sigler 2002).",
+  "volumes": [
+    {
+      "id": "boncompagni-1862-vol2",
+      "title": "Scritti di Leonardo Pisano, matematico del secolo decimoterzo, pubblicati da Baldassarre Boncompagni — Volume II: Leonardi Pisani Practica Geometriae ed Opuscoli",
+      "editor": "Baldassarre Boncompagni",
+      "publisher": "Tipografia delle Scienze Matematiche e Fisiche",
+      "place": "Roma",
+      "year": 1862,
+      "rights": "Creative Commons Public Domain Mark 1.0 (Biblioteca Nazionale Centrale di Roma)",
+      "internet_archive_id": "bub_gb_RUvn55EoS3AC",
+      "local_gitignored_path": "resources/pdfs/boncompagni_1862_vol2_practica_geometriae.pdf",
+      "pdf_pages": 294,
+      "pdf_page_offset_from_printed": 7,
+      "sections": [
+        {
+          "work": "Practica Geometriae (1220)",
+          "section": "Prologue to Master Dominicus & Introductoria",
+          "printed_pages": "1–5",
+          "manuscript_folios": "fol. 1r–3v",
+          "codex_unit": "unit-1"
+        },
+        {
+          "work": "Practica Geometriae (1220)",
+          "section": "Distinctio I — Rectangular Fields, Pisan Perticae & Euclidean Algebra",
+          "printed_pages": "5–18",
+          "manuscript_folios": "fol. 3v–11v",
+          "codex_unit": "unit-1"
+        },
+        {
+          "work": "Practica Geometriae (1220)",
+          "section": "Distinctio II — Extraction of Square Roots",
+          "printed_pages": "18–30",
+          "manuscript_folios": "fol. 11v–18v",
+          "codex_unit": "unit-1"
+        },
+        {
+          "work": "Practica Geometriae (1220)",
+          "section": "Distinctio III — Mensuration of All Planar Fields, Heron's Proof & Circle Bounds",
+          "printed_pages": "30–110",
+          "manuscript_folios": "fol. 18v–67v",
+          "codex_unit": "unit-2"
+        },
+        {
+          "work": "Practica Geometriae (1220)",
+          "section": "Distinctio IV — Division of Planar Fields among Consorts (Euclid's On Divisions)",
+          "printed_pages": "110–148",
+          "manuscript_folios": "fol. 67v–92v",
+          "codex_unit": "unit-3"
+        },
+        {
+          "work": "Practica Geometriae (1220)",
+          "section": "Distinctio V — Extraction of Cube Roots",
+          "printed_pages": "148–158",
+          "manuscript_folios": "fol. 92v–100r",
+          "codex_unit": "unit-4"
+        },
+        {
+          "work": "Practica Geometriae (1220)",
+          "section": "Distinctio VI — Solid Mensuration & The Five Regular Polyhedra in a Sphere (d = 6)",
+          "printed_pages": "159–202",
+          "manuscript_folios": "fol. 100v–130v",
+          "codex_unit": "unit-4"
+        },
+        {
+          "work": "Practica Geometriae (1220)",
+          "section": "Distinctio VII — Optical Surveying of Heights & Depths (Quadrans)",
+          "printed_pages": "202–206",
+          "manuscript_folios": "fol. 131r–133v",
+          "codex_unit": "unit-5"
+        },
+        {
+          "work": "Practica Geometriae (1220)",
+          "section": "Distinctio VIII — Subtilitates Geometricae (Pentagon, Decagon & Book X Irrationals)",
+          "printed_pages": "207–224",
+          "manuscript_folios": "fol. 134r–148r",
+          "codex_unit": "unit-5"
+        },
+        {
+          "work": "Flos super solutionibus quarumdam quaestionum ad numerum et ad geometriam (1225)",
+          "section": "Congruum Squares & Sexagesimal Cubic Root (x^3 + 2x^2 + 10x = 20)",
+          "printed_pages": "227–247",
+          "manuscript_folios": "fol. 1r–14v",
+          "codex_unit": "unit-5"
+        },
+        {
+          "work": "Liber Quadratorum (1225)",
+          "section": "Three Squares in Arithmetic Progression & Congrua",
+          "printed_pages": "253–279",
+          "manuscript_folios": "Ambrosiana MS E.75 Sup.",
+          "codex_unit": "unit-3, unit-5"
+        }
+      ]
+    },
+    {
+      "id": "boncompagni-1857-vol1",
+      "title": "Scritti di Leonardo Pisano, matematico del secolo decimoterzo, pubblicati da Baldassarre Boncompagni — Volume I: Il Liber Abbaci di Leonardo Pisano",
+      "editor": "Baldassarre Boncompagni",
+      "publisher": "Tipografia delle Scienze Matematiche e Fisiche",
+      "place": "Roma",
+      "year": 1857,
+      "rights": "Creative Commons Public Domain Mark 1.0 (Biblioteca Nazionale Centrale di Roma)",
+      "internet_archive_id": "bub_gb_CrdUBgtAZFoC",
+      "local_gitignored_path": "resources/pdfs/boncompagni_1857_vol1_liber_abbaci.pdf",
+      "pdf_pages": 469,
+      "pdf_page_offset_from_printed": 6,
+      "sections": [
+        {
+          "work": "Liber Abaci (1202 / rev. 1228)",
+          "section": "Chapter XII — Quot paria coniculorum in uno anno ex uno pario germinentur",
+          "printed_pages": "283–284",
+          "manuscript_folios": "Magliabechiano Conv. Soppr. C.1.2616, fol. 123v–124r",
+          "codex_unit": "unit-5"
+        }
+      ]
+    }
+  ]
+}

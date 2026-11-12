@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 720 450" data-graphic-id="heron_incenter_proof" role="img" aria-label="Distinctio III — Fibonacci&#x27;s Geometric Incenter Proof of Heron&#x27;s Formula">
+  <title>Distinctio III — Fibonacci&#x27;s Geometric Incenter Proof of Heron&#x27;s Formula</title>
+  <defs>
+    <marker id="geom-tick-1" viewBox="-4 -8 8 16" markerWidth="8" markerHeight="16" orient="auto">
+      <line x1="0" y1="-5" x2="0" y2="5" stroke="currentColor" stroke-width="1.5" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -8 12 16" markerWidth="12" markerHeight="16" orient="auto">
+      <line x1="-2" y1="-5" x2="-2" y2="5" stroke="currentColor" stroke-width="1.5" />
+      <line x1="2" y1="-5" x2="2" y2="5" stroke="currentColor" stroke-width="1.5" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-8 -8 16 16" markerWidth="16" markerHeight="16" orient="auto">
+      <line x1="-4" y1="-5" x2="-4" y2="5" stroke="currentColor" stroke-width="1.5" />
+      <line x1="0" y1="-5" x2="0" y2="5" stroke="currentColor" stroke-width="1.5" />
+      <line x1="4" y1="-5" x2="4" y2="5" stroke="currentColor" stroke-width="1.5" />
+    </marker>
+  </defs>
+  <style>
+.euclid-graphic {
+    --svg-bg: #fafaf9;
+    --ink: #1c1917;
+    --label-halo: rgba(250, 250, 249, 0.92);
+    --carrier: #475569;
+    --circle-main: #0284c7;
+    --circle-guide: #64748b;
+    --bisector: #0d9488;
+    --parallel: #6366f1;
+    --golden: #d97706;
+    --tetra: #e11d48;
+    --octa: #0284c7;
+    --cube: #059669;
+    --icosa: #7c3aed;
+    --grid: #94a3b8;
+    --share-p: #f59e0b;
+    --share-q: #0ea5e9;
+    --pes-strip: #10b981;
+    --pt-given: #0f172a;
+    --pt-result: #0369a1;
+    --pt-mid: #0f766e;
+    --pt-golden: #d97706;
+    font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    .euclid-graphic {
+      --svg-bg: #141417;
+      --ink: #f4f4f5;
+      --label-halo: rgba(20, 20, 23, 0.92);
+      --carrier: #94a3b8;
+      --circle-main: #38bdf8;
+      --circle-guide: #94a3b8;
+      --bisector: #2dd4bf;
+      --parallel: #818cf8;
+      --golden: #fbbf24;
+      --tetra: #fb7185;
+      --octa: #38bdf8;
+      --cube: #34d399;
+      --icosa: #c084fc;
+      --grid: #64748b;
+      --share-p: #fbbf24;
+      --share-q: #38bdf8;
+      --pes-strip: #34d399;
+      --pt-given: #e2e8f0;
+      --pt-result: #38bdf8;
+      --pt-mid: #2dd4bf;
+      --pt-golden: #fbbf24;
+    }
+  }
+  .euclid-graphic .svg-bg { fill: var(--svg-bg); }
+  .euclid-graphic .geom-circle { fill: none; stroke: var(--circle-main); stroke-width: 2.1; opacity: 0.9; }
+  .euclid-graphic .geom-circle.incircle-curve { stroke: var(--golden); stroke-width: 2.35; }
+  .euclid-graphic .geom-circle.guide-circle { stroke: var(--circle-guide); stroke-width: 1.35; stroke-dasharray: 5 4; opacity: 0.68; }
+  .euclid-graphic .geom-circle.transfer-circle { stroke: var(--golden); stroke-width: 1.45; stroke-dasharray: 6 4; opacity: 0.78; }
+  .euclid-graphic .geom-line { fill: none; stroke: var(--carrier); stroke-width: 1.45; stroke-linecap: round; opacity: 0.72; }
+  .euclid-graphic .geom-line.carrier-line { stroke: var(--carrier); stroke-width: 1.85; opacity: 0.88; }
+  .euclid-graphic .geom-line.bisector-line { stroke: var(--bisector); stroke-width: 1.55; stroke-dasharray: 6 3.5; opacity: 0.85; }
+  .euclid-graphic .geom-line.parallel-line { stroke: var(--parallel); stroke-width: 1.65; stroke-dasharray: 5 3.5; opacity: 0.88; }
+  .euclid-graphic .geom-line.tangent-line { stroke: var(--icosa); stroke-width: 1.75; opacity: 0.88; }
+  .euclid-graphic .geom-segment { fill: none; stroke: var(--carrier); stroke-width: 2.1; stroke-linecap: round; }
+  .euclid-graphic .geom-segment.grid-seg { stroke: var(--grid); stroke-width: 1.05; opacity: 0.48; }
+  .euclid-graphic .geom-segment.bisector-seg { stroke: var(--bisector); stroke-width: 1.9; stroke-dasharray: 5 3; }
+  .euclid-graphic .geom-segment.inradius-seg { stroke: var(--golden); stroke-width: 2.2; }
+  .euclid-graphic .geom-segment.cut-seg { stroke: var(--golden); stroke-width: 3.0; }
+  .euclid-graphic .geom-segment.golden-seg { stroke: var(--golden); stroke-width: 3.2; opacity: 0.95; }
+  .euclid-graphic .geom-segment.tetra-seg { stroke: var(--tetra); stroke-width: 2.75; }
+  .euclid-graphic .geom-segment.octa-seg { stroke: var(--octa); stroke-width: 2.75; }
+  .euclid-graphic .geom-segment.cube-seg { stroke: var(--cube); stroke-width: 2.75; }
+  .euclid-graphic .geom-segment.icosa-seg { stroke: var(--icosa); stroke-width: 2.75; }
+  .euclid-graphic .geom-polygon { fill: var(--share-q); fill-opacity: 0.05; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round; }
+  .euclid-graphic .geom-polygon.share-p-poly { fill: var(--share-p); fill-opacity: 0.13; stroke: var(--golden); stroke-width: 1.8; }
+  .euclid-graphic .geom-polygon.share-q-poly { fill: var(--share-q); fill-opacity: 0.08; stroke: var(--circle-main); stroke-width: 1.6; }
+  .euclid-graphic .geom-polygon.pes-strip-poly { fill: var(--pes-strip); fill-opacity: 0.14; stroke: var(--cube); stroke-width: 1.7; }
+  .euclid-graphic .geom-polygon.denarius-poly { fill: var(--share-p); fill-opacity: 0.28; stroke: var(--golden); stroke-width: 2.2; }
+  .euclid-graphic .geom-point { fill: var(--pt-given); stroke: var(--svg-bg); stroke-width: 1.5; }
+  .euclid-graphic .geom-point.result-point { fill: var(--pt-result); }
+  .euclid-graphic .geom-point.mid-point { fill: var(--pt-mid); }
+  .euclid-graphic .geom-point.golden-point { fill: var(--pt-golden); stroke-width: 1.8; }
+  .euclid-graphic .geom-label {
+    fill: var(--ink);
+    font-size: 13.5px;
+    font-weight: 600;
+    paint-order: stroke fill;
+    stroke: var(--label-halo);
+    stroke-width: 3.6px;
+    stroke-linejoin: round;
+    user-select: none;
+  }
+  .euclid-graphic .geom-label-sub { font-size: 10px; font-weight: 600; }
+  </style>
+  <rect class="svg-bg" x="0" y="0" width="720" height="450" rx="6" fill="none" />
+  <g id="elements">
+    <g id="graphics">
+      <polygon class="geom-polygon" points="233.99,85.24 119.43,360.18 440.19,360.18" data-ref="&lt; A B G &gt;" data-aliases="triABG | &lt; G B A &gt; | &lt; B G A &gt; | &lt; G A B &gt;" fill="none" />
+      <circle class="geom-circle incircle-curve" cx="256.9" cy="268.53" r="91.65" data-ref="( T H )" data-aliases="incirc | ( T E ) | ( T Z ) | ( H E Z )" fill="none"><title>( T H ): (x - 6)**2 + (y - 4)**2 - 16 = 0</title></circle>
+      <path class="geom-line carrier-line" d="M 14 360.18 L 360 360.18 L 706 360.18" data-ref="[ B L ]" data-aliases="lnBG | [ B G ] | / B G / | [ B H ] | / B H / | / B L / | [ G B ] | / G B / | [ G H ] | / G H / | [ G L ] | / G L / | [ H B ] | / H B / | [ H G ] | / H G / | [ H L ] | / H L / | [ L B ] | / L B / | [ L G ] | / L G / | [ L H ] | / L H /" fill="none"><title>[ B L ]: y = 0</title></path>
+      <path class="geom-line carrier-line" d="M 87.84 436 L 175.75 225 L 263.67 14" data-ref="[ B E ]" data-aliases="lnAB | [ B A ] | / B A / | / B E / | [ A B ] | / A B / | [ A E ] | / A E / | [ E B ] | / E B / | [ E A ] | / E A /" fill="none"><title>[ B E ]: 12*x - 5*y = 0</title></path>
+      <path class="geom-line carrier-line" d="M 497.06 436 L 338.81 225 L 180.56 14" data-ref="[ G Z ]" data-aliases="lnGA | [ G A ] | / G A / | / G Z / | [ A G ] | / A G / | [ A Z ] | / A Z / | [ Z G ] | / Z G / | [ Z A ] | / Z A /" fill="none"><title>[ G Z ]: -12*x - 9*y + 168 = 0</title></path>
+      <path class="geom-line bisector-line" d="M 14 430.46 L 326.35 222.23 L 638.7 14" data-ref="[ B T ]" data-aliases="bisB | / B T / | [ T B ] | / T B /" fill="none"><title>[ B T ]: -12*x + 18*y = 0</title></path>
+      <path class="geom-line bisector-line" d="M 14 147.08 L 302.92 291.54 L 591.84 436" data-ref="[ G T ]" data-aliases="bisG | / G T / | [ T G ] | / T G /" fill="none"><title>[ G T ]: -56*x/5 - 112*y/5 + 784/5 = 0</title></path>
+      <path class="geom-segment bisector-seg" d="M 233.99 85.24 L 245.44 176.89 L 256.9 268.53" data-ref="/ A T /" data-aliases="segAT | / T A / | [ A T ] | [ T A ]" fill="none"><title>/ A T /: length = sqrt(65)</title></path>
+      <path class="geom-segment bisector-seg" d="M 119.43 360.18 L 188.16 314.35 L 256.9 268.53" data-ref="/ B T /" data-aliases="segBT | / T B / | [ B T ] | [ T B ]" fill="none"><title>/ B T /: length = 2*sqrt(13)</title></path>
+      <path class="geom-segment bisector-seg" d="M 440.19 360.18 L 348.54 314.35 L 256.9 268.53" data-ref="/ G T /" data-aliases="segGT | / T G / | [ G T ] | [ T G ]" fill="none"><title>/ G T /: length = 4*sqrt(5)</title></path>
+      <path class="geom-segment inradius-seg" d="M 256.9 268.53 L 256.9 314.35 L 256.9 360.18" data-ref="/ T H /" data-aliases="segTH | / H T / | [ T H ] | [ H T ]" fill="none"><title>/ T H /: length = 4</title></path>
+      <path class="geom-segment inradius-seg" d="M 256.9 268.53 L 214.6 250.91 L 172.3 233.28" data-ref="/ T E /" data-aliases="segTE | / E T / | [ T E ] | [ E T ]" fill="none"><title>/ T E /: length = 4</title></path>
+      <path class="geom-segment inradius-seg" d="M 256.9 268.53 L 293.56 241.04 L 330.22 213.54" data-ref="/ T Z /" data-aliases="segTZ | / Z T / | [ T Z ] | [ Z T ]" fill="none"><title>/ T Z /: length = 4</title></path>
+      <path class="geom-segment golden-seg" d="M 440.19 360.18 L 520.38 360.18 L 600.57 360.18" data-ref="/ G L /" data-aliases="segGL | / L G / | [ G L ] | [ L G ]" fill="none"><title>/ G L /: length = 7</title></path>
+      <path class="geom-segment" d="M 119.43 360.18 L 188.16 360.18 L 256.9 360.18" data-ref="/ B H /" data-aliases="segBH | / H B / | [ B H ] | [ H B ]" fill="none"><title>/ B H /: length = 6</title></path>
+      <path class="geom-segment" d="M 256.9 360.18 L 348.54 360.18 L 440.19 360.18" data-ref="/ H G /" data-aliases="segHG | / G H / | [ H G ] | [ G H ]" fill="none"><title>/ H G /: length = 8</title></path>
+    </g>
+    <g id="highlights"></g>
+    <g id="points">
+      <circle class="geom-point given-point result-point" cx="119.43" cy="360.18" r="4.4" data-ref="B" data-latex-x="0" data-latex-y="0"><title>B = (0, 0)</title></circle>
+      <circle class="geom-point given-point result-point" cx="440.19" cy="360.18" r="4.4" data-ref="G" data-latex-x="14" data-latex-y="0"><title>G = (14, 0)</title></circle>
+      <circle class="geom-point given-point result-point" cx="233.99" cy="85.24" r="4.4" data-ref="A" data-latex-x="5" data-latex-y="12"><title>A = (5, 12)</title></circle>
+      <circle class="geom-point mid-point result-point" cx="256.9" cy="360.18" r="4.4" data-ref="H" data-latex-x="6" data-latex-y="0"><title>H = (6, 0)</title></circle>
+      <circle class="geom-point mid-point result-point" cx="172.3" cy="233.28" r="4.4" data-ref="E" data-latex-x="\frac{30}{13}" data-latex-y="\frac{72}{13}"><title>E = (30/13, 72/13)</title></circle>
+      <circle class="geom-point mid-point result-point" cx="330.22" cy="213.54" r="4.4" data-ref="Z" data-latex-x="\frac{46}{5}" data-latex-y="\frac{32}{5}"><title>Z = (46/5, 32/5)</title></circle>
+      <circle class="geom-point-halo" cx="256.9" cy="268.53" r="9.2" fill="none" stroke="currentColor" stroke-opacity="0.35" stroke-width="1.6" />
+      <circle class="geom-point result-point golden-point" cx="256.9" cy="268.53" r="5" data-ref="T" data-latex-x="6" data-latex-y="4"><title>T = (6, 4)</title></circle>
+      <circle class="geom-point-halo" cx="600.57" cy="360.18" r="9.2" fill="none" stroke="currentColor" stroke-opacity="0.35" stroke-width="1.6" />
+      <circle class="geom-point result-point golden-point" cx="600.57" cy="360.18" r="5" data-ref="L" data-latex-x="21" data-latex-y="0"><title>L = (21, 0)</title></circle>
+    </g>
+    <g id="labels">
+      <text class="geom-label" x="100.23" y="349.6" data-ref="B">B</text>
+      <text class="geom-label" x="447.69" y="349.6" data-ref="G">G</text>
+      <text class="geom-label" x="249.09" y="90" data-ref="A">A</text>
+      <text class="geom-label" x="251.05" y="384.84" data-ref="H">H</text>
+      <text class="geom-label" x="145.5" y="238.04" data-ref="E">E</text>
+      <text class="geom-label" x="303.42" y="218.3" data-ref="Z">Z</text>
+      <text class="geom-label" x="272.6" y="273.29" data-ref="T">T</text>
+      <text class="geom-label" x="594.72" y="344.44" data-ref="L">L</text>
+    </g>
+  </g>
+</svg>

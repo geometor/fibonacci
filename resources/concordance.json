@@ -1,0 +1,107 @@
+{
+  "entries": [
+    {
+      "id": "PG.Prol-I",
+      "unit": "unit-1",
+      "fibonacci_locus": "Practica Geometriae, Prologue & Distinctio I (Boncompagni II, pp. 1–18, fol. 1r–11v)",
+      "topic": "Euclidean definitions, Pisan pertica metrology (6 pedes, 36 denarii, 66-pertica stariorum), Book II geometric algebra & III.35 intersecting chords",
+      "geometor_links": {
+        "euclid": ["I.def.1–23", "II.1–10", "III.35"],
+        "elements": ["G.1", "G.47", "G.58"],
+        "pacioli": ["Summa de arithmetica (1494), Distinctio IX (Tuscan agrarian tables)"],
+        "wildberger": ["Quadrance of rational grid lattices"]
+      }
+    },
+    {
+      "id": "PG.II",
+      "unit": "unit-1",
+      "fibonacci_locus": "Practica Geometriae, Distinctio II (Boncompagni II, pp. 18–30, fol. 11v–18v)",
+      "topic": "Iterative extraction of square roots in Hindu-Arabic integers, sexagesimals, and Pisan unciae via Euclid II.4 gnomon completion",
+      "geometor_links": {
+        "euclid": ["II.4"],
+        "heron": ["Metrica I.8 (iterative rational root refinement)"],
+        "archimedes": ["Measurement of a Circle (rational root bounds for sqrt(3))"]
+      }
+    },
+    {
+      "id": "PG.III.Heron",
+      "unit": "unit-2",
+      "fibonacci_locus": "Practica Geometriae, Distinctio III, Pars I (Boncompagni II, pp. 39–41, fol. 23v–25r)",
+      "topic": "Scalene altitude projections (casus) on (13, 14, 15) and geometric incenter proof of Heron's area formula sqrt(s(s-a)(s-b)(s-c))",
+      "geometor_links": {
+        "heron": ["Metrica I.8 (inscribed circle proof via cyclic quadrilaterals)"],
+        "euclid": ["I.9", "I.12", "I.47", "II.12–13", "IV.4"],
+        "etc": ["X(1) Incenter", "Intouch triangle"],
+        "wildberger": ["Archimedes' formula 16*Delta^2 = 4*Q_1*Q_2 - (Q_1 + Q_2 - Q_3)^2"]
+      }
+    },
+    {
+      "id": "PG.III.Circle",
+      "unit": "unit-2",
+      "fibonacci_locus": "Practica Geometriae, Distinctio III, Pars IV (Boncompagni II, pp. 88–91, fol. 53v–55v)",
+      "topic": "Small-number demonstration of Archimedes' 96-gon yielding 1440 / 458 4/9 < pi < 1440 / 458 1/5 and pi_Fib = 864 / 275",
+      "geometor_links": {
+        "archimedes": ["Measurement of a Circle, Prop. 1 & Prop. 3 (3 + 10/71 < pi < 3 + 1/7)"],
+        "euclid": ["I.9", "III.18", "III.29–30", "VI.3", "XII.2"],
+        "elements": ["Angle bisector ratio VI.3"]
+      }
+    },
+    {
+      "id": "PG.IV.Triangles",
+      "unit": "unit-3",
+      "fibonacci_locus": "Practica Geometriae, Distinctio IV, Pars I (Boncompagni II, pp. 110–121, fol. 67v–74v)",
+      "topic": "Latin preservation & expansion of Euclid's lost On Divisions of Figures: cuts through a vertex, side point D, interior/exterior points, parallel to base (Euclid VI.13), and 3-consort centroid X(2)",
+      "geometor_links": {
+        "euclid": ["On Divisions of Figures", "I.31", "I.37–38", "VI.2", "VI.13", "VI.19", "VI.28–29"],
+        "elements": ["Semicircle mean proportional VI.13"],
+        "etc": ["X(2) Centroid (2:1 concurrency of medians)"],
+        "pappus": ["Synagoge VII (application of areas & projective cross-joins)"]
+      }
+    },
+    {
+      "id": "PG.IV.Trapezoids",
+      "unit": "unit-3",
+      "fibonacci_locus": "Practica Geometriae, Distinctio IV, Pars II–IV (Boncompagni II, pp. 121–148, fol. 74v–92v)",
+      "topic": "Division of trapezoids parallel to bases (c^2 = (a^2 + b^2)/2), general quadrilaterals, pentagons, and circular segments/sectors",
+      "geometor_links": {
+        "euclid": ["On Divisions of Figures Props. 19–29", "III.31"],
+        "heron": ["Metrica III (division of planar & solid figures)"],
+        "wildberger": ["Arithmetic progression of quadrances (7^2, 13^2, 17^2), congruum = 120"]
+      }
+    },
+    {
+      "id": "PG.V-VI.Polyhedra",
+      "unit": "unit-4",
+      "fibonacci_locus": "Practica Geometriae, Distinctio V & VI (Boncompagni II, pp. 148–202, fol. 92v–130v)",
+      "topic": "Cube roots, solid mensuration, and the five regular polyhedra in a sphere of diameter 6 via extreme & mean ratio (phi) and Hypsicles Book XIV",
+      "geometor_links": {
+        "euclid": ["II.11", "VI.30", "XII.7", "XII.17–18", "XIII.8–18", "XIV (Hypsicles)"],
+        "archimedes": ["On the Sphere and Cylinder I–II (V_sphere = 2/3 V_cylinder)"],
+        "pacioli": ["De Divina Proportione (1509), Trattato de' corpi regolari (via Piero della Francesca)"],
+        "divine": ["Golden section BE : BG = BG : GE = phi on dodecahedron chord BE = 2*sqrt(3)"]
+      }
+    },
+    {
+      "id": "PG.VII.Quadrans",
+      "unit": "unit-5",
+      "fibonacci_locus": "Practica Geometriae, Distinctio VII (Boncompagni II, pp. 202–206, fol. 131r–133v)",
+      "topic": "Optical surveying of inaccessible heights, valley depths, and plains via sighting rods and the 12-part Quadrans shadow square",
+      "geometor_links": {
+        "euclid": ["Optics Prop. 18–21", "VI.4 (equiangular triangles)"],
+        "pappus": ["Projective perspective & collinear sighting rays"]
+      }
+    },
+    {
+      "id": "PG.VIII-Flos-LA",
+      "unit": "unit-5",
+      "fibonacci_locus": "Practica Geometriae Dist. VIII (pp. 207–224), Flos (pp. 227–247), & Liber Abaci Ch. 12 (Vol. I, pp. 283–284)",
+      "topic": "Pentagon & decagon in d=10 via al-Khwarizmi's census census (x^4 + 3125 = 125x^2) and Euclid XIII.9–10; Book X binomials/apotomes; Flos cubic 1;22,7,42,33,4,40; rabbit recurrence F_{n+1}/F_n -> phi",
+      "geometor_links": {
+        "euclid": ["IV.10–11", "X.36–73 (binomials & apotomes)", "XIII.9–10"],
+        "divine": ["Continued-fraction convergents F_{n+1}/F_n to phi = (1 + sqrt(5))/2"],
+        "phyllotaxis": ["Fibonacci parastichy numbers (1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377) & golden divergence"],
+        "pacioli": ["Summa (1494) & De Divina Proportione (1509) algebraic problems in diameter 10"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geometor-fibonacci"
+dynamic = ["version"]
+authors = [
+  { name = "phi ARCHITECT", email = "phi@geometor.com" },
+]
+description = "Digital Scriptorium 4-track Book Codex and exact symbolic SymPy / geometor.model constructions for Leonardo Pisano (Fibonacci): Practica Geometriae (1220), Liber Abaci (1202/1228), and Flos (1225), from Boncompagni's 1857–1862 Latin edition."
+readme = "README.rst"
+requires-python = ">=3.13"
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "sympy",
+    "rich",
+    "geometor-model",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.6",
+]
+
+[project.scripts]
+fibonacci = "geometor.fibonacci.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["geometor*"]
+namespaces = true
+
+[tool.setuptools.dynamic]
+version = { attr = "geometor.fibonacci.__version__" }
+
+[project.urls]
+"Website" = "https://geometor.github.io/fibonacci"
+"Repository" = "https://github.com/geometor/fibonacci"
+"Issues" = "https://github.com/geometor/fibonacci/issues"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py313"
+line-length = 100
+src = ["src", "scripts", "demos", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501"]

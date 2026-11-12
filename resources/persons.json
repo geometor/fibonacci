@@ -1,0 +1,218 @@
+{
+  "fibonacci": {
+    "slug": "fibonacci",
+    "name": "Leonardo Pisano (Fibonacci / Leonardo Bigollo de filiis Bonaccii)",
+    "dates": "c. 1170 – c. 1245",
+    "role": "Pisan Mathematician & Architect of Western Symbolic Arithmetic and Constructive Geometry",
+    "bio": "Educated in Bugia (Béjaïa, North Africa) where his father Guglielmo Bonacci directed the Pisan customs house, Leonardo traveled throughout Egypt, Syria, Greece, Sicily, and Provence studying Indo-Arabic arithmetic, al-Khwārizmī's and Abū Kāmil's algebra, and the Graeco-Arabic geometric canon. Returning to Pisa around 1200, he authored Liber Abaci (1202, rev. 1228), Practica Geometriae (1220), Epistola ad Magistrum Theodorum, Flos (1225), and Liber Quadratorum (1225), earning an annual civic stipend from the Republic of Pisa in 1241.",
+    "works": [
+      "Liber Abaci (1202 / 1228)",
+      "Practica Geometriae (1220)",
+      "Flos (1225)",
+      "Liber Quadratorum (1225)",
+      "Epistola ad Magistrum Theodorum"
+    ]
+  },
+  "dominicus": {
+    "slug": "dominicus",
+    "name": "Master Dominicus (Magister Dominicus)",
+    "dates": "fl. 1220–1228",
+    "role": "Imperial Court Scholar & Dedicatee of Practica Geometriae",
+    "bio": "Revered friend and magister to whom Leonardo Pisano dedicated the Practica Geometriae in 1220 ('Rogasti, amice Dominice et reverende magister...'), and who later introduced Leonardo to Emperor Frederick II's court in Pisa.",
+    "works": []
+  },
+  "frederick-ii": {
+    "slug": "frederick-ii",
+    "name": "Frederick II of Hohenstaufen (Stupor Mundi)",
+    "dates": "1194 – 1250",
+    "role": "Holy Roman Emperor & King of Sicily",
+    "bio": "Patron of Graeco-Arabic science and philosophy whose court philosophers John of Palermo, Michael Scot, and Master Theodorus posed the geometric, Diophantine, and cubic challenges to Leonardo Pisano at Pisa around 1225, inspiring Flos and Liber Quadratorum.",
+    "works": [
+      "De arte venandi cum avibus"
+    ]
+  },
+  "john-of-palermo": {
+    "slug": "john-of-palermo",
+    "name": "John of Palermo (Iohannes Panormitanus)",
+    "dates": "fl. 1221–1240",
+    "role": "Imperial Court Philosopher & Arabic-Latin Translator",
+    "bio": "Philosopher at Frederick II's court who challenged Leonardo Pisano with the cubic equation x^3 + 2x^2 + 10x = 20 (from 'Umar al-Khayyāmī's algebra) and the Diophantine congruum problem x^2 ± 5 = square, answered in Flos and Liber Quadratorum (1225).",
+    "works": []
+  },
+  "michael-scot": {
+    "slug": "michael-scot",
+    "name": "Michael Scot (Michael Scottus)",
+    "dates": "c. 1175 – c. 1232",
+    "role": "Court Astrologer, Philosopher & Dedicatee of the 1228 Liber Abaci",
+    "bio": "Translator of Aristotle, Averroes, and al-Bitrūjī at Toledo and Frederick II's Sicilian court; Leonardo Pisano dedicated the revised 1228 edition of Liber Abaci to him.",
+    "works": [
+      "Liber introductorius"
+    ]
+  },
+  "theodorus": {
+    "slug": "theodorus",
+    "name": "Master Theodorus of Antioch",
+    "dates": "d. c. 1250",
+    "role": "Imperial Court Philosopher & Mathematician",
+    "bio": "Jacobite Christian scholar trained in Mosul and Baghdad who served as Frederick II's court philosopher and corresponded with Leonardo Pisano on indeterminate equations and inscribed regular polygons.",
+    "works": []
+  },
+  "raniero-capocci": {
+    "slug": "raniero-capocci",
+    "name": "Raniero Capocci of Viterbo",
+    "dates": "c. 1180 – 1250",
+    "role": "Cardinal Deacon of Santa Maria in Cosmedin & Dedicatee of Flos",
+    "bio": "Papal prelate and patron of learning to whom Leonardo Pisano addressed the dedicatory epistle of Flos (1225).",
+    "works": []
+  },
+  "euclid": {
+    "slug": "euclid",
+    "name": "Euclid of Alexandria",
+    "dates": "fl. c. 300 BC",
+    "role": "Author of the Elements & On Divisions of Figures",
+    "bio": "Alexandrian geometer whose Elements (Books I–XIII) supply the demonstrative spine of every distinction in Practica Geometriae, and whose lost Greek treatise On Divisions of Figures survives most completely in Latin through Fibonacci's Distinctio IV.",
+    "works": [
+      "Elements (Books I–XIII)",
+      "On Divisions of Figures (Peri Diaireseon)",
+      "Data",
+      "Optics"
+    ]
+  },
+  "archimedes": {
+    "slug": "archimedes",
+    "name": "Archimedes of Syracuse",
+    "dates": "c. 287 – 212 BC",
+    "role": "Geometer of Circle Bounds & Sphere-Cylinder Mensuration",
+    "bio": "Cited by Fibonacci as 'Archimenides phylosophus'; his 96-gon polygon bisection in Measurement of a Circle and his sphere-and-cylinder theorems underlie Distinctio III (pi ~ 864/275) and Distinctio VI.",
+    "works": [
+      "Measurement of a Circle",
+      "On the Sphere and Cylinder"
+    ]
+  },
+  "heron": {
+    "slug": "heron",
+    "name": "Heron of Alexandria",
+    "dates": "fl. 1st century AD",
+    "role": "Author of Metrica & Dioptra",
+    "bio": "Alexandrian mathematician and engineer whose triangle area formula in terms of the semiperimeter s and excesses (s-a, s-b, s-c) receives a complete Euclidean incenter demonstration in Practica Geometriae Distinctio III.",
+    "works": [
+      "Metrica",
+      "Dioptra"
+    ]
+  },
+  "hypsicles": {
+    "slug": "hypsicles",
+    "name": "Hypsicles of Alexandria",
+    "dates": "c. 190 – c. 120 BC",
+    "role": "Author of Elements Book XIV",
+    "bio": "Alexandrian geometer whose treatise ('Book XIV' of the Euclidean corpus) proved that the dodecahedron and icosahedron inscribed in the same sphere share a common face circumcircle and have volumes proportional to their surface areas and to e_6 : e_20—explicitly cited and demonstrated by Fibonacci at the close of Distinctio VI.",
+    "works": [
+      "On Regular Polyhedra (Elements Book XIV)"
+    ]
+  },
+  "ptolemy": {
+    "slug": "ptolemy",
+    "name": "Claudius Ptolemy",
+    "dates": "c. 100 – c. 170 AD",
+    "role": "Author of the Almagest",
+    "bio": "Alexandrian astronomer and geometer cited repeatedly in Practica Geometriae (Distinctio III, VI, VIII) for chord tables, cyclic quadrilateral products (Ptolemy's theorem), and spherical geometry.",
+    "works": [
+      "Almagest (Mathematike Syntaxis)"
+    ]
+  },
+  "menelaus": {
+    "slug": "menelaus",
+    "name": "Menelaus of Alexandria ('Mileus')",
+    "dates": "c. 70 – 140 AD",
+    "role": "Geometer of Chords & Sphaerica",
+    "bio": "Cited by Fibonacci as 'in libro Milei' (Distinctio VI, p. 197) alongside the Almagest and Euclid Book XIV in the analysis of pentagonal chords and spherical figures.",
+    "works": [
+      "Sphaerica",
+      "Chords in a Circle"
+    ]
+  },
+  "al-khwarizmi": {
+    "slug": "al-khwarizmi",
+    "name": "Muḥammad ibn Mūsā al-Khwārizmī",
+    "dates": "c. 780 – c. 850",
+    "role": "Founder of Hisāb al-jabr wa-l-muqābala",
+    "bio": "Baghdad House of Wisdom mathematician whose six canonical quadratic equations in res (radix), census (mal), and dragma (numerus) provide the algebraic engine of Liber Abaci Ch. 15 and Practica Geometriae Distinctio VIII.",
+    "works": [
+      "Kitāb al-mukhtaṣar fī ḥisāb al-jabr wa-l-muqābala"
+    ]
+  },
+  "abu-kamil": {
+    "slug": "abu-kamil",
+    "name": "Abū Kāmil Shujāʿ ibn Aslam",
+    "dates": "c. 850 – c. 930",
+    "role": "Egyptian Algebraist ('The Reckoner')",
+    "bio": "Author of On the Pentagon and Decagon and the Book of Algebra, whose biquadratic equations (census census) for inscribing regular polygons inside a circle of diameter 10 directly inspired Fibonacci's Distinctio VIII.",
+    "works": [
+      "Kitāb fī al-jabr wa-l-muqābala",
+      "On the Pentagon and Decagon"
+    ]
+  },
+  "banu-musa": {
+    "slug": "banu-musa",
+    "name": "Banū Mūsā (Muḥammad, Aḥmad, and al-Ḥasan ibn Mūsā)",
+    "dates": "9th century",
+    "role": "Baghdad Geometers of Verba filiorum",
+    "bio": "Three brothers whose Book on the Measurement of Plane and Spherical Figures (translated into Latin by Gerard of Cremona as Verba filiorum) transmitted Heron's incenter proof and Archimedean circle and sphere proofs to the Latin West.",
+    "works": [
+      "Verba filiorum Moysi filii Sekir"
+    ]
+  },
+  "savasorda": {
+    "slug": "savasorda",
+    "name": "Abraham bar Ḥiyya ha-Nasi (Savasorda)",
+    "dates": "c. 1070 – c. 1136",
+    "role": "Author of Ḥibbur ha-Meshīḥah we-ha-Tishboret (Liber embadorum)",
+    "bio": "Barcelona mathematician whose Hebrew treatise on practical geometry (translated into Latin as Liber embadorum by Plato of Tivoli in 1145) pioneered the transmission of Euclidean field divisions, chord tables, and quadratic mensuration in Europe prior to Fibonacci's vaster synthesis.",
+    "works": [
+      "Liber embadorum (1145)"
+    ]
+  },
+  "gerard-of-cremona": {
+    "slug": "gerard-of-cremona",
+    "name": "Gerard of Cremona",
+    "dates": "c. 1114 – 1187",
+    "role": "Master Translator of the Toledo School",
+    "bio": "Translated Euclid's Elements (with Books XIV–XV), Ptolemy's Almagest, al-Khwārizmī's Algebra, Abū Kāmil, Archimedes' Measurement of a Circle, and the Banū Mūsā's Verba filiorum into Latin—forging much of the technical Latin vocabulary used by Fibonacci.",
+    "works": []
+  },
+  "piero-della-francesca": {
+    "slug": "piero-della-francesca",
+    "name": "Piero della Francesca",
+    "dates": "c. 1415 – 1492",
+    "role": "Renaissance Painter & Geometer",
+    "bio": "Adapted Fibonacci's Practica Geometriae (especially Distinctio VI on the five regular solids in a sphere and Distinctio VIII on golden pentagon chords) directly into his Trattato d'abaco and Libellus de quinque corporibus regularibus.",
+    "works": [
+      "Trattato d'abaco",
+      "De prospectiva pingendi",
+      "Libellus de quinque corporibus regularibus"
+    ]
+  },
+  "pacioli": {
+    "slug": "pacioli",
+    "name": "Luca Pacioli, O.F.M.",
+    "dates": "c. 1447 – 1517",
+    "role": "Renaissance Mathematician & Author of De Divina Proportione",
+    "bio": "Explicitly acknowledged Leonardo Pisano as his primary fountainhead across Summa de arithmetica, geometria, proportioni et proportionalita (1494) and De Divina Proportione (1509), transmitting Fibonacci's Pisan field geometry, divisions, and golden polyhedral mensuration into Renaissance print.",
+    "works": [
+      "Summa de arithmetica, geometria, proportioni et proportionalita (1494)",
+      "De Divina Proportione (1509)"
+    ]
+  },
+  "boncompagni": {
+    "slug": "boncompagni",
+    "name": "Baldassarre Boncompagni-Ludovisi",
+    "dates": "1821 – 1894",
+    "role": "Historian of Mathematics & Editor of Scritti di Leonardo Pisano",
+    "bio": "Roman prince, bibliophile, and historian of science who edited and published the monumental editio princeps of Fibonacci's complete works in two folio volumes (Rome, 1857 and 1862) from the Florentine and Milanese manuscripts.",
+    "works": [
+      "Scritti di Leonardo Pisano, Vol. I: Il Liber Abbaci (1857)",
+      "Scritti di Leonardo Pisano, Vol. II: Practica Geometriae ed Opuscoli (1862)",
+      "Della vita e delle opere di Leonardo Pisano (1852)"
+    ]
+  }
+}

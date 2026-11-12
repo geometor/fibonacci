@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 680 540" data-graphic-id="pentagon_decagon_circle" role="img" aria-label="Distinctio VIII — Regular Pentagon &amp; Decagon in Circle of Diameter 10">
+  <title>Distinctio VIII — Regular Pentagon &amp; Decagon in Circle of Diameter 10</title>
+  <defs>
+    <marker id="geom-tick-1" viewBox="-4 -8 8 16" markerWidth="8" markerHeight="16" orient="auto">
+      <line x1="0" y1="-5" x2="0" y2="5" stroke="currentColor" stroke-width="1.5" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -8 12 16" markerWidth="12" markerHeight="16" orient="auto">
+      <line x1="-2" y1="-5" x2="-2" y2="5" stroke="currentColor" stroke-width="1.5" />
+      <line x1="2" y1="-5" x2="2" y2="5" stroke="currentColor" stroke-width="1.5" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-8 -8 16 16" markerWidth="16" markerHeight="16" orient="auto">
+      <line x1="-4" y1="-5" x2="-4" y2="5" stroke="currentColor" stroke-width="1.5" />
+      <line x1="0" y1="-5" x2="0" y2="5" stroke="currentColor" stroke-width="1.5" />
+      <line x1="4" y1="-5" x2="4" y2="5" stroke="currentColor" stroke-width="1.5" />
+    </marker>
+  </defs>
+  <style>
+.euclid-graphic {
+    --svg-bg: #fafaf9;
+    --ink: #1c1917;
+    --label-halo: rgba(250, 250, 249, 0.92);
+    --carrier: #475569;
+    --circle-main: #0284c7;
+    --circle-guide: #64748b;
+    --bisector: #0d9488;
+    --parallel: #6366f1;
+    --golden: #d97706;
+    --tetra: #e11d48;
+    --octa: #0284c7;
+    --cube: #059669;
+    --icosa: #7c3aed;
+    --grid: #94a3b8;
+    --share-p: #f59e0b;
+    --share-q: #0ea5e9;
+    --pes-strip: #10b981;
+    --pt-given: #0f172a;
+    --pt-result: #0369a1;
+    --pt-mid: #0f766e;
+    --pt-golden: #d97706;
+    font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    .euclid-graphic {
+      --svg-bg: #141417;
+      --ink: #f4f4f5;
+      --label-halo: rgba(20, 20, 23, 0.92);
+      --carrier: #94a3b8;
+      --circle-main: #38bdf8;
+      --circle-guide: #94a3b8;
+      --bisector: #2dd4bf;
+      --parallel: #818cf8;
+      --golden: #fbbf24;
+      --tetra: #fb7185;
+      --octa: #38bdf8;
+      --cube: #34d399;
+      --icosa: #c084fc;
+      --grid: #64748b;
+      --share-p: #fbbf24;
+      --share-q: #38bdf8;
+      --pes-strip: #34d399;
+      --pt-given: #e2e8f0;
+      --pt-result: #38bdf8;
+      --pt-mid: #2dd4bf;
+      --pt-golden: #fbbf24;
+    }
+  }
+  .euclid-graphic .svg-bg { fill: var(--svg-bg); }
+  .euclid-graphic .geom-circle { fill: none; stroke: var(--circle-main); stroke-width: 2.1; opacity: 0.9; }
+  .euclid-graphic .geom-circle.incircle-curve { stroke: var(--golden); stroke-width: 2.35; }
+  .euclid-graphic .geom-circle.guide-circle { stroke: var(--circle-guide); stroke-width: 1.35; stroke-dasharray: 5 4; opacity: 0.68; }
+  .euclid-graphic .geom-circle.transfer-circle { stroke: var(--golden); stroke-width: 1.45; stroke-dasharray: 6 4; opacity: 0.78; }
+  .euclid-graphic .geom-line { fill: none; stroke: var(--carrier); stroke-width: 1.45; stroke-linecap: round; opacity: 0.72; }
+  .euclid-graphic .geom-line.carrier-line { stroke: var(--carrier); stroke-width: 1.85; opacity: 0.88; }
+  .euclid-graphic .geom-line.bisector-line { stroke: var(--bisector); stroke-width: 1.55; stroke-dasharray: 6 3.5; opacity: 0.85; }
+  .euclid-graphic .geom-line.parallel-line { stroke: var(--parallel); stroke-width: 1.65; stroke-dasharray: 5 3.5; opacity: 0.88; }
+  .euclid-graphic .geom-line.tangent-line { stroke: var(--icosa); stroke-width: 1.75; opacity: 0.88; }
+  .euclid-graphic .geom-segment { fill: none; stroke: var(--carrier); stroke-width: 2.1; stroke-linecap: round; }
+  .euclid-graphic .geom-segment.grid-seg { stroke: var(--grid); stroke-width: 1.05; opacity: 0.48; }
+  .euclid-graphic .geom-segment.bisector-seg { stroke: var(--bisector); stroke-width: 1.9; stroke-dasharray: 5 3; }
+  .euclid-graphic .geom-segment.inradius-seg { stroke: var(--golden); stroke-width: 2.2; }
+  .euclid-graphic .geom-segment.cut-seg { stroke: var(--golden); stroke-width: 3.0; }
+  .euclid-graphic .geom-segment.golden-seg { stroke: var(--golden); stroke-width: 3.2; opacity: 0.95; }
+  .euclid-graphic .geom-segment.tetra-seg { stroke: var(--tetra); stroke-width: 2.75; }
+  .euclid-graphic .geom-segment.octa-seg { stroke: var(--octa); stroke-width: 2.75; }
+  .euclid-graphic .geom-segment.cube-seg { stroke: var(--cube); stroke-width: 2.75; }
+  .euclid-graphic .geom-segment.icosa-seg { stroke: var(--icosa); stroke-width: 2.75; }
+  .euclid-graphic .geom-polygon { fill: var(--share-q); fill-opacity: 0.05; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round; }
+  .euclid-graphic .geom-polygon.share-p-poly { fill: var(--share-p); fill-opacity: 0.13; stroke: var(--golden); stroke-width: 1.8; }
+  .euclid-graphic .geom-polygon.share-q-poly { fill: var(--share-q); fill-opacity: 0.08; stroke: var(--circle-main); stroke-width: 1.6; }
+  .euclid-graphic .geom-polygon.pes-strip-poly { fill: var(--pes-strip); fill-opacity: 0.14; stroke: var(--cube); stroke-width: 1.7; }
+  .euclid-graphic .geom-polygon.denarius-poly { fill: var(--share-p); fill-opacity: 0.28; stroke: var(--golden); stroke-width: 2.2; }
+  .euclid-graphic .geom-point { fill: var(--pt-given); stroke: var(--svg-bg); stroke-width: 1.5; }
+  .euclid-graphic .geom-point.result-point { fill: var(--pt-result); }
+  .euclid-graphic .geom-point.mid-point { fill: var(--pt-mid); }
+  .euclid-graphic .geom-point.golden-point { fill: var(--pt-golden); stroke-width: 1.8; }
+  .euclid-graphic .geom-label {
+    fill: var(--ink);
+    font-size: 13.5px;
+    font-weight: 600;
+    paint-order: stroke fill;
+    stroke: var(--label-halo);
+    stroke-width: 3.6px;
+    stroke-linejoin: round;
+    user-select: none;
+  }
+  .euclid-graphic .geom-label-sub { font-size: 10px; font-weight: 600; }
+  </style>
+  <rect class="svg-bg" x="0" y="0" width="680" height="540" rx="6" fill="none" />
+  <g id="elements">
+    <g id="graphics">
+      <polygon class="geom-polygon share-p-poly" points="295.54,88.46 471.72,216.46 404.43,423.57 186.66,423.57 119.36,216.46" data-ref="&lt; D P1 P2 P3 P4 &gt;" data-aliases="pentagon | &lt; P4 P3 P2 P1 D &gt; | &lt; P1 P2 P3 P4 D &gt; | &lt; P2 P3 P4 D P1 &gt; | &lt; P3 P4 D P1 P2 &gt; | &lt; P4 D P1 P2 P3 &gt;" fill="none" />
+      <circle class="geom-circle" cx="295.54" cy="273.7" r="185.25" data-ref="( I A )" data-aliases="circDAC | ( I C ) | ( I D ) | ( I P1 ) | ( I P4 ) | ( I P2 ) | ( I P3 ) | ( I Q1 ) | ( A C D )" fill="none"><title>( I A ): x**2 + y**2 - 25 = 0</title></circle>
+      <circle class="geom-circle transfer-circle" cx="388.16" cy="273.7" r="207.11" data-ref="( H D )" data-aliases="circHD | ( H K )" fill="none"><title>( H D ): y**2 + (x - 5/2)**2 - 125/4 = 0</title></circle>
+      <path class="geom-line carrier-line" d="M 14 273.7 L 340 273.7 L 666 273.7" data-ref="[ I K ]" data-aliases="lnCA | [ I A ] | / I A / | [ I C ] | / I C / | [ I H ] | / I H / | / I K / | [ A I ] | / A I / | [ A C ] | / A C / | [ A H ] | / A H / | [ A K ] | / A K / | [ C I ] | / C I / | [ C A ] | / C A / | [ C H ] | / C H / | [ C K ] | / C K / | [ H I ] | / H I / | [ H A ] | / H A / | [ H C ] | / H C / | [ H K ] | / H K / | [ K I ] | / K I / | [ K A ] | / K A / | [ K C ] | / K C / | [ K H ] | / K H /" fill="none"><title>[ I K ]: y = 0</title></path>
+      <path class="geom-segment bisector-seg" d="M 295.54 273.7 L 295.54 181.08 L 295.54 88.46" data-ref="/ I D /" data-aliases="segID | / D I / | [ I D ] | [ D I ]" fill="none"><title>/ I D /: length = 5</title></path>
+      <path class="geom-segment bisector-seg" d="M 388.16 273.7 L 341.85 181.08 L 295.54 88.46" data-ref="/ H D /" data-aliases="segHD | / D H / | [ H D ] | [ D H ]" fill="none"><title>/ H D /: length = 5*sqrt(5)/2</title></path>
+      <path class="geom-segment golden-seg" d="M 295.54 273.7 L 238.3 273.7 L 181.05 273.7" data-ref="/ I K /" data-aliases="segIK | / K I / | [ I K ] | [ K I ]" fill="none"><title>/ I K /: length = -5/2 + 5*sqrt(5)/2</title></path>
+      <path class="geom-segment golden-seg" d="M 295.54 88.46 L 238.3 181.08 L 181.05 273.7" data-ref="/ D K /" data-aliases="segDK | / K D / | [ D K ] | [ K D ]" fill="none"><title>/ D K /: length = 5*sqrt(10 - 2*sqrt(5))/2</title></path>
+      <path class="geom-segment golden-seg" d="M 295.54 88.46 L 349.98 106.15 L 404.43 123.84" data-ref="/ D Q1 /" data-aliases="segDQ1 | / Q1 D / | [ D Q1 ] | [ Q1 D ]" fill="none"><title>/ D Q1 /: length = 10*sqrt(-600*sqrt(5 - sqrt(5))*sqrt(sqrt(5) + 5) - 450*sqrt(6)*sqrt(5 - sqrt(5)) - 150*sqrt(30)*sqrt(5 - sqrt(5)) - 600*sqrt(5) - 60*sqrt(5)*sqrt(5 - sqrt(5))*sqrt(sqrt(5) + 5) + 600*sqrt(6)*sqrt(sqrt(5) + 5) + 5400)/(sqrt(5 - sqrt(5))*(sqrt(15)*sqrt(sqrt(5) + 5) + 5*sqrt(3)*sqrt(sqrt(5) + 5) + 30*sqrt(2)))</title></path>
+      <path class="geom-segment golden-seg" d="M 404.43 123.84 L 438.07 170.15 L 471.72 216.46" data-ref="/ Q1 P1 /" data-aliases="segQ1P1 | / P1 Q1 / | [ Q1 P1 ] | [ P1 Q1 ]" fill="none"><title>/ Q1 P1 /: length = 10*sqrt(-600*sqrt(5 - sqrt(5))*sqrt(sqrt(5) + 5) - 450*sqrt(6)*sqrt(5 - sqrt(5)) - 150*sqrt(30)*sqrt(5 - sqrt(5)) - 600*sqrt(5) - 60*sqrt(5)*sqrt(5 - sqrt(5))*sqrt(sqrt(5) + 5) + 600*sqrt(6)*sqrt(sqrt(5) + 5) + 5400)/(sqrt(5 - sqrt(5))*(sqrt(15)*sqrt(sqrt(5) + 5) + 5*sqrt(3)*sqrt(sqrt(5) + 5) + 30*sqrt(2)))</title></path>
+    </g>
+    <g id="highlights"></g>
+    <g id="points">
+      <circle class="geom-point given-point" cx="480.79" cy="273.7" r="4.2" data-ref="A" data-latex-x="5" data-latex-y="0"><title>A = (5, 0)</title></circle>
+      <circle class="geom-point given-point" cx="110.3" cy="273.7" r="4.2" data-ref="C" data-latex-x="-5" data-latex-y="0"><title>C = (-5, 0)</title></circle>
+      <circle class="geom-point given-point result-point" cx="295.54" cy="273.7" r="4.4" data-ref="I" data-latex-x="0" data-latex-y="0"><title>I = (0, 0)</title></circle>
+      <circle class="geom-point-halo" cx="295.54" cy="88.46" r="8.6" fill="none" stroke="currentColor" stroke-opacity="0.35" stroke-width="1.6" />
+      <circle class="geom-point given-point result-point" cx="295.54" cy="88.46" r="4.4" data-ref="D" data-latex-x="0" data-latex-y="5"><title>D = (0, 5)</title></circle>
+      <circle class="geom-point mid-point result-point" cx="388.16" cy="273.7" r="4.4" data-ref="H" data-latex-x="\frac{5}{2}" data-latex-y="0"><title>H = (5/2, 0)</title></circle>
+      <circle class="geom-point result-point" cx="471.72" cy="216.46" r="4.4" data-ref="P1" data-latex-x="\frac{5 \sqrt{2} \sqrt{\sqrt{5} + 5}}{4}" data-latex-y="- \frac{5}{4} + \frac{5 \sqrt{5}}{4}"><title>P1 = (5*sqrt(2)*sqrt(sqrt(5) + 5)/4, -5/4 + 5*sqrt(5)/4)</title></circle>
+      <circle class="geom-point result-point" cx="119.36" cy="216.46" r="4.4" data-ref="P4" data-latex-x="- \frac{5 \sqrt{2} \sqrt{\sqrt{5} + 5}}{4}" data-latex-y="- \frac{5}{4} + \frac{5 \sqrt{5}}{4}"><title>P4 = (-5*sqrt(2)*sqrt(sqrt(5) + 5)/4, -5/4 + 5*sqrt(5)/4)</title></circle>
+      <circle class="geom-point result-point" cx="404.43" cy="423.57" r="4.4" data-ref="P2" data-latex-x="- \frac{5 \sqrt{2} \sqrt{\sqrt{5} + 5}}{8} + \frac{5 \sqrt{10} \sqrt{\sqrt{5} + 5}}{8}" data-latex-y="- \frac{5 \sqrt{5}}{4} - \frac{5}{4}"><title>P2 = (-5*sqrt(2)*sqrt(sqrt(5) + 5)/8 + 5*sqrt(10)*sqrt(sqrt(5) + 5)/8, -5*sqrt(5)/4 - 5/4)</title></circle>
+      <circle class="geom-point result-point" cx="186.66" cy="423.57" r="4.4" data-ref="P3" data-latex-x="- \frac{5 \sqrt{10} \sqrt{\sqrt{5} + 5}}{8} + \frac{5 \sqrt{2} \sqrt{\sqrt{5} + 5}}{8}" data-latex-y="- \frac{5 \sqrt{5}}{4} - \frac{5}{4}"><title>P3 = (-5*sqrt(10)*sqrt(sqrt(5) + 5)/8 + 5*sqrt(2)*sqrt(sqrt(5) + 5)/8, -5*sqrt(5)/4 - 5/4)</title></circle>
+      <circle class="geom-point-halo" cx="181.05" cy="273.7" r="9.2" fill="none" stroke="currentColor" stroke-opacity="0.35" stroke-width="1.6" />
+      <circle class="geom-point result-point golden-point" cx="181.05" cy="273.7" r="5" data-ref="K" data-latex-x="\frac{5}{2} - \frac{5 \sqrt{5}}{2}" data-latex-y="0"><title>K = (5/2 - 5*sqrt(5)/2, 0)</title></circle>
+      <circle class="geom-point-halo" cx="404.43" cy="123.84" r="9.2" fill="none" stroke="currentColor" stroke-opacity="0.35" stroke-width="1.6" />
+      <circle class="geom-point result-point golden-point" cx="404.43" cy="123.84" r="5" data-ref="Q1" data-latex-x="\frac{- 75 \sqrt{15} + 75 \sqrt{2} \sqrt{\sqrt{5} + 5} + 375 \sqrt{3}}{\sqrt{15 - 3 \sqrt{5}} \left(\sqrt{15} \sqrt{\sqrt{5} + 5} + 5 \sqrt{3} \sqrt{\sqrt{5} + 5} + 30 \sqrt{2}\right)}" data-latex-y="\frac{75 \sqrt{5} + 225 + 75 \sqrt{6} \sqrt{\sqrt{5} + 5}}{\sqrt{15 - 3 \sqrt{5}} \left(\sqrt{15} \sqrt{\sqrt{5} + 5} + 5 \sqrt{3} \sqrt{\sqrt{5} + 5} + 30 \sqrt{2}\right)}"><title>Q1 = ((-75*sqrt(15) + 75*sqrt(2)*sqrt(sqrt(5) + 5) + 375*sqrt(3))/(sqrt(15 - 3*sqrt(5))*(sqrt(15)*sqrt(sqrt(5) + 5) + 5*sqrt(3)*sqrt(sqrt(5) + 5) + 30*sqrt(2))), (75*sqrt(5) + 225 + 75*sqrt(6)*sqrt(sqrt(5) + 5))/(sqrt(15 - 3*sqrt(5))*(sqrt(15)*sqrt(sqrt(5) + 5) + 5*sqrt(3)*sqrt(sqrt(5) + 5) + 30*sqrt(2))))</title></circle>
+    </g>
+    <g id="labels">
+      <text class="geom-label" x="474.94" y="258.76" data-ref="A">A</text>
+      <text class="geom-label" x="104.45" y="258.76" data-ref="C">C</text>
+      <text class="geom-label" x="289.69" y="298.36" data-ref="I">I</text>
+      <text class="geom-label" x="289.69" y="73.32" data-ref="D">D</text>
+      <text class="geom-label" x="382.31" y="298.36" data-ref="H">H</text>
+      <text class="geom-label" x="463.08" y="241.12" data-ref="P1">P<tspan class="geom-label-sub" dy="3">1</tspan></text>
+      <text class="geom-label" x="110.72" y="201.32" data-ref="P4">P<tspan class="geom-label-sub" dy="3">4</tspan></text>
+      <text class="geom-label" x="395.79" y="408.43" data-ref="P2">P<tspan class="geom-label-sub" dy="3">2</tspan></text>
+      <text class="geom-label" x="178.02" y="408.43" data-ref="P3">P<tspan class="geom-label-sub" dy="3">3</tspan></text>
+      <text class="geom-label" x="175.2" y="298.96" data-ref="K">K</text>
+      <text class="geom-label" x="395.79" y="108.1" data-ref="Q1">Q<tspan class="geom-label-sub" dy="3">1</tspan></text>
+    </g>
+  </g>
+</svg>

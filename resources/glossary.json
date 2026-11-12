@@ -1,0 +1,121 @@
+{
+  "pertica": {
+    "slug": "pertica",
+    "headword": "pertica (pertica pisana)",
+    "language": "Medieval Latin (Pisan Metrology)",
+    "translation": "Pisan surveying rod (linear or superficial)",
+    "definition": "Fundamental Pisan unit of land measurement: 1 linear pertica = 6 linear pedes = 108 unciae (puncta); 1 superficial (square) pertica = 6 superficial pedes = 36 denarii = 108 superficial unciae (Practica Geometriae, Introductoria, p. 3)."
+  },
+  "pes": {
+    "slug": "pes",
+    "headword": "pes (linealis / superficialis)",
+    "language": "Medieval Latin (Pisan Metrology)",
+    "translation": "Pisan foot (1/6 of a pertica)",
+    "definition": "As a linear measure, 1/6 of a pertica (= 18 unciae). As a superficial strip ('pes terrae'), a rectangle 1 pertica (6 linear pedes) long by 1 linear pes wide, equal to 1/6 of a square pertica or 6 denarii (Introductoria, p. 3)."
+  },
+  "uncia": {
+    "slug": "uncia",
+    "headword": "uncia / punctum",
+    "language": "Medieval Latin (Pisan Metrology)",
+    "translation": "inch or point (1/18 of a Pisan pes; 1/108 of a pertica)",
+    "definition": "Fine subdivision of the Pisan rod: 18 linear unciae make 1 linear pes, and 108 linear unciae make 1 pertica. Superficially, 18 superficial unciae make 1 superficial pes (Introductoria, p. 3)."
+  },
+  "denarius": {
+    "slug": "denarius",
+    "headword": "denarius de mensura",
+    "language": "Medieval Latin (Pisan Metrology)",
+    "translation": "measuring denarius (1 square pes = 1/36 square pertica)",
+    "definition": "Unit square of side 1 linear pes inside the 6 × 6 grid of the square pertica, so that 6 denarii equal 1 superficial pes and 36 denarii equal 1 superficial pertica (Distinctio I, pp. 3–5)."
+  },
+  "panorum": {
+    "slug": "panorum",
+    "headword": "panorum",
+    "language": "Medieval Latin (Pisan Metrology)",
+    "translation": "panorum (5 1/2 square perticae)",
+    "definition": "Pisan agrarian land measure equal to 5 1/2 superficial perticae (= 1/12 of a stariorum), used throughout the episcopate of Pisa (Introductoria, p. 3)."
+  },
+  "stariorum": {
+    "slug": "stariorum",
+    "headword": "stariorum",
+    "language": "Medieval Latin (Pisan Metrology)",
+    "translation": "stariorum (12 panora = 66 square perticae)",
+    "definition": "Principal Pisan grain-seeding field area equal to 12 panora or 66 superficial perticae; 24 stariora constitute 1 modiorum (= 1584 square perticae) (Introductoria, pp. 3–5)."
+  },
+  "embadum": {
+    "slug": "embadum",
+    "headword": "embadum",
+    "language": "Medieval Latin (from Greek embadon via Arabic/Hebrew)",
+    "translation": "planar area / surface content (or squared side)",
+    "definition": "Standard Graeco-Latin technical term across Savasorda and Fibonacci for the superficial content (area) of a plane figure, and by extension the square built on the edge of a polyhedron ('embadum lateris', Distinctio III & VI)."
+  },
+  "cathetus": {
+    "slug": "cathetus",
+    "headword": "cathetus",
+    "language": "Latin (from Greek kathetos)",
+    "translation": "perpendicular altitude",
+    "definition": "Perpendicular line dropped from a vertex of a triangle, pyramid, or cone onto the opposite base line or base plane ('linea perpendicularis, quae cathetus appellatur', Distinctio III, p. 39)."
+  },
+  "casus": {
+    "slug": "casus",
+    "headword": "casus (maior / minor)",
+    "language": "Medieval Latin",
+    "translation": "projection segment cut on the base by the altitude",
+    "definition": "Each of the two segments into which the foot of the cathetus divides the base of a triangle; on the (13, 14, 15) triangle with base 14, the minor casus is 5, the major casus is 9, and the cathetus is 12 (Distinctio III, p. 39)."
+  },
+  "consortes": {
+    "slug": "consortes",
+    "headword": "consortes",
+    "language": "Latin (Legal & Agrarian)",
+    "translation": "co-heirs / joint landholding partners",
+    "definition": "Partners or co-owners sharing a field, orchard, well, or boundary access in fixed rational shares (e.g. halves, thirds, or p : q), motivating the exact Euclidean division constructions of Distinctio IV ('de divisione camporum inter consortes', p. 110)."
+  },
+  "media-et-extrema-proportio": {
+    "slug": "media-et-extrema-proportio",
+    "headword": "media et extrema proportio",
+    "language": "Latin (Euclid VI.def.3 / II.11 / XIII.1–18)",
+    "translation": "extreme and mean ratio (the golden section φ)",
+    "definition": "Division of a segment AB at G so that the whole AB is to the greater part BG as BG is to the lesser part AG (AB : BG = BG : AG = φ = (1 + √5)/2). Used by Fibonacci in Distinctio VI (pp. 196–202) to construct the dodecahedron and icosahedron and in Distinctio VIII (pp. 207–208) for the pentagon and decagon."
+  },
+  "res": {
+    "slug": "res",
+    "headword": "res / radix",
+    "language": "Medieval Latin (from Arabic shayʾ / jidhr)",
+    "translation": "the unknown quantity x ('thing' or 'root')",
+    "definition": "First-degree algebraic unknown x in al-Khwārizmī's and Fibonacci's rhetorical algebra (Distinctio VIII, pp. 207–224; Liber Abaci Cap. XV)."
+  },
+  "census": {
+    "slug": "census",
+    "headword": "census",
+    "language": "Medieval Latin (from Arabic māl)",
+    "translation": "the square of the unknown (x^2)",
+    "definition": "Second-degree algebraic power x^2 ('wealth/square'); doubled in Distinctio VIII as 'census census' for the fourth power x^4 in biquadratic polygon problems such as x^4 + 3125 = 125 x^2 (pp. 207–208)."
+  },
+  "binomiale": {
+    "slug": "binomiale",
+    "headword": "linea binomialis / binomiale",
+    "language": "Medieval Latin (Euclid Book X.36)",
+    "translation": "binomial irrational line (a + √b or √a + √b)",
+    "definition": "Compound irrational magnitude formed by adding two lines commensurable in square only, classified into six species in Euclid Book X and tested systematically by Fibonacci in Distinctio VIII and Flos."
+  },
+  "recisum": {
+    "slug": "recisum",
+    "headword": "recisum (apotome)",
+    "language": "Medieval Latin (from Gerard of Cremona's Euclid Book X.73)",
+    "translation": "apotome / residual irrational line (a − √b or √a − √b)",
+    "definition": "Irrational difference of two lines commensurable in square only—exemplified by the dodecahedron edge √15 − √3 (a fourth apotome in a sphere of rational diameter 6, Distinctio VI, p. 196) and the decagon chord √(125/4) − 5/2 (Distinctio VIII, p. 208)."
+  },
+  "congruum": {
+    "slug": "congruum",
+    "headword": "congruum",
+    "language": "Medieval Latin (Fibonacci, Flos & Liber Quadratorum, 1225)",
+    "translation": "congruum (common step of three squares in arithmetic progression)",
+    "definition": "An integer D = 4ab(a^2 − b^2) (always divisible by 24) such that z^2 − D, z^2, and z^2 + D are simultaneously squares. Dividing by a square yields rational congruent-number solutions such as (31/12)^2, (41/12)^2, (49/12)^2 with common difference 5 (Flos, p. 227), and connects geometrically to trapezoid bisection c^2 = (a^2 + b^2)/2 in Distinctio IV."
+  },
+  "quadrans": {
+    "slug": "quadrans",
+    "headword": "quadrans (oroscopus)",
+    "language": "Medieval Latin",
+    "translation": "surveyor's and astronomer's quadrant with shadow square",
+    "definition": "Quarter-circle sighting instrument equipped with two pinnules (tabulae perforatae), a plumb bob (perpendiculum), a 90-degree arc, and an inscribed 12 × 12 shadow square (umbra recta / umbra versa) used in Distinctio VII (p. 204) to measure inaccessible tower heights and valley widths by similar right triangles."
+  }
+}
