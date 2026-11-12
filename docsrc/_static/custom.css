@@ -1,0 +1,261 @@
+/* =========================================================================
+   GEOMETOR • Fibonacci Semantic SVG Palette (Light & Dark Mode)
+   Complements foundation theme's _geometor.scss & geometor_interactive.js
+   ========================================================================= */
+
+:root {
+  --fib-carrier: #475569;
+  --fib-circle-main: #0284c7;
+  --fib-circle-guide: #64748b;
+  --fib-bisector: #0d9488;
+  --fib-parallel: #6366f1;
+  --fib-golden: #d97706;
+  --fib-tetra: #e11d48;
+  --fib-octa: #0284c7;
+  --fib-cube: #059669;
+  --fib-icosa: #7c3aed;
+  --fib-grid: #94a3b8;
+  --fib-share-p: #f59e0b;
+  --fib-share-q: #0ea5e9;
+  --fib-pes-strip: #10b981;
+  --fib-pt-given: #0f172a;
+  --fib-pt-result: #0369a1;
+  --fib-pt-mid: #0f766e;
+  --fib-pt-golden: #d97706;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fib-carrier: #94a3b8;
+    --fib-circle-main: #38bdf8;
+    --fib-circle-guide: #94a3b8;
+    --fib-bisector: #2dd4bf;
+    --fib-parallel: #818cf8;
+    --fib-golden: #fbbf24;
+    --fib-tetra: #fb7185;
+    --fib-octa: #38bdf8;
+    --fib-cube: #34d399;
+    --fib-icosa: #c084fc;
+    --fib-grid: #64748b;
+    --fib-share-p: #fbbf24;
+    --fib-share-q: #38bdf8;
+    --fib-pes-strip: #34d399;
+    --fib-pt-given: #e2e8f0;
+    --fib-pt-result: #38bdf8;
+    --fib-pt-mid: #2dd4bf;
+    --fib-pt-golden: #fbbf24;
+  }
+}
+
+html[data-theme="dark"] {
+  --fib-carrier: #94a3b8;
+  --fib-circle-main: #38bdf8;
+  --fib-circle-guide: #94a3b8;
+  --fib-bisector: #2dd4bf;
+  --fib-parallel: #818cf8;
+  --fib-golden: #fbbf24;
+  --fib-tetra: #fb7185;
+  --fib-octa: #38bdf8;
+  --fib-cube: #34d399;
+  --fib-icosa: #c084fc;
+  --fib-grid: #64748b;
+  --fib-share-p: #fbbf24;
+  --fib-share-q: #38bdf8;
+  --fib-pes-strip: #34d399;
+  --fib-pt-given: #e2e8f0;
+  --fib-pt-result: #38bdf8;
+  --fib-pt-mid: #2dd4bf;
+  --fib-pt-golden: #fbbf24;
+}
+
+html[data-theme="light"] {
+  --fib-carrier: #475569;
+  --fib-circle-main: #0284c7;
+  --fib-circle-guide: #64748b;
+  --fib-bisector: #0d9488;
+  --fib-parallel: #6366f1;
+  --fib-golden: #d97706;
+  --fib-tetra: #e11d48;
+  --fib-octa: #0284c7;
+  --fib-cube: #059669;
+  --fib-icosa: #7c3aed;
+  --fib-grid: #94a3b8;
+  --fib-share-p: #f59e0b;
+  --fib-share-q: #0ea5e9;
+  --fib-pes-strip: #10b981;
+  --fib-pt-given: #0f172a;
+  --fib-pt-result: #0369a1;
+  --fib-pt-mid: #0f766e;
+  --fib-pt-golden: #d97706;
+}
+
+svg.euclid-graphic .svg-bg {
+  fill: none;
+}
+
+svg.euclid-graphic .geom-circle:not(.is-highlighted) {
+  fill: none;
+  stroke: var(--fib-circle-main);
+  stroke-width: 2.1;
+  opacity: 0.9;
+}
+
+svg.euclid-graphic .geom-circle.incircle-curve:not(.is-highlighted) {
+  stroke: var(--fib-golden);
+  stroke-width: 2.35;
+}
+
+svg.euclid-graphic .geom-circle.guide-circle:not(.is-highlighted) {
+  stroke: var(--fib-circle-guide);
+  stroke-width: 1.35;
+  stroke-dasharray: 5 4;
+  opacity: 0.68;
+}
+
+svg.euclid-graphic .geom-circle.transfer-circle:not(.is-highlighted) {
+  stroke: var(--fib-golden);
+  stroke-width: 1.45;
+  stroke-dasharray: 6 4;
+  opacity: 0.78;
+}
+
+svg.euclid-graphic .geom-line:not(.is-highlighted) {
+  fill: none;
+  stroke: var(--fib-carrier);
+  stroke-width: 1.45;
+  stroke-linecap: round;
+  opacity: 0.72;
+}
+
+svg.euclid-graphic .geom-line.carrier-line:not(.is-highlighted) {
+  stroke: var(--fib-carrier);
+  stroke-width: 1.85;
+  opacity: 0.88;
+}
+
+svg.euclid-graphic .geom-line.bisector-line:not(.is-highlighted) {
+  stroke: var(--fib-bisector);
+  stroke-width: 1.55;
+  stroke-dasharray: 6 3.5;
+  opacity: 0.85;
+}
+
+svg.euclid-graphic .geom-line.parallel-line:not(.is-highlighted) {
+  stroke: var(--fib-parallel);
+  stroke-width: 1.65;
+  stroke-dasharray: 5 3.5;
+  opacity: 0.88;
+}
+
+svg.euclid-graphic .geom-line.tangent-line:not(.is-highlighted) {
+  stroke: var(--fib-icosa);
+  stroke-width: 1.75;
+  opacity: 0.88;
+}
+
+svg.euclid-graphic .geom-segment:not(.is-highlighted) {
+  fill: none;
+  stroke: var(--fib-carrier);
+  stroke-width: 2.1;
+  stroke-linecap: round;
+}
+
+svg.euclid-graphic .geom-segment.grid-seg:not(.is-highlighted) {
+  stroke: var(--fib-grid);
+  stroke-width: 1.05;
+  opacity: 0.48;
+}
+
+svg.euclid-graphic .geom-segment.bisector-seg:not(.is-highlighted) {
+  stroke: var(--fib-bisector);
+  stroke-width: 1.9;
+  stroke-dasharray: 5 3;
+}
+
+svg.euclid-graphic .geom-segment.inradius-seg:not(.is-highlighted) {
+  stroke: var(--fib-golden);
+  stroke-width: 2.2;
+}
+
+svg.euclid-graphic .geom-segment.cut-seg:not(.is-highlighted) {
+  stroke: var(--fib-golden);
+  stroke-width: 3.0;
+}
+
+svg.euclid-graphic .geom-segment.golden-seg:not(.is-highlighted) {
+  stroke: var(--fib-golden);
+  stroke-width: 3.2;
+  opacity: 0.95;
+}
+
+svg.euclid-graphic .geom-segment.tetra-seg:not(.is-highlighted) {
+  stroke: var(--fib-tetra);
+  stroke-width: 2.75;
+}
+
+svg.euclid-graphic .geom-segment.octa-seg:not(.is-highlighted) {
+  stroke: var(--fib-octa);
+  stroke-width: 2.75;
+}
+
+svg.euclid-graphic .geom-segment.cube-seg:not(.is-highlighted) {
+  stroke: var(--fib-cube);
+  stroke-width: 2.75;
+}
+
+svg.euclid-graphic .geom-segment.icosa-seg:not(.is-highlighted) {
+  stroke: var(--fib-icosa);
+  stroke-width: 2.75;
+}
+
+svg.euclid-graphic .geom-polygon:not(.is-highlighted) {
+  fill: var(--fib-share-q);
+  fill-opacity: 0.05;
+  stroke: var(--fib-carrier);
+  stroke-width: 2.0;
+  stroke-linejoin: round;
+}
+
+svg.euclid-graphic .geom-polygon.share-p-poly:not(.is-highlighted) {
+  fill: var(--fib-share-p);
+  fill-opacity: 0.13;
+  stroke: var(--fib-golden);
+  stroke-width: 1.8;
+}
+
+svg.euclid-graphic .geom-polygon.share-q-poly:not(.is-highlighted) {
+  fill: var(--fib-share-q);
+  fill-opacity: 0.08;
+  stroke: var(--fib-circle-main);
+  stroke-width: 1.6;
+}
+
+svg.euclid-graphic .geom-polygon.pes-strip-poly:not(.is-highlighted) {
+  fill: var(--fib-pes-strip);
+  fill-opacity: 0.14;
+  stroke: var(--fib-cube);
+  stroke-width: 1.7;
+}
+
+svg.euclid-graphic .geom-polygon.denarius-poly:not(.is-highlighted) {
+  fill: var(--fib-share-p);
+  fill-opacity: 0.28;
+  stroke: var(--fib-golden);
+  stroke-width: 2.2;
+}
+
+svg.euclid-graphic .geom-point:not(.is-highlighted) {
+  fill: var(--fib-pt-given);
+}
+
+svg.euclid-graphic .geom-point.result-point:not(.is-highlighted) {
+  fill: var(--fib-pt-result);
+}
+
+svg.euclid-graphic .geom-point.mid-point:not(.is-highlighted) {
+  fill: var(--fib-pt-mid);
+}
+
+svg.euclid-graphic .geom-point.golden-point:not(.is-highlighted) {
+  fill: var(--fib-pt-golden);
+}

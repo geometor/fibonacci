@@ -1,0 +1,134 @@
+{
+  "boncompagni:1862": {
+    "key": "boncompagni:1862",
+    "author": "Leonardo Pisano (ed. Baldassarre Boncompagni, 1862)",
+    "work": "Scritti di Leonardo Pisano, matematico del secolo decimoterzo — Vol. II: Leonardi Pisani Practica Geometriae ed Opuscoli",
+    "locus": "Roma: Tipografia delle Scienze Matematiche e Fisiche, 1862 (pp. 1–224 Practica Geometriae; pp. 227–247 Flos; pp. 253–279 Liber Quadratorum)"
+  },
+  "boncompagni:1857": {
+    "key": "boncompagni:1857",
+    "author": "Leonardo Pisano (ed. Baldassarre Boncompagni, 1857)",
+    "work": "Scritti di Leonardo Pisano, matematico del secolo decimoterzo — Vol. I: Il Liber Abbaci di Leonardo Pisano",
+    "locus": "Roma: Tipografia delle Scienze Matematiche e Fisiche, 1857 (esp. Cap. XII, pp. 283–284 on the rabbit recurrence; Cap. XV on geometric algebra)"
+  },
+  "fibonacci:pg-prol": {
+    "key": "fibonacci:pg-prol",
+    "author": "Leonardo Pisano (1220)",
+    "work": "Practica Geometriae, Epistola ad Magistrum Dominicum & Introductoria",
+    "locus": "ed. Boncompagni, Vol. II (1862), pp. 1–5 (fol. 1r–3v)"
+  },
+  "fibonacci:pg-1": {
+    "key": "fibonacci:pg-1",
+    "author": "Leonardo Pisano (1220)",
+    "work": "Practica Geometriae, Distinctio I — De multiplicatione latitudinum camporum quadratorum rectos angulos habentium",
+    "locus": "ed. Boncompagni, Vol. II (1862), pp. 5–18 (fol. 3v–11v)"
+  },
+  "fibonacci:pg-2": {
+    "key": "fibonacci:pg-2",
+    "author": "Leonardo Pisano (1220)",
+    "work": "Practica Geometriae, Distinctio II — De inventione radicum quadratarum",
+    "locus": "ed. Boncompagni, Vol. II (1862), pp. 18–30 (fol. 11v–18v)"
+  },
+  "fibonacci:pg-3": {
+    "key": "fibonacci:pg-3",
+    "author": "Leonardo Pisano (1220)",
+    "work": "Practica Geometriae, Distinctio III — In mensuratione omnium camporum",
+    "locus": "ed. Boncompagni, Vol. II (1862), pp. 30–110 (fol. 18v–67v; Heron's proof pp. 40–41; Circle bounds pp. 88–91)"
+  },
+  "fibonacci:pg-4": {
+    "key": "fibonacci:pg-4",
+    "author": "Leonardo Pisano (1220)",
+    "work": "Practica Geometriae, Distinctio IV — De divisione camporum inter consortes",
+    "locus": "ed. Boncompagni, Vol. II (1862), pp. 110–148 (fol. 67v–92v)"
+  },
+  "fibonacci:pg-5": {
+    "key": "fibonacci:pg-5",
+    "author": "Leonardo Pisano (1220)",
+    "work": "Practica Geometriae, Distinctio V — De radicibus cubicis inveniendis",
+    "locus": "ed. Boncompagni, Vol. II (1862), pp. 148–158 (fol. 92v–100r)"
+  },
+  "fibonacci:pg-6": {
+    "key": "fibonacci:pg-6",
+    "author": "Leonardo Pisano (1220)",
+    "work": "Practica Geometriae, Distinctio VI — In dimensione corporum et quinque solidorum regularium",
+    "locus": "ed. Boncompagni, Vol. II (1862), pp. 159–202 (fol. 100v–130v; Five regular polyhedra pp. 190–202)"
+  },
+  "fibonacci:pg-7": {
+    "key": "fibonacci:pg-7",
+    "author": "Leonardo Pisano (1220)",
+    "work": "Practica Geometriae, Distinctio VII — De inventione altitudinum rerum elevatarum",
+    "locus": "ed. Boncompagni, Vol. II (1862), pp. 202–206 (fol. 131r–133v)"
+  },
+  "fibonacci:pg-8": {
+    "key": "fibonacci:pg-8",
+    "author": "Leonardo Pisano (1220)",
+    "work": "Practica Geometriae, Distinctio VIII — De quibusdam subtilitatibus geometricis",
+    "locus": "ed. Boncompagni, Vol. II (1862), pp. 207–224 (fol. 134r–148r)"
+  },
+  "fibonacci:flos": {
+    "key": "fibonacci:flos",
+    "author": "Leonardo Pisano (1225)",
+    "work": "Flos super solutionibus quarumdam quaestionum ad numerum et ad geometriam vel ad utrumque pertinentium",
+    "locus": "ed. Boncompagni, Vol. II (1862), pp. 227–247"
+  },
+  "fibonacci:quadratorum": {
+    "key": "fibonacci:quadratorum",
+    "author": "Leonardo Pisano (1225)",
+    "work": "Liber Quadratorum",
+    "locus": "ed. Boncompagni, Vol. II (1862), pp. 253–279"
+  },
+  "euclid:elements": {
+    "key": "euclid:elements",
+    "author": "Euclid of Alexandria (fl. c. 300 BC)",
+    "work": "Elements (Books I–XIII, with Book XIV by Hypsicles)",
+    "locus": "trans. T. L. Heath, 2nd ed., 3 vols. (Cambridge, 1926); GEOMETOR Euclid Codex"
+  },
+  "euclid:divisions": {
+    "key": "euclid:divisions",
+    "author": "Euclid of Alexandria (fl. c. 300 BC)",
+    "work": "On Divisions of Figures (Peri Diaireseōn Bibliōn)",
+    "locus": "Restored from Arabic MS Paris BN 2457.14 and Fibonacci's Practica Geometriae Dist. IV by R. C. Archibald (Cambridge University Press, 1915)"
+  },
+  "archimedes:circle": {
+    "key": "archimedes:circle",
+    "author": "Archimedes of Syracuse (c. 287 – 212 BC)",
+    "work": "Measurement of a Circle (Dimensio Circuli)",
+    "locus": "ed. J. L. Heiberg; Latin trans. Gerard of Cremona; GEOMETOR Archimedes Codex"
+  },
+  "archimedes:sphere": {
+    "key": "archimedes:sphere",
+    "author": "Archimedes of Syracuse (c. 287 – 212 BC)",
+    "work": "On the Sphere and Cylinder, Books I–II",
+    "locus": "ed. J. L. Heiberg; transmitted via Banū Mūsā Verba filiorum"
+  },
+  "heron:metrica": {
+    "key": "heron:metrica",
+    "author": "Heron of Alexandria (1st century AD)",
+    "work": "Metrica, Books I–III",
+    "locus": "ed. H. Schöne (Teubner, 1903); Book I.8 (area of triangle); Book III (division of figures)"
+  },
+  "ptolemy:almagest": {
+    "key": "ptolemy:almagest",
+    "author": "Claudius Ptolemy (c. 100 – c. 170 AD)",
+    "work": "Almagest, Book I, Ch. 10 (Table of Chords & Cyclic Quadrilaterals)",
+    "locus": "Latin trans. Gerard of Cremona (Toledo, 1175)"
+  },
+  "banu-musa:verba": {
+    "key": "banu-musa:verba",
+    "author": "Banū Mūsā (9th century)",
+    "work": "Verba filiorum Moysi filii Sekir, id est Maumeti, Hameti et Hasen",
+    "locus": "Latin trans. Gerard of Cremona; ed. M. Clagett, Archimedes in the Middle Ages, Vol. I (1964), pp. 223–367"
+  },
+  "savasorda:embadorum": {
+    "key": "savasorda:embadorum",
+    "author": "Abraham bar Ḥiyya / Savasorda (trans. Plato of Tivoli, 1145)",
+    "work": "Liber embadorum",
+    "locus": "ed. M. Curtze, Urkunden zur Geschichte der Mathematik im Mittelalter und der Renaissance (Teubner, 1902), pp. 1–183"
+  },
+  "pacioli:divina": {
+    "key": "pacioli:divina",
+    "author": "Luca Pacioli, O.F.M. (1509)",
+    "work": "De Divina Proportione (Venice: Paganino Paganini, 1509)",
+    "locus": "Pars I & Libellus in tres partiales tractatus divisus quinque corporum regularium; GEOMETOR Pacioli Codex"
+  }
+}
