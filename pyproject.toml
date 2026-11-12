@@ -34,7 +34,7 @@ fibonacci = "geometor.fibonacci.__main__:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["geometor"]
+include = ["geometor*"]
 namespaces = true
 
 [tool.setuptools.dynamic]
