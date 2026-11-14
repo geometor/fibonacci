@@ -15,6 +15,7 @@ Welcome to **GEOMETOR Fibonacci** (``geometor-fibonacci``), a synchronized four-
 Explore the Edition
 -------------------
 
+* **About:** :doc:`about/index` (Mission, Architectural Principles & Sources)
 * **Book Codex:** :doc:`practica_geometriae/index` (*Practica Geometriae*, 1220)
 * **People:** :doc:`practica_geometriae/persons` (Biographical Register of Geometers & Scholars)
 * **Bibliography:** :doc:`practica_geometriae/bibliography` (Sources & Editions)
@@ -36,6 +37,7 @@ The Four-Track Book Codex & Symbolic Engine
    :maxdepth: 2
    :caption: Book Codex & Apparatus
 
+   about/index
    practica_geometriae/index
    practica_geometriae/persons
    practica_geometriae/bibliography
