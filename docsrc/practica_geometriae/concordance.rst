@@ -1,10 +1,10 @@
-:title: Concordantia — Cross-Corpus Geometric Concordance
-:layout: book
+:navigation: footer
+:nav_title: Concordance
 
 .. _concordance:
 
-Concordantia Geometrica (Cross-Corpus Concordance)
-==================================================
+Concordance
+===========
 
 .. rubric:: *Linking Leonardo Pisano's Loci to Euclid, Heron, Archimedes, Pacioli, and the GEOMETOR Canon*
 

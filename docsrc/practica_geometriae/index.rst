@@ -1,37 +1,36 @@
 :navigation: header
 :order: 1
+:nav_title: Practica Geometriae
 :layout: book
-:title: Practica Geometriae (1220)
-:book_title: Practica Geometriae
-:book_subtitle: Leonardi Pisani Practica Geometriae (1220), cum Locis ex Libro Abbaci et Flore
-:author: Leonardo Pisano (Fibonacci, c. 1170 – c. 1245)
-:series: GEOMETOR Classical Canon · Critical Four-Track Codex
-:publisher: GEOMETOR Scriptorium (ex Editione Boncompagni, Romae 1857–1862)
-:location: Pisis / Romae
-:year: 1220–1228
+:book_title: Practice of Geometry
+:book_subtitle: Practica Geometriae — Leonardo Pisano / Fibonacci (1220 / ed. Boncompagni, 1862)
+:author: Leonardo Pisano (Fibonacci)
+:year: 1220
 
 .. _fibonacci-index:
 .. _practica-geometriae-index:
 
-LEONARDI PISANI PRACTICA GEOMETRIAE (1220)
-==========================================
+Practice of Geometry
+====================
 
-.. rubric:: *With Foundational Bridges from Liber Abaci (1202/1228) and Flos (1225)*
+.. rubric:: *Practica Geometriae* — Leonardo Pisano / Fibonacci (1220 / ed. Boncompagni, 1862)
 
 .. container:: title-page
 
-   | :person:`LEONARDI PISANI DE FILIIS BONACCII <fibonacci>`
+   | :person:`Leonardo Pisano (Fibonacci) <fibonacci>`
    | *(c. 1170 – c. 1245 · Citizen & Mathematician of Pisa)*
    |
-   | **PRACTICA GEOMETRIAE (ANNO M.CC.XX)**
-   | 5 Synchronized Units · All 8 *Distinctiones* · *Liber Abaci* Cap. XII · *Flos* (1225)
+   | **Practice of Geometry (*Practica Geometriae*, 1220)**
+   | 5 Synchronized Units · All 8 *Distinctiones* · *Liber Abaci* Ch. XII · *Flos* (1225)
    | Diplomatic Public-Domain Latin Text from :person:`Baldassarre Boncompagni <boncompagni>` (*Romae*, 1857 & 1862)
    | With Original GEOMETOR English Translation, Interactive ``.euclid-graphic`` Figures & Exact ``SymPy`` Verification
 
 ----
 
-Conspectus Totius Operis
-------------------------
+.. _table-of-contents:
+
+Table of Contents
+-----------------
 
 *(Analytical Table of Contents)*
 
@@ -80,13 +79,13 @@ Optical surveying of heights and depths with the :term:`quadrans` shadow square,
 
 :ref:`English <unit-5-en>` · :ref:`Latin (1220 / Boncompagni 1862) <unit-5-la>` · :ref:`Summary <unit-5-summary>` · :ref:`Notes <unit-5-notes>`
 
-Apparatus Criticus et Concordantia
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Scholarly Apparatus
+-------------------
 
-* :ref:`Fibonacci–Euclid–Archimedes–Heron–Pacioli–GEOMETOR Concordance <concordance>`
-* :ref:`Bibliographia et Fontes — Critical Editions & Classical Sources <bibliography>`
-* :ref:`Index Nominum — Biographical Register of Geometers, Translators & Patrons <persons>`
-* :ref:`Glossarium Technicum — Pisan Metrology, Scholastic Geometry & Algebraic Lexicon <glossary>`
+* :ref:`Concordance — Cross-Corpus Geometric Concordance <concordance>`
+* :ref:`Bibliography — Critical Editions & Classical Sources <bibliography>`
+* :ref:`People — Biographical Register of Geometers, Translators & Patrons <persons>`
+* :ref:`Glossary — Pisan Metrology, Scholastic Geometry & Algebraic Lexicon <glossary>`
 
 .. toctree::
    :maxdepth: 2
@@ -102,7 +101,7 @@ Apparatus Criticus et Concordantia
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Editio Latina (1220 / Boncompagni 1862)
+   :caption: Latin Edition (1220 / Boncompagni 1862)
 
    unit-1/unit-1-la
    unit-2/unit-2-la

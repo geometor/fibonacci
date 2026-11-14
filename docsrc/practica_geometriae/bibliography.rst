@@ -1,13 +1,14 @@
-:title: Bibliographia et Fontes — Systematic Bibliography
-:layout: book
+:navigation: header
+:order: 6
+:nav_title: Bibliography
 
 .. _bibliography:
 .. _bibliographia-et-fontes:
 
-Bibliographia et Fontes (Systematic Bibliography)
-=================================================
+Bibliography
+============
 
-.. rubric:: *Public-Domain Critical Editions, Classical Sources, and Renaissance Reception*
+.. rubric:: Public-Domain Critical Editions, Classical Sources, and Renaissance Reception
 
 Every inline ``:cite:`` tag across ``geometor-fibonacci`` resolves directly to its ``#cite-<slug>`` anchor below. All Latin source transcriptions in this Codex derive exclusively from :person:`Baldassarre Boncompagni <boncompagni>`'s public-domain 1857–1862 Rome editions; all English translations are 100% original GEOMETOR translations authored directly from the Latin.
 
