@@ -61,7 +61,7 @@ def _assert_zero_floats_in_model(model: object) -> None:
 
 
 def test_version() -> None:
-    assert __version__ == "0.1.0"
+    assert __version__ == "0.1.1"
 
 
 def test_pisan_metrology_and_stariorum() -> None:

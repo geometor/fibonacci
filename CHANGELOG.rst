@@ -1,3 +1,8 @@
+0.1.1 (2026-11-13)
+------------------
+
+- Curated and mapped primary-source folio links across *Practica Geometriae* and *Liber Abaci* (42/42 directives resolved across 21 grayscale PNG scans).
+
 0.1.0 (2026-11-12)
 ------------------
 
