@@ -1,17 +1,21 @@
-:title: Index Nominum — Biographical Register of Persons
-:layout: book
+:navigation: header
+:order: 5
+:nav_title: People
 
 .. _persons:
 .. _index-nominum:
 
-Index Nominum (Biographical Register)
-=====================================
+People
+======
 
-.. rubric:: *Geometers, Algebraists, Translators, Imperial Patrons, and Critical Editors*
+.. rubric:: Authors, Editors & Cited Geometers in the Fibonacci Tradition
 
-This prosopographical register documents **21 historical figures** shaping :person:`Leonardo Pisano <fibonacci>`'s mathematical formation across the Mediterranean, the imperial Sicilian court of :person:`Frederick II <frederick-ii>`, and the Renaissance reception culminating in :person:`Piero della Francesca <piero-della-francesca>` and :person:`Luca Pacioli <pacioli>`.
+This prosopographical register documents historical figures shaping :person:`Leonardo Pisano <fibonacci>`'s mathematical formation across the Mediterranean, the imperial Sicilian court of :person:`Frederick II <frederick-ii>`, and the Renaissance reception culminating in :person:`Piero della Francesca <piero-della-francesca>` and :person:`Luca Pacioli <pacioli>`.
 
 ----
+
+Authors, Translators & Editors
+------------------------------
 
 .. _person-fibonacci:
 
@@ -21,6 +25,20 @@ Leonardo Pisano (Fibonacci / Leonardo Bigollo de filiis Bonaccii) (c. 1170 – c
 **Role**: *Pisan Mathematician & Architect of Western Symbolic Arithmetic and Constructive Geometry*
 
 Educated in Bugia (Béjaïa, North Africa) where his father Guglielmo Bonacci directed the Pisan customs house, Leonardo traveled throughout Egypt, Syria, Greece, Sicily, and Provence studying Indo-Arabic arithmetic, :person:`al-Khwārizmī <al-khwarizmi>`'s and :person:`Abū Kāmil <abu-kamil>`'s algebra, and the Graeco-Arabic geometric canon. Returning to Pisa around 1200, he authored *Liber Abaci* (1202, rev. 1228), *Practica Geometriae* (1220), *Epistola ad Magistrum Theodorum*, *Flos* (1225), and *Liber Quadratorum* (1225), earning an annual civic stipend from the Republic of Pisa in 1241.
+
+.. _person-boncompagni:
+
+Baldassarre Boncompagni-Ludovisi (1821 – 1894)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Role**: *Historian of Mathematics & Editor of Scritti di Leonardo Pisano*
+
+Roman prince, bibliophile, and historian of science who edited and published the monumental *editio princeps* of Fibonacci's works in two folio volumes (*Romae*, 1857 and 1862) from the Florentine and Milanese manuscripts.
+
+----
+
+Cited Geometers, Scholars & Patrons
+-----------------------------------
 
 .. _person-dominicus:
 
@@ -192,12 +210,3 @@ Luca Pacioli, O.F.M. (c. 1447 – 1517)
 **Role**: *Renaissance Mathematician & Author of De Divina Proportione*
 
 Explicitly acknowledged Leonardo Pisano as his primary fountainhead across *Summa de arithmetica, geometria, proportioni et proportionalita* (1494) and *De Divina Proportione* (1509), transmitting Fibonacci's Pisan field geometry, divisions, and golden polyhedral mensuration into Renaissance print.
-
-.. _person-boncompagni:
-
-Baldassarre Boncompagni-Ludovisi (1821 – 1894)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**Role**: *Historian of Mathematics & Editor of Scritti di Leonardo Pisano*
-
-Roman prince, bibliophile, and historian of science who edited and published the monumental *editio princeps* of Fibonacci's works in two folio volumes (*Romae*, 1857 and 1862) from the Florentine and Milanese manuscripts.

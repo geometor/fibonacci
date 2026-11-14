@@ -12,6 +12,14 @@ Welcome to **GEOMETOR Fibonacci** (``geometor-fibonacci``), a synchronized four-
 
 ----
 
+Explore the Edition
+-------------------
+
+* **Book Codex:** :doc:`practica_geometriae/index` (*Practica Geometriae*, 1220)
+* **People:** :doc:`practica_geometriae/persons` (Biographical Register of Geometers & Scholars)
+* **Bibliography:** :doc:`practica_geometriae/bibliography` (Sources & Editions)
+* **Reader's Guide:** :doc:`usage/index` (Using this Edition & CLI)
+
 The Four-Track Book Codex & Symbolic Engine
 -------------------------------------------
 
@@ -23,6 +31,15 @@ The Four-Track Book Codex & Symbolic Engine
   Exact radical-tower inscriptions of the tetrahedron, cube, octahedron, dodecahedron ($e_{12} = \sqrt{15} - \sqrt{3}$), and icosahedron in a sphere of diameter $6$, forming the direct historical bridge from Euclid Books XIII–XIV to :person:`Piero della Francesca <piero-della-francesca>` and :person:`Luca Pacioli <pacioli>`'s *De Divina Proportione* (1509).
 * **Exact Symbolic Python Demonstrations** (:doc:`demos/index` & :doc:`modules/index`):
   Runnable Python 3.13 modules verifying Pisan *pertica* metrology, Heron's incenter proof, Fibonacci's 96-gon circle bounds ($\pi \approx \frac{864}{275}$), Ptolemy's *census census* pentagon quartic ($x^4 + 3125 = 125x^2$), the *Flos* sexagesimal cubic ($1;22,7,42,33,4,40$), and Cassini's alternating convergence $F_{n+1}/F_n \to \phi$.
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Book Codex & Apparatus
+
+   practica_geometriae/index
+   practica_geometriae/persons
+   practica_geometriae/bibliography
+   usage/index
 
 .. toctree::
    :maxdepth: 2

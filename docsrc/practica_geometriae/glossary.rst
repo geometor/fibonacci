@@ -1,11 +1,11 @@
-:title: Glossarium Technicum — Pisan Metrology & Geometric Lexicon
-:layout: book
+:navigation: footer
+:nav_title: Glossary
 
 .. _glossary:
 .. _glossarium-technicum:
 
-Glossarium Technicum (Technical Glossary)
-=========================================
+Glossary
+========
 
 .. rubric:: *Lexicon of Pisan Agrarian Metrology, Euclidean Geometry, and Graeco-Arabic Algebra*
 
