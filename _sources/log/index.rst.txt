@@ -1,3 +1,7 @@
+:navigation: header
+:order: 30
+:nav_title: Log
+
 .. _log:
 
 Research & Engineering Log

@@ -1,3 +1,7 @@
+:navigation: header
+:order: 40
+:nav_title: Modules
+
 .. _modules:
 
 Python API Reference
@@ -16,4 +20,4 @@ Module Overview
 * :mod:`geometor.fibonacci.render` — Publication-grade interactive ``.euclid-graphic`` SVG exporter with dark/light CSS variables, 3-vertex ``<path>`` geometry, and canonical ``data-ref`` / ``data-aliases`` wiring.
 * :mod:`geometor.fibonacci.sphinx_ext` — Runtime Sphinx hook registering ``Latin (1220 / Boncompagni 1862)`` in ``photon_platform.publish.book`` and binding local ``objects.inv`` inventories.
 
-.. include:: api/geometor/fibonacci/index.rst
+.. include:: api/src/geometor/fibonacci/index.rst
