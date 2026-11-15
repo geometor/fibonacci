@@ -56,7 +56,7 @@ from geometor.fibonacci.polyhedra_golden import (
 )
 from geometor.fibonacci.render import export_svg, render_svg_string
 
-__version__ = "0.1.4"
+__version__ = "0.1.5"
 
 __all__ = [
     "__version__",
