@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
-  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=8713e751" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=99410eb1" />
   <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
   <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=8542bf54" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
@@ -139,7 +139,41 @@
         <h2>The Agrarian Metrology of Pisa (<em>De Mensuris Pisanis</em>)<a class="headerlink" href="#the-agrarian-metrology-of-pisa-de-mensuris-pisanis" title="Link to this heading">¶</a></h2>
         <p><em>Latin Locus</em>: <a class="reference internal" href="unit-1-la.html#unit-1-pertica-la"><span class="std std-ref">De Pertica Pisana (pp. 3–4)</span></a> · <em>Commentary</em>: <a class="reference internal" href="unit-1-notes.html#unit-1-s2-notes"><span class="std std-ref">Notes on the 6 × 6 Pertica Lattice</span></a></p>
         <figure class="photon-picture photon-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 620 540" data-graphic-id="pisan_pertica_grid" role="img" aria-label="Distinctio I — Pisan Pertica Superficialis (6 Pedes, 36 Denarii)">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 540" data-graphic-id="pisan_pertica_grid" role="img" aria-label="Distinctio I — Pisan Pertica Superficialis (6 Pedes, 36 Denarii)" width="620" height="540" data-svg-scope="s-634343c4">
+          <style>
+            svg[data-svg-scope="s-634343c4"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-main: #0284c7; --circle-guide: #64748b; --bisector: #0d9488; --parallel: #6366f1; --golden: #d97706; --tetra: #e11d48; --octa: #0284c7; --cube: #059669; --icosa: #7c3aed; --grid: #94a3b8; --share-p: #f59e0b; --share-q: #0ea5e9; --pes-strip: #10b981; --pt-given: #0f172a; --pt-result: #0369a1; --pt-mid: #0f766e; --pt-golden: #d97706; font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif }
+            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-634343c4"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-main: #38bdf8; --circle-guide: #94a3b8; --bisector: #2dd4bf; --parallel: #818cf8; --golden: #fbbf24; --tetra: #fb7185; --octa: #38bdf8; --cube: #34d399; --icosa: #c084fc; --grid: #64748b; --share-p: #fbbf24; --share-q: #38bdf8; --pes-strip: #34d399; --pt-given: #e2e8f0; --pt-result: #38bdf8; --pt-mid: #2dd4bf; --pt-golden: #fbbf24 }
+            svg[data-svg-scope="s-634343c4"] .geom-circle { fill: none; stroke: var(--circle-main); stroke-width: 2.1; opacity: 0.9 }
+            svg[data-svg-scope="s-634343c4"] .geom-circle.incircle-curve { stroke: var(--golden); stroke-width: 2.35 }
+            svg[data-svg-scope="s-634343c4"] .geom-circle.guide-circle { stroke: var(--circle-guide); stroke-width: 1.35; stroke-dasharray: 5 4; opacity: 0.68 }
+            svg[data-svg-scope="s-634343c4"] .geom-circle.transfer-circle { stroke: var(--golden); stroke-width: 1.45; stroke-dasharray: 6 4; opacity: 0.78 }
+            svg[data-svg-scope="s-634343c4"] .geom-line { fill: none; stroke: var(--carrier); stroke-width: 1.45; stroke-linecap: round; opacity: 0.72 }
+            svg[data-svg-scope="s-634343c4"] .geom-line.carrier-line { stroke: var(--carrier); stroke-width: 1.85; opacity: 0.88 }
+            svg[data-svg-scope="s-634343c4"] .geom-line.bisector-line { stroke: var(--bisector); stroke-width: 1.55; stroke-dasharray: 6 3.5; opacity: 0.85 }
+            svg[data-svg-scope="s-634343c4"] .geom-line.parallel-line { stroke: var(--parallel); stroke-width: 1.65; stroke-dasharray: 5 3.5; opacity: 0.88 }
+            svg[data-svg-scope="s-634343c4"] .geom-line.tangent-line { stroke: var(--icosa); stroke-width: 1.75; opacity: 0.88 }
+            svg[data-svg-scope="s-634343c4"] .geom-segment { fill: none; stroke: var(--carrier); stroke-width: 2.1; stroke-linecap: round }
+            svg[data-svg-scope="s-634343c4"] .geom-segment.grid-seg { stroke: var(--grid); stroke-width: 1.05; opacity: 0.48 }
+            svg[data-svg-scope="s-634343c4"] .geom-segment.bisector-seg { stroke: var(--bisector); stroke-width: 1.9; stroke-dasharray: 5 3 }
+            svg[data-svg-scope="s-634343c4"] .geom-segment.inradius-seg { stroke: var(--golden); stroke-width: 2.2 }
+            svg[data-svg-scope="s-634343c4"] .geom-segment.cut-seg { stroke: var(--golden); stroke-width: 3.0 }
+            svg[data-svg-scope="s-634343c4"] .geom-segment.golden-seg { stroke: var(--golden); stroke-width: 3.2; opacity: 0.95 }
+            svg[data-svg-scope="s-634343c4"] .geom-segment.tetra-seg { stroke: var(--tetra); stroke-width: 2.75 }
+            svg[data-svg-scope="s-634343c4"] .geom-segment.octa-seg { stroke: var(--octa); stroke-width: 2.75 }
+            svg[data-svg-scope="s-634343c4"] .geom-segment.cube-seg { stroke: var(--cube); stroke-width: 2.75 }
+            svg[data-svg-scope="s-634343c4"] .geom-segment.icosa-seg { stroke: var(--icosa); stroke-width: 2.75 }
+            svg[data-svg-scope="s-634343c4"] .geom-polygon { fill: var(--share-q); fill-opacity: 0.05; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round }
+            svg[data-svg-scope="s-634343c4"] .geom-polygon.share-p-poly { fill: var(--share-p); fill-opacity: 0.13; stroke: var(--golden); stroke-width: 1.8 }
+            svg[data-svg-scope="s-634343c4"] .geom-polygon.share-q-poly { fill: var(--share-q); fill-opacity: 0.08; stroke: var(--circle-main); stroke-width: 1.6 }
+            svg[data-svg-scope="s-634343c4"] .geom-polygon.pes-strip-poly { fill: var(--pes-strip); fill-opacity: 0.14; stroke: var(--cube); stroke-width: 1.7 }
+            svg[data-svg-scope="s-634343c4"] .geom-polygon.denarius-poly { fill: var(--share-p); fill-opacity: 0.28; stroke: var(--golden); stroke-width: 2.2 }
+            svg[data-svg-scope="s-634343c4"] .geom-point { fill: var(--pt-given); stroke: var(--svg-bg); stroke-width: 1.5 }
+            svg[data-svg-scope="s-634343c4"] .geom-point.result-point { fill: var(--pt-result) }
+            svg[data-svg-scope="s-634343c4"] .geom-point.mid-point { fill: var(--pt-mid) }
+            svg[data-svg-scope="s-634343c4"] .geom-point.golden-point { fill: var(--pt-golden); stroke-width: 1.8 }
+            svg[data-svg-scope="s-634343c4"] .geom-label { fill: var(--ink); font-size: 13.5px; font-weight: 600; paint-order: stroke fill; stroke: var(--label-halo); stroke-width: 3.6px; stroke-linejoin: round; user-select: none }
+            svg[data-svg-scope="s-634343c4"] .geom-label-sub { font-size: 10px; font-weight: 600 }
+          </style>
           <title>Distinctio I — Pisan Pertica Superficialis (6 Pedes, 36 Denarii)</title>
           <defs>
             <marker id="geom-tick-1" viewBox="-4 -8 8 16" markerWidth="8" markerHeight="16" orient="auto">
@@ -155,7 +189,6 @@
               <line x1="4" y1="-5" x2="4" y2="5" stroke="currentColor" stroke-width="1.5" />
             </marker>
           </defs>
-          <rect class="svg-bg" x="0" y="0" width="620" height="540" rx="6" fill="none" />
           <g id="elements">
             <g id="graphics">
               <polygon class="geom-polygon" points="131.58,91.58 488.42,91.58 488.42,448.42 131.58,448.42" data-ref="&lt; A B D C &gt;" data-aliases="sqABCD | &lt; C D B A &gt; | &lt; B D C A &gt; | &lt; D C A B &gt; | &lt; C A B D &gt;" fill="none" />
@@ -321,7 +354,7 @@
 
   <script src="../../_static/jquery.js?v=5d32c60e"></script>
   <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-  <script src="../../_static/documentation_options.js?v=fd825880"></script>
+  <script src="../../_static/documentation_options.js?v=59fadc99"></script>
   <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>

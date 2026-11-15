@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
-  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=8713e751" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=99410eb1" />
   <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
   <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=8542bf54" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
@@ -134,7 +134,41 @@
         <p><em>Latin Locus</em>: <a class="reference internal" href="unit-4-la.html#unit-4-polyhedra-la"><span class="std std-ref">De Quinque Corporibus Regularibus in Spera (pp. 190–202)</span></a> · <em>Commentary</em>: <a class="reference internal" href="unit-4-notes.html#unit-4-s3-notes"><span class="std std-ref">Notes on Euclid XIII, Hypsicles XIV &amp; Pacioli</span></a></p>
         <div class="enunciation">To find the sides, surfaces, altitudes, and solid volumes of the five regular bodies of <a class="person-ref" id="occ-person-euclid-2" href="../persons.html#person-euclid" data-person="euclid" title="Euclid of Alexandria (fl. c. 300 BC) — Author of the Elements &amp; On Divisions of Figures">Euclid</a>’s thirteenth book—namely the <strong>tetrahedron</strong> (4 triangular bases), <strong>cube</strong> (6 square bases), <strong>octahedron</strong> (8 triangular bases), <strong>dodecahedron</strong> (12 pentagonal bases), and <strong>icosahedron</strong> (20 triangular bases)—inscribed within a sphere of given rational diameter $d = 6$. <span class="justification" data-ref-target="XIII.18" title="XIII.18">[XIII. 13–18]</span></div>
         <figure class="photon-picture photon-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 680 520" data-graphic-id="euclid_xiii_sphere_polyhedra" role="img" aria-label="Distinctio VI &amp; Euclid XIII.18 — Five Regular Polyhedra in Sphere of Diameter 6">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 520" data-graphic-id="euclid_xiii_sphere_polyhedra" role="img" aria-label="Distinctio VI &amp; Euclid XIII.18 — Five Regular Polyhedra in Sphere of Diameter 6" width="680" height="520" data-svg-scope="s-96bc89c5">
+          <style>
+            svg[data-svg-scope="s-96bc89c5"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-main: #0284c7; --circle-guide: #64748b; --bisector: #0d9488; --parallel: #6366f1; --golden: #d97706; --tetra: #e11d48; --octa: #0284c7; --cube: #059669; --icosa: #7c3aed; --grid: #94a3b8; --share-p: #f59e0b; --share-q: #0ea5e9; --pes-strip: #10b981; --pt-given: #0f172a; --pt-result: #0369a1; --pt-mid: #0f766e; --pt-golden: #d97706; font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif }
+            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-96bc89c5"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-main: #38bdf8; --circle-guide: #94a3b8; --bisector: #2dd4bf; --parallel: #818cf8; --golden: #fbbf24; --tetra: #fb7185; --octa: #38bdf8; --cube: #34d399; --icosa: #c084fc; --grid: #64748b; --share-p: #fbbf24; --share-q: #38bdf8; --pes-strip: #34d399; --pt-given: #e2e8f0; --pt-result: #38bdf8; --pt-mid: #2dd4bf; --pt-golden: #fbbf24 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-circle { fill: none; stroke: var(--circle-main); stroke-width: 2.1; opacity: 0.9 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-circle.incircle-curve { stroke: var(--golden); stroke-width: 2.35 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-circle.guide-circle { stroke: var(--circle-guide); stroke-width: 1.35; stroke-dasharray: 5 4; opacity: 0.68 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-circle.transfer-circle { stroke: var(--golden); stroke-width: 1.45; stroke-dasharray: 6 4; opacity: 0.78 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-line { fill: none; stroke: var(--carrier); stroke-width: 1.45; stroke-linecap: round; opacity: 0.72 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-line.carrier-line { stroke: var(--carrier); stroke-width: 1.85; opacity: 0.88 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-line.bisector-line { stroke: var(--bisector); stroke-width: 1.55; stroke-dasharray: 6 3.5; opacity: 0.85 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-line.parallel-line { stroke: var(--parallel); stroke-width: 1.65; stroke-dasharray: 5 3.5; opacity: 0.88 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-line.tangent-line { stroke: var(--icosa); stroke-width: 1.75; opacity: 0.88 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-segment { fill: none; stroke: var(--carrier); stroke-width: 2.1; stroke-linecap: round }
+            svg[data-svg-scope="s-96bc89c5"] .geom-segment.grid-seg { stroke: var(--grid); stroke-width: 1.05; opacity: 0.48 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-segment.bisector-seg { stroke: var(--bisector); stroke-width: 1.9; stroke-dasharray: 5 3 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-segment.inradius-seg { stroke: var(--golden); stroke-width: 2.2 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-segment.cut-seg { stroke: var(--golden); stroke-width: 3.0 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-segment.golden-seg { stroke: var(--golden); stroke-width: 3.2; opacity: 0.95 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-segment.tetra-seg { stroke: var(--tetra); stroke-width: 2.75 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-segment.octa-seg { stroke: var(--octa); stroke-width: 2.75 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-segment.cube-seg { stroke: var(--cube); stroke-width: 2.75 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-segment.icosa-seg { stroke: var(--icosa); stroke-width: 2.75 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-polygon { fill: var(--share-q); fill-opacity: 0.05; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round }
+            svg[data-svg-scope="s-96bc89c5"] .geom-polygon.share-p-poly { fill: var(--share-p); fill-opacity: 0.13; stroke: var(--golden); stroke-width: 1.8 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-polygon.share-q-poly { fill: var(--share-q); fill-opacity: 0.08; stroke: var(--circle-main); stroke-width: 1.6 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-polygon.pes-strip-poly { fill: var(--pes-strip); fill-opacity: 0.14; stroke: var(--cube); stroke-width: 1.7 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-polygon.denarius-poly { fill: var(--share-p); fill-opacity: 0.28; stroke: var(--golden); stroke-width: 2.2 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-point { fill: var(--pt-given); stroke: var(--svg-bg); stroke-width: 1.5 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-point.result-point { fill: var(--pt-result) }
+            svg[data-svg-scope="s-96bc89c5"] .geom-point.mid-point { fill: var(--pt-mid) }
+            svg[data-svg-scope="s-96bc89c5"] .geom-point.golden-point { fill: var(--pt-golden); stroke-width: 1.8 }
+            svg[data-svg-scope="s-96bc89c5"] .geom-label { fill: var(--ink); font-size: 13.5px; font-weight: 600; paint-order: stroke fill; stroke: var(--label-halo); stroke-width: 3.6px; stroke-linejoin: round; user-select: none }
+            svg[data-svg-scope="s-96bc89c5"] .geom-label-sub { font-size: 10px; font-weight: 600 }
+          </style>
           <title>Distinctio VI &amp; Euclid XIII.18 — Five Regular Polyhedra in Sphere of Diameter 6</title>
           <defs>
             <marker id="geom-tick-1" viewBox="-4 -8 8 16" markerWidth="8" markerHeight="16" orient="auto">
@@ -150,7 +184,6 @@
               <line x1="4" y1="-5" x2="4" y2="5" stroke="currentColor" stroke-width="1.5" />
             </marker>
           </defs>
-          <rect class="svg-bg" x="0" y="0" width="680" height="520" rx="6" fill="none" />
           <g id="elements">
             <g id="graphics">
               <circle class="geom-circle" cx="340" cy="260" r="180" data-ref="( O A )" data-aliases="circAI | ( O I ) | ( O C ) | ( O B ) | ( O M ) | ( A I C )" fill="none"><title>( O A ): x**2 + y**2 - 9 = 0</title></circle>
@@ -211,7 +244,41 @@
         <p><em>Latin Locus</em>: <a class="reference internal" href="unit-4-la.html#unit-4-dodeca-la"><span class="std std-ref">Modus Dividendi Lineam Media et Extrema Proportione (pp. 196–202)</span></a> · <em>Commentary</em>: <a class="reference internal" href="unit-4-notes.html#unit-4-s3-notes"><span class="std std-ref">Notes on the Golden Chord &amp; Hypsicles Book XIV</span></a></p>
         <p>To construct the <strong>dodecahedron</strong>, each pentagonal face is crowned upon an inscribed cube whose edge ($e_6 = \sqrt{12}$) serves as the <strong>pentagonal chord (diagonal)</strong> <span class="geom-ref" data-ref="dodecahedron_golden_chord:[ B G ]" title="[ B G ]">BE</span>. Since in every regular pentagon the diagonal and side stand in <a class="term-ref glossary-term" id="occ-term-media-et-extrema-proportio-1" href="../glossary.html#term-media-et-extrema-proportio" data-term="media-et-extrema-proportio" title="media et extrema proportio (extreme and mean ratio (the golden section φ)): Division of a segment AB at G so that the whole AB is to the greater part BG as BG is to the lesser part AG (AB : BG = BG : AG = φ = (1 + √5)/2). Used by Fibonacci in Distinctio VI (pp. 196–202) to construct the dodecahedron and icosahedron and in Distinctio VIII (pp. 207–208) for the pentagon and decagon.">extreme and mean ratio</a> <span class="justification" data-ref-target="XIII.17" title="XIII.17">[XIII. 8, 17]</span>, Leonardo inserts an explicit constructive chapter (<em>Modus dividendi lineam media et extrema proportione</em>, p. 196):</p>
         <figure class="photon-picture photon-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 680 480" data-graphic-id="dodecahedron_golden_chord" role="img" aria-label="Distinctio VI — Modus Dividendi Lineam Media et Extrema Proportione">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" data-graphic-id="dodecahedron_golden_chord" role="img" aria-label="Distinctio VI — Modus Dividendi Lineam Media et Extrema Proportione" width="680" height="480" data-svg-scope="s-38db3870">
+          <style>
+            svg[data-svg-scope="s-38db3870"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-main: #0284c7; --circle-guide: #64748b; --bisector: #0d9488; --parallel: #6366f1; --golden: #d97706; --tetra: #e11d48; --octa: #0284c7; --cube: #059669; --icosa: #7c3aed; --grid: #94a3b8; --share-p: #f59e0b; --share-q: #0ea5e9; --pes-strip: #10b981; --pt-given: #0f172a; --pt-result: #0369a1; --pt-mid: #0f766e; --pt-golden: #d97706; font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif }
+            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-38db3870"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-main: #38bdf8; --circle-guide: #94a3b8; --bisector: #2dd4bf; --parallel: #818cf8; --golden: #fbbf24; --tetra: #fb7185; --octa: #38bdf8; --cube: #34d399; --icosa: #c084fc; --grid: #64748b; --share-p: #fbbf24; --share-q: #38bdf8; --pes-strip: #34d399; --pt-given: #e2e8f0; --pt-result: #38bdf8; --pt-mid: #2dd4bf; --pt-golden: #fbbf24 }
+            svg[data-svg-scope="s-38db3870"] .geom-circle { fill: none; stroke: var(--circle-main); stroke-width: 2.1; opacity: 0.9 }
+            svg[data-svg-scope="s-38db3870"] .geom-circle.incircle-curve { stroke: var(--golden); stroke-width: 2.35 }
+            svg[data-svg-scope="s-38db3870"] .geom-circle.guide-circle { stroke: var(--circle-guide); stroke-width: 1.35; stroke-dasharray: 5 4; opacity: 0.68 }
+            svg[data-svg-scope="s-38db3870"] .geom-circle.transfer-circle { stroke: var(--golden); stroke-width: 1.45; stroke-dasharray: 6 4; opacity: 0.78 }
+            svg[data-svg-scope="s-38db3870"] .geom-line { fill: none; stroke: var(--carrier); stroke-width: 1.45; stroke-linecap: round; opacity: 0.72 }
+            svg[data-svg-scope="s-38db3870"] .geom-line.carrier-line { stroke: var(--carrier); stroke-width: 1.85; opacity: 0.88 }
+            svg[data-svg-scope="s-38db3870"] .geom-line.bisector-line { stroke: var(--bisector); stroke-width: 1.55; stroke-dasharray: 6 3.5; opacity: 0.85 }
+            svg[data-svg-scope="s-38db3870"] .geom-line.parallel-line { stroke: var(--parallel); stroke-width: 1.65; stroke-dasharray: 5 3.5; opacity: 0.88 }
+            svg[data-svg-scope="s-38db3870"] .geom-line.tangent-line { stroke: var(--icosa); stroke-width: 1.75; opacity: 0.88 }
+            svg[data-svg-scope="s-38db3870"] .geom-segment { fill: none; stroke: var(--carrier); stroke-width: 2.1; stroke-linecap: round }
+            svg[data-svg-scope="s-38db3870"] .geom-segment.grid-seg { stroke: var(--grid); stroke-width: 1.05; opacity: 0.48 }
+            svg[data-svg-scope="s-38db3870"] .geom-segment.bisector-seg { stroke: var(--bisector); stroke-width: 1.9; stroke-dasharray: 5 3 }
+            svg[data-svg-scope="s-38db3870"] .geom-segment.inradius-seg { stroke: var(--golden); stroke-width: 2.2 }
+            svg[data-svg-scope="s-38db3870"] .geom-segment.cut-seg { stroke: var(--golden); stroke-width: 3.0 }
+            svg[data-svg-scope="s-38db3870"] .geom-segment.golden-seg { stroke: var(--golden); stroke-width: 3.2; opacity: 0.95 }
+            svg[data-svg-scope="s-38db3870"] .geom-segment.tetra-seg { stroke: var(--tetra); stroke-width: 2.75 }
+            svg[data-svg-scope="s-38db3870"] .geom-segment.octa-seg { stroke: var(--octa); stroke-width: 2.75 }
+            svg[data-svg-scope="s-38db3870"] .geom-segment.cube-seg { stroke: var(--cube); stroke-width: 2.75 }
+            svg[data-svg-scope="s-38db3870"] .geom-segment.icosa-seg { stroke: var(--icosa); stroke-width: 2.75 }
+            svg[data-svg-scope="s-38db3870"] .geom-polygon { fill: var(--share-q); fill-opacity: 0.05; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round }
+            svg[data-svg-scope="s-38db3870"] .geom-polygon.share-p-poly { fill: var(--share-p); fill-opacity: 0.13; stroke: var(--golden); stroke-width: 1.8 }
+            svg[data-svg-scope="s-38db3870"] .geom-polygon.share-q-poly { fill: var(--share-q); fill-opacity: 0.08; stroke: var(--circle-main); stroke-width: 1.6 }
+            svg[data-svg-scope="s-38db3870"] .geom-polygon.pes-strip-poly { fill: var(--pes-strip); fill-opacity: 0.14; stroke: var(--cube); stroke-width: 1.7 }
+            svg[data-svg-scope="s-38db3870"] .geom-polygon.denarius-poly { fill: var(--share-p); fill-opacity: 0.28; stroke: var(--golden); stroke-width: 2.2 }
+            svg[data-svg-scope="s-38db3870"] .geom-point { fill: var(--pt-given); stroke: var(--svg-bg); stroke-width: 1.5 }
+            svg[data-svg-scope="s-38db3870"] .geom-point.result-point { fill: var(--pt-result) }
+            svg[data-svg-scope="s-38db3870"] .geom-point.mid-point { fill: var(--pt-mid) }
+            svg[data-svg-scope="s-38db3870"] .geom-point.golden-point { fill: var(--pt-golden); stroke-width: 1.8 }
+            svg[data-svg-scope="s-38db3870"] .geom-label { fill: var(--ink); font-size: 13.5px; font-weight: 600; paint-order: stroke fill; stroke: var(--label-halo); stroke-width: 3.6px; stroke-linejoin: round; user-select: none }
+            svg[data-svg-scope="s-38db3870"] .geom-label-sub { font-size: 10px; font-weight: 600 }
+          </style>
           <title>Distinctio VI — Modus Dividendi Lineam Media et Extrema Proportione</title>
           <defs>
             <marker id="geom-tick-1" viewBox="-4 -8 8 16" markerWidth="8" markerHeight="16" orient="auto">
@@ -227,7 +294,6 @@
               <line x1="4" y1="-5" x2="4" y2="5" stroke="currentColor" stroke-width="1.5" />
             </marker>
           </defs>
-          <rect class="svg-bg" x="0" y="0" width="680" height="480" rx="6" fill="none" />
           <g id="elements">
             <g id="graphics">
               <polygon class="geom-polygon share-p-poly" points="308.49,190.37 177.92,285.23 439.06,285.23" data-ref="&lt; A B E &gt;" data-aliases="triABE | &lt; E B A &gt; | &lt; B E A &gt; | &lt; E A B &gt;" fill="none" />
@@ -350,7 +416,7 @@
 
   <script src="../../_static/jquery.js?v=5d32c60e"></script>
   <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-  <script src="../../_static/documentation_options.js?v=fd825880"></script>
+  <script src="../../_static/documentation_options.js?v=59fadc99"></script>
   <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
