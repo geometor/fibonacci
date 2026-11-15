@@ -47,7 +47,6 @@ copyright = "1220 / 1225 (Boncompagni 1857–1862 Public Domain) • Digital Cod
 html_theme = "foundation"
 html_static_path = ["_static"]
 html_css_files = ["custom.css"]
-html_logo = None
 autoapi_add_toctree_entry = False
 napoleon_use_ivar = True
 suppress_warnings = ["autoapi.python_import_resolution", "toc.not_included"]
