@@ -1,0 +1,12 @@
+{
+  "edition": "boncompagni_1857_vol1_liber_abbaci",
+  "source_pdf": "resources/pdfs/boncompagni_1857_vol1_liber_abbaci.pdf",
+  "total_pages": 468,
+  "dpi": 300,
+  "preserve_color": false,
+  "folio_png_count": 468,
+  "rendered_new_count": 0,
+  "extracted_text_pages": 464,
+  "extracted_graphics_count": 0,
+  "extracted_graphics": []
+}

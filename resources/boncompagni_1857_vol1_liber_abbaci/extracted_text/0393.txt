@@ -1,0 +1,104 @@
+                             .                                                                                                                                                                            .
+
+
+
+
+                                                                                          387
+
+ut hoc melius dcclarcscat, addatur radix de <35 cum radice de                                                                             1715; quorum proportio
+
+est sicut cubus 27 ad cubum                                  343; et est unusquisque                      eorum quincuplus sui cubi. Quare
+accipe radices ipsorum cuborum, erunt 3 et 7. Dic ergo, te uclle addere tres radices de
+5   cum septem radicibus de 5. Ex qua iunctione proucniunt decem radices cubice dc 5,
+hoc est una radix dc 5000. Et si uis extrahere ladiccm dc 135 ex radice dc 1715, extrahe
+ tres radices dc 5 ex septem radicibus de 5,                                                    remanebunt quattuor radices dc                                 5,   silicet
+
+una radix dc 320. Et sic intelligns in omnibus radicibus cubicis inter                                                                          se comunicantibus:
+
+relique ucro radices, que proportionem non habent, addi nec dis gregari possunt.                                                                                        Vnde
+si uis       addere radicem cubicam de 5 cum                                              radice cubica de 3, prouenict                               ex eorum ad-|
+dictione radix de 5, et radix de 3. Et si uis eas disgregarc, habebis radicem dc 5, minus                                                                                        M 171
+radice de 3 ; et aliter dici non possunt pulcrius. Vnde huic capitulo finem imponimus.
+             Incipit capitulum                        quintum decimum de regulis geornetrie pertinentibus                                                           ,
+
+
+                                               et de questionibus aliebre et almuchabale.
+      Pxntes huius ultima                          (sic)     capituli sunt tres; quarum                             prima              erit     de proportionibus
+trium, et quattuor quantitatum, ad quas multe questionum geometrie pertinentium so-
+lutiones reddiguntur: secunda erit de solutione quarumdam questionum geometricalium:
+                                                                                                                                                                                                                               W.
+tertia erit             super           modum algebre, ct almuchabale.                                                                                                           «   Sir» t
+
+                                                                                                                                                                                     117
+                                                                                                                                                                                               ....
+
+                                                                                                                                                                                               Mm,
+                                                                                                                                                                                                      iirufratiniwiw
+                                                                                                                                                                                                        lia.   9 i
+                                                                                                                                                                                                                       •   .
+
+
+
+
+                                                                                                                                                                                                                           2*7       .
+
+
+
+
+                                                                                                                                                                                     lio-      IU).
+                                                                       Incipit pars prima.
+      Sint primum tres numeri proportionales .a.b., b.c ., c.d.
+                                                             secundum proportionem con-
+tinuam     scilicet vt .a.b. ad .b.c., ita .b.c. ad .c.d.\ et sit coniunctum numerorum
+              ,
+
+
+.a.b ., ct .b.c. 10 ; et numerus .c.d. sit 9; et queratur disjunctio numerorum .a.b. b.c.:
+quoniam est sicut .a.b. ad b.c ., ita .b.c. ad .c.d. ; erit ergo sicut duo antecedentes
+                                                             .
+
+
+ad    unum ipsorum, ita et reliqui antecedentes ad suum consequentem; hoc est sicut
+.a.c.        primus ad                   .b.c.   secundum,                 ita       .b.d.      tercius est        ad       .c.d. quartum; et                  sunt noti
+primus, et quartus; ct quia                                      cum quattuor numeri suut proportionales,                                               multiplicatio
+primi in quartum equatur multiplicationi secundi in tercium: est enim primus                                                                                            .a.c.
+
+10,     et    quartus                  .c.d.   est 9;        quorum multiplicatio, que est 90, equatur multiplicationi
+.b.c.    secundi in .b.d. tercium                                 :    diuidatur itaque numerus                                 .   c.d     silicct     in     duo equa
+super punctum                          .e.,    erit     una queque portio eorum                           ^
+                                                                                                              4.    Et quia .c.d. numerus diuisus
+est in        duo equa super                          .e.,   et       ei    adiunctus              est   numerus                    .b.c.   ,   erit    multiplicatio            ftt    7
+                                                                                                                                                                                              n,i
+                                                                                                                                                                                                    «Nili ciiHi.li.
+adiuncti .b.c. in totum .b.d.                                     cum quadrato numeri                         .c.e.         ,       equalis quadrato            numeri
+.b.e.i       est       enim multiplicatio ex                          .b.c.          in       .b.d. 00 ; et   quadratus numeri .c.e. est                                \ 20 ;
+                                                                                                                                                                                     ronutUl .... A.e.,iu »11«!
+quibus in similibus (jic) innetis, faciunt j lio pro quadrato numeri .b.e.‘, quorum radix,                                                                                           177 i»™, Un. 26; rae 287                    ,
+
+
+                                                                                                                                                                                     l.n 25 « 36|
+scilicet      -j      10 ,       est    numerus b.e.\ de quibus auferatur numerus                                                      .c.e.     ,
+                                                                                                                                                     silicet
+                                                                                                                                                               | 4, re-
+                                                                                                                                                                                               *               r       4
+manebit               .b.c        numerus          0;    quibus extractis ex numero                                .a.c., silicet                ex    10 ,   remanebit
+numerus .aJf. 4. Item sil sicut numerus .a.b. ad I>.c., ita .b.c. ad .c.r/.; et .a.b. sit
+4, ct coniunctum ex numeris .b.c., et .c.d. sit is; erit ergo sicut .a.b. primus ad
+
+.a.c. secundum, ita .b.c. tcrcius ad .b.d. quartum    multiplicabis siquidem primum                       :
+
+
+
+eorum         in       quartum,                scilicet 4        per       15 ,      erunt       oo;   quibus equatur multiplicatio secundi
+.a.c.    in           tercium           .b.c.:     quare addatur super                            60 multiplicatio medietatis                          numen            .a.b.
+
+in se, erunt 04; ex                    quorum radice auferatur medietas numen .a.b., remanebunt 0 pro
+numero            .   b.c         quibus extractis ex numero .b.d., remanebunt 9 pro numero .c.d. Rursus
+sit sicut             .a.b.       ad      .b.c.,      ita    .b.c.     ad c.d. , .
+                                                                                          m
+                                                                                               et .b.c. sit 0           :       coniunctum itaque ex nu-
+
+
+
+
+                                                                                                                                                                                                       Digitized by                      Google

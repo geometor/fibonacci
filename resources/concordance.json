@@ -2,7 +2,7 @@
   "entries": [
     {
       "id": "PG.Prol-I",
-      "unit": "unit-1",
+      "unit": "dist_01",
       "fibonacci_locus": "Practica Geometriae, Prologue & Distinctio I (Boncompagni II, pp. 1–18, fol. 1r–11v)",
       "topic": "Euclidean definitions, Pisan pertica metrology (6 pedes, 36 denarii, 66-pertica stariorum), Book II geometric algebra & III.35 intersecting chords",
       "geometor_links": {
@@ -14,7 +14,7 @@
     },
     {
       "id": "PG.II",
-      "unit": "unit-1",
+      "unit": "dist_02",
       "fibonacci_locus": "Practica Geometriae, Distinctio II (Boncompagni II, pp. 18–30, fol. 11v–18v)",
       "topic": "Iterative extraction of square roots in Hindu-Arabic integers, sexagesimals, and Pisan unciae via Euclid II.4 gnomon completion",
       "geometor_links": {
@@ -25,7 +25,7 @@
     },
     {
       "id": "PG.III.Heron",
-      "unit": "unit-2",
+      "unit": "dist_03",
       "fibonacci_locus": "Practica Geometriae, Distinctio III, Pars I (Boncompagni II, pp. 39–41, fol. 23v–25r)",
       "topic": "Scalene altitude projections (casus) on (13, 14, 15) and geometric incenter proof of Heron's area formula sqrt(s(s-a)(s-b)(s-c))",
       "geometor_links": {
@@ -37,7 +37,7 @@
     },
     {
       "id": "PG.III.Circle",
-      "unit": "unit-2",
+      "unit": "dist_03",
       "fibonacci_locus": "Practica Geometriae, Distinctio III, Pars IV (Boncompagni II, pp. 88–91, fol. 53v–55v)",
       "topic": "Small-number demonstration of Archimedes' 96-gon yielding 1440 / 458 4/9 < pi < 1440 / 458 1/5 and pi_Fib = 864 / 275",
       "geometor_links": {
@@ -48,7 +48,7 @@
     },
     {
       "id": "PG.IV.Triangles",
-      "unit": "unit-3",
+      "unit": "dist_04",
       "fibonacci_locus": "Practica Geometriae, Distinctio IV, Pars I (Boncompagni II, pp. 110–121, fol. 67v–74v)",
       "topic": "Latin preservation & expansion of Euclid's lost On Divisions of Figures: cuts through a vertex, side point D, interior/exterior points, parallel to base (Euclid VI.13), and 3-consort centroid X(2)",
       "geometor_links": {
@@ -60,7 +60,7 @@
     },
     {
       "id": "PG.IV.Trapezoids",
-      "unit": "unit-3",
+      "unit": "dist_04",
       "fibonacci_locus": "Practica Geometriae, Distinctio IV, Pars II–IV (Boncompagni II, pp. 121–148, fol. 74v–92v)",
       "topic": "Division of trapezoids parallel to bases (c^2 = (a^2 + b^2)/2), general quadrilaterals, pentagons, and circular segments/sectors",
       "geometor_links": {
@@ -71,7 +71,7 @@
     },
     {
       "id": "PG.V-VI.Polyhedra",
-      "unit": "unit-4",
+      "unit": "dist_06",
       "fibonacci_locus": "Practica Geometriae, Distinctio V & VI (Boncompagni II, pp. 148–202, fol. 92v–130v)",
       "topic": "Cube roots, solid mensuration, and the five regular polyhedra in a sphere of diameter 6 via extreme & mean ratio (phi) and Hypsicles Book XIV",
       "geometor_links": {
@@ -83,7 +83,7 @@
     },
     {
       "id": "PG.VII.Quadrans",
-      "unit": "unit-5",
+      "unit": "dist_07",
       "fibonacci_locus": "Practica Geometriae, Distinctio VII (Boncompagni II, pp. 202–206, fol. 131r–133v)",
       "topic": "Optical surveying of inaccessible heights, valley depths, and plains via sighting rods and the 12-part Quadrans shadow square",
       "geometor_links": {
@@ -92,15 +92,34 @@
       }
     },
     {
-      "id": "PG.VIII-Flos-LA",
-      "unit": "unit-5",
-      "fibonacci_locus": "Practica Geometriae Dist. VIII (pp. 207–224), Flos (pp. 227–247), & Liber Abaci Ch. 12 (Vol. I, pp. 283–284)",
-      "topic": "Pentagon & decagon in d=10 via al-Khwarizmi's census census (x^4 + 3125 = 125x^2) and Euclid XIII.9–10; Book X binomials/apotomes; Flos cubic 1;22,7,42,33,4,40; rabbit recurrence F_{n+1}/F_n -> phi",
+      "id": "PG.VIII-Flos",
+      "unit": "dist_08",
+      "fibonacci_locus": "Practica Geometriae Dist. VIII (pp. 207–224) & Flos (pp. 227–247)",
+      "topic": "Pentagon & decagon in d=10 via al-Khwarizmi's census census (x^4 + 3125 = 125x^2) and Euclid XIII.9–10; Book X binomials/apotomes; Flos cubic 1;22,7,42,33,4,40",
       "geometor_links": {
         "euclid": ["IV.10–11", "X.36–73 (binomials & apotomes)", "XIII.9–10"],
         "divine": ["Continued-fraction convergents F_{n+1}/F_n to phi = (1 + sqrt(5))/2"],
-        "phyllotaxis": ["Fibonacci parastichy numbers (1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377) & golden divergence"],
         "pacioli": ["Summa (1494) & De Divina Proportione (1509) algebraic problems in diameter 10"]
+      }
+    },
+    {
+      "id": "LA.I",
+      "unit": "cap_01",
+      "fibonacci_locus": "Liber Abbaci Capitulum I (Vol. I, pp. 1–10, fol. 1r–4r)",
+      "topic": "The nine Indian figures (9 8 7 6 5 4 3 2 1), the zephirum (0), positional base-10 place-value notation, and finger reckoning",
+      "geometor_links": {
+        "elements": ["Positional decimal system"],
+        "pacioli": ["Summa de arithmetica Dist. I (figures of the Indians)"]
+      }
+    },
+    {
+      "id": "LA.XII",
+      "unit": "cap_12",
+      "fibonacci_locus": "Liber Abbaci Cap. XII, Pars 7 (Vol. I, pp. 283–284, fol. 124r)",
+      "topic": "The rabbit problem (Quot paria coniculorum), the recurrence sequence F_{n+1} = F_n + F_{n-1}, Cassini's identity, and convergence to phi",
+      "geometor_links": {
+        "divine": ["Convergence to extreme and mean ratio phi"],
+        "phyllotaxis": ["Fibonacci parastichy numbers (1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377)"]
       }
     }
   ]

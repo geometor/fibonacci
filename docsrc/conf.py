@@ -40,7 +40,9 @@ if "geometor.fibonacci.sphinx_ext" not in extensions:  # noqa: F405
 register_latin_book_track()
 configure_local_intersphinx(intersphinx_mapping, _REPO_ROOT)  # noqa: F405
 
-project = "GEOMETOR • fibonacci"
+site_title = "Leonardo Pisano (Fibonacci)"
+project = site_title
+html_title = f"{site_title} • {org_name}"
 author = "Leonardo Pisano (Fibonacci)"
 copyright = "1220 / 1225 (Boncompagni 1857–1862 Public Domain) • Digital Codex & Translations GEOMETOR"
 

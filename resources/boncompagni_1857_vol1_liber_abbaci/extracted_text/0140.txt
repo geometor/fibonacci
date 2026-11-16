@@ -1,0 +1,77 @@
+                                                                                              133
+
+factus ex numeris .d. b. per                                                   equabitur multiplicationi                            .   e . in factum ex numeris .a.
+c.    :    quare prqportionalitcr est sicut factus ex numeris .d. b. ad factum cx immcris m.
+c., ita          -e*       ad                     ergo numeri                 .d.   b., ut dixi, sunt antecedentes, et .a. c. sunt con-
+
+sequentes. Componitur ergo proportio                                                    .e.        ad ,f. cx proportione .d. antecedentis ad .a.
+consequentem, et ex proportione                                                 .b.    similiter antecedentis                            ad       .c.       consequentem ; uel
+proportio                 .e. ad ./.               componitur ex permutatis proportionibus, scilicet ex ea, quam liabct
+numerus               .   d ad numerum .c., et ex ea quam hal>ct .b. ad .a.; quod etiam demonstrabo
+                           .
+
+
+
+in     numeris alio modo. Quoniam                                              est sicut       10          ad     5, hoc        est, sicut              numerus        .d.       ad nu-
+merum             .n.,         ita       factus ex numeris .b. d                         .    ad factum cx minieris                                 .b.      arf hoc est            sicut
+equi io sunt ad equos                                        3,    itu   equi co sunt ad equos                             30; et sicut equi G0 sunt                        ad equos
+30,        ita   sexlaria co sunt ad sextaria 30.                                            Rursus sicut                  6   sextaria sunt ad o dies, hoc est,
+sicut .b.             est       ad           -c. t ita        factus ex numeris                    .   a   ,    b.   ad factum ex numeris                             .a.     c.;       hoc
+e-st       sicut 6 sextaria sunt ad dies 8, ita sextaria 30 sunt ad dies 45 : ergo est sicut .d.
+ad               ita       sextaria go ad sextaria 30;                                 et sicut .b. est ud                          .c.,          ita    sextaria 30             ad dies
+45     :    ergo proportio ordei ad dies est sicut oo ad                                                             45;       que proportio ostensa                         est    esse
+composita ex ca, quain habet                                             .d.    ad            et       ./>.      ad .c.: ergo est sicut 60 sextaria ad dies
+45,        ita   sextaria is sunt ad quesit#s dies, scilicet                                                         numerus .e. ad numerum                                       et sic
+proportio                 .c.   ad               ./.    ostensa est esse composita cx .d. ad                                        .   a     et cx .b. ad c., ut opor-                       r-        f. ....                                  .    |t..f
+                                                                                                                                                                                               AS m-fn.lia. 2311 «                     U   .,   tg    |   jj
+tet.        Similiter ostenderem                                  .e.    ad           compositam                 esse ex           .a.      ad      .c.,     et ex      .b.      ad .a.;       lin.   IH-29..
+
+
+et sic           habemus unam combinationem.                                            Similiter potest ostendi, quod                                        .c.   ad ./. compo-                       dtrt              un/rua,               rqut
+
+nitur ex reliquis quattuor muneris.                                                   Ex quibus rursus numeri .d. b sunt antecedentes,                                                                     y                   6                      5
+                                                                                                                                                        .
+
+
+
+reliqui          autem           .e.             a. sunt consequentes; et est multiplicatio facti ex numeris .a. e. in                                                                                                     .b.
+
+numerum c, scilicet 720 equalis multiplicationi facti cx numeris .d. b. antecedentibus                                                                                                                                      /
+in numerum       et sic habetur combinatio secunda. Eodcmque modo ostendetur                                                                                                                                              /
+qui restat ex prima couiunctione, componi ad                                                                      cx quattuor reliquis numeris; quorum                                                            i                    /
+
+iterum numeri                        .   d   .    b. sunt antecedentes, ct reliqui, scilicet                                                .e.    c., sunt conswpicntes;                                             I
+                                                                                                                                                                                                                                   '
+
+
+et sic habetur combinatio tertia.                                               Et sic ostensum                                                                                                    !2                     16                     10
+                                                                                                                      est, quod              proportio uniuscuiusque
+trium numerorum prime couiunctionis ad                                                         numerum f               .
+                                                                                                                               ,
+                                                                                                                                   qui est unus ex                     tribus           nu-
+meris secunde couiunctionis, componitur ex duabus proportionibus reliquorum quattuor
+numerorum. Rursus supradicta ratione                                                     queratur, quot equi comedant sextaria                                                     io    in
+diebus           12 : describe                     in    questione ordeum sub ordeo, et dies sub diebus; et diuides nu-
+merum factum ex                                   tribus          numeris prime compositionis, scilicet                                           720,      per reliquas duos
+numeros,              scilicet               per        12 , et     per 0 , exibunt                10          pro quesitis equis.                      In    hac autem que-
+stione supradiclo                                modo potest ostendi, quod                              proportio quam habet unusquisque nume-
+rorum prime coniunctionls ad                                              10 , qui     est alius numerus secunde, componitur ex duabus
+proportionibus reliquorum quattuor numerorum,                                                                     quorum antecedentes sunt                                  12    ad «    ,
+
+
+scilicet         numeri              .f.
+                                                 b,\ et sic             habentur tres              alie         combinationes                 in        hac questione.
+      Et si proponatur, quod equi 10 comedant sextaria 10 in diebus 12 ;                                                                                     et   queratur quot
+sextaria              comedent equi                           5 in       diebus 9 ;      modo in hac questione deficit tertius numerus                                                        M.
+                  |
+
+
+secunde coniunctionis; quare reliqui duo numeri eiusdem coniunctionis,                                                                                              scilicet       10    et
+12 , erunt diuisores; in                                quibus diuides                720,    qui procreantur ex 5 uicibus 16, exibunt sex-
+taria ordei                6, ut in                    hac   tertia      descriptione ostenditur; in qua certissime potest cogno-
+sci, quod             proportio uniuscuiusque numeri prime coniunctionis ad 6, qui est tertius ex
+
+
+
+
+                                                                                                                                                                                                                          Digitized by                         Google

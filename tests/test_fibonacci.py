@@ -277,15 +277,34 @@ def test_apparatus_json_and_codex_four_track_parity() -> None:
 
     g_role_re = re.compile(r":g:`[^`]*<([^:>]+):([^>]+)>`")
 
-    for unit_num in range(1, 6):
-        unit_dir = CODEX_DIR / f"unit-{unit_num}"
-        assert unit_dir.is_dir()
+    for dist_num in range(1, 9):
+        slug = f"dist_{dist_num:02d}"
+        dist_dir = CODEX_DIR / slug
+        assert dist_dir.is_dir(), f"Missing directory {dist_dir}"
         for track in ("en", "la", "summary", "notes"):
-            rst_path = unit_dir / f"unit-{unit_num}-{track}.rst"
+            rst_path = dist_dir / f"{slug}-{track}.rst"
             assert rst_path.is_file(), f"Missing track {rst_path}"
             txt = rst_path.read_text(encoding="utf-8")
             assert ":layout: book" in txt
-            assert f".. _unit-{unit_num}-{track}:" in txt
+            assert f".. _{slug.replace('_', '-')}-{track}:" in txt
+            assert "py_file" not in txt
+
+            for graphic_id, elem_ref in g_role_re.findall(txt):
+                assert graphic_id in svg_refs_by_id, f"Unknown SVG id {graphic_id} in {rst_path}"
+                assert elem_ref in svg_refs_by_id[graphic_id], (
+                    f"Missing data-ref {elem_ref!r} in {graphic_id}.svg (referenced in {rst_path.name})"
+                )
+
+    liber_dir = REPO_ROOT / "docsrc" / "liber_abbaci"
+    for cap_slug in ("cap_01", "cap_12"):
+        cap_dir = liber_dir / cap_slug
+        assert cap_dir.is_dir(), f"Missing directory {cap_dir}"
+        for track in ("en", "la", "summary", "notes"):
+            rst_path = cap_dir / f"{cap_slug}-{track}.rst"
+            assert rst_path.is_file(), f"Missing track {rst_path}"
+            txt = rst_path.read_text(encoding="utf-8")
+            assert ":layout: book" in txt
+            assert f".. _{cap_slug.replace('_', '-')}-{track}:" in txt
             assert "py_file" not in txt
 
             for graphic_id, elem_ref in g_role_re.findall(txt):
