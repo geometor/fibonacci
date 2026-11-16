@@ -1,0 +1,329 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Capitulum Xii.7 Summary — the Rabbit Sequence &amp; Recurrence — Liber Abbaci • GEOMETOR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://geometor.github.io/fibonacci/liber_abbaci/cap_12/cap_12-summary.html" />
+  <meta name="description" content="Summary of the rabbit recurrence relation, monthly population growth, Cassini’s identity, and convergence to the golden ratio." />
+  <meta property="og:site_name" content="GEOMETOR" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Capitulum Xii.7 Summary — the Rabbit Sequence &amp; Recurrence — Liber Abbaci • GEOMETOR" />
+  <meta property="og:description" content="Summary of the rabbit recurrence relation, monthly population growth, Cassini’s identity, and convergence to the golden ratio." />
+  <meta property="og:url" content="https://geometor.github.io/fibonacci/liber_abbaci/cap_12/cap_12-summary.html" />
+  <meta property="og:image" content="https://geometor.github.io/fibonacci/_static/social/liber_abbaci.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Leonardo Pisano (Fibonacci) — GEOMETOR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Capitulum Xii.7 Summary — the Rabbit Sequence &amp; Recurrence — Liber Abbaci • GEOMETOR" />
+  <meta name="twitter:description" content="Summary of the rabbit recurrence relation, monthly population growth, Cassini’s identity, and convergence to the golden ratio." />
+  <meta name="twitter:image" content="https://geometor.github.io/fibonacci/_static/social/liber_abbaci.png" />
+  <meta name="twitter:image:alt" content="Leonardo Pisano (Fibonacci) — GEOMETOR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=81e79cc0" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=8542bf54" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif" data-folio="boncompagni_1857_vol1_liber_abbaci:0289">
+  <header>
+    <div class="logo">
+      <a href="../../index.html" title="Home">
+        <img src="../../_static/logo.png" class="logo" alt="GEOMETOR fibonacci"/>
+        <div class="org-repo">
+          <span class="org">GEOMETOR</span>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span class="repo">fibonacci</span>
+        </div>
+      </a>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../practica_geometriae/index.html"  >Practica Geometriae</a>
+        </li>
+        <li>
+          <a href="../index.html" class="is-active" aria-selected="true" >Liber Abbaci</a>
+        </li>
+        <li>
+          <a href="../../practica_geometriae/persons.html"  >People</a>
+        </li>
+        <li>
+          <a href="../../practica_geometriae/bibliography.html"  >Bibliography</a>
+        </li>
+        <li>
+          <a href="../../about/index.html"  >About</a>
+        </li>
+        <li>
+          <a href="../../usage/index.html"  >Usage</a>
+        </li>
+        <li>
+          <a href="../../demos/index.html"  >Demos</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >Log</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >Modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane" data-folio="boncompagni_1857_vol1_liber_abbaci:0289">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <nav class="book-breadcrumbs" aria-label="Breadcrumb">
+            <a class="book-section-home-link" href="../index.html">Liber Abbaci</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <a class="book-crumb-link" href="cap_12-la.html">CAPITULUM XII.7</a>
+          </nav>
+          <div class="book-provenance-badges">
+            <a class="book-badge folio-badge folio-link" href="https://github.com/geometor/fibonacci/blob/main/resources/boncompagni_1857_vol1_liber_abbaci/folios/0289.png" target="_blank" rel="noopener" title="View Folio boncompagni_1857_vol1_liber_abbaci:0289">Folio boncompagni_1857_vol1_liber_abbaci:0289</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../cap_01/cap_01-en.html" title="CAPITULUM I — DE COGNITIONE NOVEM FIGURARUM INDORUM">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="cap_12-la.html">Latin (1220 / Boncompagni 1862)</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="cap_12-en.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">Summary</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="cap_12-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../../about/index.html" title="About"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="capitulum-xii-7-summary-the-rabbit-sequence-recurrence">
+        <span id="liber-abbaci-cap12-summary"></span><span id="cap-12-summary"></span><h1>CAPITULUM XII.7 SUMMARY — THE RABBIT SEQUENCE &amp; RECURRENCE<a class="headerlink" href="#capitulum-xii-7-summary-the-rabbit-sequence-recurrence" title="Link to this heading">¶</a></h1>
+        <p class="rubric"><em>Structural Synopsis of Boncompagni Vol. I, pp. 283–284 (fol. 124r)</em></p>
+        <p><a class="reference internal" href="cap_12-en.html#cap-12-en"><span class="std std-ref">English Edition</span></a> · <a class="reference internal" href="cap_12-la.html#cap-12-la"><span class="std std-ref">Latin (1202/1228 / Boncompagni 1857)</span></a> · <a class="reference internal" href="cap_12-notes.html#cap-12-notes"><span class="std std-ref">GEOMETOR Notes</span></a></p>
+        <hr class="docutils" />
+        <section class="level-2" id="overview">
+        <h2>Overview<a class="headerlink" href="#overview" title="Link to this heading">¶</a></h2>
+        <p>In Capitulum XII, Part 7 of <em>Liber Abbaci</em>, Fibonacci formulates the earliest recorded mathematical model of biological population growth. Under the idealized assumptions of monthly reproduction and a one-month maturation lag, the number of rabbit pairs follows the second-order linear recurrence relation $F_{n+1} = F_n + F_{n-1}$, generating the sequence $1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377$.</p>
+        </section>
+        <section class="level-2" id="month-by-month-population-model">
+        <h2>Month-by-Month Population Model<a class="headerlink" href="#month-by-month-population-model" title="Link to this heading">¶</a></h2>
+        <table class="docutils align-default" id="id1">
+        <caption><span class="caption-text">Monthly Population Dynamics Over One Solar Year</span><a class="headerlink" href="#id1" title="Link to this table">¶</a></caption>
+        <colgroup>
+        <col style="width: 15.0%" />
+        <col style="width: 15.0%" />
+        <col style="width: 15.0%" />
+        <col style="width: 20.0%" />
+        <col style="width: 35.0%" />
+        </colgroup>
+        <thead>
+        <tr class="row-odd"><th class="head"><p>Month ($n$)</p></th>
+        <th class="head"><p>Mature Pairs</p></th>
+        <th class="head"><p>Newborn Pairs</p></th>
+        <th class="head"><p>Total Pairs ($F_n$)</p></th>
+        <th class="head"><p>Successive Ratio ($F_n / F_{n-1}$)</p></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="row-even"><td><p><strong>0 (Start)</strong></p></td>
+        <td><p>$1$</p></td>
+        <td><p>$0$</p></td>
+        <td><p><strong>$1$</strong></p></td>
+        <td><p>—</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><strong>1</strong></p></td>
+        <td><p>$1$</p></td>
+        <td><p>$1$</p></td>
+        <td><p><strong>$2$</strong></p></td>
+        <td><p>$2 / 1 = 2.000000$</p></td>
+        </tr>
+        <tr class="row-even"><td><p><strong>2</strong></p></td>
+        <td><p>$2$</p></td>
+        <td><p>$1$</p></td>
+        <td><p><strong>$3$</strong></p></td>
+        <td><p>$3 / 2 = 1.500000$</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><strong>3</strong></p></td>
+        <td><p>$3$</p></td>
+        <td><p>$2$</p></td>
+        <td><p><strong>$5$</strong></p></td>
+        <td><p>$5 / 3 \approx 1.666667$</p></td>
+        </tr>
+        <tr class="row-even"><td><p><strong>4</strong></p></td>
+        <td><p>$5$</p></td>
+        <td><p>$3$</p></td>
+        <td><p><strong>$8$</strong></p></td>
+        <td><p>$8 / 5 = 1.600000$</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><strong>5</strong></p></td>
+        <td><p>$8$</p></td>
+        <td><p>$5$</p></td>
+        <td><p><strong>$13$</strong></p></td>
+        <td><p>$13 / 8 = 1.625000$</p></td>
+        </tr>
+        <tr class="row-even"><td><p><strong>6</strong></p></td>
+        <td><p>$13$</p></td>
+        <td><p>$8$</p></td>
+        <td><p><strong>$21$</strong></p></td>
+        <td><p>$21 / 13 \approx 1.615385$</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><strong>7</strong></p></td>
+        <td><p>$21$</p></td>
+        <td><p>$13$</p></td>
+        <td><p><strong>$34$</strong></p></td>
+        <td><p>$34 / 21 \approx 1.619048$</p></td>
+        </tr>
+        <tr class="row-even"><td><p><strong>8</strong></p></td>
+        <td><p>$34$</p></td>
+        <td><p>$21$</p></td>
+        <td><p><strong>$55$</strong></p></td>
+        <td><p>$55 / 34 \approx 1.617647$</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><strong>9</strong></p></td>
+        <td><p>$55$</p></td>
+        <td><p>$34$</p></td>
+        <td><p><strong>$89$</strong></p></td>
+        <td><p>$89 / 55 \approx 1.618182$</p></td>
+        </tr>
+        <tr class="row-even"><td><p><strong>10</strong></p></td>
+        <td><p>$89$</p></td>
+        <td><p>$55$</p></td>
+        <td><p><strong>$144$</strong></p></td>
+        <td><p>$144 / 89 \approx 1.617978$</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><strong>11</strong></p></td>
+        <td><p>$144$</p></td>
+        <td><p>$89$</p></td>
+        <td><p><strong>$233$</strong></p></td>
+        <td><p>$233 / 144 \approx 1.618056$</p></td>
+        </tr>
+        <tr class="row-even"><td><p><strong>12</strong></p></td>
+        <td><p>$233$</p></td>
+        <td><p>$144$</p></td>
+        <td><p><strong>$377$</strong></p></td>
+        <td><p>$377 / 233 \approx 1.618026$</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="mathematical-properties-of-the-recurrence">
+        <h2>Mathematical Properties of the Recurrence<a class="headerlink" href="#mathematical-properties-of-the-recurrence" title="Link to this heading">¶</a></h2>
+        <ol class="arabic">
+        <li><p><strong>Linear Recurrence</strong>:</p>
+        <p>$$F_{n+1} = F_n + F_{n-1}, \quad \text{with } F_1 = 1, \; F_2 = 2.$$</p>
+        </li>
+        <li><p><strong>Cassini’s Identity ($1680$)</strong>:</p>
+        <p>$$F_{n-1} F_{n+1} - F_n^2 = (-1)^n.$$</p>
+        <p><em>Example for $n = 6$</em>: $13 \times 34 - 21^2 = 442 - 441 = +1$.</p>
+        </li>
+        <li><p><strong>Convergence to the Golden Ratio</strong>:</p>
+        <p>$$\lim_{n \to \infty} \frac{F_{n+1}}{F_n} = \phi = \frac{1 + \sqrt{5}}{2} \approx 1.6180339887\dots$$</p>
+        <p>The successive rational ratios $\frac{F_{n+1}}{F_n}$ oscillate strictly above and below $\phi$, providing the best rational convergents to the extreme and mean ratio of <em>Practica Geometriae</em> Distinctio VIII.</p>
+        </li>
+        </ol>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../cap_01/cap_01-en.html" title="CAPITULUM I — DE COGNITIONE NOVEM FIGURARUM INDORUM">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">Liber Abbaci</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../../about/index.html" title="About"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../log/2026-11-12-initial-codex.html">2026-11-12 — Initial Four-Track Codex & Exact Symbolic Suite</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../types/book.html">book</a></li>
+        <li><a href="../../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../changelog.html"  >Changelog</a></li>
+        <li><a href="../../practica_geometriae/concordance.html"  >Concordance</a></li>
+        <li><a href="../../practica_geometriae/glossary.html"  >Glossary</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1220 / 1225 (Boncompagni 1857–1862 Public Domain) • Digital Codex & Translations GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=59fadc99"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

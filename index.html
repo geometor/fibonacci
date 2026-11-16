@@ -6,12 +6,32 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Leonardo Pisano (Fibonacci) &mdash; GEOMETOR • fibonacci</title>
+
+  <title>Leonardo Pisano (Fibonacci) • GEOMETOR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://geometor.github.io/fibonacci/" />
+  <meta name="description" content="The mission of this project is to capture a semantic digital library of the works of Leonardo Pisano (c. 1170 – c. 1245), the Pisan master whose Liber Abbaci and Practica Geometriae…" />
+  <meta property="og:site_name" content="GEOMETOR" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Leonardo Pisano (Fibonacci) • GEOMETOR" />
+  <meta property="og:description" content="The mission of this project is to capture a semantic digital library of the works of Leonardo Pisano (c. 1170 – c. 1245), the Pisan master whose Liber Abbaci and Practica Geometriae…" />
+  <meta property="og:url" content="https://geometor.github.io/fibonacci/" />
+  <meta property="og:image" content="https://geometor.github.io/fibonacci/_static/social/banner.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Leonardo Pisano (Fibonacci) — GEOMETOR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Leonardo Pisano (Fibonacci) • GEOMETOR" />
+  <meta name="twitter:description" content="The mission of this project is to capture a semantic digital library of the works of Leonardo Pisano (c. 1170 – c. 1245), the Pisan master whose Liber Abbaci and Practica Geometriae…" />
+  <meta name="twitter:image" content="https://geometor.github.io/fibonacci/_static/social/banner.png" />
+  <meta name="twitter:image:alt" content="Leonardo Pisano (Fibonacci) — GEOMETOR" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=ea5fcf70" />
-  <link rel="stylesheet" type="text/css" href="_static/css/styles.css?v=99410eb1" />
+  <link rel="stylesheet" type="text/css" href="_static/css/styles.css?v=81e79cc0" />
   <link rel="stylesheet" type="text/css" href="_static/graphviz.css?v=4ae1632d" />
   <link rel="stylesheet" type="text/css" href="_static/custom.css?v=8542bf54" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
@@ -24,14 +44,14 @@
 <body class="book-theme-classical-serif">
   <header>
     <div class="logo">
-      <a href="#">
-        <img src="_static/logo.png" class="logo" alt="Logo"/>
+      <a href="#" title="Home">
+        <img src="_static/logo.png" class="logo" alt="GEOMETOR fibonacci"/>
+        <div class="org-repo">
+          <span class="org">GEOMETOR</span>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span class="repo">fibonacci</span>
+        </div>
       </a>
-      <div class="org-repo">
-        <span class="org">GEOMETOR</span>
-        •
-        <span class="repo">fibonacci</span>
-      </div>
     </div>
     <nav aria-label="Header">
       <input type="checkbox" id="nav-Header-toggle" >
@@ -39,6 +59,9 @@
       <ul>
         <li>
           <a href="practica_geometriae/index.html"  >Practica Geometriae</a>
+        </li>
+        <li>
+          <a href="liber_abbaci/index.html"  >Liber Abbaci</a>
         </li>
         <li>
           <a href="practica_geometriae/persons.html"  >People</a>
@@ -67,226 +90,148 @@
   </header>
   <main class="book-main">
     <article class="book-layout book-reading-pane">
-      <header class="book-header">
-        <div class="book-header-bar">
-          <div class="book-header-identity">
-            <a class="book-title-link" href="#">GEOMETOR • fibonacci</a>
-          </div>
+      <div class="content body book-content is-home-page" role="main">
+        <div class="author-overline docutils container">
+        <p>the works of</p>
         </div>
-        <div class="book-header-nav">
-          <div class="book-nav-prev">
-          </div>
-          <div class="book-nav-center">
-          </div>
-          <div class="book-nav-next">
-            <a class="book-nav-btn" href="about/index.html" title="About"><span class="nav-label">Next</span> &rarr;</a>
-          </div>
-        </div>
-      </header>
-      <div class="content body book-content" role="main">
         <section class="level-1" id="leonardo-pisano-fibonacci">
         <h1>Leonardo Pisano (Fibonacci)<a class="headerlink" href="#leonardo-pisano-fibonacci" title="Link to this heading">¶</a></h1>
-        <p class="rubric"><em>Practica Geometriae (1220), Liber Abaci (1202/1228) &amp; Flos (1225) — Digital Scriptorium Codex &amp; Exact Symbolic Constructions</em></p>
-        <p>Welcome to <strong>GEOMETOR Fibonacci</strong> (<code class="docutils literal notranslate"><span class="pre">geometor-fibonacci</span></code>), a synchronized four-track Digital Scriptorium Book Codex and exact symbolic <code class="docutils literal notranslate"><span class="pre">SymPy</span></code> / <code class="docutils literal notranslate"><span class="pre">geometor.model</span></code> construction suite dedicated to <span class="person-ref" data-person="fibonacci" title="Leonardo Pisano (Fibonacci / Leonardo Bigollo de filiis Bonaccii) (c. 1170 – c. 1245) — Pisan Mathematician &amp; Architect of Western Symbolic Arithmetic and Constructive Geometry">Leonardo Pisano</span> (<em>c.</em> 1170 – <em>c.</em> 1245). Grounded directly in <span class="person-ref" data-person="boncompagni" title="Baldassarre Boncompagni-Ludovisi (1821 – 1894) — Historian of Mathematics &amp; Editor of Scritti di Leonardo Pisano">Baldassarre Boncompagni</span>’s public-domain critical Latin editions (<em>Scritti di Leonardo Pisano</em>, Vol. I, 1857; Vol. II, 1862), this repository unites Fibonacci’s Latin <em>littera</em>, original GEOMETOR English translations, interactive <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> geometric diagrams, and 100% exact algebraic verification.</p>
-        <figure class="photon-picture photon-svg">
-            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 520" data-graphic-id="euclid_xiii_sphere_polyhedra" role="img" aria-label="Distinctio VI &amp; Euclid XIII.18 — Five Regular Polyhedra in Sphere of Diameter 6" width="680" height="520" data-svg-scope="s-96bc89c5">
+        <p>The mission of this project is to capture a semantic digital library of the works of <span class="person-ref" data-person="fibonacci" title="Leonardo Pisano (Fibonacci / Leonardo Bigollo de filiis Bonaccii) (c. 1170 – c. 1245) — Pisan Mathematician &amp; Architect of Western Symbolic Arithmetic and Constructive Geometry">Leonardo Pisano</span> (<em>c.</em> 1170 – <em>c.</em> 1245), the Pisan master whose <em>Liber Abbaci</em> and <em>Practica Geometriae</em> revolutionized medieval arithmetic, algebra, and practical geometry.</p>
+            <section class="collection ">
+              <article class="excerpt">
+                <div class="content">
+                  <figure class="excerpt-svg">
+                    <a href="practica_geometriae/index.html" aria-label="Pisan Superficial Pertica (6 x 6 Denarii Grid)">
+                      <svg class="euclid-graphic euclid-thumbnail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 540" data-graphic-id="pisan_pertica_grid" role="img" aria-label="Distinctio I — Pisan Pertica Superficialis (6 Pedes, 36 Denarii)" width="620" height="540" data-svg-scope="s-634343c4">
           <style>
-            svg[data-svg-scope="s-96bc89c5"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-main: #0284c7; --circle-guide: #64748b; --bisector: #0d9488; --parallel: #6366f1; --golden: #d97706; --tetra: #e11d48; --octa: #0284c7; --cube: #059669; --icosa: #7c3aed; --grid: #94a3b8; --share-p: #f59e0b; --share-q: #0ea5e9; --pes-strip: #10b981; --pt-given: #0f172a; --pt-result: #0369a1; --pt-mid: #0f766e; --pt-golden: #d97706; font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif }
-            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-96bc89c5"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-main: #38bdf8; --circle-guide: #94a3b8; --bisector: #2dd4bf; --parallel: #818cf8; --golden: #fbbf24; --tetra: #fb7185; --octa: #38bdf8; --cube: #34d399; --icosa: #c084fc; --grid: #64748b; --share-p: #fbbf24; --share-q: #38bdf8; --pes-strip: #34d399; --pt-given: #e2e8f0; --pt-result: #38bdf8; --pt-mid: #2dd4bf; --pt-golden: #fbbf24 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-circle { fill: none; stroke: var(--circle-main); stroke-width: 2.1; opacity: 0.9 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-circle.incircle-curve { stroke: var(--golden); stroke-width: 2.35 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-circle.guide-circle { stroke: var(--circle-guide); stroke-width: 1.35; stroke-dasharray: 5 4; opacity: 0.68 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-circle.transfer-circle { stroke: var(--golden); stroke-width: 1.45; stroke-dasharray: 6 4; opacity: 0.78 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-line { fill: none; stroke: var(--carrier); stroke-width: 1.45; stroke-linecap: round; opacity: 0.72 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-line.carrier-line { stroke: var(--carrier); stroke-width: 1.85; opacity: 0.88 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-line.bisector-line { stroke: var(--bisector); stroke-width: 1.55; stroke-dasharray: 6 3.5; opacity: 0.85 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-line.parallel-line { stroke: var(--parallel); stroke-width: 1.65; stroke-dasharray: 5 3.5; opacity: 0.88 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-line.tangent-line { stroke: var(--icosa); stroke-width: 1.75; opacity: 0.88 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-segment { fill: none; stroke: var(--carrier); stroke-width: 2.1; stroke-linecap: round }
-            svg[data-svg-scope="s-96bc89c5"] .geom-segment.grid-seg { stroke: var(--grid); stroke-width: 1.05; opacity: 0.48 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-segment.bisector-seg { stroke: var(--bisector); stroke-width: 1.9; stroke-dasharray: 5 3 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-segment.inradius-seg { stroke: var(--golden); stroke-width: 2.2 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-segment.cut-seg { stroke: var(--golden); stroke-width: 3.0 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-segment.golden-seg { stroke: var(--golden); stroke-width: 3.2; opacity: 0.95 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-segment.tetra-seg { stroke: var(--tetra); stroke-width: 2.75 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-segment.octa-seg { stroke: var(--octa); stroke-width: 2.75 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-segment.cube-seg { stroke: var(--cube); stroke-width: 2.75 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-segment.icosa-seg { stroke: var(--icosa); stroke-width: 2.75 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-polygon { fill: var(--share-q); fill-opacity: 0.05; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round }
-            svg[data-svg-scope="s-96bc89c5"] .geom-polygon.share-p-poly { fill: var(--share-p); fill-opacity: 0.13; stroke: var(--golden); stroke-width: 1.8 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-polygon.share-q-poly { fill: var(--share-q); fill-opacity: 0.08; stroke: var(--circle-main); stroke-width: 1.6 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-polygon.pes-strip-poly { fill: var(--pes-strip); fill-opacity: 0.14; stroke: var(--cube); stroke-width: 1.7 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-polygon.denarius-poly { fill: var(--share-p); fill-opacity: 0.28; stroke: var(--golden); stroke-width: 2.2 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-point { fill: var(--pt-given); stroke: var(--svg-bg); stroke-width: 1.5 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-point.result-point { fill: var(--pt-result) }
-            svg[data-svg-scope="s-96bc89c5"] .geom-point.mid-point { fill: var(--pt-mid) }
-            svg[data-svg-scope="s-96bc89c5"] .geom-point.golden-point { fill: var(--pt-golden); stroke-width: 1.8 }
-            svg[data-svg-scope="s-96bc89c5"] .geom-label { fill: var(--ink); font-size: 13.5px; font-weight: 600; paint-order: stroke fill; stroke: var(--label-halo); stroke-width: 3.6px; stroke-linejoin: round; user-select: none }
-            svg[data-svg-scope="s-96bc89c5"] .geom-label-sub { font-size: 10px; font-weight: 600 }
+            svg[data-svg-scope="s-634343c4"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-main: #0284c7; --circle-guide: #64748b; --bisector: #0d9488; --parallel: #6366f1; --golden: #d97706; --tetra: #e11d48; --octa: #0284c7; --cube: #059669; --icosa: #7c3aed; --grid: #94a3b8; --share-p: #f59e0b; --share-q: #0ea5e9; --pes-strip: #10b981; --pt-given: #0f172a; --pt-result: #0369a1; --pt-mid: #0f766e; --pt-golden: #d97706; font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif }
+            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-634343c4"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-main: #38bdf8; --circle-guide: #94a3b8; --bisector: #2dd4bf; --parallel: #818cf8; --golden: #fbbf24; --tetra: #fb7185; --octa: #38bdf8; --cube: #34d399; --icosa: #c084fc; --grid: #64748b; --share-p: #fbbf24; --share-q: #38bdf8; --pes-strip: #34d399; --pt-given: #e2e8f0; --pt-result: #38bdf8; --pt-mid: #2dd4bf; --pt-golden: #fbbf24 }
+            svg[data-svg-scope="s-634343c4"] .geom-circle { fill: none; stroke: var(--circle-main); stroke-width: 2.1; opacity: 0.9 }
+            svg[data-svg-scope="s-634343c4"] .geom-circle.incircle-curve { stroke: var(--golden); stroke-width: 2.35 }
+            svg[data-svg-scope="s-634343c4"] .geom-circle.guide-circle { stroke: var(--circle-guide); stroke-width: 1.35; stroke-dasharray: 5 4; opacity: 0.68 }
+            svg[data-svg-scope="s-634343c4"] .geom-circle.transfer-circle { stroke: var(--golden); stroke-width: 1.45; stroke-dasharray: 6 4; opacity: 0.78 }
+            svg[data-svg-scope="s-634343c4"] .geom-line { fill: none; stroke: var(--carrier); stroke-width: 1.45; stroke-linecap: round; opacity: 0.72 }
+            svg[data-svg-scope="s-634343c4"] .geom-line.carrier-line { stroke: var(--carrier); stroke-width: 1.85; opacity: 0.88 }
+            svg[data-svg-scope="s-634343c4"] .geom-line.bisector-line { stroke: var(--bisector); stroke-width: 1.55; stroke-dasharray: 6 3.5; opacity: 0.85 }
+            svg[data-svg-scope="s-634343c4"] .geom-line.parallel-line { stroke: var(--parallel); stroke-width: 1.65; stroke-dasharray: 5 3.5; opacity: 0.88 }
+            svg[data-svg-scope="s-634343c4"] .geom-line.tangent-line { stroke: var(--icosa); stroke-width: 1.75; opacity: 0.88 }
+            svg[data-svg-scope="s-634343c4"] .geom-segment { fill: none; stroke: var(--carrier); stroke-width: 2.1; stroke-linecap: round }
+            svg[data-svg-scope="s-634343c4"] .geom-segment.grid-seg { stroke: var(--grid); stroke-width: 1.05; opacity: 0.48 }
+            svg[data-svg-scope="s-634343c4"] .geom-segment.bisector-seg { stroke: var(--bisector); stroke-width: 1.9; stroke-dasharray: 5 3 }
+            svg[data-svg-scope="s-634343c4"] .geom-segment.inradius-seg { stroke: var(--golden); stroke-width: 2.2 }
+            svg[data-svg-scope="s-634343c4"] .geom-segment.cut-seg { stroke: var(--golden); stroke-width: 3.0 }
+            svg[data-svg-scope="s-634343c4"] .geom-segment.golden-seg { stroke: var(--golden); stroke-width: 3.2; opacity: 0.95 }
+            svg[data-svg-scope="s-634343c4"] .geom-segment.tetra-seg { stroke: var(--tetra); stroke-width: 2.75 }
+            svg[data-svg-scope="s-634343c4"] .geom-segment.octa-seg { stroke: var(--octa); stroke-width: 2.75 }
+            svg[data-svg-scope="s-634343c4"] .geom-segment.cube-seg { stroke: var(--cube); stroke-width: 2.75 }
+            svg[data-svg-scope="s-634343c4"] .geom-segment.icosa-seg { stroke: var(--icosa); stroke-width: 2.75 }
+            svg[data-svg-scope="s-634343c4"] .geom-polygon { fill: var(--share-q); fill-opacity: 0.05; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round }
+            svg[data-svg-scope="s-634343c4"] .geom-polygon.share-p-poly { fill: var(--share-p); fill-opacity: 0.13; stroke: var(--golden); stroke-width: 1.8 }
+            svg[data-svg-scope="s-634343c4"] .geom-polygon.share-q-poly { fill: var(--share-q); fill-opacity: 0.08; stroke: var(--circle-main); stroke-width: 1.6 }
+            svg[data-svg-scope="s-634343c4"] .geom-polygon.pes-strip-poly { fill: var(--pes-strip); fill-opacity: 0.14; stroke: var(--cube); stroke-width: 1.7 }
+            svg[data-svg-scope="s-634343c4"] .geom-polygon.denarius-poly { fill: var(--share-p); fill-opacity: 0.28; stroke: var(--golden); stroke-width: 2.2 }
+            svg[data-svg-scope="s-634343c4"] .geom-point { fill: var(--pt-given); stroke: var(--svg-bg); stroke-width: 1.5 }
+            svg[data-svg-scope="s-634343c4"] .geom-point.result-point { fill: var(--pt-result) }
+            svg[data-svg-scope="s-634343c4"] .geom-point.mid-point { fill: var(--pt-mid) }
+            svg[data-svg-scope="s-634343c4"] .geom-point.golden-point { fill: var(--pt-golden); stroke-width: 1.8 }
+            svg[data-svg-scope="s-634343c4"] .geom-label { fill: var(--ink); font-size: 13.5px; font-weight: 600; paint-order: stroke fill; stroke: var(--label-halo); stroke-width: 3.6px; stroke-linejoin: round; user-select: none }
+            svg[data-svg-scope="s-634343c4"] .geom-label-sub { font-size: 10px; font-weight: 600 }
           </style>
-          <title>Distinctio VI &amp; Euclid XIII.18 — Five Regular Polyhedra in Sphere of Diameter 6</title>
+          <title>Distinctio I — Pisan Pertica Superficialis (6 Pedes, 36 Denarii)</title>
           <defs>
-            <marker id="geom-tick-1" viewBox="-4 -8 8 16" markerWidth="8" markerHeight="16" orient="auto">
+            <marker viewBox="-4 -8 8 16" markerWidth="8" markerHeight="16" orient="auto">
               <line x1="0" y1="-5" x2="0" y2="5" stroke="currentColor" stroke-width="1.5" />
             </marker>
-            <marker id="geom-tick-2" viewBox="-6 -8 12 16" markerWidth="12" markerHeight="16" orient="auto">
+            <marker viewBox="-6 -8 12 16" markerWidth="12" markerHeight="16" orient="auto">
               <line x1="-2" y1="-5" x2="-2" y2="5" stroke="currentColor" stroke-width="1.5" />
               <line x1="2" y1="-5" x2="2" y2="5" stroke="currentColor" stroke-width="1.5" />
             </marker>
-            <marker id="geom-tick-3" viewBox="-8 -8 16 16" markerWidth="16" markerHeight="16" orient="auto">
+            <marker viewBox="-8 -8 16 16" markerWidth="16" markerHeight="16" orient="auto">
               <line x1="-4" y1="-5" x2="-4" y2="5" stroke="currentColor" stroke-width="1.5" />
               <line x1="0" y1="-5" x2="0" y2="5" stroke="currentColor" stroke-width="1.5" />
               <line x1="4" y1="-5" x2="4" y2="5" stroke="currentColor" stroke-width="1.5" />
             </marker>
           </defs>
-          <g id="elements">
-            <g id="graphics">
-              <circle class="geom-circle" cx="340" cy="260" r="180" data-ref="( O A )" data-aliases="circAI | ( O I ) | ( O C ) | ( O B ) | ( O M ) | ( A I C )" fill="none"><title>( O A ): x**2 + y**2 - 9 = 0</title></circle>
-              <path class="geom-line carrier-line" d="M 14 260 L 340 260 L 666 260" data-ref="[ A K ]" data-aliases="lnAI | [ A I ] | / A I / | [ A O ] | / A O / | / A K / | [ I A ] | / I A / | [ I O ] | / I O / | [ I K ] | / I K / | [ O A ] | / O A / | [ O I ] | / O I / | [ O K ] | / O K / | [ K A ] | / K A / | [ K I ] | / K I / | [ K O ] | / K O /" fill="none"><title>[ A K ]: y = 0</title></path>
-              <path class="geom-segment bisector-seg" d="M 340 260 L 340 170 L 340 80" data-ref="/ O C /" data-aliases="segOC | / C O / | [ O C ] | [ C O ]" fill="none"><title>/ O C /: length = 3</title></path>
-              <path class="geom-segment octa-seg" d="M 160 260 L 250 170 L 340 80" data-ref="/ A C /" data-aliases="segAC | / C A / | [ A C ] | [ C A ]" fill="none"><title>/ A C /: length = 3*sqrt(2)</title></path>
-              <path class="geom-segment bisector-seg" d="M 280 260 L 280 175.15 L 280 90.29" data-ref="/ K B /" data-aliases="segKB | / B K / | [ K B ] | [ B K ]" fill="none"><title>/ K B /: length = 2*sqrt(2)</title></path>
-              <path class="geom-segment cube-seg" d="M 160 260 L 220 175.15 L 280 90.29" data-ref="/ A B /" data-aliases="segAB | / B A / | [ A B ] | [ B A ]" fill="none"><title>/ A B /: length = 2*sqrt(3)</title></path>
-              <path class="geom-segment tetra-seg" d="M 280 90.29 L 400 175.15 L 520 260" data-ref="/ B I /" data-aliases="segBI | / I B / | [ B I ] | [ I B ]" fill="none"><title>/ B I /: length = 2*sqrt(6)</title></path>
-              <path class="geom-segment golden-seg" d="M 160 260 L 197.08 207.56 L 234.16 155.12" data-ref="/ A N /" data-aliases="segAN | / N A / | [ A N ] | [ N A ]" fill="none"><title>/ A N /: length = sqrt(18 - 6*sqrt(5))</title></path>
-              <path class="geom-segment bisector-seg" d="M 340 260 L 380.25 340.5 L 420.5 421" data-ref="/ O M /" data-aliases="segOM | / M O / | [ O M ] | [ M O ]" fill="none"><title>/ O M /: length = 3</title></path>
-              <path class="geom-segment icosa-seg" d="M 420.5 421 L 470.25 340.5 L 520 260" data-ref="/ M I /" data-aliases="segMI | / I M / | [ M I ] | [ I M ]" fill="none"><title>/ M I /: length = 3*sqrt(50 - 10*sqrt(5))/5</title></path>
-              <path class="geom-segment golden-seg" d="M 160 260 L 220 175.15 L 280 90.29" data-ref="/ A N B /" fill="none" />
+          <g>
+            <g>
+              <polygon class="geom-polygon" points="131.58,91.58 488.42,91.58 488.42,448.42 131.58,448.42" fill="none" />
+              <polygon class="geom-polygon pes-strip-poly" points="131.58,91.58 488.42,91.58 488.42,151.05 131.58,151.05" fill="none" />
+              <polygon class="geom-polygon denarius-poly" points="131.58,448.42 191.05,448.42 191.05,388.95 131.58,388.95" fill="none" />
+              <path class="geom-segment grid-seg" d="M 131.58 388.95 L 310 388.95 L 488.42 388.95" fill="none"><title>/ U2 R1 /: length = 6</title></path>
+              <path class="geom-segment grid-seg" d="M 191.05 448.42 L 191.05 270 L 191.05 91.58" fill="none"><title>/ U1 T1 /: length = 6</title></path>
+              <path class="geom-segment grid-seg" d="M 131.58 329.47 L 310 329.47 L 488.42 329.47" fill="none"><title>/ L2 R2 /: length = 6</title></path>
+              <path class="geom-segment grid-seg" d="M 250.53 448.42 L 250.53 270 L 250.53 91.58" fill="none"><title>/ B2 T2 /: length = 6</title></path>
+              <path class="geom-segment bisector-seg" d="M 131.58 270 L 310 270 L 488.42 270" fill="none"><title>/ G H /: length = 6</title></path>
+              <path class="geom-segment grid-seg" d="M 310 448.42 L 310 270 L 310 91.58" fill="none"><title>/ F E /: length = 6</title></path>
+              <path class="geom-segment grid-seg" d="M 131.58 210.53 L 310 210.53 L 488.42 210.53" fill="none"><title>/ L4 R4 /: length = 6</title></path>
+              <path class="geom-segment grid-seg" d="M 369.47 448.42 L 369.47 270 L 369.47 91.58" fill="none"><title>/ B4 T4 /: length = 6</title></path>
+              <path class="geom-segment grid-seg" d="M 131.58 151.05 L 310 151.05 L 488.42 151.05" fill="none"><title>/ P1 P2 /: length = 6</title></path>
+              <path class="geom-segment grid-seg" d="M 428.95 448.42 L 428.95 270 L 428.95 91.58" fill="none"><title>/ B5 T5 /: length = 6</title></path>
+              <path class="geom-segment bisector-seg" d="M 310 91.58 L 310 270 L 310 448.42" fill="none"><title>/ E F /: length = 6</title></path>
             </g>
-            <g id="highlights"></g>
-            <g id="points">
-              <circle class="geom-point mid-point" cx="340" cy="260" r="3.8" data-ref="O" data-latex-x="0" data-latex-y="0"><title>O = (0, 0)</title></circle>
-              <circle class="geom-point mid-point" cx="280" cy="260" r="3.8" data-ref="K" data-latex-x="-1" data-latex-y="0"><title>K = (-1, 0)</title></circle>
-              <circle class="geom-point given-point result-point" cx="160" cy="260" r="4.4" data-ref="A" data-latex-x="-3" data-latex-y="0"><title>A = (-3, 0)</title></circle>
-              <circle class="geom-point given-point result-point" cx="520" cy="260" r="4.4" data-ref="I" data-latex-x="3" data-latex-y="0"><title>I = (3, 0)</title></circle>
-              <circle class="geom-point-halo" cx="340" cy="80" r="8.6" fill="none" stroke="currentColor" stroke-opacity="0.35" stroke-width="1.6" />
-              <circle class="geom-point result-point" cx="340" cy="80" r="4.4" data-ref="C" data-latex-x="0" data-latex-y="3"><title>C = (0, 3)</title></circle>
-              <circle class="geom-point-halo" cx="280" cy="90.29" r="8.6" fill="none" stroke="currentColor" stroke-opacity="0.35" stroke-width="1.6" />
-              <circle class="geom-point result-point" cx="280" cy="90.29" r="4.4" data-ref="B" data-latex-x="-1" data-latex-y="2 \sqrt{2}"><title>B = (-1, 2*sqrt(2))</title></circle>
-              <circle class="geom-point-halo" cx="420.5" cy="421" r="8.6" fill="none" stroke="currentColor" stroke-opacity="0.35" stroke-width="1.6" />
-              <circle class="geom-point result-point" cx="420.5" cy="421" r="4.4" data-ref="M" data-latex-x="\frac{3 \sqrt{5}}{5}" data-latex-y="- \frac{6 \sqrt{5}}{5}"><title>M = (3*sqrt(5)/5, -6*sqrt(5)/5)</title></circle>
-              <circle class="geom-point-halo" cx="234.16" cy="155.12" r="9.2" fill="none" stroke="currentColor" stroke-opacity="0.35" stroke-width="1.6" />
-              <circle class="geom-point result-point golden-point" cx="234.16" cy="155.12" r="5" data-ref="N" data-latex-x="-3 + \frac{\sqrt{12 \left(-2 + \frac{\left(- 2 \sqrt{2} - 1\right) \left(- 6 \sqrt{2} - 3 + \left(1 + 2 \sqrt{2}\right) \left(2 - \sqrt{2}\right) + \left(- 2 \sqrt{2} - 1\right) \left(- \sqrt{2} - 1\right)\right) + \left(2 - \sqrt{2}\right) \sqrt{- \left(- 6 \sqrt{2} - 3 + \left(1 + 2 \sqrt{2}\right) \left(2 - \sqrt{2}\right) + \left(- 2 \sqrt{2} - 1\right) \left(- \sqrt{2} - 1\right)\right)^{2} + 3 \left(2 - \sqrt{2}\right)^{2} + 3 \left(- 2 \sqrt{2} - 1\right)^{2}}}{\left(2 - \sqrt{2}\right)^{2} + \left(- 2 \sqrt{2} - 1\right)^{2}} + \sqrt{2}\right)^{2} + 12 \left(- 2 \sqrt{2} - 1 + \frac{\left(2 - \sqrt{2}\right) \left(- 6 \sqrt{2} - 3 + \left(1 + 2 \sqrt{2}\right) \left(2 - \sqrt{2}\right) + \left(- 2 \sqrt{2} - 1\right) \left(- \sqrt{2} - 1\right)\right) - \left(- 2 \sqrt{2} - 1\right) \sqrt{- \left(- 6 \sqrt{2} - 3 + \left(1 + 2 \sqrt{2}\right) \left(2 - \sqrt{2}\right) + \left(- 2 \sqrt{2} - 1\right) \left(- \sqrt{2} - 1\right)\right)^{2} + 3 \left(2 - \sqrt{2}\right)^{2} + 3 \left(- 2 \sqrt{2} - 1\right)^{2}}}{\left(2 - \sqrt{2}\right)^{2} + \left(- 2 \sqrt{2} - 1\right)^{2}}\right)^{2}}}{6}" data-latex-y="\frac{\sqrt{2} \sqrt{12 \left(-2 + \frac{\left(- 2 \sqrt{2} - 1\right) \left(- 6 \sqrt{2} - 3 + \left(1 + 2 \sqrt{2}\right) \left(2 - \sqrt{2}\right) + \left(- 2 \sqrt{2} - 1\right) \left(- \sqrt{2} - 1\right)\right) + \left(2 - \sqrt{2}\right) \sqrt{- \left(- 6 \sqrt{2} - 3 + \left(1 + 2 \sqrt{2}\right) \left(2 - \sqrt{2}\right) + \left(- 2 \sqrt{2} - 1\right) \left(- \sqrt{2} - 1\right)\right)^{2} + 3 \left(2 - \sqrt{2}\right)^{2} + 3 \left(- 2 \sqrt{2} - 1\right)^{2}}}{\left(2 - \sqrt{2}\right)^{2} + \left(- 2 \sqrt{2} - 1\right)^{2}} + \sqrt{2}\right)^{2} + 12 \left(- 2 \sqrt{2} - 1 + \frac{\left(2 - \sqrt{2}\right) \left(- 6 \sqrt{2} - 3 + \left(1 + 2 \sqrt{2}\right) \left(2 - \sqrt{2}\right) + \left(- 2 \sqrt{2} - 1\right) \left(- \sqrt{2} - 1\right)\right) - \left(- 2 \sqrt{2} - 1\right) \sqrt{- \left(- 6 \sqrt{2} - 3 + \left(1 + 2 \sqrt{2}\right) \left(2 - \sqrt{2}\right) + \left(- 2 \sqrt{2} - 1\right) \left(- \sqrt{2} - 1\right)\right)^{2} + 3 \left(2 - \sqrt{2}\right)^{2} + 3 \left(- 2 \sqrt{2} - 1\right)^{2}}}{\left(2 - \sqrt{2}\right)^{2} + \left(- 2 \sqrt{2} - 1\right)^{2}}\right)^{2}}}{6}"><title>N = (-3 + sqrt(12*(-2 + ((-2*sqrt(2) - 1)*(-6*sqrt(2) - 3 + (1 + 2*sqrt(2))*(2 - sqrt(2)) + (-2*sqrt(2) - 1)*(-sqrt(2) - 1)) + (2 - sqrt(2))*sqrt(-(-6*sqrt(2) - 3 + (1 + 2*sqrt(2))*(2 - sqrt(2)) + (-2*sqrt(2) - 1)*(-sqrt(2) - 1))**2 + 3*(2 - sqrt(2))**2 + 3*(-2*sqrt(2) - 1)**2))/((2 - sqrt(2))**2 + (-2*sqrt(2) - 1)**2) + sqrt(2))**2 + 12*(-2*sqrt(2) - 1 + ((2 - sqrt(2))*(-6*sqrt(2) - 3 + (1 + 2*sqrt(2))*(2 - sqrt(2)) + (-2*sqrt(2) - 1)*(-sqrt(2) - 1)) - (-2*sqrt(2) - 1)*sqrt(-(-6*sqrt(2) - 3 + (1 + 2*sqrt(2))*(2 - sqrt(2)) + (-2*sqrt(2) - 1)*(-sqrt(2) - 1))**2 + 3*(2 - sqrt(2))**2 + 3*(-2*sqrt(2) - 1)**2))/((2 - sqrt(2))**2 + (-2*sqrt(2) - 1)**2))**2)/6, sqrt(2)*sqrt(12*(-2 + ((-2*sqrt(2) - 1)*(-6*sqrt(2) - 3 + (1 + 2*sqrt(2))*(2 - sqrt(2)) + (-2*sqrt(2) - 1)*(-sqrt(2) - 1)) + (2 - sqrt(2))*sqrt(-(-6*sqrt(2) - 3 + (1 + 2*sqrt(2))*(2 - sqrt(2)) + (-2*sqrt(2) - 1)*(-sqrt(2) - 1))**2 + 3*(2 - sqrt(2))**2 + 3*(-2*sqrt(2) - 1)**2))/((2 - sqrt(2))**2 + (-2*sqrt(2) - 1)**2) + sqrt(2))**2 + 12*(-2*sqrt(2) - 1 + ((2 - sqrt(2))*(-6*sqrt(2) - 3 + (1 + 2*sqrt(2))*(2 - sqrt(2)) + (-2*sqrt(2) - 1)*(-sqrt(2) - 1)) - (-2*sqrt(2) - 1)*sqrt(-(-6*sqrt(2) - 3 + (1 + 2*sqrt(2))*(2 - sqrt(2)) + (-2*sqrt(2) - 1)*(-sqrt(2) - 1))**2 + 3*(2 - sqrt(2))**2 + 3*(-2*sqrt(2) - 1)**2))/((2 - sqrt(2))**2 + (-2*sqrt(2) - 1)**2))**2)/6)</title></circle>
+            <g>
+              <circle class="geom-point given-point" cx="131.58" cy="151.05" r="4.2" data-latex-x="0" data-latex-y="5"><title>P1 = (0, 5)</title></circle>
+              <circle class="geom-point given-point" cx="488.42" cy="151.05" r="4.2" data-latex-x="6" data-latex-y="5"><title>P2 = (6, 5)</title></circle>
+              <circle class="geom-point given-point" cx="191.05" cy="448.42" r="4.2" data-latex-x="1" data-latex-y="0"><title>U1 = (1, 0)</title></circle>
+              <circle class="geom-point given-point" cx="131.58" cy="388.95" r="4.2" data-latex-x="0" data-latex-y="1"><title>U2 = (0, 1)</title></circle>
+              <circle class="geom-point given-point result-point" cx="131.58" cy="91.58" r="4.4" data-latex-x="0" data-latex-y="6"><title>A = (0, 6)</title></circle>
+              <circle class="geom-point given-point result-point" cx="488.42" cy="91.58" r="4.4" data-latex-x="6" data-latex-y="6"><title>B = (6, 6)</title></circle>
+              <circle class="geom-point given-point result-point" cx="131.58" cy="448.42" r="4.4" data-latex-x="0" data-latex-y="0"><title>C = (0, 0)</title></circle>
+              <circle class="geom-point given-point result-point" cx="488.42" cy="448.42" r="4.4" data-latex-x="6" data-latex-y="0"><title>D = (6, 0)</title></circle>
+              <circle class="geom-point result-point" cx="191.05" cy="388.95" r="4.4" data-latex-x="1" data-latex-y="1"><title>U3 = (1, 1)</title></circle>
+              <circle class="geom-point result-point" cx="310" cy="270" r="4.4" data-latex-x="3" data-latex-y="3"><title>I = (3, 3)</title></circle>
             </g>
-            <g id="labels">
-              <text class="geom-label" x="347.12" y="249.89" data-ref="O">O</text>
-              <text class="geom-label" x="274.15" y="284.06" data-ref="K">K</text>
-              <text class="geom-label" x="154.15" y="284.66" data-ref="A">A</text>
-              <text class="geom-label" x="514.15" y="244.86" data-ref="I">I</text>
-              <text class="geom-label" x="334.15" y="64.86" data-ref="C">C</text>
-              <text class="geom-label" x="274.15" y="75.15" data-ref="B">B</text>
-              <text class="geom-label" x="414.65" y="445.66" data-ref="M">M</text>
-              <text class="geom-label" x="214.58" y="144.08" data-ref="N">N</text>
+            <g>
+              <text class="geom-label" x="122.94" y="136.11">P<tspan class="geom-label-sub" dy="3">1</tspan></text>
+              <text class="geom-label" x="479.78" y="136.11">P<tspan class="geom-label-sub" dy="3">2</tspan></text>
+              <text class="geom-label" x="182.41" y="472.88">U<tspan class="geom-label-sub" dy="3">1</tspan></text>
+              <text class="geom-label" x="122.94" y="374.01">U<tspan class="geom-label-sub" dy="3">2</tspan></text>
+              <text class="geom-label" x="125.73" y="76.44">A</text>
+              <text class="geom-label" x="482.57" y="76.44">B</text>
+              <text class="geom-label" x="125.73" y="433.28">C</text>
+              <text class="geom-label" x="482.57" y="433.28">D</text>
+              <text class="geom-label" x="197.15" y="378.37">U<tspan class="geom-label-sub" dy="3">3</tspan></text>
+              <text class="geom-label" x="317.5" y="259.43">I</text>
             </g>
           </g>
         </svg>
-        </figure>
-        <hr class="docutils" />
-        <section class="level-2" id="explore-the-edition">
-        <h2>Explore the Edition<a class="headerlink" href="#explore-the-edition" title="Link to this heading">¶</a></h2>
-        <ul class="simple">
-        <li><p><strong>About:</strong> <a class="reference internal" href="about/index.html"><span class="doc">About</span></a> (Mission, Architectural Principles &amp; Sources)</p></li>
-        <li><p><strong>Book Codex:</strong> <a class="reference internal" href="practica_geometriae/index.html"><span class="doc">Practice of Geometry</span></a> (<em>Practica Geometriae</em>, 1220)</p></li>
-        <li><p><strong>People:</strong> <a class="reference internal" href="practica_geometriae/persons.html"><span class="doc">People</span></a> (Biographical Register of Geometers &amp; Scholars)</p></li>
-        <li><p><strong>Bibliography:</strong> <a class="reference internal" href="practica_geometriae/bibliography.html"><span class="doc">Bibliography</span></a> (Sources &amp; Editions)</p></li>
-        <li><p><strong>Reader’s Guide:</strong> <a class="reference internal" href="usage/index.html"><span class="doc">Using This Edition</span></a> (Using this Edition &amp; CLI)</p></li>
-        </ul>
-        </section>
-        <section class="level-2" id="the-four-track-book-codex-symbolic-engine">
-        <h2>The Four-Track Book Codex &amp; Symbolic Engine<a class="headerlink" href="#the-four-track-book-codex-symbolic-engine" title="Link to this heading">¶</a></h2>
-        <ul class="simple">
-        <li><p><strong>Synchronized Four-Track Book Codex</strong> (<a class="reference internal" href="practica_geometriae/index.html"><span class="doc">Practice of Geometry</span></a>):
-        Read all eight <em>Distinctiones</em> of <em>Practica Geometriae</em> (1220)—together with Fibonacci’s 1225 <em>Flos</em> cubic and <em>Liber Abaci</em> Ch. 12 rabbit recurrence—across four synchronized tracks: <strong>English (GEOMETOR Translation)</strong>, <strong>Latin (1220 / Boncompagni 1862)</strong>, <strong>Summary</strong>, and <strong>Scholarly &amp; Mathematical Notes</strong>.</p></li>
-        <li><p><strong>Preserving Euclid’s Lost *On Divisions of Figures*</strong> (<a class="reference internal" href="practica_geometriae/unit-3/unit-3-en.html"><span class="doc">UNIT III — DISTINCTIO IV: DIVISION OF PLANAR FIGURES AMONG CONSORTS</span></a>):
-        Exact straightedge-and-compass <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code> reconstructions of <em>Distinctio IV</em> (<em>De divisione camporum inter consortes</em>), dividing triangles from boundary points, parallel to the base via semicircle mean proportionals, and into three equal shares at the centroid $X(2)$.</p></li>
-        <li><p><strong>The Five Regular Polyhedra &amp; Extreme and Mean Ratio</strong> (<a class="reference internal" href="practica_geometriae/unit-4/unit-4-en.html"><span class="doc">UNIT IV — DISTINCTIO V–VI: CUBE ROOTS, SOLIDS &amp; THE FIVE REGULAR POLYHEDRA</span></a>):
-        Exact radical-tower inscriptions of the tetrahedron, cube, octahedron, dodecahedron ($e_{12} = \sqrt{15} - \sqrt{3}$), and icosahedron in a sphere of diameter $6$, forming the direct historical bridge from Euclid Books XIII–XIV to <span class="person-ref" data-person="piero-della-francesca" title="Piero della Francesca (c. 1415 – 1492) — Renaissance Painter &amp; Geometer">Piero della Francesca</span> and <span class="person-ref" data-person="pacioli" title="Luca Pacioli, O.F.M. (c. 1447 – 1517) — Renaissance Mathematician &amp; Author of De Divina Proportione">Luca Pacioli</span>’s <em>De Divina Proportione</em> (1509).</p></li>
-        <li><p><strong>Exact Symbolic Python Demonstrations</strong> (<a class="reference internal" href="demos/index.html"><span class="doc">Exact Symbolic Demonstrations</span></a> &amp; <a class="reference internal" href="modules/index.html"><span class="doc">Python API Reference</span></a>):
-        Runnable Python 3.13 modules verifying Pisan <em>pertica</em> metrology, Heron’s incenter proof, Fibonacci’s 96-gon circle bounds ($\pi \approx \frac{864}{275}$), Ptolemy’s <em>census census</em> pentagon quartic ($x^4 + 3125 = 125x^2$), the <em>Flos</em> sexagesimal cubic ($1;22,7,42,33,4,40$), and Cassini’s alternating convergence $F_{n+1}/F_n \to \phi$.</p></li>
-        </ul>
-        <div class="toctree-wrapper compound">
-        <p class="caption" role="heading"><span class="caption-text">Book Codex &amp; Apparatus</span></p>
-        <ul>
-        <li class="toctree-l1"><a class="reference internal" href="about/index.html">About</a><ul>
-        <li class="toctree-l2"><a class="reference internal" href="about/index.html#about-this-edition">About This Edition</a></li>
-        <li class="toctree-l2"><a class="reference internal" href="about/index.html#the-geometor-mission">The GEOMETOR Mission</a></li>
-        <li class="toctree-l2"><a class="reference internal" href="about/index.html#sources-provenance-methodology">Sources, Provenance &amp; Methodology</a></li>
-        </ul>
-        </li>
-        <li class="toctree-l1"><a class="reference internal" href="practica_geometriae/index.html">Practice of Geometry</a><ul>
-        <li class="toctree-l2"><a class="reference internal" href="practica_geometriae/index.html#table-of-contents">Table of Contents</a></li>
-        <li class="toctree-l2"><a class="reference internal" href="practica_geometriae/index.html#scholarly-apparatus">Scholarly Apparatus</a></li>
-        </ul>
-        </li>
-        <li class="toctree-l1"><a class="reference internal" href="practica_geometriae/persons.html">People</a><ul>
-        <li class="toctree-l2"><a class="reference internal" href="practica_geometriae/persons.html#authors-translators-editors">Authors, Translators &amp; Editors</a></li>
-        <li class="toctree-l2"><a class="reference internal" href="practica_geometriae/persons.html#cited-geometers-scholars-patrons">Cited Geometers, Scholars &amp; Patrons</a></li>
-        </ul>
-        </li>
-        <li class="toctree-l1"><a class="reference internal" href="practica_geometriae/bibliography.html">Bibliography</a><ul>
-        <li class="toctree-l2"><a class="reference internal" href="practica_geometriae/bibliography.html#primary-critical-editions-of-leonardo-pisano">Primary Critical Editions of Leonardo Pisano</a></li>
-        <li class="toctree-l2"><a class="reference internal" href="practica_geometriae/bibliography.html#classical-medieval-renaissance-sources">Classical, Medieval &amp; Renaissance Sources</a></li>
-        </ul>
-        </li>
-        <li class="toctree-l1"><a class="reference internal" href="usage/index.html">Using This Edition</a><ul>
-        <li class="toctree-l2"><a class="reference internal" href="usage/index.html#interactive-codex-features">Interactive Codex Features</a></li>
-        <li class="toctree-l2"><a class="reference internal" href="usage/index.html#command-line-python-verification-api">Command-Line &amp; Python Verification API</a></li>
-        </ul>
-        </li>
-        </ul>
-        </div>
-        <div class="toctree-wrapper compound">
-        <p class="caption" role="heading"><span class="caption-text">Demonstrations, API &amp; Log</span></p>
-        <ul>
-        <li class="toctree-l1"><a class="reference internal" href="demos/index.html">Exact Symbolic Demonstrations</a><ul>
-        <li class="toctree-l2"><a class="reference internal" href="demos/index.html#mensuration-heron-s-incenter-proof-circle-bounds">1. Mensuration, Heron’s Incenter Proof &amp; Circle Bounds</a></li>
-        <li class="toctree-l2"><a class="reference internal" href="demos/index.html#division-of-planar-fields-de-divisione-camporum">2. Division of Planar Fields (<em>De divisione camporum</em>)</a></li>
-        <li class="toctree-l2"><a class="reference internal" href="demos/index.html#regular-polyhedra-extreme-mean-ratio-flos-liber-abaci">3. Regular Polyhedra, Extreme &amp; Mean Ratio, <em>Flos</em> &amp; <em>Liber Abaci</em></a></li>
-        </ul>
-        </li>
-        <li class="toctree-l1"><a class="reference internal" href="modules/index.html">Python API Reference</a><ul>
-        <li class="toctree-l2"><a class="reference internal" href="modules/index.html#module-overview">Module Overview</a></li>
-        </ul>
-        </li>
-        <li class="toctree-l1"><a class="reference internal" href="modules/index.html#module-src.geometor.fibonacci">src.geometor.fibonacci</a><ul>
-        <li class="toctree-l2"><a class="reference internal" href="modules/index.html#submodules">Submodules</a></li>
-        <li class="toctree-l2"><a class="reference internal" href="modules/index.html#attributes">Attributes</a></li>
-        <li class="toctree-l2"><a class="reference internal" href="modules/index.html#package-contents">Package Contents</a></li>
-        </ul>
-        </li>
-        <li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a><ul>
-        <li class="toctree-l2"><a class="reference internal" href="changelog.html#id2">0.1.5 (2026-11-15)</a></li>
-        <li class="toctree-l2"><a class="reference internal" href="changelog.html#id3">0.1.4</a></li>
-        <li class="toctree-l2"><a class="reference internal" href="changelog.html#id4">0.1.3</a></li>
-        <li class="toctree-l2"><a class="reference internal" href="changelog.html#id5">0.1.2</a></li>
-        <li class="toctree-l2"><a class="reference internal" href="changelog.html#id6">0.1.1 (2026-11-13)</a></li>
-        <li class="toctree-l2"><a class="reference internal" href="changelog.html#id7">0.1.0 (2026-11-12)</a></li>
-        </ul>
-        </li>
-        <li class="toctree-l1"><a class="reference internal" href="log/index.html">Research &amp; Engineering Log</a><ul>
-        <li class="toctree-l2"><a class="reference internal" href="log/2026-11-12-initial-codex.html">2026-11-12 — Initial Four-Track Codex &amp; Exact Symbolic Suite</a></li>
-        </ul>
-        </li>
-        </ul>
+                    </a>
+                  </figure>
+                  <section>
+                    <h2><a href="practica_geometriae/index.html">Practica Geometriae</a></h2>
+                      <p>Leonardo Pisano’s 1220 medieval masterwork on practical geometry, field divisions, circle measurement, and Euclidean regular polyhedra.</p>
+                  </section>
+                </div>
+                <footer>
+
+                <div class="meta">
+                  <span class="author">Leonardo Pisano (Fibonacci)</span>
+                </div>
+                </footer>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <section>
+                    <h2><a href="liber_abbaci/index.html">Liber Abbaci</a></h2>
+                      <p>Leonardo Pisano’s revolutionary 1202/1228 treatise introducing Indo-Arabic numerals, commercial arithmetic, and the golden rabbit sequence to the Latin West.</p>
+                  </section>
+                </div>
+                <footer>
+
+                <div class="meta">
+                  <span class="author">Leonardo Pisano (Fibonacci)</span>
+                </div>
+                </footer>
+              </article>
+            </section><div class="toctree-wrapper compound">
         </div>
         <div class="toctree-wrapper compound">
         </div>
-        </section>
         </section>
 
       </div>
       <footer class="book-footer">
         <div class="book-footer-ornament">&#10086;</div>
-        <div class="book-footer-nav">
-          <div class="book-nav-prev">
-          </div>
-          <div class="book-nav-center">
-            <a class="book-toc-link" href="#">GEOMETOR • fibonacci</a>
-          </div>
-          <div class="book-nav-next">
-            <a class="book-nav-btn" href="about/index.html" title="About"><span class="nav-label">About</span> &rarr;</a>
-          </div>
-        </div>
       </footer>
     </article>
   </main>
@@ -318,6 +263,7 @@
     <aside class="aside-types">
       <h3>Types</h3>
       <ul>
+        <li><a href="types/book.html">book</a></li>
         <li><a href="types/log.html">log</a></li>
       </ul>
     </aside>
