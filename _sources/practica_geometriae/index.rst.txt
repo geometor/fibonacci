@@ -1,22 +1,24 @@
 :navigation: header
 :order: 1
 :type: book
-:nav_title: Practica Geometriae
-:breadcrumb_title: Practica Geometriae
+:title: Practice of Geometry
+:nav_title: Practice of Geometry
+:breadcrumb_title: Practice of Geometry
 :layout: book
-:book_title: Practica Geometriae
-:book_subtitle: Practice of Geometry (1220 / ed. Boncompagni, 1862) — Leonardo Pisano
+:book_title: Practice of Geometry
+:book_subtitle: Practica Geometriae (1220 / ed. Boncompagni, 1862) — Leonardo Pisano
 :author: Leonardo Pisano (Fibonacci)
 :year: 1220
+:tracks: English: index | Latin: title-la
 :excerpt: Leonardo Pisano's 1220 medieval masterwork on practical geometry, field divisions, circle measurement, and Euclidean regular polyhedra.
 
 .. _fibonacci-index:
 .. _practica-geometriae-index:
 
-Practica Geometriae
-===================
+Practice of Geometry
+====================
 
-.. rubric:: *Practice of Geometry* — Leonardo Pisano / Fibonacci (1220 / ed. Boncompagni, 1862)
+.. rubric:: *Practica Geometriae* — Leonardo Pisano / Fibonacci (1220 / ed. Boncompagni, 1862)
 
 .. container:: title-page
 
@@ -30,8 +32,8 @@ Practica Geometriae
 
 .. _table-of-contents:
 
-Table of Distinctiones
-----------------------
+Table of Distinctions
+---------------------
 
 .. collection::
    :sort: order
@@ -70,7 +72,7 @@ Scholarly Apparatus
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Latin Edition (1220 / Boncompagni 1862)
+   :caption: Latin Edition
 
    dist_01/dist_01-la
    dist_02/dist_02-la
@@ -112,3 +114,10 @@ Scholarly Apparatus
    bibliography
    persons
    glossary
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Title Pages
+
+   title-la
