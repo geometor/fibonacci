@@ -46,4 +46,4 @@ Archival & Published Sources
 Digital Scriptorium Methodology
     * **Four-Track Synchronized Codex**: Readers can inspect each section across parallel tracks: GEOMETOR English translation, diplomatic Boncompagni Latin, synopsis, and scholarly apparatus.
     * **Exact Symbolic Verification**: All field divisions, area formulas, and polyhedral circumradius invariants are computed symbolically via :mod:`geometor.fibonacci.divisions`, :mod:`geometor.fibonacci.mensuration`, and :mod:`geometor.fibonacci.polyhedra_golden`.
-    * **Apparatus & Biographical Register**: Detailed cross-references are provided in :doc:`/practica_geometriae/persons` for historical actors and :doc:`/practica_geometriae/bibliography` for primary and secondary literature.
+    * **Apparatus & Biographical Register**: Detailed cross-references are provided in :doc:`/practica_geometriae/people/index` for historical actors and :doc:`/practica_geometriae/bibliography` for primary and secondary literature.

@@ -64,7 +64,7 @@
           <a href="../../liber_abbaci/index.html"  >Book of Calculation</a>
         </li>
         <li>
-          <a href="../persons.html"  >People</a>
+          <a href="../people/index.html"  >People</a>
         </li>
         <li>
           <a href="../bibliography.html"  >Bibliography</a>
@@ -129,12 +129,12 @@
         <hr class="docutils" />
         <section class="level-2" id="section-1-archimedes-on-the-sphere-and-cylinder">
         <span id="unit-4-s2-notes"></span><span id="dist-06-s2-notes"></span><h2>Section 1: Archimedes’ <em>On the Sphere and Cylinder</em><a class="headerlink" href="#section-1-archimedes-on-the-sphere-and-cylinder" title="Link to this heading">¶</a></h2>
-        <p>The ratio of the sphere to the circumscribed cylinder ($2 : 3$) was discovered by <a class="person-ref" id="occ-person-archimedes-1" href="../persons.html#person-archimedes" data-person="archimedes" title="Archimedes of Syracuse (c. 287 – 212 BC) — Geometer of Circle Bounds &amp; Sphere-Cylinder Mensuration">Archimedes</a> (<a class="citation-ref" id="occ-cite-archimedes-sphere-1" href="../bibliography.html#cite-archimedes-sphere" data-cite="archimedes:sphere" title="Archimedes of Syracuse (c. 287 – 212 BC) — On the Sphere and Cylinder, Books I–II (ed. J. L. Heiberg; transmitted via Banū Mūsā Verba filiorum)">archimedes:sphere</a>), who requested it engraved upon his tombstone. Leonardo incorporates the result directly into Pisan cubic metrology ($1 \text{ pertica corporalis} = 216 \text{ cubic feet}$).</p>
+        <p>The ratio of the sphere to the circumscribed cylinder ($2 : 3$) was discovered by <a class="person-ref" id="occ-person-archimedes-1" href="../people/archimedes.html#person-archimedes" data-person="archimedes" title="Archimedes of Syracuse (c. 287 – 212 BC) — Geometer of Circle Bounds &amp; Sphere-Cylinder Mensuration">Archimedes</a> (<a class="citation-ref" id="occ-cite-archimedes-sphere-1" href="../bibliography.html#cite-archimedes-sphere" data-cite="archimedes:sphere" title="Archimedes of Syracuse (c. 287 – 212 BC) — On the Sphere and Cylinder, Books I–II (ed. J. L. Heiberg; transmitted via Banū Mūsā Verba filiorum)">archimedes:sphere</a>), who requested it engraved upon his tombstone. Leonardo incorporates the result directly into Pisan cubic metrology ($1 \text{ pertica corporalis} = 216 \text{ cubic feet}$).</p>
         </section>
         <hr class="docutils" />
         <section class="level-2" id="section-2-the-direct-source-of-piero-della-francesca-luca-pacioli">
         <span id="unit-4-s3-notes"></span><span id="dist-06-s3-notes"></span><h2>Section 2: The Direct Source of Piero della Francesca &amp; Luca Pacioli<a class="headerlink" href="#section-2-the-direct-source-of-piero-della-francesca-luca-pacioli" title="Link to this heading">¶</a></h2>
-        <p>Distinctio VI (pp. 190–202) is the fountainhead of Renaissance polyhedral geometry. <a class="person-ref" id="occ-person-piero-della-francesca-1" href="../persons.html#person-piero-della-francesca" data-person="piero-della-francesca" title="Piero della Francesca (c. 1415 – 1492) — Renaissance Painter &amp; Geometer">Piero della Francesca</a> transcribed Leonardo’s calculations into his <em>Libellus de quinque corporibus regularibus</em> (c. 1482), using the identical sphere of diameter $6$. <a class="person-ref" id="occ-person-pacioli-1" href="../persons.html#person-pacioli" data-person="pacioli" title="Luca Pacioli, O.F.M. (c. 1447 – 1517) — Renaissance Mathematician &amp; Author of De Divina Proportione">Luca Pacioli</a> then translated Piero’s text into Italian and published it in <em>De Divina Proportione</em> (Venice, 1509), accompanied by the 60 solid plates drawn by <a class="person-ref" id="occ-person-leonardo-1" href="../persons.html#person-leonardo" data-person="leonardo" title="Person: leonardo">Leonardo da Vinci</a>.</p>
+        <p>Distinctio VI (pp. 190–202) is the fountainhead of Renaissance polyhedral geometry. <a class="person-ref" id="occ-person-piero-della-francesca-1" href="../people/piero-della-francesca.html#person-piero-della-francesca" data-person="piero-della-francesca" title="Piero della Francesca (c. 1415 – 1492) — Renaissance Painter &amp; Geometer">Piero della Francesca</a> transcribed Leonardo’s calculations into his <em>Libellus de quinque corporibus regularibus</em> (c. 1482), using the identical sphere of diameter $6$. <a class="person-ref" id="occ-person-pacioli-1" href="../people/pacioli.html#person-pacioli" data-person="pacioli" title="Luca Pacioli, O.F.M. (c. 1447 – 1517) — Renaissance Mathematician &amp; Author of De Divina Proportione">Luca Pacioli</a> then translated Piero’s text into Italian and published it in <em>De Divina Proportione</em> (Venice, 1509), accompanied by the 60 solid plates drawn by <span class="person-ref" data-person="leonardo" title="Person: leonardo">Leonardo da Vinci</span>.</p>
         <p>Exact symbolic verification in <cite>geometor.fibonacci</cite>:</p>
         <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">geometor.fibonacci</span><span class="w"> </span><span class="kn">import</span> <span class="n">polyhedra_in_sphere</span><span class="p">,</span> <span class="n">verify_hypsicles_xiv_ratio</span>
         <span class="kn">import</span><span class="w"> </span><span class="nn">sympy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">sp</span>
@@ -200,6 +200,7 @@
         <li><a href="../../types/book.html">book</a></li>
         <li><a href="../../types/book_title.html">book_title</a></li>
         <li><a href="../../types/log.html">log</a></li>
+        <li><a href="../../types/person.html">person</a></li>
       </ul>
     </aside>
   </div>
@@ -225,6 +226,7 @@
   <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/collection_directory.js?v=f242906c"></script>
   <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
   <script src="../../_static/js/search_highlight.js"></script>
 
