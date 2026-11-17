@@ -18,8 +18,8 @@ Mission
 Books in This Archive
 ---------------------
 
-- **`Practice of Geometry <https://geometor.github.io/fibonacci/practica_geometriae/>`_** — *Practica Geometriae* (1220 / ed. Boncompagni, 1862) featuring eight distinctions on Euclidean divisions, Archimedean circle bounds, and regular polyhedra in sphere.
-- **`The Book of Calculation <https://geometor.github.io/fibonacci/liber_abbaci/>`_** — *Liber Abbaci* (1202 / 1228 / ed. Boncompagni, 1857) introducing Hindu-Arabic numerals, rabbit breeding convergents to the golden ratio, and algebraic problem-solving to Europe.
+- `Practice of Geometry <https://geometor.github.io/fibonacci/practica_geometriae/>`_ — *Practica Geometriae* (1220 / ed. Boncompagni, 1862) featuring eight distinctions on Euclidean divisions, Archimedean circle bounds, and regular polyhedra in sphere.
+- `The Book of Calculation <https://geometor.github.io/fibonacci/liber_abbaci/>`_ — *Liber Abbaci* (1202 / 1228 / ed. Boncompagni, 1857) introducing Hindu-Arabic numerals, rabbit breeding convergents to the golden ratio, and algebraic problem-solving to Europe.
 
 Repository Contents
 -------------------
