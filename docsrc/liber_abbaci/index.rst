@@ -1,23 +1,25 @@
 :navigation: header
 :order: 2
 :type: book
-:nav_title: Liber Abbaci
-:breadcrumb_title: Liber Abbaci
+:title: The Book of Calculation
+:nav_title: Book of Calculation
+:breadcrumb_title: Book of Calculation
 :layout: book
-:book_title: Liber Abbaci
-:book_subtitle: The Book of Calculation (1202 / 1228 / ed. Boncompagni, 1857) — Leonardo Pisano
+:book_title: The Book of Calculation
+:book_subtitle: Liber Abbaci (1202 / 1228 / ed. Boncompagni, 1857) — Leonardo Pisano
 :author: Leonardo Pisano (Fibonacci)
 :year: 1202
+:tracks: English: index | Latin: title-la
 :excerpt: Leonardo Pisano's revolutionary 1202/1228 treatise introducing Indo-Arabic numerals, commercial arithmetic, and the golden rabbit sequence to the Latin West.
 
 .. _liber-abbaci:
 .. _liber-abbaci-index:
 
-============
-Liber Abbaci
-============
+=======================
+The Book of Calculation
+=======================
 
-.. rubric:: *The Book of Calculation* (1202 / 1228) — Leonardo Pisano (Fibonacci)
+.. rubric:: *Liber Abbaci* (1202 / 1228) — Leonardo Pisano (Fibonacci)
 
 .. container:: title-page
 
@@ -32,7 +34,7 @@ Liber Abbaci
 
 .. _liber-abbaci-toc:
 
-Table of Capitula
+Table of Chapters
 -----------------
 
 .. collection::
@@ -52,7 +54,7 @@ Table of Capitula
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Latin Edition (1202/1228 / Boncompagni 1857)
+   :caption: Latin Edition
 
    cap_01/cap_01-la
    cap_12/cap_12-la
@@ -66,3 +68,10 @@ Table of Capitula
    cap_01/cap_01-notes
    cap_12/cap_12-summary
    cap_12/cap_12-notes
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Title Pages
+
+   title-la

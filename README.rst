@@ -3,6 +3,11 @@ GEOMETOR • fibonacci
 
 **Visit the Online Archive:** https://geometor.github.io/fibonacci/
 
+.. image:: docsrc/_static/figures/dodecahedron_golden_chord.svg
+   :alt: GEOMETOR • fibonacci featured geometric construction
+   :target: https://geometor.github.io/fibonacci/
+   :align: center
+
 **Leonardo Pisano (Fibonacci) • Liber Abbaci, Practica Geometriae • semantic digital archive**
 
 Mission
@@ -13,8 +18,8 @@ Mission
 Books in This Archive
 ---------------------
 
-- **`Practica Geometriae <https://geometor.github.io/fibonacci/practica_geometriae/>`_** — Practice of Geometry (1220 / ed. Boncompagni, 1862) featuring eight distinctions on Euclidean divisions, Archimedean circle bounds, and regular polyhedra in sphere.
-- **`Liber Abbaci <https://geometor.github.io/fibonacci/liber_abbaci/>`_** — The Book of Calculation (1202 / 1228 / ed. Boncompagni, 1857) introducing Hindu-Arabic numerals, rabbit breeding convergents to the golden ratio, and algebraic problem-solving to Europe.
+- **`Practice of Geometry <https://geometor.github.io/fibonacci/practica_geometriae/>`_** — *Practica Geometriae* (1220 / ed. Boncompagni, 1862) featuring eight distinctions on Euclidean divisions, Archimedean circle bounds, and regular polyhedra in sphere.
+- **`The Book of Calculation <https://geometor.github.io/fibonacci/liber_abbaci/>`_** — *Liber Abbaci* (1202 / 1228 / ed. Boncompagni, 1857) introducing Hindu-Arabic numerals, rabbit breeding convergents to the golden ratio, and algebraic problem-solving to Europe.
 
 Repository Contents
 -------------------
