@@ -21,6 +21,19 @@ Books in This Archive
 - `Practice of Geometry <https://geometor.github.io/fibonacci/practica_geometriae/>`_ — *Practica Geometriae* (1220 / ed. Boncompagni, 1862) featuring eight distinctions on Euclidean divisions, Archimedean circle bounds, and regular polyhedra in sphere.
 - `The Book of Calculation <https://geometor.github.io/fibonacci/liber_abbaci/>`_ — *Liber Abbaci* (1202 / 1228 / ed. Boncompagni, 1857) introducing Hindu-Arabic numerals, rabbit breeding convergents to the golden ratio, and algebraic problem-solving to Europe.
 
+Python Package & Modules
+------------------------
+
+The ``geometor-fibonacci`` Python package (``import geometor.fibonacci``) provides the executable symbolic geometry, construction, and compilation modules powering this archive:
+
+- ``divisions.py`` — Exact Euclidean constructions for *Practica Geometriae*, Distinctio IV (*De divisione camporum*).
+- ``mensuration.py`` — Exact symbolic Pisan metrology, Heron's incenter proof, and 96-gon circle bounds (*Practica Geometriae*, Dist. I & III).
+- ``polyhedra_golden.py`` — Exact regular polyhedra in a sphere ($d=6$), extreme & mean ratio ($\phi$), *Distinctio VIII*, *Flos*, and *Liber Abaci*.
+- ``render.py`` — Publication-grade interactive ``.euclid-graphic`` SVG renderer for GEOMETOR Fibonacci.
+- ``sphinx_ext.py`` — Runtime Sphinx & photon-platform/publish integration for GEOMETOR Fibonacci.
+
+See the `API Reference <https://geometor.github.io/fibonacci/modules/>`_ for full module documentation.
+
 Repository Contents
 -------------------
 
