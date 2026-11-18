@@ -1,0 +1,38 @@
+{
+  "repository": "geometor/fibonacci",
+  "rights_category": "public-domain",
+  "sources": [
+    {
+      "id": "boncompagni-1857-vol1",
+      "title": "Scritti di Leonardo Pisano — Vol. I: Liber Abbaci (1857)",
+      "author": "Baldassarre Boncompagni (ed.)",
+      "year": "1857",
+      "era": "Internet Archive",
+      "languages": [
+        "Latin"
+      ],
+      "site_url": "https://archive.org/details/bub_gb_CrdUBgtAZFoC",
+      "local_path": "resources/pdfs/boncompagni_1857_vol1_liber_abbaci.pdf",
+      "pages": 468,
+      "publisher": "Tipografia delle Scienze Matematiche e Fisiche, Rome",
+      "rights": "Public Domain (1857)",
+      "excerpt": "Boncompagni critical Latin edition of Liber Abbaci (Rome, 1857), 468 pp."
+    },
+    {
+      "id": "boncompagni-1862-vol2",
+      "title": "Scritti di Leonardo Pisano — Vol. II: Practica Geometriae (1862)",
+      "author": "Baldassarre Boncompagni (ed.)",
+      "year": "1862",
+      "era": "Internet Archive",
+      "languages": [
+        "Latin"
+      ],
+      "site_url": "https://archive.org/details/bub_gb_RUvn55EoS3AC",
+      "local_path": "resources/pdfs/boncompagni_1862_vol2_practica_geometriae.pdf",
+      "pages": 294,
+      "publisher": "Tipografia delle Scienze Matematiche e Fisiche, Rome",
+      "rights": "Public Domain (1862)",
+      "excerpt": "Boncompagni critical Latin edition of Practica Geometriae (Rome, 1862), 294 pp."
+    }
+  ]
+}
