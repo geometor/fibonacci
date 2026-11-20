@@ -8,6 +8,10 @@
 Leonardo Pisano (Fibonacci)
 ===========================
 
+.. image:: _static/medallion.svg
+   :alt: Leonardo Pisano (Fibonacci) Medallion
+   :class: repo-medallion-hero
+
 The works of :person:`Leonardo Pisano <fibonacci>` (*c.* 1170 – *c.* 1245) bridge classical antiquity and the Renaissance, introducing Hindu-Arabic numerals, algebraic reckoning, and Euclidean geometric practice to Europe. Within the interconnected `GEOMETOR <https://geometor.com/books/>`_ semantic digital archive, the *Liber Abbaci* and *Practica Geometriae* are liberated from static print bounds—decomposed into addressable semantic units, calibrated vector diagrams, primary-source folio provenance, and cross-corpus citations speaking one shared geometric language.
 
 .. reference-directory::
