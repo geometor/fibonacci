@@ -9,7 +9,7 @@ authors = [
   { name = "phi ARCHITECT", email = "phi@geometor.com" },
 ]
 description = "Digital Scriptorium 4-track Book Codex and exact symbolic SymPy / geometor.model constructions for Leonardo Pisano (Fibonacci): Practica Geometriae (1220), Liber Abaci (1202/1228), and Flos (1225), from Boncompagni's 1857–1862 Latin edition."
-readme = "README.rst"
+readme = "README.md"
 requires-python = ">=3.13"
 license = { text = "MIT" }
 classifiers = [
