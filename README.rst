@@ -1,13 +1,13 @@
+.. image:: docsrc/_static/logo.png
+   :alt: GEOMETOR • fibonacci Medallion
+   :target: https://geometor.github.io/fibonacci/
+   :width: 150px
+   :align: right
+
 GEOMETOR • fibonacci
 ====================
 
 **Visit the Online Archive:** https://geometor.github.io/fibonacci/
-
-.. image:: docsrc/_static/logo.png
-   :alt: GEOMETOR • fibonacci Medallion
-   :target: https://geometor.github.io/fibonacci/
-   :width: 180px
-   :align: center
 
 .. image:: docsrc/_static/figures/dodecahedron_golden_chord.svg
    :alt: GEOMETOR • fibonacci featured geometric construction
