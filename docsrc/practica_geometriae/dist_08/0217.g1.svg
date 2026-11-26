@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     class="euclid-graphic"
+     data-graphic-id="0217.g1"
+     data-folio="0217"
+     data-graphic="g1"
+     viewBox="0 0 155 160"
+     width="155"
+     height="160"
+     role="img"
+     aria-label="Pentagon chord construction">
+  <title>Pentagon chord construction</title>
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" markerWidth="10" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="0" y1="-4" x2="0" y2="4" stroke="currentColor" stroke-width="1.5" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-2" y1="-4" x2="-2" y2="4" stroke="currentColor" stroke-width="1.5" />
+      <line x1="2" y1="-4" x2="2" y2="4" stroke="currentColor" stroke-width="1.5" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" markerWidth="14" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-3.5" y1="-4" x2="-3.5" y2="4" stroke="currentColor" stroke-width="1.5" />
+      <line x1="0" y1="-4" x2="0" y2="4" stroke="currentColor" stroke-width="1.5" />
+      <line x1="3.5" y1="-4" x2="3.5" y2="4" stroke="currentColor" stroke-width="1.5" />
+    </marker>
+  </defs>
+  <style>
+    .euclid-graphic {
+      --geom-bg: #fafaf9;
+      --geom-fg: #1c1917;
+      --geom-carrier: #334155;
+      --geom-circle: #0284c7;
+      --geom-accent: #d97706;
+      --geom-assert: #059669;
+      --geom-point: #0f172a;
+      --geom-label-halo: rgba(250, 250, 249, 0.92);
+      font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      .euclid-graphic {
+        --geom-bg: #141417;
+        --geom-fg: #f4f4f5;
+        --geom-carrier: #cbd5e1;
+        --geom-circle: #38bdf8;
+        --geom-accent: #fbbf24;
+        --geom-assert: #34d399;
+        --geom-point: #f8fafc;
+        --geom-label-halo: rgba(20, 20, 23, 0.92);
+      }
+    }
+    .euclid-graphic .svg-bg { fill: var(--geom-bg); }
+    .euclid-graphic .geom-segment { fill: none; stroke: var(--geom-carrier); stroke-width: 1.65; stroke-linecap: round; }
+    .euclid-graphic .geom-circle { fill: none; stroke: var(--geom-circle); stroke-width: 1.75; }
+    .euclid-graphic .geom-point { fill: var(--geom-point); stroke: var(--geom-bg); stroke-width: 1.2; }
+    .euclid-graphic .geom-label {
+      fill: var(--geom-fg);
+      font-size: 11.5px;
+      font-weight: 600;
+      font-style: italic;
+      paint-order: stroke fill;
+      stroke: var(--geom-label-halo);
+      stroke-width: 3px;
+      stroke-linejoin: round;
+      user-select: none;
+    }
+  </style>
+  <rect class="svg-bg" x="0" y="0" width="155" height="160" rx="4" />
+
+  <g id="elements">
+    <g id="graphics">
+      <circle class="geom-circle" cx="79.0" cy="83.0" r="71.5" data-ref="( O )" />
+    </g>
+    <g id="highlights" style="pointer-events: none;"></g>
+    <g id="points">
+      <circle class="geom-point" cx="79.0" cy="83.0" r="2.2" data-ref="O" />
+    </g>
+    <g id="labels">
+    </g>
+  </g>
+</svg>

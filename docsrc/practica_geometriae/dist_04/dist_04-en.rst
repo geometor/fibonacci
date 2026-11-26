@@ -32,6 +32,12 @@ Dividing Triangles from a Vertex or Given Boundary Point
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0117
    :page: 110
 
+.. picture:: 0117.g1.png
+   :alt: Archival folio 0117 g1
+
+.. picture:: 0117.g1.svg
+   :alt: Geometric diagram on folio 0117 (figure 1)
+
 .. rubric:: *Here ends the third distinction; here begins the fourth, on the division of fields among co-heirs.*
 
 We divide the fourth distinction into four parts: in the first of which we shall teach how to divide triangles, in the second quadrilaterals, in the third multilaterals, and in the fourth circles and their segments.
@@ -46,6 +52,24 @@ or if we draw a perpendicular from .a. onto line .bg., that same perpendicular w
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0118
    :page: 111
+
+.. picture:: 0118.g1.png
+   :alt: Archival folio 0118 g1
+
+.. picture:: 0118.g1.svg
+   :alt: Geometric diagram on folio 0118 (figure 1)
+
+.. picture:: 0118.g2.png
+   :alt: Archival folio 0118 g2
+
+.. picture:: 0118.g2.svg
+   :alt: Geometric diagram on folio 0118 (figure 2)
+
+.. picture:: 0118.g3.png
+   :alt: Archival folio 0118 g3
+
+.. picture:: 0118.g3.svg
+   :alt: Geometric diagram on folio 0118 (figure 3)
 
 For from the multiplication of half that same perpendicular by bases .bd. and .dg. arise the areas of triangles .abd. and .adg. Wherefore it is proved that triangle .abd. is equal to triangle .adg.
 
@@ -82,6 +106,12 @@ Concurrency of Medians & Three-Consort Centroid Division
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0119
    :page: 112
 
+.. picture:: 0119.g1.png
+   :alt: Archival folio 0119 g1
+
+.. picture:: 0119.g1.svg
+   :alt: Geometric diagram on folio 0119 (figure 1)
+
 point .a. be upon the midpoint of .gd.; I shall join .a. with .b., and triangle .bgd. will be divided into two equal triangles by line .ba., which are .bga. and .bad. upon equal bases and under one altitude; 
 or because the product of .bd. by .dg. is double the product of .bd. by .da., triangle .bgd. is double triangle .bad., since they have one angle in common. But let the given point not be upon the midpoint of any of the sides, as in this other triangle .abg., in which point .d. is given nearer to point .b. 
 I will divide side .bg. into two equal parts at .e., and join straight lines .ad. and .ae.; and through point .e. I will draw line .ez. parallel to line .ad., and join straight line .dz. I say indeed that triangle .abg. is divided into two equal parts by line .dz.; which is proved thus: 
@@ -102,6 +132,18 @@ I say that the ratio of .ad. to .de. is as the ratio of .bd. to .dz., and each o
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0120
    :page: 113
 
+.. picture:: 0120.g1.png
+   :alt: Archival folio 0120 g1
+
+.. picture:: 0120.g1.svg
+   :alt: Geometric diagram on folio 0120 (figure 1)
+
+.. picture:: 0120.g2.png
+   :alt: Archival folio 0120 g2
+
+.. picture:: 0120.g2.svg
+   :alt: Geometric diagram on folio 0120 (figure 2)
+
 and triangles .azi. and .gzb. will be similar to one another; wherefore as straight line .az. is to .zg., so is .iz. to .zb., and .ia. to .bg. For .az. is equal to .zg.; therefore .zi. will be equal to .zb., and .ia. to .bg. 
 Again, because triangles .adi. and .bde. are similar, as .ia. is to .be., so is .ad. to .de., and .id. to .db. But straight line .bg. is equal to straight line .ia.; wherefore as .bg. is to .be., so is straight line .ad. to .de., and .id. to .db.: 
 for .bg. is double .be.; wherefore .ad. is double .de., and .id. is double .db.: and since .iz. is equal to .zb., if straight line .zd. is joined in common, the whole straight line .id. will be equal to the two .bz. and .zd. But .id. has been shown to be double .db.; 
@@ -121,6 +163,12 @@ but .ad. is double .dz.; therefore as .bf. is to .fz., so is .bd. to .dz.: there
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0121
    :page: 114
 
+.. picture:: 0121.g1.png
+   :alt: Archival folio 0121 g1
+
+.. picture:: 0121.g1.svg
+   :alt: Geometric diagram on folio 0121 (figure 1)
+
 which is absurd; for the straight line drawn from .g. to .t. will not pass through .bz. between points .bd. Similarly it will be shown that it cannot pass between points .dz.; for it will pass through point .d., as was said. 
 From this, therefore, it is manifest that within triangles there is no point except one, through which from the angles straight lines pass dividing the sides of the triangle into two equal parts. Wherefore if we wish a straight line to pass through that point dividing the triangle into two equal parts, 
 each of the straight lines descending from the angles to the midpoints of its sides will indeed be one by which triangles are divided into equal portions. For example: in the above-written triangle .abg. let point .d. be given, through which pass the straight lines .ae. and .bz. and .gt. drawn from the angles 
@@ -139,6 +187,12 @@ and angle .dze. remains contained by unequal segments, namely by one greater and
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0122
    :page: 115
+
+.. picture:: 0122.g1.png
+   :alt: Archival folio 0122 g1
+
+.. picture:: 0122.g1.svg
+   :alt: Geometric diagram on folio 0122 (figure 1)
 
 point .f. lies within any of the five remaining triangles, you will find these same things happen.
 
@@ -163,6 +217,12 @@ therefore line .gz., namely 16, must be divided into two parts, one of which mul
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0123
    :page: 116
 
+.. picture:: 0123.g1.png
+   :alt: Archival folio 0123 g1
+
+.. picture:: 0123.g1.svg
+   :alt: Geometric diagram on folio 0123 (figure 1)
+
 .gz.; and thus 10 will be had for line .gi., and 6 will remain for line .iz.: then if we divide 105 by .gi., the aforesaid :math:`10\frac{1}{2}` will come for line .gt. 
 I will show otherwise that line .gt. is :math:`10\frac{1}{2}`: I will draw from point .i. perpendicular .imn. upon line .gb.; and line .in. will be parallel to line .ac.; wherefore as .gi. is to .ga., that is as 10 is to 15, so is .in. to .ac.; 
 wherefore .in. will be 8; and because quadrilateral .mk. is a parallelogram, line .mn. will be equal to line .dk.; wherefore .mn. is 3, and .im. remains 5. Again, because straight line .in. is parallel to straight line .ac., as .gi. is to .ga., so is .gn. to .gc.; 
@@ -186,6 +246,18 @@ because .abe. and .aeg. are upon equal bases and under the same altitude; whence
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0124
    :page: 117
+
+.. picture:: 0124.g1.png
+   :alt: Archival folio 0124 g1
+
+.. picture:: 0124.g1.svg
+   :alt: Geometric diagram on folio 0124 (figure 1)
+
+.. picture:: 0124.g2.png
+   :alt: Archival folio 0124 g2
+
+.. picture:: 0124.g2.svg
+   :alt: Geometric diagram on folio 0124 (figure 2)
 
 let straight line .ab. be produced to .z.. And because straight line .be. is greater than half of side .bg., the rectangular surface .ab. by .be. is more than half of the rectangular surface .ab. by .bg.; 
 much more is the rectangle .ab. by .zd. more than half of the rectangle .ab. by .bg., since .zd. is greater than .be. Let the rectangle .ib. by .zd. be laid down equal to half of the rectangle made from .ab. by .bg.; and since the rectangle .ab. by .be. is greater than the rectangle .ib. by .zd., 
@@ -225,6 +297,12 @@ Dividing a Triangle Parallel to Its Base
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0125
    :page: 118
 
+.. picture:: 0125.g1.png
+   :alt: Archival folio 0125 g1
+
+.. picture:: 0125.g1.svg
+   :alt: Geometric diagram on folio 0125 (figure 1)
+
 .ze. by .ig. But the rectangle .ze. by .ig. is half of the rectangle .ag. by .bg.; wherefore also the rectangle .lg. by .gt. is half of the rectangle .ag. by .bg.; therefore the rectangle .ag. by .gb. is double the rectangle .tg. by .gl. 
 Therefore triangle .abg. is double triangle .tgl.; wherefore triangle .tgl. is half of triangle .abg., as is fitting. Let these things also be demonstrated in numbers.
 
@@ -247,6 +325,18 @@ If, therefore, .az. is equal to .zg., triangle .abg. is divided into two equal p
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0126
    :page: 119
+
+.. picture:: 0126.g1.png
+   :alt: Archival folio 0126 g1
+
+.. picture:: 0126.g1.svg
+   :alt: Geometric diagram on folio 0126 (figure 1)
+
+.. picture:: 0126.g2.png
+   :alt: Archival folio 0126 g2
+
+.. picture:: 0126.g2.svg
+   :alt: Geometric diagram on folio 0126 (figure 2)
 
 .ba.; and because .za. is greater than half of side .ag., the rectangle .ab. by .az. will be greater than half of the rectangle .ba. by .ag. Whence let .lt. by .ak. be laid down equal to half of the rectangle .ba. by .ag.; 
 and let the rectangle .al. by .kl. be taken equal to the rectangle .ta. by .ak., and let straight line .li. be joined; and it will be shown through those things which were said above that triangle .abg. is divided into two equal parts by line .il.; and one section of them is triangle .lac., and the other is quadrilateral .lcbg. 
@@ -273,6 +363,30 @@ If you wish to divide triangle .abg. into three equal parts upon one of its side
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0127
    :page: 120
 
+.. picture:: 0127.g1.png
+   :alt: Archival folio 0127 g1
+
+.. picture:: 0127.g1.svg
+   :alt: Geometric diagram on folio 0127 (figure 1)
+
+.. picture:: 0127.g2.png
+   :alt: Archival folio 0127 g2
+
+.. picture:: 0127.g2.svg
+   :alt: Geometric diagram on folio 0127 (figure 2)
+
+.. picture:: 0127.g3.png
+   :alt: Archival folio 0127 g3
+
+.. picture:: 0127.g3.svg
+   :alt: Geometric diagram on folio 0127 (figure 3)
+
+.. picture:: 0127.g4.png
+   :alt: Archival folio 0127 g4
+
+.. picture:: 0127.g4.svg
+   :alt: Geometric diagram on folio 0127 (figure 4)
+
 let us say upon side .bg., divide .bg. itself into three equal parts, which are .bd., .de., .eg.; and let straight lines .ad. and .ae. be joined. I say indeed that triangle .abg. is divided into three equal parts, which are triangles .abd. and .ade. and .aeg.: 
 for they are upon equal bases and under one altitude; wherefore it is necessary that they be equal to one another. And if upon a given point .z. I wish a third part from triangle .bgd., I will join .bz.; and if .gz. is a third part of .gd., triangle .bgz. will indeed be a third part of triangle .bgd.; 
 but if .gz. is not a third part of .gd., it will then be more or less. First let it be less; wherefore I will take from .gd. a third part, which let be .ga.; and I will join straight line .ai. parallel to .zb.; and I will join straight line .iz., which takes away from triangle .bgd. quadrilateral .ibgz.; 
@@ -292,6 +406,18 @@ Again, because line .bd. is equal to line .dg., triangles .cbd. and .cdg. are eq
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0128
    :page: 121
+
+.. picture:: 0128.g1.png
+   :alt: Archival folio 0128 g1
+
+.. picture:: 0128.g1.svg
+   :alt: Geometric diagram on folio 0128 (figure 1)
+
+.. picture:: 0128.g2.png
+   :alt: Archival folio 0128 g2
+
+.. picture:: 0128.g2.svg
+   :alt: Geometric diagram on folio 0128 (figure 2)
 
 .. rubric:: *Demonstration of how a given part is cut off from a triangle by a line drawn through a given point within the triangle.*
 
@@ -318,6 +444,24 @@ Similarly, and in the same way, we could cut off from any triangle whatever any 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0129
    :page: 122
 
+.. picture:: 0129.g1.png
+   :alt: Archival folio 0129 g1
+
+.. picture:: 0129.g1.svg
+   :alt: Geometric diagram on folio 0129 (figure 1)
+
+.. picture:: 0129.g2.png
+   :alt: Archival folio 0129 g2
+
+.. picture:: 0129.g2.svg
+   :alt: Geometric diagram on folio 0129 (figure 2)
+
+.. picture:: 0129.g3.png
+   :alt: Archival folio 0129 g3
+
+.. picture:: 0129.g3.svg
+   :alt: Geometric diagram on folio 0129 (figure 3)
+
 the angle from the sides of the triangle. Again, if within triangle .abg. two points .de. are given, and we wish to divide triangle .abg. into three equal parts by straight lines passing through points .de., first we shall cut off from triangle .abg. triangle .zig. 
 by line .zi. passing through point .d., containing two thirds of triangle .abg.; quadrilateral .zabi. will remain for a third part of triangle .abg.: then we shall divide triangle .izg. into two halves by line .tk. passing through point .e.; 
 and one portion of them will be quadrilateral .tzik., and the other will be triangle .tkg.: and in the same way you shall proceed if the given points are outside the triangle.
@@ -343,6 +487,24 @@ Divisions of Quadrilaterals, Trapezoids, Polygons & Circles
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0129
    :page: 122
 
+.. picture:: 0129.g1.png
+   :alt: Archival folio 0129 g1
+
+.. picture:: 0129.g1.svg
+   :alt: Geometric diagram on folio 0129 (figure 1)
+
+.. picture:: 0129.g2.png
+   :alt: Archival folio 0129 g2
+
+.. picture:: 0129.g2.svg
+   :alt: Geometric diagram on folio 0129 (figure 2)
+
+.. picture:: 0129.g3.png
+   :alt: Archival folio 0129 g3
+
+.. picture:: 0129.g3.svg
+   :alt: Geometric diagram on folio 0129 (figure 3)
+
 .. rubric:: *Here begins the division of quadrilaterals.*
 
 Now the kinds of quadrilaterals are three: namely parallelograms, truncated-head figures, and irregular quadrilaterals. Parallelograms are those whose opposite sides and opposite angles are equal to one another, of which there are four species:
@@ -353,6 +515,30 @@ wherefore if we draw the diameter .ac. or .bd., as is seen in the first figure, 
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0130
    :page: 123
+
+.. picture:: 0130.g1.png
+   :alt: Archival folio 0130 g1
+
+.. picture:: 0130.g1.svg
+   :alt: Geometric diagram on folio 0130 (figure 1)
+
+.. picture:: 0130.g2.png
+   :alt: Archival folio 0130 g2
+
+.. picture:: 0130.g2.svg
+   :alt: Geometric diagram on folio 0130 (figure 2)
+
+.. picture:: 0130.g3.png
+   :alt: Archival folio 0130 g3
+
+.. picture:: 0130.g3.svg
+   :alt: Geometric diagram on folio 0130 (figure 3)
+
+.. picture:: 0130.g4.png
+   :alt: Archival folio 0130 g4
+
+.. picture:: 0130.g4.svg
+   :alt: Geometric diagram on folio 0130 (figure 4)
 
 For example: if we draw the diameter .ac., triangle .abc. will be equal to triangle .acd., because side .ad. is equal to side .bc., and side .ab. is equal to side .dc.; also the base .ac. is common to both triangles. And if you wish to begin the division upon some one of the sides,
 cut that side into two equal parts, and through the point of division draw a straight line to the opposite side parallel to the remaining sides, as is clear in the second figure, in which point .e. is marked at the midpoint of side .bc., and from it is drawn straight line .ef.
@@ -375,6 +561,30 @@ let quadrilateral .dfzg. be taken in common, and quadrilateral .ezgd. will be eq
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0131
    :page: 124
 
+.. picture:: 0131.g1.png
+   :alt: Archival folio 0131 g1
+
+.. picture:: 0131.g1.svg
+   :alt: Geometric diagram on folio 0131 (figure 1)
+
+.. picture:: 0131.g2.png
+   :alt: Archival folio 0131 g2
+
+.. picture:: 0131.g2.svg
+   :alt: Geometric diagram on folio 0131 (figure 2)
+
+.. picture:: 0131.g3.png
+   :alt: Archival folio 0131 g3
+
+.. picture:: 0131.g3.svg
+   :alt: Geometric diagram on folio 0131 (figure 3)
+
+.. picture:: 0131.g4.png
+   :alt: Archival folio 0131 g4
+
+.. picture:: 0131.g4.svg
+   :alt: Geometric diagram on folio 0131 (figure 4)
+
 wherefore quadrilateral .ezgd. is half of parallelogram .ag., as I said before: in this same way are divided all parallelograms by a straight line drawn from a given point upon one of its sides: for example, if the given point were .e., it would indeed divide straight line .db. into two equal parts at point .f.;
 and through that point would be drawn line .ez., which would divide parallelogram .ag. into two equal parts, as was proved. And if you wish to cut some parallelogram into two equal parts by a line issuing from a given point outside it, such as parallelogram .ac., outside which point .e. is given,
 I shall again draw diameter .bd., and divide it at point .g., and join straight line .eg., and produce it to point .f.: parallelogram .ac. is divided into two equal parts by the line issuing from the given point .e.;
@@ -396,6 +606,24 @@ And if the given point .i. be between .fd., one will work the same in the opposi
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0132
    :page: 125
+
+.. picture:: 0132.g1.png
+   :alt: Archival folio 0132 g1
+
+.. picture:: 0132.g1.svg
+   :alt: Geometric diagram on folio 0132 (figure 1)
+
+.. picture:: 0132.g2.png
+   :alt: Archival folio 0132 g2
+
+.. picture:: 0132.g2.svg
+   :alt: Geometric diagram on folio 0132 (figure 2)
+
+.. picture:: 0132.g3.png
+   :alt: Archival folio 0132 g3
+
+.. picture:: 0132.g3.svg
+   :alt: Geometric diagram on folio 0132 (figure 3)
 
 then I shall divide parallelogram .ec. into two equal parts by a line drawn from point .i., which is line .il., which cuts off from parallelogram .ac. its third part, namely quadrilateral .ilcd., as is clear in the third figure.
 And if point .i. be between .ef., I shall cut off from parallelogram .ac. parallelogram .fc., which is a third part of it; and the remainder I shall divide into two equal parts by a line drawn from point .i., which is straight line .im.; and by line .im. let quadrilateral .iabm. be cut off from parallelogram .ac.,
@@ -421,6 +649,12 @@ if triangle .ead. be taken away in common, there will remain quadrilateral .zg. 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0133
    :page: 126
 
+.. picture:: 0133.g1.png
+   :alt: Archival folio 0133 g1
+
+.. picture:: 0133.g1.svg
+   :alt: Geometric diagram on folio 0133 (figure 1)
+
 Which let us also show with numbers: let side .ab. be 12, and .bg. 12, and let .ad. be 3; let side .gd. also contain 15 perches: and because in triangle .ebg. straight line .da. is drawn parallel to base .bg.,
 as .ad. is to .bg., that is as 3 is to 12, so will .ea. be to .eb.; wherefore as 3 is to 9, so will .ea. be to .ab.; therefore .ea. is 4, namely a third part of .ab.; therefore the whole .eb. is 16: therefore when the squares of lines .eb. and .ea. are added together,
 namely 256 and 16, they will be 272; half of which, namely 136, is the square of line .ez.; and because as .ez. is to .eb., so is .zi. to .bg.; therefore as the square of line .ez. is to the square of line .eb., that is as 136 is to 256,
@@ -441,6 +675,30 @@ and it is manifest from what we have said that in every quadrilateral having two
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0134
    :page: 127
+
+.. picture:: 0134.g1.png
+   :alt: Archival folio 0134 g1
+
+.. picture:: 0134.g1.svg
+   :alt: Geometric diagram on folio 0134 (figure 1)
+
+.. picture:: 0134.g2.png
+   :alt: Archival folio 0134 g2
+
+.. picture:: 0134.g2.svg
+   :alt: Geometric diagram on folio 0134 (figure 2)
+
+.. picture:: 0134.g3.png
+   :alt: Archival folio 0134 g3
+
+.. picture:: 0134.g3.svg
+   :alt: Geometric diagram on folio 0134 (figure 3)
+
+.. picture:: 0134.g4.png
+   :alt: Archival folio 0134 g4
+
+.. picture:: 0134.g4.svg
+   :alt: Geometric diagram on folio 0134 (figure 4)
 
 For as we said, as .at. was to .td., so was .bk. to .kg.: wherefore as .at. was to .td., so was quadrilateral .ak. to quadrilateral .tg. And if you wish to divide a quadrilateral of two parallel sides into two equal parts by a line drawn from a given point upon the lesser of the parallel sides,
 as quadrilateral .abgd., which is divided into two equal parts by line .tk.; and in it upon side .ad. let the given point be .a., I shall take upon side .kg. straight line .kl. equal to straight line .ta.; and .bl. will be half of sides .ab. and .bg., and I shall join straight line .al.
@@ -464,6 +722,30 @@ and let line .gf., found in the figure written above, also be drawn in it, and l
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0135
    :page: 128
 
+.. picture:: 0135.g1.png
+   :alt: Archival folio 0135 g1
+
+.. picture:: 0135.g1.svg
+   :alt: Geometric diagram on folio 0135 (figure 1)
+
+.. picture:: 0135.g2.png
+   :alt: Archival folio 0135 g2
+
+.. picture:: 0135.g2.svg
+   :alt: Geometric diagram on folio 0135 (figure 2)
+
+.. picture:: 0135.g3.png
+   :alt: Archival folio 0135 g3
+
+.. picture:: 0135.g3.svg
+   :alt: Geometric diagram on folio 0135 (figure 3)
+
+.. picture:: 0135.g4.png
+   :alt: Archival folio 0135 g4
+
+.. picture:: 0135.g4.svg
+   :alt: Geometric diagram on folio 0135 (figure 4)
+
 and it will be between .bz., or between .zf., or between .fa., or it will be one of them; whence if the given point be .b., quadrilateral .abgd. will indeed be divided into two equal parts by line .bc.: similarly if the given point be .z., straight line .zi. indeed divides quadrilateral .abgd., as has been said.
 And if .f. be the given point, surely straight line .fg. will cut quadrilateral .abgd. into two equal parts, as has been shown: and if it be .a., it will be cut by straight line .al. into two equal parts according to the things we premised. But let the given point .h. be between points .b. and .z.;
 I shall join line .hi.; and through point .z. I shall draw straight line .zc. parallel to straight line .ih., and I shall join straight line .hc. I say that quadrilateral .abgd. is cut into two equal parts by line .hc. drawn from point .h.; which is proved thus.
@@ -484,6 +766,12 @@ Next, so that the division may come from the remaining angles, I shall take stra
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0136
    :page: 129
 
+.. picture:: 0136.g1.png
+   :alt: Archival folio 0136 g1
+
+.. picture:: 0136.g1.svg
+   :alt: Geometric diagram on folio 0136 (figure 1)
+
 and .lf. parallel to diameter .ag.; and I shall draw straight lines .al. and .dn., and the things proposed will follow, as was demonstrated above. It has been demonstrated, therefore, how quadrilaterals of two parallel sides are divided from a given point upon any side of them;
 now let us say how they ought to be divided from a given point outside the figure.
 
@@ -500,6 +788,12 @@ one must work in the same way, namely that point would be joined with .m., and t
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0137
    :page: 130
 
+.. picture:: 0137.g1.png
+   :alt: Archival folio 0137 g1
+
+.. picture:: 0137.g1.svg
+   :alt: Geometric diagram on folio 0137 (figure 1)
+
 For example: as if the point were .v., quadrilateral .abgd. would indeed be divided into two equal parts by line .rs. issuing from the given point .v. And if between lines .nh. and .ob. a point .x. be given, as is seen in this other figure, let two threads be had, one of which is stretched upon diameter .ab.,
 and let it be fixed upon point .d.; and let the other be stretched from .n. to .c., and let it be fixed upon point .n.; and then the threads will be parallel to one another: and let the first thread be moved from .b. toward .n. cutting line .bn.;
 and let the other be moved from .c. toward .d. cutting line .cd.; and let them always be parallel to one another in their motion: and let this be done until the intersections of lines .bn. and .cd. look in a straight line toward the given point .x.;
@@ -513,6 +807,18 @@ in which straight lines .oi. and .pt. are drawn dividing quadrilateral .abgd. fr
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0138
    :page: 131
+
+.. picture:: 0138.g1.png
+   :alt: Archival folio 0138 g1
+
+.. picture:: 0138.g1.svg
+   :alt: Geometric diagram on folio 0138 (figure 1)
+
+.. picture:: 0138.g2.png
+   :alt: Archival folio 0138 g2
+
+.. picture:: 0138.g2.svg
+   :alt: Geometric diagram on folio 0138 (figure 2)
 
 I shall stretch the first thread from .c. to .f., and let it be fixed upon .f.; and let the other thread be stretched upon side .gb., and let it be fixed upon point .g.: then let the threads be moved in parallel cutting straight lines .bf. and .cg., until the intersections look toward the given point .z.
 For example: let the thread which was fixed upon .g. fall upon line .gq., and the remaining one upon line .fx.; and let points .x., .q., and .z. be in one straight line, and let straight lines .gq. and .fx. be parallel: and let straight line .zqx. be joined.
@@ -538,6 +844,24 @@ Indeed let sides .ba. and .gd. be drawn out from points .a. and .d. until they m
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0139
    :page: 132
 
+.. picture:: 0139.g1.png
+   :alt: Archival folio 0139 g1
+
+.. picture:: 0139.g1.svg
+   :alt: Geometric diagram on folio 0139 (figure 1)
+
+.. picture:: 0139.g2.png
+   :alt: Archival folio 0139 g2
+
+.. picture:: 0139.g2.svg
+   :alt: Geometric diagram on folio 0139 (figure 2)
+
+.. picture:: 0139.g3.png
+   :alt: Archival folio 0139 g3
+
+.. picture:: 0139.g3.svg
+   :alt: Geometric diagram on folio 0139 (figure 3)
+
 and I shall set the square of line .tl. to the square of line .at. as .zi. to .ez.; and let the square of line .ht. be to the square of lines .bt. and .tl. as .ez. to .ei.;
 and through points .l. and .h. I shall draw straight lines .lm. and .hk. parallel to each of the straight lines .hg. and .ad. I say that quadrilateral .ag. is divided in the given ratio of the number .ez. to the number .zi. by line .hk.; which is proved thus.
 Since triangles .tlm. and .tad. are similar, as the square of line .tl. is to the square of line .ta., so will triangle .tlm. be to triangle .tad.: for as the number .zi. is to the number .ez., so is the square of line .tl. to the square of line .ta.:
@@ -558,6 +882,24 @@ by conversion therefore as .sm. is to .nm., so is triangle .tbg. to quadrilatera
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0140
    :page: 133
 
+.. picture:: 0140.g1.png
+   :alt: Archival folio 0140 g1
+
+.. picture:: 0140.g1.svg
+   :alt: Geometric diagram on folio 0140 (figure 1)
+
+.. picture:: 0140.g2.png
+   :alt: Archival folio 0140 g2
+
+.. picture:: 0140.g2.svg
+   :alt: Geometric diagram on folio 0140 (figure 2)
+
+.. picture:: 0140.g3.png
+   :alt: Archival folio 0140 g3
+
+.. picture:: 0140.g3.svg
+   :alt: Geometric diagram on folio 0140 (figure 3)
+
 as .ms. was to .ls., so was triangle .tbg. to triangle .tad. Whence if we permute, as the number .ms. is to triangle .tbg., so will the number .ls. be to triangle .tad., and the number .ns. to triangle .thk.: therefore the numbers .ls. and .ns. are in one ratio to triangles .tad. and .thk.;
 namely in that which the number .ms. has to the surface .tbg., in which also is the number .nm. to quadrilateral .hg.: wherefore by separation as .sl. is to .ln., so will triangle .tad. be to quadrilateral .ak.; and as .sn. is to .nm., so will quadrilateral .ak. be to quadrilateral .hg.:
 therefore the given quadrilateral .ag. is divided by line .hk. parallel to base .bg. in the also given ratio of the number .ln. to the number .nm.; which it was necessary to do: which let us also perform with numbers:
@@ -577,6 +919,18 @@ And if from either of the angles .b. and .g. you wish to draw a straight line di
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0141
    :page: 134
+
+.. picture:: 0141.g1.png
+   :alt: Archival folio 0141 g1
+
+.. picture:: 0141.g1.svg
+   :alt: Geometric diagram on folio 0141 (figure 1)
+
+.. picture:: 0141.g2.png
+   :alt: Archival folio 0141 g2
+
+.. picture:: 0141.g2.svg
+   :alt: Geometric diagram on folio 0141 (figure 2)
 
 as if you wish to do this from angle .b. You will mark point .n. to which the aforesaid division came from angle .d.; and you will set the rectangle .bg. by .gc. equal to the rectangle .dg. by .gn.; and you will join straight line .bc.;
 or when a diameter is drawn from .b. to .d., draw a parallel straight line from .n. to .c., and .bc. will be joined, as we have said. Similarly let us do if we wish to work from angle .g., namely I shall understand point .l., to which the aforesaid division came from angle .a.;
@@ -601,6 +955,18 @@ therefore .am. is the root of 176 minus 8, since .ea. is 8; and line .mn. is the
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0142
    :page: 135
 
+.. picture:: 0142.g1.png
+   :alt: Archival folio 0142 g1
+
+.. picture:: 0142.g1.svg
+   :alt: Geometric diagram on folio 0142 (figure 1)
+
+.. picture:: 0142.g2.png
+   :alt: Archival folio 0142 g2
+
+.. picture:: 0142.g2.svg
+   :alt: Geometric diagram on folio 0142 (figure 2)
+
 and because as the square of line .ea. is to the square of line .ad., that is as 16 to 9, so is the square of line .em. to the square of line .mo.: if we multiply 176 by 9 and divide by 16,
 or if we multiply 1/16 of 176, which is 11, by 9, there will indeed come 99 for the square of line .mo. Again if we multiply 1/16 of 288, namely of the square of line .en., which is 18, by 9, there will come 162 for the square of line .np.:
 which having been found, if we investigate the area of quadrilaterals .ao., .mp., and .ng. according to the things we have taught, you will find those quadrilaterals to be equal to one another. Otherwise, with the square of line .eb. add double the square of line .ea., and you will find a third part of them to be the square of line .em.
@@ -618,6 +984,18 @@ and each of the triangles .abl. and .dgn. will be a third part of quadrilateral 
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0143
    :page: 136
+
+.. picture:: 0143.g1.png
+   :alt: Archival folio 0143 g1
+
+.. picture:: 0143.g1.svg
+   :alt: Geometric diagram on folio 0143 (figure 1)
+
+.. picture:: 0143.g2.png
+   :alt: Archival folio 0143 g2
+
+.. picture:: 0143.g2.svg
+   :alt: Geometric diagram on folio 0143 (figure 2)
 
 quadrilateral .abik. be added, triangle .abl. will be equal to quadrilateral .eb. But quadrilateral .eb. is the third part of quadrilateral .ag.; wherefore triangle .abl. is the third part of quadrilateral .ag. Similarly it will be shown that triangle .dgn. is also equal to quadrilateral
 .zg., which is the third part of the whole .ag.: indeed, when triangle .abl. is cut off from quadrilateral .abgd., there will remain the truncated-head quadrilateral .algd.: which, if it be divided by any one of the ways aforesaid, will render quadrilateral .abgd.
@@ -642,6 +1020,12 @@ and triangle .fbg. will be the third part of quadrilateral .bd. Which things bei
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0144
    :page: 137
+
+.. picture:: 0144.g1.png
+   :alt: Archival folio 0144 g1
+
+.. picture:: 0144.g1.svg
+   :alt: Geometric diagram on folio 0144 (figure 1)
 
 namely quadrilaterals .abcd. and .afgd., when we treat of the division of quadrilaterals of diverse sides.
 And after we have brought the division of three equal portions upon the third parts of the sides and upon each of the angles, we shall be able, through the things that were said above, from similar quadrilaterals a third part,
@@ -668,6 +1052,30 @@ there will come 14400, whose root, namely 120, is had for the area of triangle .
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0145
    :page: 138
 
+.. picture:: 0145.g1.png
+   :alt: Archival folio 0145 g1
+
+.. picture:: 0145.g1.svg
+   :alt: Geometric diagram on folio 0145 (figure 1)
+
+.. picture:: 0145.g2.png
+   :alt: Archival folio 0145 g2
+
+.. picture:: 0145.g2.svg
+   :alt: Geometric diagram on folio 0145 (figure 2)
+
+.. picture:: 0145.g3.png
+   :alt: Archival folio 0145 g3
+
+.. picture:: 0145.g3.svg
+   :alt: Geometric diagram on folio 0145 (figure 3)
+
+.. picture:: 0145.g4.png
+   :alt: Archival folio 0145 g4
+
+.. picture:: 0145.g4.svg
+   :alt: Geometric diagram on folio 0145 (figure 4)
+
 And the remainder which is left from the whole quadrilateral .ag., namely 72, is had for quadrilateral .ng. For the ratio of 48 to 60 is as 4 to 5, that is as .ez. to .zi.;
 and the ratio of 60 to 72 is as 5 to 6, that is as .zi. to .it., as is fitting. For we can reduce these divisions with parallels from three points given anywhere upon line .ba.:
 and if we divide line .ad. in any given ratios, and in the same ratios divide side .bg.; and join lines to the points of those ratios, quadrilateral .abgd. would indeed be rendered divided in those ratios; which divisions we shall also reduce to the points of the angles through the things that have been said.
@@ -691,6 +1099,30 @@ Which is proved thus. For triangles .dze. and .dzt. are equal to one another, si
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0146
    :page: 139
+
+.. picture:: 0146.g1.png
+   :alt: Archival folio 0146 g1
+
+.. picture:: 0146.g1.svg
+   :alt: Geometric diagram on folio 0146 (figure 1)
+
+.. picture:: 0146.g2.png
+   :alt: Archival folio 0146 g2
+
+.. picture:: 0146.g2.svg
+   :alt: Geometric diagram on folio 0146 (figure 2)
+
+.. picture:: 0146.g3.png
+   :alt: Archival folio 0146 g3
+
+.. picture:: 0146.g3.svg
+   :alt: Geometric diagram on folio 0146 (figure 3)
+
+.. picture:: 0146.g4.png
+   :alt: Archival folio 0146 g4
+
+.. picture:: 0146.g4.svg
+   :alt: Geometric diagram on folio 0146 (figure 4)
 
 triangle .dcz., quadrilateral .ezcd. will be equal to triangle .dct., namely half of the whole quadrilateral .ac. And it is to be noted that if diagonal .bd. divides quadrilateral .ac. into two equal parts, there will likewise come about the things we have said in these two figures.
 But if the division falls upon side .ab., as straight line .di., which divides quadrilateral .abcd. into two equal parts, it is necessary to operate otherwise. I will divide quadrilateral .ac. from angle .b. with straight line .bk.;
@@ -717,6 +1149,36 @@ diagonal .bd. will indeed cut off a third part from quadrilateral .ac., which is
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0147
    :page: 140
 
+.. picture:: 0147.g1.png
+   :alt: Archival folio 0147 g1
+
+.. picture:: 0147.g1.svg
+   :alt: Geometric diagram on folio 0147 (figure 1)
+
+.. picture:: 0147.g2.png
+   :alt: Archival folio 0147 g2
+
+.. picture:: 0147.g2.svg
+   :alt: Geometric diagram on folio 0147 (figure 2)
+
+.. picture:: 0147.g3.png
+   :alt: Archival folio 0147 g3
+
+.. picture:: 0147.g3.svg
+   :alt: Geometric diagram on folio 0147 (figure 3)
+
+.. picture:: 0147.g4.png
+   :alt: Archival folio 0147 g4
+
+.. picture:: 0147.g4.svg
+   :alt: Geometric diagram on folio 0147 (figure 4)
+
+.. picture:: 0147.g5.png
+   :alt: Archival folio 0147 g5
+
+.. picture:: 0147.g5.svg
+   :alt: Geometric diagram on folio 0147 (figure 5)
+
 .ca.; for the same reasons triangles .bce. and .abc. are also in the same ratio; wherefore as .ce. is to .ac., so is triangle .bcd. to quadrilateral .ac.:
 for straight line .ce. is a third part of .ac.; wherefore triangle .bcd. is also a third part of quadrilateral .ac.: therefore the given part, namely a third, has been cut off from quadrilateral .ac. by a line going forth from the given angle .d.; which it was necessary to do.
 But let .ce. not be a third part of .ac.; I will indeed set .cg. as a third of .ac.; and from point .g. I will draw straight line .gf. parallel to diagonal .bd.; and I will join straight line .fd.,
@@ -741,6 +1203,36 @@ I say that straight line .bd. divides quadrilateral .ac. in that ratio which .ez
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0148
    :page: 141
 
+.. picture:: 0148.g1.png
+   :alt: Archival folio 0148 g1
+
+.. picture:: 0148.g1.svg
+   :alt: Geometric diagram on folio 0148 (figure 1)
+
+.. picture:: 0148.g2.png
+   :alt: Archival folio 0148 g2
+
+.. picture:: 0148.g2.svg
+   :alt: Geometric diagram on folio 0148 (figure 2)
+
+.. picture:: 0148.g3.png
+   :alt: Archival folio 0148 g3
+
+.. picture:: 0148.g3.svg
+   :alt: Geometric diagram on folio 0148 (figure 3)
+
+.. picture:: 0148.g4.png
+   :alt: Archival folio 0148 g4
+
+.. picture:: 0148.g4.svg
+   :alt: Geometric diagram on folio 0148 (figure 4)
+
+.. picture:: 0148.g5.png
+   :alt: Archival folio 0148 g5
+
+.. picture:: 0148.g5.svg
+   :alt: Geometric diagram on folio 0148 (figure 5)
+
 and .tba.; wherefore as .ct. is to .ta., so is triangle .dcb. to triangle .abd. But .ct. to .ta. is as .ez. to .zi.; wherefore as .ez. is to .zi., so is triangle .bdc. to triangle .bda.
 Therefore quadrilateral .ac. is divided into two parts according to the given ratio, and from the given angle; which it was necessary to do. But let diagonal .bd. not pass through point .t.; it must pass either between .ct., or between .ta.:
 let it first pass between .ct.: I will indeed join straight lines .bt. and .td.; and quadrilateral .tbcd. will be to quadrilateral .tbad. as .ct. is to .ta., that is as .ez. is to .zi.:
@@ -762,6 +1254,24 @@ As .bk. is to .ka., so will .gm. be to .md.; wherefore as .gm. is
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0149
    :page: 142
+
+.. picture:: 0149.g1.png
+   :alt: Archival folio 0149 g1
+
+.. picture:: 0149.g1.svg
+   :alt: Geometric diagram on folio 0149 (figure 1)
+
+.. picture:: 0149.g2.png
+   :alt: Archival folio 0149 g2
+
+.. picture:: 0149.g2.svg
+   :alt: Geometric diagram on folio 0149 (figure 2)
+
+.. picture:: 0149.g3.png
+   :alt: Archival folio 0149 g3
+
+.. picture:: 0149.g3.svg
+   :alt: Geometric diagram on folio 0149 (figure 3)
 
 to .md., so will quadrilateral .gk. be to quadrilateral .ma.:
 it is also as .gm. is to .md., so is triangle .gcm. to triangle .cmd.; wherefore compoundedly as .gm. is to .md., so will quadrilateral .kbcm. be to pentagon .akmcd.:
@@ -788,6 +1298,30 @@ Whence if from equals we take away equals, those things which remain
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0150
    :page: 143
 
+.. picture:: 0150.g1.png
+   :alt: Archival folio 0150 g1
+
+.. picture:: 0150.g1.svg
+   :alt: Geometric diagram on folio 0150 (figure 1)
+
+.. picture:: 0150.g2.png
+   :alt: Archival folio 0150 g2
+
+.. picture:: 0150.g2.svg
+   :alt: Geometric diagram on folio 0150 (figure 2)
+
+.. picture:: 0150.g3.png
+   :alt: Archival folio 0150 g3
+
+.. picture:: 0150.g3.svg
+   :alt: Geometric diagram on folio 0150 (figure 3)
+
+.. picture:: 0150.g4.png
+   :alt: Archival folio 0150 g4
+
+.. picture:: 0150.g4.svg
+   :alt: Geometric diagram on folio 0150 (figure 4)
+
 will be equal; therefore, when triangle .aed. is subtracted from triangle .aeb., and triangle .ced. from triangle .ceb.,
 triangles .abd. and .cdb. will remain equal to one another, as I said before. But let straight line .eb. not pass through point .d.; it will cut therefore one of the sides .ad. or .cd.: let it indeed cut side .cd. at point .z.;
 and let straight line .ed. be joined; and let .dz. lie to .zi. as .bz. to .ze.; and let straight line .bi. be joined. I say indeed that quadrilateral .abcd. is divided into two equal parts by line .bi.;
@@ -812,6 +1346,30 @@ I will produce straight line .eg.; and upon the midpoint of it I will place poin
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0151
    :page: 144
 
+.. picture:: 0151.g1.png
+   :alt: Archival folio 0151 g1
+
+.. picture:: 0151.g1.svg
+   :alt: Geometric diagram on folio 0151 (figure 1)
+
+.. picture:: 0151.g2.png
+   :alt: Archival folio 0151 g2
+
+.. picture:: 0151.g2.svg
+   :alt: Geometric diagram on folio 0151 (figure 2)
+
+.. picture:: 0151.g3.png
+   :alt: Archival folio 0151 g3
+
+.. picture:: 0151.g3.svg
+   :alt: Geometric diagram on folio 0151 (figure 3)
+
+.. picture:: 0151.g4.png
+   :alt: Archival folio 0151 g4
+
+.. picture:: 0151.g4.svg
+   :alt: Geometric diagram on folio 0151 (figure 4)
+
 in a straight line with straight line .zi., or not: first let one of them be in a straight line with the other, as is seen in this third figure: and it will be manifest that line .id. will divide pentagon .abgde. into two equal parts:
 which also if you wish to divide the pentagon itself from a point .t. given upon straight line .ab., I will join straight line .td.; and I will place straight line .ik. parallel to it, and .tk. will be joined;
 which will also divide the same pentagon into two equal parts: the demonstration is the same as above. But let straight line .zd. not be in a straight line with .zi.; I will join indeed straight line .id.; and I will place straight line .zl. parallel to it;
@@ -834,6 +1392,18 @@ for triangle .klm. is equal to triangle .ilf.; wherefore pentagon .bckmf. is equ
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0152
    :page: 145
+
+.. picture:: 0152.g1.png
+   :alt: Archival folio 0152 g1
+
+.. picture:: 0152.g1.svg
+   :alt: Geometric diagram on folio 0152 (figure 1)
+
+.. picture:: 0152.g2.png
+   :alt: Archival folio 0152 g2
+
+.. picture:: 0152.g2.svg
+   :alt: Geometric diagram on folio 0152 (figure 2)
 
 quadrilaterals .bcnf. and .fnde. equal to one another: which pentagon also if we wish to divide into three equal parts, we shall cut off from quadrilateral .bcnf. a third part with line .op.; and from quadrilateral .fnde. we shall likewise cut a third part with line .qd.;
 and pentagon .bcdef. will be divided into three equal parts, of which one is quadrilateral .bcpo., the second pentagon .opdqf., the third triangle .qde.
@@ -861,6 +1431,30 @@ yet how this ought to be done by approximation, I will demonstrate. First I will
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0153
    :page: 146
 
+.. picture:: 0153.g1.png
+   :alt: Archival folio 0153 g1
+
+.. picture:: 0153.g1.svg
+   :alt: Geometric diagram on folio 0153 (figure 1)
+
+.. picture:: 0153.g2.png
+   :alt: Archival folio 0153 g2
+
+.. picture:: 0153.g2.svg
+   :alt: Geometric diagram on folio 0153 (figure 2)
+
+.. picture:: 0153.g3.png
+   :alt: Archival folio 0153 g3
+
+.. picture:: 0153.g3.svg
+   :alt: Geometric diagram on folio 0153 (figure 3)
+
+.. picture:: 0153.g4.png
+   :alt: Archival folio 0153 g4
+
+.. picture:: 0153.g4.svg
+   :alt: Geometric diagram on folio 0153 (figure 4)
+
 .abg.; and I will place from center .d. straight line .db. parallel to straight line .ag., and I will join straight lines .da., .dg., .ab., and .bg., and triangles .dag. and .bag. will be equal to one another:
 to which if the common addition be added, namely the portion of the circle contained under straight line .ag. and arc .ag., the figure contained under straight lines .ba. and .bg. and arc .ag. will be equal to sector .dag.,
 which is a third part of the circle; wherefore the figure contained under straight lines .ba. and .bg. and arc .ag. is a third part of circle .abg.:
@@ -884,6 +1478,12 @@ I say that the figure contained under straight lines .bg. and .ez. and arcs .eb.
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0154
    :page: 147
+
+.. picture:: 0154.g1.png
+   :alt: Archival folio 0154 g1
+
+.. picture:: 0154.g1.svg
+   :alt: Geometric diagram on folio 0154 (figure 1)
 
 .gab. and .dab. will be equal: to which when portion .abe. is added in common, the figure contained under straight lines .ga. and .gb. and arc .aeb. will be equal to sector .daeb., which is a third part of circle .abg.;
 therefore the figure contained under straight lines .ga. and .gb. and arc .aeb. is a third part of circle .abg.: and because straight lines .bg. and .ez. are parallel, arcs .eb. and .gz. will be equal.
@@ -911,6 +1511,30 @@ upon the midpoint of its chord draw the sagitta: for example: let a portion grea
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0155
    :page: 148
+
+.. picture:: 0155.g1.png
+   :alt: Archival folio 0155 g1
+
+.. picture:: 0155.g1.svg
+   :alt: Geometric diagram on folio 0155 (figure 1)
+
+.. picture:: 0155.g2.png
+   :alt: Archival folio 0155 g2
+
+.. picture:: 0155.g2.svg
+   :alt: Geometric diagram on folio 0155 (figure 2)
+
+.. picture:: 0155.g3.png
+   :alt: Archival folio 0155 g3
+
+.. picture:: 0155.g3.svg
+   :alt: Geometric diagram on folio 0155 (figure 3)
+
+.. picture:: 0155.g4.png
+   :alt: Archival folio 0155 g4
+
+.. picture:: 0155.g4.svg
+   :alt: Geometric diagram on folio 0155 (figure 4)
 
 draw: and portion .abd. of the circle will be equal to portion .adg.; which will be proved through the things that were said in the semicircle:
 and if from point .d. at right angles we draw straight line .dc. upon chord .bg., portion .bcg. of the circle, which is less than a semicircle, will indeed be divided into two equal parts.

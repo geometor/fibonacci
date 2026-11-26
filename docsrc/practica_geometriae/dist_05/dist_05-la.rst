@@ -143,6 +143,18 @@ super quintum, et quartum, et tertium gradum: deinde accipe triplum quadrati de 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0160
    :page: 153
 
+.. picture:: 0160.g1.png
+   :alt: Archival folio 0160 g1
+
+.. picture:: 0160.g1.svg
+   :alt: Two given quantities f and c
+
+.. picture:: 0160.g2.png
+   :alt: Archival folio 0160 g2
+
+.. picture:: 0160.g2.svg
+   :alt: Archytas doubling-the-cube construction on circle abgd with tangent gz
+
 secundum multiplicat, tertium gradum facit, remanebunt .779. super quintum, et quartum, et tertium gradum. Deinde multiplicanda sunt .8., que restant de .48., gradatim per eadem .21.;
 ergo multiplicabis .8. per .2., erunt .16., que extrahes de numero terminante in tertio gradu; quia cum primus gradus multiplicat tertium, tertium gradum facit, remanebunt .763. super quintum, et quartum, et
 tertium gradum; et 8 per 1. faciunt 8, que extrahes de numero terminante in secundo, scilicet de .7634.; quia cum primus gradus multiplicat secundum, secundum gradum facit, remanebunt inde .7626.
@@ -165,6 +177,18 @@ recta .lm. Sed superficiei .bm. in .md. equatur superficies .g.m. in .mt., cum r
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0161
    :page: 154
+
+.. picture:: 0161.g1.png
+   :alt: Archival folio 0161 g1
+
+.. picture:: 0161.g1.svg
+   :alt: Philo / Heron cube-root construction on circle abg with ruler ebh
+
+.. picture:: 0161.g2.png
+   :alt: Archival folio 0161 g2
+
+.. picture:: 0161.g2.svg
+   :alt: Two given quantities b and a
 
 .abgd.; quare angulus .glt. est rectus.
 Est enim et angulus .gth. rectus, cum recta .ht. sit in superficie columne. Et quoniam semicirculus est arcus .geha., erit et angulus .gha. rectus: similiter et angulus .g.m.l. est rectus; orthogonia
@@ -193,6 +217,18 @@ quod possit .ez. moueri ex parte puncti .z. inseparabilis in motu suo in lineam 
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0162
    :page: 155
+
+.. picture:: 0162.g1.png
+   :alt: Archival folio 0162 g1
+
+.. picture:: 0162.g1.svg
+   :alt: Plato moving-square construction for two mean proportionals (first variant)
+
+.. picture:: 0162.g2.png
+   :alt: Archival folio 0162 g2
+
+.. picture:: 0162.g2.svg
+   :alt: Plato moving-square construction for two mean proportionals (second variant)
 
 uetur .ze. sicut narrauimus, tunc .z. est extremitas eius ex linea .zg.; tunc linea .ze. est in illa dispositione, ut secundum rectitudinem sit ostendendum, quod est
 inter motum puncti extremitatis eius, et punctum .e., sicut linea .ze. Deinde signabo super lineam extensam secundum rectitudinem signum .k.; et in maginabo quod linea .mp. moueatur ex parte
@@ -254,6 +290,24 @@ Aliter sit linea .ab. radix cubica de .32.; et .bc. sit radix de .4.; et uolo sc
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0164
    :page: 157
+
+.. picture:: 0164.g1.png
+   :alt: Archival folio 0164 g1
+
+.. picture:: 0164.g1.svg
+   :alt: Divided line segment abc
+
+.. picture:: 0164.g2.png
+   :alt: Archival folio 0164 g2
+
+.. picture:: 0164.g2.svg
+   :alt: Divided line segment agb
+
+.. picture:: 0164.g3.png
+   :alt: Archival folio 0164 g3
+
+.. picture:: 0164.g3.svg
+   :alt: Square cdef partitioned into rectangles around h
 
 titatem totius .ac. Quoniam linea .ac. diuisa est
 in duo super punctum .b., erunt duo cubi portionum .ab. et .bc. cum triplo quadrati .ab. in .bc., nec non et cum triplo quadrati .bc. in .ab. equales cubo totius linee

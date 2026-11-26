@@ -182,6 +182,18 @@ satis aperte monstrauimus; uere quidem radices numerorum, qui non sunt quadrati,
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0032
    :page: 25
 
+.. picture:: 0032.g1.png
+   :alt: Archival folio 0032 g1
+
+.. picture:: 0032.g1.svg
+   :alt: Circle gebz with diameter bg, center d, and perpendicular chord ez
+
+.. picture:: 0032.g2.png
+   :alt: Archival folio 0032 g2
+
+.. picture:: 0032.g2.svg
+   :alt: Proportional segments a=20, e=600, b=30 and g, z, d
+
 habere desideras, 
 eique lineam unius unitatis super addas, et in medio illius linee centrum figas, in spatio dimidie linee circulum ducas; et a puncto, quod est inter unitatem et lineam, ad rectos angulos lineam usque ad circulum protrahe; et illa linea erit uera radix quesiti numeri. 
 Exempli causa: uolumus radicem .67. inuenire. Adiaceat quedam recta .ab., que sit .67.; cui addatur in directo unitas .ag., erit tota .gb. 68: diuidaturque .gb. in duo equalia super punctum .d.; 
@@ -212,6 +224,12 @@ Quare sicut .g. est ad .d., ita .z.
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0033
    :page: 26
 
+.. picture:: 0033.g1.png
+   :alt: Archival folio 0033 g1
+
+.. picture:: 0033.g1.svg
+   :alt: Similar triangles adb and aeg with parallel db and eg (3, 4, 27, 48)
+
 est ad .b.: fuit itaque sicut .g. ad .d., ita .a. ad .z.: per equale uero est sicut .a. ad .z., ita .z. ad .b. Quare multiplicatio .a. in b. est sicut multiplicatio z. in se. 
 Sed multiplicatio .a. in b. facit .e., scilicet 600. Et multiplicatio quidem de z. in se facit similiter .e. Ergo .z. radix est ex .e.; quod oportebat ostendere. 
 Et notandum, cum numeri, quorum radices insimul multiplicantur, habent inter se proportionem quadratorum numerorum eorum, multiplicatio surgit in quadratum numerum. Quare multiplicatio radicum ipsorum surgit in numerum rationabilem. 
@@ -241,6 +259,24 @@ et a puncto .a. angulum faciens protrahatur recta .ad.de.; et ad sit .3., et .de
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0034
    :page: 27
 
+.. picture:: 0034.g1.png
+   :alt: Archival folio 0034 g1
+
+.. picture:: 0034.g1.svg
+   :alt: Similar triangles adb and aeg
+
+.. picture:: 0034.g2.png
+   :alt: Archival folio 0034 g2
+
+.. picture:: 0034.g2.svg
+   :alt: Line segment abg (27, 48)
+
+.. picture:: 0034.g3.png
+   :alt: Archival folio 0034 g3
+
+.. picture:: 0034.g3.svg
+   :alt: Line segment bag
+
 et .db.: 
 est itaque quadratum linee .ab. triplum quadrati linee .ad., et quadratum linee .bg. triplum quadrati linee .de. Ergo sicut .ab. recta est ad .ad., ita recta .bg. ad .de. 
 Quare recta .db. equidistans est linee .eg. Vnde trigonum .adb. simile est trigono .aeg.; habent angulum .a. comunem; et angulus .adb. angulo .aeg.; et angulus .adb. angulo .age. sunt equales, scilicet exteriores interioribus. 
@@ -265,6 +301,24 @@ Vnde, ut inde habeamus illud quod possumus, inueniatur radix de .2400. quam prop
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0035
    :page: 28
+
+.. picture:: 0035.g1.png
+   :alt: Archival folio 0035 g1
+
+.. picture:: 0035.g1.svg
+   :alt: Triangle agb with parallel de to bg
+
+.. picture:: 0035.g2.png
+   :alt: Archival folio 0035 g2
+
+.. picture:: 0035.g2.svg
+   :alt: Line segment agb
+
+.. picture:: 0035.g3.png
+   :alt: Archival folio 0035 g3
+
+.. picture:: 0035.g3.svg
+   :alt: Line segment agb
 
 minus :math:`\frac{1}{98}`; quibus inuenies radicem, et habebis propositum: uel inuenias radicem de 20 et de .30. quam propius potes; et adde eas insimul, et habebis similiter propositum.
 
@@ -295,6 +349,12 @@ de quibus accipe duas radices, scilicet duplum radicis eius, hoc est radicem qua
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0036
    :page: 29
+
+.. picture:: 0036.g1.png
+   :alt: Archival folio 0036 g1
+
+.. picture:: 0036.g1.svg
+   :alt: Proportional segments a=40, g=15, b=600 and d, z, e
 
 de 600., que est fere 49., minus :math:`\frac{1}{98}`; et extrahe eam de 50., remanet :math:`\frac{1}{98}\ 1`; cui inuenias radicem, et habebis quesitum residuum, secundum propinquitatem.
 

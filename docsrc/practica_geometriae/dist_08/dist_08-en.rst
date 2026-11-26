@@ -23,6 +23,18 @@ DISTINCTIO VIII — SUBTILITATES GEOMETRICAE & FLOS (1225)
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0214
    :page: 207
 
+.. picture:: 0214.g1.png
+   :alt: Archival folio 0214 g1
+
+.. picture:: 0214.g1.svg
+   :alt: Pentagon acefh inscribed in square abgd
+
+.. picture:: 0214.g2.png
+   :alt: Archival folio 0214 g2
+
+.. picture:: 0214.g2.svg
+   :alt: Regular pentagon abgde inscribed in circle with center c
+
 Distinctio VIII — *Subtilitates Geometricae*: Pentagon, Decagon & *Al-Jabr*
 ---------------------------------------------------------------------------
 
@@ -51,6 +63,18 @@ For *bi* is five times *ih*, so the square on *bi*, :math:`39\frac{1}{16}`, is f
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0215
    :page: 208
 
+.. picture:: 0215.g1.png
+   :alt: Archival folio 0215 g1
+
+.. picture:: 0215.g1.svg
+   :alt: Regular decagon inscribed in circle with center a
+
+.. picture:: 0215.g2.png
+   :alt: Archival folio 0215 g2
+
+.. picture:: 0215.g2.svg
+   :alt: Pentagon abgde inscribed in circle with diagonals ag, gd, zi
+
 giving :math:`62\frac{1}{2} - \sqrt{781\frac{1}{4}}` for the square on *ba*, whose root is pentagonal side *ab*—the root of the remainder between :math:`\sqrt{781\frac{1}{4}}` and :math:`62\frac{1}{2}`. That remainder slightly exceeds :math:`34\frac{1}{2}`, whose approximate root is :math:`6 - \frac{1}{8}`; and this is *ab* by approximation.
 
 And if you wish to know the side of a decagon in a circle of diameter :math:`10`, divide semicircle arc *abcf* into five equal parts *ab*, *bc*, *cd*, *de*, *ef*; draw chords *ab*, *bc*, *cd*, *de*, *ef*, each a decagon side; and join *ac* and *df*, each a pentagon side. 
@@ -67,6 +91,18 @@ To work this out in numbers, let diameter *af* be :math:`10`; then *gi* is :math
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0216
    :page: 209
+
+.. picture:: 0216.g1.png
+   :alt: Archival folio 0216 g1
+
+.. picture:: 0216.g1.svg
+   :alt: Decagon inscribed in circle with center a and radial triangles
+
+.. picture:: 0216.g2.png
+   :alt: Archival folio 0216 g2
+
+.. picture:: 0216.g2.svg
+   :alt: Auxiliary triangle for decagon chord
 
 gives :math:`25` and :math:`6\frac{1}{4}`, whose sum is :math:`31\frac{1}{4}` for the square on *gh*, and hence on *hl*. Therefore *hl* is :math:`\sqrt{31\frac{1}{4}}`. Subtracting *hi*, which is :math:`2\frac{1}{2}`, leaves :math:`\sqrt{31\frac{1}{4}} - 2\frac{1}{2}` for *il*, the decagon side, as we found above. 
 And if we square *il* and *gi*, we obtain :math:`62\frac{1}{2} - \sqrt{781\frac{1}{4}}` for the square of *gl*, the pentagon side, as we said above.
@@ -88,6 +124,18 @@ And if you wish to find the measure of the side of a decagon circumscribing a ci
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0217
    :page: 210
 
+.. picture:: 0217.g1.png
+   :alt: Archival folio 0217 g1
+
+.. picture:: 0217.g1.svg
+   :alt: Pentagon chord construction
+
+.. picture:: 0217.g2.png
+   :alt: Archival folio 0217 g2
+
+.. picture:: 0217.g2.svg
+   :alt: Pentagon abgde with diagonal be and center z
+
 *def* at points *d* and *e*; join *de*, *ha*, *hb*, and *hd*, *h* being the center. By what was said in the preceding figure, *ab* is to *dh* as *de* is to *hl*. 
 Hence *ab* squared times *hl* squared equals *de* squared times *dh* squared. Chord *de* is the inscribed decagon side in *def*, found as :math:`\sqrt{31\frac{1}{4}} - 2\frac{1}{2}`; its half is :math:`\sqrt{7\frac{13}{16}} - 1\frac{1}{4}`, whose square is :math:`9\frac{3}{8} - \sqrt{48\frac{53}{64}}`. 
 Subtracting this from *dh* squared (:math:`25`) leaves :math:`15\frac{5}{8} + \sqrt{48\frac{53}{64}}` for *hl* squared. Multiplying this by *ab* squared (*census*) gives :math:`15\frac{5}{8}` *census* plus the root of :math:`48\frac{53}{64}` *census census*, equal to *dh* squared (:math:`25`) times *dl* squared, which product is :math:`937\frac{1}{2} - \sqrt{488281\frac{1}{4}}`. 
@@ -105,6 +153,18 @@ Hence *cd* times *dl* equals *de* squared, since in triangle *ced* perpendicular
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0218
    :page: 211
+
+.. picture:: 0218.g1.png
+   :alt: Archival folio 0218 g1
+
+.. picture:: 0218.g1.svg
+   :alt: Decagon abgdeihc inscribed in circle with center m
+
+.. picture:: 0218.g2.png
+   :alt: Archival folio 0218 g2
+
+.. picture:: 0218.g2.svg
+   :alt: Decagon abgdeihtc with chord ch and center m
 
 also reach otherwise. Since in a circle of diameter :math:`10` the inscribed pentagon side is :math:`\sqrt{62\frac{1}{2} - \sqrt{781\frac{1}{4}}}`, and I want the pentagon side to be :math:`10` and seek its diameter, :math:`62\frac{1}{2} - \sqrt{781\frac{1}{4}}` is to :math:`100` (its diameter squared) as :math:`100` (the given side squared) to the unknown diameter squared. 
 Hence if we set the unknown diameter as *res* and multiply its *census* by :math:`62\frac{1}{2} - \sqrt{781\frac{1}{4}}`, we likewise get :math:`62\frac{1}{2}` *census* minus the root of :math:`781\frac{1}{4}` *census census*, equal to :math:`100` times :math:`100`, namely :math:`10000` drachmae, as found above. 
@@ -125,6 +185,18 @@ This holds because the pentagon side equals in square the hexagon and decagon si
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0219
    :page: 212
 
+.. picture:: 0219.g1.png
+   :alt: Archival folio 0219 g1
+
+.. picture:: 0219.g1.svg
+   :alt: Equilateral triangle abc with parallel de and quadrilateral dbce
+
+.. picture:: 0219.g2.png
+   :alt: Archival folio 0219 g2
+
+.. picture:: 0219.g2.svg
+   :alt: Equilateral triangle abc with inscribed quadrilateral and altitude af
+
 by *cf*, that is, *cf* squared. Adding the square on *ac* (*census* plus :math:`100`) gives :math:`2` *census* plus :math:`20` *res* plus :math:`200` drachmae, equal to :math:`4` *census*, the diameter squared. Subtracting :math:`2` *census* and halving gives *census* equal to :math:`10` *res* plus :math:`100` drachmae. 
 Solve this by algebra, and *res*—half of diameter *af*—is :math:`\sqrt{125} + 5` drachmae; twice this, :math:`\sqrt{500} + 10` drachmae, is the sought diameter, as found above.
 
@@ -142,6 +214,24 @@ And if you wish to know the diameter of the circle inscribed in equilateral equi
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0220
    :page: 213
+
+.. picture:: 0220.g1.png
+   :alt: Archival folio 0220 g1
+
+.. picture:: 0220.g1.svg
+   :alt: Completing-the-square rectangle io (ik + mo)
+
+.. picture:: 0220.g2.png
+   :alt: Archival folio 0220 g2
+
+.. picture:: 0220.g2.svg
+   :alt: Equilateral triangle abg with inscribed rectangle cdef and hikl
+
+.. picture:: 0220.g3.png
+   :alt: Archival folio 0220 g3
+
+.. picture:: 0220.g3.svg
+   :alt: Equilateral triangle abg with inscribed rectangle and altitude
 
 will remain :math:`25 + \sqrt{500}` for *cm* squared; four times this, :math:`100 + \sqrt{8000}`, is the square of the inscribed circle's diameter. Subtracting the pentagon side squared from the circumscribing diameter squared (:math:`200 + \sqrt{8000}`) likewise leaves :math:`100 + \sqrt{8000}` for the sought diameter squared. 
 For the square of the diameter of any circle circumscribing an equilateral equiangular figure equals the square of its side plus the square of the inscribed circle's diameter. To prove this, take circle *abc*, inscribe equilateral equiangular triangle *abc*, from center *d* draw *da*, *db*, *dc*, and bisect the sides at *e*, *f*, *g*; 
@@ -162,6 +252,18 @@ In an equilateral equiangular square *abgd*, each side of which is :math:`10`, a
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0221
    :page: 214
 
+.. picture:: 0221.g1.png
+   :alt: Archival folio 0221 g1
+
+.. picture:: 0221.g1.svg
+   :alt: Equilateral triangle abg with inscribed rectangle
+
+.. picture:: 0221.g2.png
+   :alt: Archival folio 0221 g2
+
+.. picture:: 0221.g2.svg
+   :alt: Equilateral triangle abg with inscribed rectangles cdef and hikl
+
 for each of *hd* and *cb* :math:`10` minus *res*. Since *ce* and *hf* are equal, *cb* squared plus *be* squared equals *hd* squared plus *df* squared. Since *cb* equals *hd*, *be* equals *fd*; and *eg* equals *gf*, since *bg* equals *gd*. 
 Since *ef* is *res*, its square is *census*; hence *eg* and *gf* are each the root of :math:`\frac{1}{2}` *census*, leaving :math:`10` minus that root for *df*. Squaring *df* gives :math:`100` plus :math:`\frac{1}{2}` *census* minus the root of :math:`200` *census*; squaring *dh* (:math:`10` minus *res*) gives :math:`100` plus *census* minus :math:`20` *res*. 
 Adding all gives :math:`200` plus :math:`1\frac{1}{2}` *census* minus :math:`20` *res* minus the root of :math:`200` *census*, equal to *census* (*hf* squared). Add :math:`20` *res* and the root of :math:`200` *census*, and subtract *census*, leaving :math:`200` plus :math:`\frac{1}{2}` *census* equal to :math:`20` *res* plus the root of :math:`200` *census*. 
@@ -178,6 +280,24 @@ And if we say: the area of an equilateral equiangular decagon is :math:`100`, fi
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0222
    :page: 215
+
+.. picture:: 0222.g1.png
+   :alt: Archival folio 0222 g1
+
+.. picture:: 0222.g1.svg
+   :alt: Equilateral triangle abg with inscribed rectangle cbef
+
+.. picture:: 0222.g2.png
+   :alt: Archival folio 0222 g2
+
+.. picture:: 0222.g2.svg
+   :alt: Equilateral triangle abg with inscribed rectangle cbef and altitudes
+
+.. picture:: 0222.g3.png
+   :alt: Archival folio 0222 g3
+
+.. picture:: 0222.g3.svg
+   :alt: Equilateral triangle abg with inscribed quadrilateral adcf
 
 decagon. You know that when the decagon side is :math:`10`, the circumscribing diameter is :math:`10 + \sqrt{500}`, and its half :math:`5 + \sqrt{125}`. Setting *bg* as *res*, the diameter is *res* plus the root of :math:`5` *census*; hence radius *ab* is :math:`\frac{1}{2}` *res* plus the root of :math:`1\frac{1}{4}` *census*. 
 Draw perpendicular *ad*, meeting *bg* at midpoint *d*, so *bd* is :math:`\frac{1}{2}` *res*. Squaring *ab* gives :math:`1\frac{1}{2}` *census* plus the root of :math:`1\frac{1}{4}` *census census*; subtracting *bd* squared (:math:`\frac{1}{4}` *census*) leaves :math:`1\frac{1}{4}` *census* plus the root of :math:`1\frac{1}{4}` *census census* for *ad* squared. 
@@ -196,6 +316,18 @@ in which it is also found that when any line is divided in extreme and mean rati
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0223
    :page: 216
+
+.. picture:: 0223.g1.png
+   :alt: Archival folio 0223 g1
+
+.. picture:: 0223.g1.svg
+   :alt: Equilateral triangle abc with inscribed square defg
+
+.. picture:: 0223.g2.png
+   :alt: Archival folio 0223 g2
+
+.. picture:: 0223.g2.svg
+   :alt: Equilateral triangle abc with inscribed pentagon adefg
 
 divided line, the square of the added line will be five times the square of half that divided line; and since when line *be* is divided in extreme and mean ratio, its greater part is line *ab*, which is the pentagon side; 
 if line *bz*, which is half of line *be*, be joined to it, so that one line is made from both, the square of the line compounded of *ab* and *bz* will be five times the square of line *ze*; and *ze* is :math:`\frac{1}{2}` *res*, and its square is :math:`\frac{1}{4}` *census* 
@@ -245,6 +377,18 @@ Similarly, if we multiply :math:`5` by some even square into two, or four, or mo
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0225
    :page: 218
 
+.. picture:: 0225.g1.png
+   :alt: Archival folio 0225 g1
+
+.. picture:: 0225.g1.svg
+   :alt: Equilateral triangle abc with inscribed square and altitude
+
+.. picture:: 0225.g2.png
+   :alt: Archival folio 0225 g2
+
+.. picture:: 0225.g2.svg
+   :alt: Equilateral triangle abc with inscribed pentagon
+
 by :math:`16`, giving :math:`80`; and let us divide :math:`80` into two paired numbers which are consecutive in the order of odd numbers, and they will be :math:`39` and :math:`41`: then aggregate all the odd numbers from unity which are below :math:`39`; 
 which aggregation you will have if we multiply by itself half of the two extremes, namely of :math:`1` and :math:`37`; from which multiplication will issue :math:`361`: with which if we add :math:`80`, there will come :math:`441`: if we divide these two squares by :math:`16`, 
 we shall have :math:`22\frac{9}{16}` and :math:`27\frac{9}{16}`, and their roots we shall have if by the root of :math:`16`, which is :math:`4`, we divide :math:`19` and :math:`21`, which are the roots of :math:`361` and of :math:`441`.
@@ -270,6 +414,12 @@ whose root is line *de*; and this I wished to find. And since triangle *ade* is 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0226
    :page: 219
 
+.. picture:: 0226.g1.png
+   :alt: Archival folio 0226 g1
+
+.. picture:: 0226.g1.svg
+   :alt: Tall rectangle for Flos cubic x^3 + 2x^2 + 10x = 20
+
 which is between the root of :math:`533\frac{1}{3}` and :math:`100` drachmas: and if from point *d* the perpendicular *dh* be drawn, and you wish to find its length, set it as *res*, and take half of the sides *de* and *bc*, and multiply it by *res*; and what proceeds will equal :math:`10`, that is, quadrilateral *dbce*.
 For example: the square of side *de* is :math:`100` minus the root of :math:`533\frac{1}{3}`; wherefore the square of half of line *de* is :math:`25` minus the root of :math:`33\frac{1}{3}`; therefore half of line *de* is the root taken of its square; and half of side *bc* is :math:`5`;
 and thus for half of sides *de* and *bc* there are had :math:`25` minus the root of :math:`33\frac{1}{3}`, their root being taken, and :math:`5` drachmas; which multiply by *res*, that is, by perpendicular *dh*. And from the multiplication of *res* by :math:`5` you will have :math:`5` *res*;
@@ -289,6 +439,12 @@ whose root if it be taken away from *tp*, there will remain for the quantity of 
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0227
    :page: 220
+
+.. picture:: 0227.g1.png
+   :alt: Archival folio 0227 g1
+
+.. picture:: 0227.g1.svg
+   :alt: Geometric diagram on folio 0227
 
 *tk*, is approximately around :math:`1\frac{1}{7}`; whose root, which is around :math:`1\frac{1}{13}`, is the sought perpendicular *dh*; and this I wished to demonstrate. And if it be said: in triangle *abg*, each side of which is :math:`10`, an oblong rectangular quadrilateral *cdef* is drawn,
 and quadrilateral *hikl*, which is likewise oblong and rectangular; and :math:`10` is the measure of each quadrilateral; and it is asked how great is the length of sides *cf* and *hl*, which are equidistant from each other and also from side *bg*;
@@ -312,6 +468,18 @@ which being subtracted from *bg*, there will remain *de* :math:`10` minus the ro
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0228
    :page: 221
 
+.. picture:: 0228.g1.png
+   :alt: Archival folio 0228 g1
+
+.. picture:: 0228.g1.svg
+   :alt: Geometric diagram on folio 0228 (top)
+
+.. picture:: 0228.g2.png
+   :alt: Archival folio 0228 g2
+
+.. picture:: 0228.g2.svg
+   :alt: Geometric diagram on folio 0228 (bottom)
+
 likewise the root of :math:`100` *res* minus the root of :math:`1\frac{1}{3}` *census*, which was :math:`10` likewise: whence if to both sides be added the root of :math:`1\frac{1}{3}` *census*, there will be :math:`10` and the root of :math:`1\frac{1}{3}` *census* equal to the root of :math:`100` *res*:
 multiply therefore :math:`10` and the root of :math:`1\frac{1}{3}` *census* by themselves, and there will be :math:`100`, and :math:`1\frac{1}{3}` *census*, and the root of :math:`533\frac{1}{3}` *census*, which equal :math:`100` *res*, namely the multiplication of the root of :math:`100` *res* by itself.
 Reduce now all you have to *census*, which is that you multiply all you have by :math:`\frac{3}{4}` of a drachma, and there will come *census*, and :math:`75`, and the root of :math:`300` *census* equal to :math:`75` *res*: cast away therefore from both sides the root of :math:`300` *census*, and there will remain *census* and :math:`75` drachmas,
@@ -334,6 +502,12 @@ I shall set side *ef* as the root of *res*; wherefore *eg* will be one root of :
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0229
    :page: 222
 
+.. picture:: 0229.g1.png
+   :alt: Archival folio 0229 g1
+
+.. picture:: 0229.g1.svg
+   :alt: Geometric diagram on folio 0229
+
 for line *be* :math:`10` minus the root of :math:`\frac{1}{3}` *res*: and because angles *cfe* and *feb* are right, line *cf* will be equidistant from line *be*: for *ci* and *fe* are equidistant from each other; wherefore *cf* and *ie* are equal to each other,
 and straight line *ei* is also equal to straight line *fe*: whence if *cf*, namely *ie*, be taken away from the whole *bg*, which is :math:`10`, there will remain for line *cf* :math:`10` minus two roots of :math:`\frac{1}{3}` *res*; which being added with the measure of side *be*, which is :math:`10` minus the root of
 :math:`\frac{1}{3}` *res*, there will come out :math:`20`, diminished by three roots of :math:`\frac{1}{3}` *res*, for the quantity of sides *cf* and *be*; half of which, which is :math:`10` minus the root of :math:`\frac{3}{4}` *res*, if we multiply by line *fe*, which is the root of *res*, there will come the root of :math:`100` *res* minus
@@ -355,6 +529,18 @@ that is, between the root of :math:`9263` (with fraction :math:`13472`) and :mat
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0230
    :page: 223
 
+.. picture:: 0230.g1.png
+   :alt: Archival folio 0230 g1
+
+.. picture:: 0230.g1.svg
+   :alt: Geometric diagram on folio 0230 (top)
+
+.. picture:: 0230.g2.png
+   :alt: Archival folio 0230 g2
+
+.. picture:: 0230.g2.svg
+   :alt: Geometric diagram on folio 0230 (bottom)
+
 and because as *ab* is to *bh*, so is *cb* to *bi*, *cb* will be double :math:`38` minutes, :math:`27` seconds, and :math:`42` thirds; which double is :math:`1`, and :math:`16` minutes, and :math:`55` seconds, and :math:`24` thirds; which being subtracted from the whole *ab*, there will remain for the quantity of line *ac*, that is,
 for *cf*, :math:`8`, :math:`43` minutes, :math:`4` seconds, and :math:`36` thirds: for triangle *acf* is equilateral, since it is similar to triangle *abg*: and if from *bc*, namely from :math:`10`, be taken away :math:`38` minutes and :math:`27` seconds, there will remain for line *be* :math:`9`, :math:`21` minutes, :math:`32` seconds, and :math:`18` thirds.
 Again, in equilateral triangle *abg*, each side of which is :math:`10`, and whose perpendicular is *ad*, quadrilateral *adcf* is drawn, whose measure is :math:`10`; and let it be asked how great is the length of line *cf*; first indeed it is manifest that the measure of triangle *adg* is the root of :math:`478\frac{3}{4}`,
@@ -373,6 +559,12 @@ whose root, which is :math:`2078`, and :math:`27` minutes, and :math:`48` second
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0231
    :page: 224
+
+.. picture:: 0231.g1.png
+   :alt: Archival folio 0231 g1
+
+.. picture:: 0231.g1.svg
+   :alt: Geometric diagram on folio 0231
 
 of *de*; whose root, which is around :math:`4`, and :math:`38` minutes, and seconds and thirds, is each of the sides of the square itself. And according to this also, in equilateral triangle *abc*, in which is constituted an equilateral pentagon *adefg*, each side of which, through the things we have said, will be known.
 Otherwise I shall draw perpendicular *ai*, and I shall multiply *ai* by *bi*, that is, the root of :math:`75` by :math:`5`, and there will come the root of :math:`1875` drachmas for the area of the whole triangle *abc*. Then I shall multiply *de*, namely the root of *res*, by *be*, that is, by the root of :math:`\frac{1}{3}` *res*,
@@ -431,6 +623,12 @@ wherefore, taking matter hence, I began to compose a little book to the glory of
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0235
    :page: 228
 
+.. picture:: 0235.g1.png
+   :alt: Archival folio 0235 g1
+
+.. picture:: 0235.g1.svg
+   :alt: Flos cubic proof rectangle at=20 (a, e, b, d)
+
 The second question proposed by the aforesaid Master John was to find a certain cube number which, together with its two squares and ten roots gathered into one, would equal twenty: meditating upon this, I judged that the solution of this question issues from those things contained in the tenth book of Euclid; 
 and on this account I studied that tenth book of Euclid more carefully, so much so that I committed its theorems to memory and grasped their meaning. And because it is more difficult than the preceding and certain following books of Euclid, I therefore began to gloss that tenth book itself, 
 reducing its meaning to number, which is demonstrated in it through lines and surfaces; which tenth book treats of the varieties of fifteen straight lines, of which fifteen lines two are called rational, or reckoned.
@@ -454,6 +652,12 @@ Therefore the whole surface *at* is composed of one cube and two squares and ten
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0236
    :page: 229
 
+.. picture:: 0236.g1.png
+   :alt: Archival folio 0236 g1
+
+.. picture:: 0236.g1.svg
+   :alt: Flos cubic proof rectangle with irrationality segments
+
 each of sides *ad* and *it* is :math:`10`, each of sides *ai* and *dt* will be :math:`2`, since surface *at* is :math:`20`. I say first therefore that root *ab* cannot be of the rational numbers, nor of the roots of rational numbers, nor of the roots of roots of rational numbers, 
 nor of the six conjoined numbers, nor of the six remainder numbers written above, nor of the roots of conjoined or apotome numbers. And if it be possible, let root *ab* first be of the numbers that are rational in length and in power. And since the whole *ai* is :math:`2`, 
 and *ab* is less than *ai*, root *ab* is less than two. And since *ab* was posited to be of rational numbers, *ab* is either whole or fractional: let it first be whole, if possible. Since no whole number is less than two save unity, root *ab* will be one. 
@@ -474,6 +678,12 @@ For straight line *ab* is the root of a number. Wherefore the square made from i
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0237
    :page: 230
+
+.. picture:: 0237.g1.png
+   :alt: Archival folio 0237 g1
+
+.. picture:: 0237.g1.svg
+   :alt: Flos cubic proof rectangle (fol. 3 verso)
 
 *gb* is commensurable with the second, *bk*. Wherefore *ab* is also commensurable with *be*. For *ab* is the root of a rational number; wherefore *be* is also the root of a rational number. Since *ab* is commensurable with *be*, *ab* will be commensurable with the whole *ae*. 
 Wherefore *ae* is the root of a rational number, and is commensurable in power only with *ai*, namely :math:`2`. Hence if from two, *ai*, be taken away root *ae*—which are rational in power only—there will remain the apotome *ei*, which is proved by Euclid in the tenth book to be irrational. 
@@ -516,6 +726,12 @@ and from the multiplication of one by the other comes an irrational number, name
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0239
    :page: 232
 
+.. picture:: 0239.g1.png
+   :alt: Archival folio 0239 g1
+
+.. picture:: 0239.g1.svg
+   :alt: Flos cubic proof rectangle for sixth apotome (fol. 5 recto)
+
 is the line called *riton et medium potens*, that is, in power equal to a rational and an irrational number, which is composed of two lines incommensurable in power, whose squares joined together make the root of a number;
 and from the multiplication of one by the other comes a rational number: as if the first be the root of the root of :math:`20` and of two, and the other be the root of :math:`20` minus :math:`2`. And the root of the sixth binomial is the line
 called in power equal to two irrational numbers, which is composed of two lines incommensurable in power, whose squares joined together make an irrational number; and from the multiplication of one by the other there likewise arises an irrational number:
@@ -542,6 +758,12 @@ since *bc* is a number and *ca* is the root of a rational number. Wherefore thos
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0240
    :page: 233
+
+.. picture:: 0240.g1.png
+   :alt: Archival folio 0240 g1
+
+.. picture:: 0240.g1.svg
+   :alt: Flos cubic proof rectangle (fol. 5 verso)
 
 of *fk* to *ca* is as a number to a number. Wherefore *fk* is commensurable with line *ca*. Let surface *dk* therefore be divided into four rectangular surfaces *go*, *ol*, *do*, and *ok*. And since *gb* and *bf* are numbers, the whole *gf* is a number.
 For line *fo* is also a number, being equal to line *bc*. Wherefore surface *go* is rational: and since *fk* is commensurable with line *ca*, line *op* is also commensurable with line *ca*, being equal to line *fk*. Wherefore surface *ol* is rational. Therefore surfaces *go* and *ol* are a number.

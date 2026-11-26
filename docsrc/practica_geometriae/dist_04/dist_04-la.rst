@@ -32,6 +32,12 @@ De Divisione Trigonorum ab Angulo vel a Puncto Dato in Latere
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0117
    :page: 110
 
+.. picture:: 0117.g1.png
+   :alt: Archival folio 0117 g1
+
+.. picture:: 0117.g1.svg
+   :alt: Geometric diagram on folio 0117 (figure 1)
+
 .. rubric:: *Explicit distinctio tertia, incipit quarta de diuisione camporum inter consortes.*
 
 **QVARTAM** siquidem distinctionem in partes quatuor diuidimus: in prima quarum triangulos: in secunda quadrilateros: in tertia multilateres: in quarta circulos, et eorum portiones diuidere docebimus.
@@ -46,6 +52,24 @@ uel si protraxerimus cathetum ab .a. super lineam .bg., erunt utique cathetus ip
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0118
    :page: 111
+
+.. picture:: 0118.g1.png
+   :alt: Archival folio 0118 g1
+
+.. picture:: 0118.g1.svg
+   :alt: Geometric diagram on folio 0118 (figure 1)
+
+.. picture:: 0118.g2.png
+   :alt: Archival folio 0118 g2
+
+.. picture:: 0118.g2.svg
+   :alt: Geometric diagram on folio 0118 (figure 2)
+
+.. picture:: 0118.g3.png
+   :alt: Archival folio 0118 g3
+
+.. picture:: 0118.g3.svg
+   :alt: Geometric diagram on folio 0118 (figure 3)
 
 Nam ex multiplicatione dimidij catheti ipsius in bases .bd. et .dg., proueniunt embada trigonorum .abd. et .adg. Quare probatur, trigonum .abd. equalem esse trigono .adg.
 
@@ -89,6 +113,12 @@ Preparatoria de Concursu Mediarum et Divisio Inter Tres Consortes
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0119
    :page: 112
 
+.. picture:: 0119.g1.png
+   :alt: Archival folio 0119 g1
+
+.. picture:: 0119.g1.svg
+   :alt: Geometric diagram on folio 0119 (figure 1)
+
 punctus .a. super dimidium .gd.; copulabo siquidem .a. cum .b., et erit trigonum .bgd. in duo trigona equalia diuisum a linea .ba., que sunt .bga. et .bad. super equas bases, et sub altitudine una; 
 uel quia factum ex .bd. in .dg. duplum est facti ex .bd. in .da., duplus est triangulus .bgd. triangulo .bad., cum habeant unum angulum comune. 
 Sed non sit datus punctus super dimidium alicuius laterum, ut in hoc alio trigono .abg., in quo datus sit punctus .d., qui sit propius puncto .b. 
@@ -118,6 +148,18 @@ a puncto quidem .a. equidistantem recte .bg. ducam rectam .ai.; et protraham rec
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0120
    :page: 113
 
+.. picture:: 0120.g1.png
+   :alt: Archival folio 0120 g1
+
+.. picture:: 0120.g1.svg
+   :alt: Geometric diagram on folio 0120 (figure 1)
+
+.. picture:: 0120.g2.png
+   :alt: Archival folio 0120 g2
+
+.. picture:: 0120.g2.svg
+   :alt: Geometric diagram on folio 0120 (figure 2)
+
 et erunt trigona .azi. et .gzb. sibi inuicem similia; quare est sicut recta .az. ad .zg., ita .iz. ad .zb., et .ia. ad .bg. equalis est enim .az. ex .zg.; 
 equales ergo erunt .zi. ex .zb., et .ia. ex .bg. Rursus quia similia sunt trigona .adi. et .bde., est sicut .ia. ad .be., ita .ad. ad .de., et .id. ad .db. 
 Sed .ia. recte equalis est recta .bg.; quare est sicut .bg. ad .be., ita recta .ad. ad .de., et .id. ad .db.: dupla est enim .bg. ex .be.; 
@@ -141,6 +183,12 @@ ergo est sicut .bf. ad .fz., ita .bd. ad .dz.: permutatim ergo est sicut .bf. mi
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0121
    :page: 114
+
+.. picture:: 0121.g1.png
+   :alt: Archival folio 0121 g1
+
+.. picture:: 0121.g1.svg
+   :alt: Geometric diagram on folio 0121 (figure 1)
 
 quod est inconueniens; non enim recta protracta ex .g. in .t. transiet per .bz. inter puncta .bd. Similiter ostendetur, ipsam transire non posse inter puncta .dz.; per punctum enim .d. transiet ut dictum est. 
 Ex hoc ergo manifestum est, quod infra trigona non est punctus preter unum, per quem ab angulis transeant recte diuidentes latera trigonj in duo equa. 
@@ -166,6 +214,12 @@ scilicet ab una maiore, et ab altera minori medietate suorum laterum; quarum mai
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0122
    :page: 115
+
+.. picture:: 0122.g1.png
+   :alt: Archival folio 0122 g1
+
+.. picture:: 0122.g1.svg
+   :alt: Geometric diagram on folio 0122 (figure 1)
 
 punctus .f. fuerit infra quodlibet ex quinque trigonis residuis, inuenies hec eadem euenire.
 
@@ -194,6 +248,12 @@ ex quadrato medietatis linee .gz., remanebunt 4; quorum radix, scilicet 2, adden
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0123
    :page: 116
+
+.. picture:: 0123.g1.png
+   :alt: Archival folio 0123 g1
+
+.. picture:: 0123.g1.svg
+   :alt: Geometric diagram on folio 0123 (figure 1)
 
 .gz.; et sic habebuntur .10. pro linea .gi., remanebunt pro linea .iz. 6.: deinde si per .gi. diuiserimus .105., uenient predicta 1/2 10 pro linea .gt. 
 Demonstrabo aliter lineam .gt. esse 1/2 10: protraham a puncto .i. cathetum .imn. super lineam .gb.; et erit linea .in. equidistans linee .ac.; 
@@ -224,6 +284,18 @@ Sed non sit .be. equalis recte .eg., erit utique una earum maior; sitque recta .
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0124
    :page: 117
+
+.. picture:: 0124.g1.png
+   :alt: Archival folio 0124 g1
+
+.. picture:: 0124.g1.svg
+   :alt: Geometric diagram on folio 0124 (figure 1)
+
+.. picture:: 0124.g2.png
+   :alt: Archival folio 0124 g2
+
+.. picture:: 0124.g2.svg
+   :alt: Geometric diagram on folio 0124 (figure 2)
 
 perducatur recta .ab. in .z.. Et quia recta .be. maior est medietate lateris .bg., rectiangula superficies .ab. in .be. est plus medietate rectiangule superficiei .ab. in .bg.; 
 multo plus superficies .ab. in .zd. est plus medietate superficiei .ab. in .bg., cum maior sit .zd. quam .be. Adiaceat siquidem superficies .ib. in .zd. 
@@ -270,6 +342,12 @@ Divisio Trigoni per Lineam Equidistantem Basi
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0125
    :page: 118
 
+.. picture:: 0125.g1.png
+   :alt: Archival folio 0125 g1
+
+.. picture:: 0125.g1.svg
+   :alt: Geometric diagram on folio 0125 (figure 1)
+
 .ze. in .ig. Sed superficies .ze. in .ig. est medietas superficiei .ag. in .bg.; quare et superficies .lg. in .gt. est medietas superficiei .ag. in .bg.; 
 duplum ergo est superficies .ag. in .gb. superficiei .tg. in .gl. Duplum ergo est trigonum .abg. trigono .tgl.; quare trigonum .tgl. est medietas trigonj .abg., ut oportet. Que etiam demonstrentur in numeris.
 
@@ -299,6 +377,18 @@ educam siquidem .za. extra trigonum .abg. super punctum .t.; et a puncto .i. duc
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0126
    :page: 119
+
+.. picture:: 0126.g1.png
+   :alt: Archival folio 0126 g1
+
+.. picture:: 0126.g1.svg
+   :alt: Geometric diagram on folio 0126 (figure 1)
+
+.. picture:: 0126.g2.png
+   :alt: Archival folio 0126 g2
+
+.. picture:: 0126.g2.svg
+   :alt: Geometric diagram on folio 0126 (figure 2)
 
 .ba.; et quia maior est .za. medietate lateris .ag., erit maior superficies .ab. in .az. medietate superficiei .ba. in .ag. Vnde adiaceat .lt. in .ak. equalis medietati superficiei .ba. in .ag.; 
 et accipiatur superficies .al. in .kl. equalis superficiei .ta. in .ak., et copuletur recta .li.; et ostendetur per ea, que supra dicta sunt, trigonum .abg. diuisum esse in duo equa a linea .il.; 
@@ -331,6 +421,30 @@ et uenient .98. pro quadrato linee .ez.; et sic studeas facere in similibus.
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0127
    :page: 120
 
+.. picture:: 0127.g1.png
+   :alt: Archival folio 0127 g1
+
+.. picture:: 0127.g1.svg
+   :alt: Geometric diagram on folio 0127 (figure 1)
+
+.. picture:: 0127.g2.png
+   :alt: Archival folio 0127 g2
+
+.. picture:: 0127.g2.svg
+   :alt: Geometric diagram on folio 0127 (figure 2)
+
+.. picture:: 0127.g3.png
+   :alt: Archival folio 0127 g3
+
+.. picture:: 0127.g3.svg
+   :alt: Geometric diagram on folio 0127 (figure 3)
+
+.. picture:: 0127.g4.png
+   :alt: Archival folio 0127 g4
+
+.. picture:: 0127.g4.svg
+   :alt: Geometric diagram on folio 0127 (figure 4)
+
 ut dicamus super latus .bg., ipsum .bg. in tres partes equas diuide, que sunt .bd. de. eg.; et copulentur recte .ad. et .ae. 
 Dico quidem trigonum .abg. diuisum esse in tres partes equales, que sunt trigona .abd. et .ade. et .aeg.: sunt enim super equas bases, et sub altitudine una; 
 quare sibi inuicem equalia esse necesse est. Et si super datum punctum .z. ex trigono .bgd. tertiam partem uoluero, copulabo .bz.; 
@@ -359,6 +473,18 @@ quare trigona .acb. et .acg. et .bcg. sibi inuicem sunt equalia. Diuisum est erg
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0128
    :page: 121
+
+.. picture:: 0128.g1.png
+   :alt: Archival folio 0128 g1
+
+.. picture:: 0128.g1.svg
+   :alt: Geometric diagram on folio 0128 (figure 1)
+
+.. picture:: 0128.g2.png
+   :alt: Archival folio 0128 g2
+
+.. picture:: 0128.g2.svg
+   :alt: Geometric diagram on folio 0128 (figure 2)
 
 .. rubric:: *Demonstratio qualiter a trigono abscidatur pars data per lineam protractam per punctum datum infra triangulum.*
 
@@ -391,6 +517,24 @@ Similiter eodemque modo possemus abscidere a quolibet triangulo partem quamlibet
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0129
    :page: 122
 
+.. picture:: 0129.g1.png
+   :alt: Archival folio 0129 g1
+
+.. picture:: 0129.g1.svg
+   :alt: Geometric diagram on folio 0129 (figure 1)
+
+.. picture:: 0129.g2.png
+   :alt: Archival folio 0129 g2
+
+.. picture:: 0129.g2.svg
+   :alt: Geometric diagram on folio 0129 (figure 2)
+
+.. picture:: 0129.g3.png
+   :alt: Archival folio 0129 g3
+
+.. picture:: 0129.g3.svg
+   :alt: Geometric diagram on folio 0129 (figure 3)
+
 ex lateribus trigonj. Rursus si infra trigonum .abg. duo puncta data fuerint .de.; et uolumus triangulum .abg. in tres equas partes diuidere per rectas transeuntes per puncta .de., 
 abscidemus primum a trigono .abg. triangulum .zig. per lineam .zi. transeuntem per punctum .d. continentem duas tertias trigonj .abg., remanebit quadrilaterum .zabi. pro tertia parte trianguli .abg.: 
 de inde triangulum .izg. diuidemus in duo media a linea .tk. transeunte per punctum .e.; et erit una portio earum quadrilaterum .tzik., et alia erit trigonum .tkg.: 
@@ -422,6 +566,24 @@ De Divisione Quadrilaterorum, Trapeziorum, Multilaterorum et Circulorum
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0129
    :page: 122
 
+.. picture:: 0129.g1.png
+   :alt: Archival folio 0129 g1
+
+.. picture:: 0129.g1.svg
+   :alt: Geometric diagram on folio 0129 (figure 1)
+
+.. picture:: 0129.g2.png
+   :alt: Archival folio 0129 g2
+
+.. picture:: 0129.g2.svg
+   :alt: Geometric diagram on folio 0129 (figure 2)
+
+.. picture:: 0129.g3.png
+   :alt: Archival folio 0129 g3
+
+.. picture:: 0129.g3.svg
+   :alt: Geometric diagram on folio 0129 (figure 3)
+
 .. rubric:: *Incipit de diuisione quadrilaterorum.*
 
 **GENERA** quidem quadrilaterorum sunt tria, paralilogramina uidelicet, et caput ascisa: atque diuersilatera: paralilogramina quoque sunt, quorum latera et anguli oppositi sibi inuicem equantur: quorum speties sunt quatuor:
@@ -433,6 +595,30 @@ quare si protraxerimus dyametrum .ac., uel .bd., ut in prima cernitur figura, er
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0130
    :page: 123
+
+.. picture:: 0130.g1.png
+   :alt: Archival folio 0130 g1
+
+.. picture:: 0130.g1.svg
+   :alt: Geometric diagram on folio 0130 (figure 1)
+
+.. picture:: 0130.g2.png
+   :alt: Archival folio 0130 g2
+
+.. picture:: 0130.g2.svg
+   :alt: Geometric diagram on folio 0130 (figure 2)
+
+.. picture:: 0130.g3.png
+   :alt: Archival folio 0130 g3
+
+.. picture:: 0130.g3.svg
+   :alt: Geometric diagram on folio 0130 (figure 3)
+
+.. picture:: 0130.g4.png
+   :alt: Archival folio 0130 g4
+
+.. picture:: 0130.g4.svg
+   :alt: Geometric diagram on folio 0130 (figure 4)
 
 Verbi gratia: si protraxerimus dyametrum .ac., erit itaque trigonum .abc. equale trigono .acd.; quia latus .ad. equale est lateri .bc., et latus .ab. equale est lateri .dc.:
 basis quoque .ac. est utrique triangulo comunis. Et si super aliquod laterum diuisionem incipere uis, ipsum latus in duo equa secabis, et per punctum sectionis super latus sibi oppositum
@@ -461,6 +647,30 @@ erit quadrilaterum .ezgd. equale trigono .bgd.; sed trigonum .bgd. est medietas 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0131
    :page: 124
 
+.. picture:: 0131.g1.png
+   :alt: Archival folio 0131 g1
+
+.. picture:: 0131.g1.svg
+   :alt: Geometric diagram on folio 0131 (figure 1)
+
+.. picture:: 0131.g2.png
+   :alt: Archival folio 0131 g2
+
+.. picture:: 0131.g2.svg
+   :alt: Geometric diagram on folio 0131 (figure 2)
+
+.. picture:: 0131.g3.png
+   :alt: Archival folio 0131 g3
+
+.. picture:: 0131.g3.svg
+   :alt: Geometric diagram on folio 0131 (figure 3)
+
+.. picture:: 0131.g4.png
+   :alt: Archival folio 0131 g4
+
+.. picture:: 0131.g4.svg
+   :alt: Geometric diagram on folio 0131 (figure 4)
+
 quare quadrilaterum .ezgd. est medietas paralilogramj .ag., ut predixi: hoc eodem modo diuiduntur omnia paralilogramina erecta protracta a puncto dato super unum ex lateribus ipsius:
 uerbi gratia; ut si datus punctus esset .e., diuideret quidem rectam .db. in duo equa super punctum .f.; et per ipsum punctum protraheretur linea .ez.,
 que diuideret paralilogramum .ag. in duo equa, ut probatum est. Et si paralilogramum aliquod in duo equa secare uis per lineam egredientem a puncto dato extra ipsum, ut paralilogramum .ac.,
@@ -487,6 +697,24 @@ Et si datus punctus .i. fuerit inter .fd., operabitur idem in aduersam partem, u
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0132
    :page: 125
+
+.. picture:: 0132.g1.png
+   :alt: Archival folio 0132 g1
+
+.. picture:: 0132.g1.svg
+   :alt: Geometric diagram on folio 0132 (figure 1)
+
+.. picture:: 0132.g2.png
+   :alt: Archival folio 0132 g2
+
+.. picture:: 0132.g2.svg
+   :alt: Geometric diagram on folio 0132 (figure 2)
+
+.. picture:: 0132.g3.png
+   :alt: Archival folio 0132 g3
+
+.. picture:: 0132.g3.svg
+   :alt: Geometric diagram on folio 0132 (figure 3)
 
 deinde paralilogramum .ec. diuidam in duo equa per lineam protractam a puncto .i., que sit linea .il., que abscidit a paralilogramo .ac. tertiam partem eius,
 scilicet quadrilaterum .ilcd., ut in tertia patet figura. Et si punctus .i. erit inter .ef., abscidam a paralilogramo .ac. paralilogramum .fc., quod est tertia pars eius;
@@ -519,6 +747,12 @@ diuisum est ergo quadrilaterum .abgd. in duo equa a linea .zi.; quod oportebat f
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0133
    :page: 126
 
+.. picture:: 0133.g1.png
+   :alt: Archival folio 0133 g1
+
+.. picture:: 0133.g1.svg
+   :alt: Geometric diagram on folio 0133 (figure 1)
+
 Quod etiam ostendamus cum numeris: sit latus .ab. 12., et .bg. 12, et .ad. sit .3; latus quoque .gd. 15 perticas contineat:
 et quia in trigono .ebg. protracta est protracta est (sic) recta .da. equidistans basi .bg., erit sicut .ad. ad .bg., hoc est sicut .3 est ad .12., ita .ea. ad .eb.;
 quare erit sicut .3. ad .9., ita .ea. ad .ab.; ergo .ea. est .4., scilicet tertia pars ex .ab.; tota ergo .eb. est .16.: additis ergo quadratis linearum .eb. et .ea. in unum,
@@ -548,6 +782,30 @@ si recta aliqua proportionaliter secauerit ipsa latera equidistantia, in eadem p
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0134
    :page: 127
 
+.. picture:: 0134.g1.png
+   :alt: Archival folio 0134 g1
+
+.. picture:: 0134.g1.svg
+   :alt: Geometric diagram on folio 0134 (figure 1)
+
+.. picture:: 0134.g2.png
+   :alt: Archival folio 0134 g2
+
+.. picture:: 0134.g2.svg
+   :alt: Geometric diagram on folio 0134 (figure 2)
+
+.. picture:: 0134.g3.png
+   :alt: Archival folio 0134 g3
+
+.. picture:: 0134.g3.svg
+   :alt: Geometric diagram on folio 0134 (figure 3)
+
+.. picture:: 0134.g4.png
+   :alt: Archival folio 0134 g4
+
+.. picture:: 0134.g4.svg
+   :alt: Geometric diagram on folio 0134 (figure 4)
+
 Fuit enim, ut diximus, sicut .at. ad .td., ita .bk. ad .kg.: quare fuit sicut .at. ad .td., ita quadrilaterum .ak. ad quadrilaterum .tg.
 Et si quadrilaterum duorum laterum equidistantium in duo equa diuidere uis per lineam protractam a dato puncto super minus latus equidistantium, ut quadrilaterum .abgd.,
 quod diuisum est in duo equa a linea .tk.; et in ipso super latus .ad. datus sit punctus .a., accipiam super latus .kg. rectam .kl. equalem recte .ta.;
@@ -576,6 +834,30 @@ et sit punctus datus super lineam .ab. in quacumque uis parte ipsius;
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0135
    :page: 128
 
+.. picture:: 0135.g1.png
+   :alt: Archival folio 0135 g1
+
+.. picture:: 0135.g1.svg
+   :alt: Geometric diagram on folio 0135 (figure 1)
+
+.. picture:: 0135.g2.png
+   :alt: Archival folio 0135 g2
+
+.. picture:: 0135.g2.svg
+   :alt: Geometric diagram on folio 0135 (figure 2)
+
+.. picture:: 0135.g3.png
+   :alt: Archival folio 0135 g3
+
+.. picture:: 0135.g3.svg
+   :alt: Geometric diagram on folio 0135 (figure 3)
+
+.. picture:: 0135.g4.png
+   :alt: Archival folio 0135 g4
+
+.. picture:: 0135.g4.svg
+   :alt: Geometric diagram on folio 0135 (figure 4)
+
 eritque inter .bz., uel inter .zf., siue inter .fa., uel erit unus ex ipsis; unde si datus punctus fuerit .b., diuidetur utique quadrilaterum .abgd. in duo equa a linea .bc.:
 similiter si datus punctus fuerit .z., recta quidem .zi. diuidit quadrilaterum .abgd., ut dictum est. Et si .f. fuerit punctus datus, nimirum recta .fg. secabit quadrilaterum .abgd. in duo equa,
 ut ostensum est: et si .a. fuerit, secabitur a recta .al. in duo eque secundum ea que premisimus. Sed sit datus punctus .h. inter .b.z. puncta, copulabo lineam .hi.;
@@ -602,6 +884,12 @@ uel lineas .ce. et .fz. producam, et cadent necessario super puncta .l.n.; quia 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0136
    :page: 129
 
+.. picture:: 0136.g1.png
+   :alt: Archival folio 0136 g1
+
+.. picture:: 0136.g1.svg
+   :alt: Geometric diagram on folio 0136 (figure 1)
+
 et .lf. equidistans dyametro .ag.; et protraham rectas .al. et .dn., et uenient proposita, ut superius demonstratum. Demonstratum est ergo quomodo quadrilatera duorum laterum equidistantium diuidantur
 a puncto dato super quodlibet latus ipsius; nunc dicamus qualiter diuidi debeant a dato puncto extra figuram.
 
@@ -622,6 +910,12 @@ eodemque modo esset operandum, uidelicet copularetur ille punctus cum .m., et pr
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0137
    :page: 130
 
+.. picture:: 0137.g1.png
+   :alt: Archival folio 0137 g1
+
+.. picture:: 0137.g1.svg
+   :alt: Geometric diagram on folio 0137 (figure 1)
+
 Verbi gratia: ut si punctus fuerit .v.; diuideretur utique quadrilaterum .abgd. in duo equa a linea .rs. egrediente a puncto .v. dato. Et si inter lineas .nh. et .ob.
 datus fuerit punctus .x., ut in hac alia cernitur figura; habeantur duo fila, quorum unum extendatur super dyametrum .ab., et sit fixum super punctum .d.;
 et aliud extendatur ab .n. in .c., et sit fissum (sic) super punctum .n.; et erunt tunc fila sibi inuicem equidistantia:
@@ -640,6 +934,18 @@ a quo uolumus protrahere lineam diuidentem quadrilaterum .abgd. in duo equa.
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0138
    :page: 131
+
+.. picture:: 0138.g1.png
+   :alt: Archival folio 0138 g1
+
+.. picture:: 0138.g1.svg
+   :alt: Geometric diagram on folio 0138 (figure 1)
+
+.. picture:: 0138.g2.png
+   :alt: Archival folio 0138 g2
+
+.. picture:: 0138.g2.svg
+   :alt: Geometric diagram on folio 0138 (figure 2)
 
 Extendam primum filum ex .c. in .f., et sit fixum super .f.; et aliud filum extendatur super latus .gb., et sit fixum super punctum .g.:
 deinde moueantur fila equidistanter secantia rectas .bf. et .cg., donec sectiones respiciant punctum .z. datum. Verbi gratia: cadat filum, quod fixum fuit super .g., super lineam .gq.,
@@ -671,6 +977,24 @@ Latera quidem .ba. et .gd. a punctis .a. et .d. protrahantur: donec concurrant i
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0139
    :page: 132
 
+.. picture:: 0139.g1.png
+   :alt: Archival folio 0139 g1
+
+.. picture:: 0139.g1.svg
+   :alt: Geometric diagram on folio 0139 (figure 1)
+
+.. picture:: 0139.g2.png
+   :alt: Archival folio 0139 g2
+
+.. picture:: 0139.g2.svg
+   :alt: Geometric diagram on folio 0139 (figure 2)
+
+.. picture:: 0139.g3.png
+   :alt: Archival folio 0139 g3
+
+.. picture:: 0139.g3.svg
+   :alt: Geometric diagram on folio 0139 (figure 3)
+
 et ponam quadratum linee .tl. ad quadratum linee .at. sicut .zi. ad .ez.; et sit quadratum linee .ht. ad quadratum linearum .bt. et .tl., sicut .ez. ad .ei.;
 et per puncta .l.h. equidistantes utrique rectarum .hg. et .ad. protraham rectas .lm. et .hk.
 Dico, quadrilaterum .ag. diuisum esse in proportione data numeri .ez. ad numerum .zi. a linea .hk.; quod sic probatur. Quoniam trigona .tlm. et .tad. similia sunt,
@@ -699,6 +1023,24 @@ conuersim ergo sicut .sm. ad .nm.; ita trigonum .tbg. ad quadrilaterum .hg.;
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0140
    :page: 133
 
+.. picture:: 0140.g1.png
+   :alt: Archival folio 0140 g1
+
+.. picture:: 0140.g1.svg
+   :alt: Geometric diagram on folio 0140 (figure 1)
+
+.. picture:: 0140.g2.png
+   :alt: Archival folio 0140 g2
+
+.. picture:: 0140.g2.svg
+   :alt: Geometric diagram on folio 0140 (figure 2)
+
+.. picture:: 0140.g3.png
+   :alt: Archival folio 0140 g3
+
+.. picture:: 0140.g3.svg
+   :alt: Geometric diagram on folio 0140 (figure 3)
+
 fuit sicut .ms. ad .ls., ita trigonum .tbg. ad trigonum .tad. Vnde si permutauerimus, erit sicut numerus .ms. ad trigonum .tbg., ita numerus .ls. ad trigonum .tad.,
 et numerus .ns. ad trigonum .thk.: ergo numeri .ls., et .ns. ad trigonum .tad., et .thk. sunt in una proportione; in ea uidelicet quam habet numerus .ms. ad superficiem .tbg.,
 in qua etiam est numerus .nm. ad quadrilaterum .hg.: quare disiunctim erit sicut .sl. ad .ln., ita trigonum .tad. ad quadrilaterum .ak.; et erit etiam sicut .sn. ad .nm.,
@@ -723,6 +1065,18 @@ Et si ab aliquo angulorum .b. et .g. rectam protrahere uis diuidentem quadrilate
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0141
    :page: 134
+
+.. picture:: 0141.g1.png
+   :alt: Archival folio 0141 g1
+
+.. picture:: 0141.g1.svg
+   :alt: Geometric diagram on folio 0141 (figure 1)
+
+.. picture:: 0141.g2.png
+   :alt: Archival folio 0141 g2
+
+.. picture:: 0141.g2.svg
+   :alt: Geometric diagram on folio 0141 (figure 2)
 
 ut si ab angulo .b. hoc facere uolueris. Signabis punctum .n. ad quem prouenit ab angulo .d. diuisio supradicta; et pones superficiem .bg. in .gc. equalem superficiei .dg. in .gn.;
 et copulabis rectam .bc.; uel dyametro protracto ex .b. in .d. equidistantem rectam protrahe ex .n. in .c., et copulabitur .bc., ut diximus.
@@ -754,6 +1108,18 @@ linea uero .nb. est .20, minus radice de .288.:
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0142
    :page: 135
 
+.. picture:: 0142.g1.png
+   :alt: Archival folio 0142 g1
+
+.. picture:: 0142.g1.svg
+   :alt: Geometric diagram on folio 0142 (figure 1)
+
+.. picture:: 0142.g2.png
+   :alt: Archival folio 0142 g2
+
+.. picture:: 0142.g2.svg
+   :alt: Geometric diagram on folio 0142 (figure 2)
+
 et quia est sicut quadratum linee .ea. ad quadratum linee .ad., hoc est sicut .16 ad .9., ita quadratum linee .em. ad quadratum linee .mo.:
 si multiplicauerimus .176 per 9, et diuiserimus per .16.; aut si 1/16 de .176., que est .11., multiplicauerimus per .9., uenient utique .99. pro quadrato linee .mo.
 Rursus si 1/16 de .288., scilicet ex quadrato linee .en., que est .18, multiplicauerimus per .9., uenient .162. pro quadrato linee .np.:
@@ -780,6 +1146,18 @@ Quod sic probatur. Quia recta .ek. equalis est recte .ki., erunt et trigona .ake
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0143
    :page: 136
 
+.. picture:: 0143.g1.png
+   :alt: Archival folio 0143 g1
+
+.. picture:: 0143.g1.svg
+   :alt: Geometric diagram on folio 0143 (figure 1)
+
+.. picture:: 0143.g2.png
+   :alt: Archival folio 0143 g2
+
+.. picture:: 0143.g2.svg
+   :alt: Geometric diagram on folio 0143 (figure 2)
+
 mune addatur quadrilaterum .abik., erit triangulus .abl. equalis quadrilatero .eb. Sed quadrilaterum .eb. est tertia pars quadrilateri .ag.; quare trigonum .abl. est tertia pars quadrilateri .ag. Similiter ostendetur, et trigonum .dgn. equale esse quadrilatero
 .zg., quod est tertia pars totius .ag.: resecato quidem trigono .abl. ex quadrilatero .abgd., remanebit quadrilatero .algd. capudascisum: quod si diuisum fuerit per quemcumque modum ex supradictis, reddet quadrilaterum .abgd.
 diuisum in tres equas sectiones. Similiter si auferatur trigonum .dgn. ex quadrilatero .abgd., remanebit quadrilaterum .abnd. ad diuidendum in duo equa. Et si per lineam protractam á puncto .b.
@@ -803,6 +1181,12 @@ et erit trigonum .fbg. tertia pars quadrilateri .bd. Quibus ita ostensis demonst
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0144
    :page: 137
+
+.. picture:: 0144.g1.png
+   :alt: Archival folio 0144 g1
+
+.. picture:: 0144.g1.svg
+   :alt: Geometric diagram on folio 0144 (figure 1)
 
 scilicet quadrilatera .abcd. et .afgd., cum tractabimus de diuisione quadrilaterorum diuersorum laterum.
 Et postquam perduximus diuisionem trium equalium portionum super tertias partes laterum, et super unumquemque angulorum poterimus, per ea que dicta sunt superius, a similibus quadrilateribus tertiam partem,
@@ -829,6 +1213,30 @@ uenient .14400., quorum radix, scilicet .120., habentur pro embado trianguli .kn
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0145
    :page: 138
 
+.. picture:: 0145.g1.png
+   :alt: Archival folio 0145 g1
+
+.. picture:: 0145.g1.svg
+   :alt: Geometric diagram on folio 0145 (figure 1)
+
+.. picture:: 0145.g2.png
+   :alt: Archival folio 0145 g2
+
+.. picture:: 0145.g2.svg
+   :alt: Geometric diagram on folio 0145 (figure 2)
+
+.. picture:: 0145.g3.png
+   :alt: Archival folio 0145 g3
+
+.. picture:: 0145.g3.svg
+   :alt: Geometric diagram on folio 0145 (figure 3)
+
+.. picture:: 0145.g4.png
+   :alt: Archival folio 0145 g4
+
+.. picture:: 0145.g4.svg
+   :alt: Geometric diagram on folio 0145 (figure 4)
+
 Residuum uero quod restat ex toto quadrilatero .ag., scilicet .72., habentur pro quadrilatero .ng. Est enim proportio de .48. ad .60. sicut .4. ad .5., hoc est sicut .ez. ad .zi.;
 et proportio de .60. ad .72. est sicut .5. ad .6., hoc est sicut .zi. ad .it., ut oportet. Possumus enim reducere cum equidistantibus has diuisiones á tribus punctis ubilibet datis super lineam .ba.:
 et si diuiserimus lineam .ad. in datis quibuslibet proportionibus, et in eisdem diuiserimus latus .bg.; et in puncta ipsarum proportionum lineas copulauerimus, rederetur utique quadrilaterum .abgd. in ipsis proportionibus diuisum; que diuisiones reducemus etiam in puncta angulorum per ea que dicta sunt.
@@ -852,6 +1260,30 @@ Quod sic probatur. Sunt enim trigona .dze. et .dzt. sibi inuicem equalia, cum si
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0146
    :page: 139
+
+.. picture:: 0146.g1.png
+   :alt: Archival folio 0146 g1
+
+.. picture:: 0146.g1.svg
+   :alt: Geometric diagram on folio 0146 (figure 1)
+
+.. picture:: 0146.g2.png
+   :alt: Archival folio 0146 g2
+
+.. picture:: 0146.g2.svg
+   :alt: Geometric diagram on folio 0146 (figure 2)
+
+.. picture:: 0146.g3.png
+   :alt: Archival folio 0146 g3
+
+.. picture:: 0146.g3.svg
+   :alt: Geometric diagram on folio 0146 (figure 3)
+
+.. picture:: 0146.g4.png
+   :alt: Archival folio 0146 g4
+
+.. picture:: 0146.g4.svg
+   :alt: Geometric diagram on folio 0146 (figure 4)
 
 trigonum .dcz., erunt quadrilaterum .ezcd. equale triangulo .dct., scilicet dimidio totius quadrilateri .ac. Et notandum, quod si dyameter .bd. diuidat quadrilaterum .ac. in duo equa, peruenient similiter ea que diximus in his duabus figuris.
 Sed si diuisio ceciderit super latus .ab., ut recta .di., que sit diuidens quadrilaterum .abcd. in duo equa, aliter operari oportet. Diuidam quadrilaterum .ac. ab angulo .b. cum recta .bk.;
@@ -878,6 +1310,36 @@ abscidet utique dyameter .bd. tertiam partem ex quadrilatero .ac., que est trigo
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0147
    :page: 140
 
+.. picture:: 0147.g1.png
+   :alt: Archival folio 0147 g1
+
+.. picture:: 0147.g1.svg
+   :alt: Geometric diagram on folio 0147 (figure 1)
+
+.. picture:: 0147.g2.png
+   :alt: Archival folio 0147 g2
+
+.. picture:: 0147.g2.svg
+   :alt: Geometric diagram on folio 0147 (figure 2)
+
+.. picture:: 0147.g3.png
+   :alt: Archival folio 0147 g3
+
+.. picture:: 0147.g3.svg
+   :alt: Geometric diagram on folio 0147 (figure 3)
+
+.. picture:: 0147.g4.png
+   :alt: Archival folio 0147 g4
+
+.. picture:: 0147.g4.svg
+   :alt: Geometric diagram on folio 0147 (figure 4)
+
+.. picture:: 0147.g5.png
+   :alt: Archival folio 0147 g5
+
+.. picture:: 0147.g5.svg
+   :alt: Geometric diagram on folio 0147 (figure 5)
+
 .ca.; propter eadem et trigona .bce. et .abc. sunt in proportione eadem; quare est sicut .ce. ad .ac., ita trigonum .bcd. ad quadrilaterum .ac.:
 est enim recta .ce. ex .ac. tertia pars; quare et trigonum .bcd. ex quadrilatero .ac. est tertia pars: abscisa est ergo pars data, scilicet tertia, á quadrilatero .ac. egredientem ab angulo .d. dato; quod oportebat facere.
 Sed non sit .ce. tertia pars ex .ac.; ponam quidem .cg. tertiam ex .ac.; et á puncto .g. dyametro .bd. equidistantem protraham rectam .gf.; et copulabo rectam .fd.,
@@ -902,6 +1364,36 @@ Dico quod recta .bd. diuidit quadrilaterum .ac. in ea proportione quam habet .ez
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0148
    :page: 141
 
+.. picture:: 0148.g1.png
+   :alt: Archival folio 0148 g1
+
+.. picture:: 0148.g1.svg
+   :alt: Geometric diagram on folio 0148 (figure 1)
+
+.. picture:: 0148.g2.png
+   :alt: Archival folio 0148 g2
+
+.. picture:: 0148.g2.svg
+   :alt: Geometric diagram on folio 0148 (figure 2)
+
+.. picture:: 0148.g3.png
+   :alt: Archival folio 0148 g3
+
+.. picture:: 0148.g3.svg
+   :alt: Geometric diagram on folio 0148 (figure 3)
+
+.. picture:: 0148.g4.png
+   :alt: Archival folio 0148 g4
+
+.. picture:: 0148.g4.svg
+   :alt: Geometric diagram on folio 0148 (figure 4)
+
+.. picture:: 0148.g5.png
+   :alt: Archival folio 0148 g5
+
+.. picture:: 0148.g5.svg
+   :alt: Geometric diagram on folio 0148 (figure 5)
+
 et .tba.; quare est sicut .ct. ad .ta., ita trigonum .dcb. ad trigonum .abd. Sed .ct. ad .ta. est sicut .ez. ad .zi.; quare est sicut .ez. ad .zi., ita trigonum .bdc. ad trigonum .bda.
 Diuisum est ergo quadrilaterum .ac. in duo secundum proportionem datam, et ab angulo dato; quod oportebat facere. Sed non transeat dyameter .bd. per punctum .t.; oportet ut transeat aut inter .ct., aut inter .ta.:
 transeat primum inter .ct.: copulabo quidem rectas .bt. et .td.; et erit quadrilaterum .tbcd. ad quadrilaterum .tbad. sicut .ct. ad .ta., hoc est sicut .ez. ad .zi.:
@@ -923,6 +1415,24 @@ Erit sicut .bk. ad .ka., ita .gm. ad .md.; quare erit sicut .gm.
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0149
    :page: 142
+
+.. picture:: 0149.g1.png
+   :alt: Archival folio 0149 g1
+
+.. picture:: 0149.g1.svg
+   :alt: Geometric diagram on folio 0149 (figure 1)
+
+.. picture:: 0149.g2.png
+   :alt: Archival folio 0149 g2
+
+.. picture:: 0149.g2.svg
+   :alt: Geometric diagram on folio 0149 (figure 2)
+
+.. picture:: 0149.g3.png
+   :alt: Archival folio 0149 g3
+
+.. picture:: 0149.g3.svg
+   :alt: Geometric diagram on folio 0149 (figure 3)
 
 ad .md., ita quadrilaterum .gk. ad quadrilaterum .ma.:
 est etiam sicut .gm. ad .md., ita trigonum .gcm. ad trigonum .cmd.; quare coniunctim erit sicut .gm. ad .md., ita quadrilaterum .kbcm. ad penthagonum .akmcd.:
@@ -949,6 +1459,30 @@ Vnde si ab equalibus equalia auferamus, que remanebunt,
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0150
    :page: 143
 
+.. picture:: 0150.g1.png
+   :alt: Archival folio 0150 g1
+
+.. picture:: 0150.g1.svg
+   :alt: Geometric diagram on folio 0150 (figure 1)
+
+.. picture:: 0150.g2.png
+   :alt: Archival folio 0150 g2
+
+.. picture:: 0150.g2.svg
+   :alt: Geometric diagram on folio 0150 (figure 2)
+
+.. picture:: 0150.g3.png
+   :alt: Archival folio 0150 g3
+
+.. picture:: 0150.g3.svg
+   :alt: Geometric diagram on folio 0150 (figure 3)
+
+.. picture:: 0150.g4.png
+   :alt: Archival folio 0150 g4
+
+.. picture:: 0150.g4.svg
+   :alt: Geometric diagram on folio 0150 (figure 4)
+
 erunt equalia; ergo extracto trigono .aed. ex trigono .aeb., et trigonum .ced. ex trigono .ceb.,
 remanebunt trigona .abd. et .cdb. sibi inuicem equalia, ut predixi. Sed non transeat recta .eb. per punctum .d.; secabit ergo unum ex lateribus .ad. uel .cd.: secet quidem latus .cd. super punctum .z.;
 et copuletur recta .ed.; et iaceat .dz. ad .zi. sicut .bz. ad .ze.; et copuletur recta .bi. Dico si quidem, quadrilaterum .abcd. diuisum esse in duo equa á linea .bi.;
@@ -973,6 +1507,30 @@ producam rectam .eg.; et super dimidium ipsius ponam punctum .z., á quo diuidam
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0151
    :page: 144
 
+.. picture:: 0151.g1.png
+   :alt: Archival folio 0151 g1
+
+.. picture:: 0151.g1.svg
+   :alt: Geometric diagram on folio 0151 (figure 1)
+
+.. picture:: 0151.g2.png
+   :alt: Archival folio 0151 g2
+
+.. picture:: 0151.g2.svg
+   :alt: Geometric diagram on folio 0151 (figure 2)
+
+.. picture:: 0151.g3.png
+   :alt: Archival folio 0151 g3
+
+.. picture:: 0151.g3.svg
+   :alt: Geometric diagram on folio 0151 (figure 3)
+
+.. picture:: 0151.g4.png
+   :alt: Archival folio 0151 g4
+
+.. picture:: 0151.g4.svg
+   :alt: Geometric diagram on folio 0151 (figure 4)
+
 in directo recte .zi., aut non: esto primum una earum in directo alterius, ut in hac tertia cernitur figura: et erit manifestum quod linea .id. diuidet penthagonum .abgde. in duo equa:
 quod etiam si á puncto .t. dato super rectam .ab. ipsum penthagonum diuidere uis, copulabo rectam .td.; et ipsi ponam ei equidistantem rectam .ik., et copulabitur .tk.;
 que etiam diuidet idem penthagonum in duo equa: demonstratio est eadem ut supra. Sed non sit recta .zd. in directo .zi.; copulabo quidem rectam .id.; et ponam ei equidistantem rectam .zl.;
@@ -995,6 +1553,18 @@ est enim trigonum .klm. equale trigono .ilf.; quare penthagonum .bckmf. equale e
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0152
    :page: 145
+
+.. picture:: 0152.g1.png
+   :alt: Archival folio 0152 g1
+
+.. picture:: 0152.g1.svg
+   :alt: Geometric diagram on folio 0152 (figure 1)
+
+.. picture:: 0152.g2.png
+   :alt: Archival folio 0152 g2
+
+.. picture:: 0152.g2.svg
+   :alt: Geometric diagram on folio 0152 (figure 2)
 
 quadrilatera .bcnf. et .fnde. sibi inuicem equalia: quod etiam penthagonum si in tres equas partes diuidere uolumus, ascidemus á quadrilatero .bcnf. tertiam partem cum linea .op.; et á quadrilatero .fnde. secabimus similiter tertiam partem cum linea .qd.;
 et erit penthagonum .bcdef. diuisum in tres equas partes, quarum una est quadrilaterum .bcpo., secunda penthagonum .opdqf., tertia trigonum .qde.
@@ -1022,6 +1592,30 @@ tamen qualiter hoc secundum propinquitatem fieri debeat, demonstrabo. Ponam prim
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0153
    :page: 146
 
+.. picture:: 0153.g1.png
+   :alt: Archival folio 0153 g1
+
+.. picture:: 0153.g1.svg
+   :alt: Geometric diagram on folio 0153 (figure 1)
+
+.. picture:: 0153.g2.png
+   :alt: Archival folio 0153 g2
+
+.. picture:: 0153.g2.svg
+   :alt: Geometric diagram on folio 0153 (figure 2)
+
+.. picture:: 0153.g3.png
+   :alt: Archival folio 0153 g3
+
+.. picture:: 0153.g3.svg
+   :alt: Geometric diagram on folio 0153 (figure 3)
+
+.. picture:: 0153.g4.png
+   :alt: Archival folio 0153 g4
+
+.. picture:: 0153.g4.svg
+   :alt: Geometric diagram on folio 0153 (figure 4)
+
 .abg.; et ponam á centro .d. rectam .db. equidistantem recte .ag., et copulabo rectas .da. dg. ab. et .bg., et erunt trigona .dag. et .bag. sibi inuicem equalia:
 quibus si addatur augmentum comune portionem circuli contempta sub recta .ag., et arcu .ag.; erit figura contempta sub rectis .ba. et .bg., et arcu .ag. equalis sectori .dag.,
 qui est tertia pars circuli; quare figura contenta sub rectis .ba. et .bg., et arcu .ag. tertia pars est circuli .abg.:
@@ -1045,6 +1639,12 @@ Dico quod figura contenta sub rectis .bg. et .ez., et arcubus .eb. et .gz. terti
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0154
    :page: 147
+
+.. picture:: 0154.g1.png
+   :alt: Archival folio 0154 g1
+
+.. picture:: 0154.g1.svg
+   :alt: Geometric diagram on folio 0154 (figure 1)
 
 .gab. et .dab. equalia: quibus cum in comune additur portio .abe., erit figura contenta sub rectis .ga. et .gb., et arcu .aeb. equalis sectori .daeb., qui est tertia pars circuli .abg.;
 ergo figura contenta sub rectis .ga. et .gb., et arcu .aeb. est tertia pars circuli .abg.: et quia recte .bg. et .ez. equidistantes sunt, erunt arcus .eb. et .gz. equales.
@@ -1072,6 +1672,30 @@ super dimidium corde eius sagittam protrahe: uerbi gratia: sit data portio maior
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0155
    :page: 148
+
+.. picture:: 0155.g1.png
+   :alt: Archival folio 0155 g1
+
+.. picture:: 0155.g1.svg
+   :alt: Geometric diagram on folio 0155 (figure 1)
+
+.. picture:: 0155.g2.png
+   :alt: Archival folio 0155 g2
+
+.. picture:: 0155.g2.svg
+   :alt: Geometric diagram on folio 0155 (figure 2)
+
+.. picture:: 0155.g3.png
+   :alt: Archival folio 0155 g3
+
+.. picture:: 0155.g3.svg
+   :alt: Geometric diagram on folio 0155 (figure 3)
+
+.. picture:: 0155.g4.png
+   :alt: Archival folio 0155 g4
+
+.. picture:: 0155.g4.svg
+   :alt: Geometric diagram on folio 0155 (figure 4)
 
 protrahe: et erit portio circuli .abd. equalis portioni .adg.; quod probabitur per ea que dicta sunt in semicirculo:
 et si á puncto .d. ad rectos angulos protraxerimus rectam .dc. super cordam .bg., diuidetur utique in duo equa portio circuli .bcg., que est minor semicirculo.

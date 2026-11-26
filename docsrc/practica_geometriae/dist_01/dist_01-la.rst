@@ -62,6 +62,12 @@ a quo omnes recte protracte ad circumferentem lineam sibi inuicem sunt equales :
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0009
    :page: 2
 
+.. picture:: 0009.g1.png
+   :alt: Archival folio 0009 g1
+
+.. picture:: 0009.g1.svg
+   :alt: Parallel lines ab and gd cut by transversal ez
+
 illa recta dyameter circulj nuncupatur, que diuidit circulum in duas equas portiones. Quarum una queque semicirculus dicitur.
 Portio uero circulj est figura, que continetur sub circulj periferia, et recta linea, siue maior, uel minor sit semicirculo. Sector uero circulj est quedam plana figura contempta sub duabus rectis a centro ad periferiam deductis, et arcu periferie ab ipsis rectis comprehenso. Recte linee, que in eadem superficie sunt, et ab
 utraque parte in infinitum protracte, et numquam sibi inuicem concurrunt, dicuntur equidistantes: in quibus si aliqua recta inciderit, faciet duos angulos interiores ab una parte rectos, aut duobus rectis equales : et exterior angulus est equalis interiori angulo sibi opposito; et anguli qui permutati sunt, sibi inuicem equantur:
@@ -130,6 +136,18 @@ est duplum unius panorj; et sic intelligas de triplo, et quadruplo et de alio qu
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0012
    :page: 5
 
+.. picture:: 0012.g1.png
+   :alt: Archival folio 0012 g1
+
+.. picture:: 0012.g1.svg
+   :alt: Square abcd divided into four unit squares by ef and gh
+
+.. picture:: 0012.g2.png
+   :alt: Archival folio 0012 g2
+
+.. picture:: 0012.g2.svg
+   :alt: Rectangle abgd divided into six unit squares
+
 pertice due in capite,
 et pertice .66. in longitudine sunt stariora .2.; et pertice .3. in capite, et pertice .66. in longo sunt stariora .3.; et sic intelligatur in similibus. Rursus duplum de pertica una in capite, et dimidium perticarum .66. in longum est unum stariorum; et triplum unius pertice in capite, et tertium de perticis .66.
 in longum est similiter stariorum unum: et hoc intelligas de alio quouis multiplice unius pertice, si fuerint in capite; et ex eadem parte de perticis .66., si fuerint in longum. Vnde si queratur, cum pertice .6. fuerint in capite alicuius campi quadrati, quot pertice erunt in longo ipsius, ut perficiatur stariorum;
@@ -144,6 +162,18 @@ sunt enim hec ualde utilia, ut in suo demonstrabitur loco.
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0012
    :page: 5
+
+.. picture:: 0012.g1.png
+   :alt: Archival folio 0012 g1
+
+.. picture:: 0012.g1.svg
+   :alt: Square abcd divided into four unit squares by ef and gh
+
+.. picture:: 0012.g2.png
+   :alt: Archival folio 0012 g2
+
+.. picture:: 0012.g2.svg
+   :alt: Rectangle abgd divided into six unit squares
 
 Incipit Distinctio Prima de Multiplicatione Latitudinum Camporum Quadratorum
 ----------------------------------------------------------------------------
@@ -165,6 +195,12 @@ Dico quod eius embadum est perticarum .6., quod colligitur ex multiplicatione un
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0013
    :page: 6
+
+.. picture:: 0013.g1.png
+   :alt: Archival folio 0013 g1
+
+.. picture:: 0013.g1.svg
+   :alt: Rectangle abgd partitioned into 33 + 8 by 19 + 16 1/2
 
 super puncta .ez.; et copuletur recta .ez.; et diuidatur utraque rectarum .ab. et .g.d. in tria equalia super puncta .i.t. et .k.l.; et copulentur recte .it. et kl; tunc ostendetur per supradicti quadratj doctrinam, totum quadrilaterum
 .abgd. in sex quadrilatera equalia et ortogonia esse diuisum, quorum unumquodque continet in singulis lateribus perticam unam: denique his per demonstrationes ostensis, qualiter latitudines dictorum camporum per longitudinem multiplicarj debeant, ostendamus.
@@ -350,6 +386,12 @@ deinde diuide .60. per 6., qui restant in capite uirgulę, exibunt .10. ante uir
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0020
    :page: 13
 
+.. picture:: 0020.g1.png
+   :alt: Archival folio 0020 g1
+
+.. picture:: 0020.g1.svg
+   :alt: Divided line segment agdb (2, 3, 5)
+
 summa stariora .10., et soldos 9, et denarium :math:`1\frac{1\ 2\ 0}{6\ 6\ 6}` mensurę: quia super primos duos senarios habemus partem unius denarij; et super alios duos .6. habemus denarios; et super .11. habemus perticas,
 scilicet triplos soldos; et super .6., qui est in capite uirgulę, habemus dupla panora. Rursus si uis multiplicare perticas .16., et pedem .1., et uncias .10. per perticas .43.,
 et uncias :math:`14\frac{1}{3}`; rediges uncias in sextas unius pedis, erunt sexte :math:`3\frac{1}{3}`; de qua tertia fac sextas, erunt due sexte; et sic habes in superiori latere perticas :math:`16\frac{1}{6}\frac{3}{6}\frac{2}{6}`:
@@ -383,6 +425,24 @@ ex multiplicatione ag. in .ab. Similiter quotiens unitas est in .gd., totiens nu
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0021
    :page: 14
 
+.. picture:: 0021.g1.png
+   :alt: Archival folio 0021 g1
+
+.. picture:: 0021.g1.svg
+   :alt: Line segment agb divided at g (3, 7)
+
+.. picture:: 0021.g2.png
+   :alt: Archival folio 0021 g2
+
+.. picture:: 0021.g2.svg
+   :alt: Auxiliary line segment d
+
+.. picture:: 0021.g3.png
+   :alt: Archival folio 0021 g3
+
+.. picture:: 0021.g3.svg
+   :alt: Line segment abg divided at b (3, 7)
+
 in numero .db., totiens oritur numerus .ab. ex multiplicatione .db. in totum .ab. Quare quotiens unitas est in numero ab., scilicet in portionibus ag. gd.
 et .db., totiens coadunabitur numerus .ab. ex multiplicationibus ag. et gd. et db. in .ab. Verum quotiens unitas est in .ab., totiens numerus .ab. surgit
 ex multiplicatione .ab. in se. Quare summa multiplicationum .ag. et gd. et db. in .ab. equatur multiplicationi .ab. in se, quod oportebat ostendere. Nam ut hec clarius
@@ -411,6 +471,18 @@ Quod etiam demonstrabimus cum numeris. Sit linea .ab. 3., et .bg. 7.; quare tota
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0022
    :page: 15
 
+.. picture:: 0022.g1.png
+   :alt: Archival folio 0022 g1
+
+.. picture:: 0022.g1.svg
+   :alt: Line segment bag divided at a (3, 7)
+
+.. picture:: 0022.g2.png
+   :alt: Archival folio 0022 g2
+
+.. picture:: 0022.g2.svg
+   :alt: Line segment adgb with midpoint g (5)
+
 .bg., scilicet .49., et duplum .ab. in .bg. equabuntur .100., scilicet multiplicationi .ag. in se ipsam. Iterum si recta linea diuidatur ubilibet in duas portiones,
 erit duplum multiplicationis unius portionis in totam lineam cum quadrato alterius portionis, equale duobus quadratis, scilicet quadrato totius linee, et quadrato ipsius portionis,
 que multiplicatur bis in totam lineam. Vt si linea .bg. diuidatur ubilibet super punctum .a. Dico quod duplum multiplicationis .ab. in .bg. cum quadrato linee .ag.
@@ -438,6 +510,18 @@ Vt si linea .ab. diuidatur in duo equalia super punctum .g., et adiungatur
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0023
    :page: 16
+
+.. picture:: 0023.g1.png
+   :alt: Archival folio 0023 g1
+
+.. picture:: 0023.g1.svg
+   :alt: Line segment agbd (5, 5, 3)
+
+.. picture:: 0023.g2.png
+   :alt: Archival folio 0023 g2
+
+.. picture:: 0023.g2.svg
+   :alt: Line segment gbad
 
 ei in directo alia quedam linea .bd. cuiusuis longitudinis. Dico quod multiplicatio linee .ad. in .bd., hoc est .bd. in .ad. cum quadrato linee .gb.,
 uel .ga. equatur quadrato linee .gd. Quoniam linea .ad. diuisa est ubilibet super puncta .g. et .b., erit multiplicatio .bd. in tota .ad. equalis summę trium multiplicationum,
@@ -468,6 +552,12 @@ linee adiunctę duplum eius, quod fit á media linea diuisa, et eius quod fit á
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0024
    :page: 17
 
+.. picture:: 0024.g1.png
+   :alt: Archival folio 0024 g1
+
+.. picture:: 0024.g1.svg
+   :alt: Line segment agbd
+
 si linea .ab. in duo equalia diuisa fuerit super .g.; et apponatur ei in directo linea .bd. Dico quod tetragonum linee .ad. cum tetragono linee bd.
 duplum est tetragonorum linee .ag. et linee .g.d. Quoniam linea .ad. in duo utlibet diuisa est super .b.; erit itaque quadratus linee .ad cum quadrato linee .bd
 equalis quadrato .ab. et duplo bd. in .ad. Sed duplum .bd iu .ad est sicut duo quadrati linee .bd cum duplo .bd. in .ba.; ergo tetragonum .ab.
@@ -495,6 +585,18 @@ Surgit enim utraque multiplicatio in .72.: ex hoc uero comprehenditur, quod cum 
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0025
    :page: 18
+
+.. picture:: 0025.g1.png
+   :alt: Archival folio 0025 g1
+
+.. picture:: 0025.g1.svg
+   :alt: Four proportional quantities a, b, g, d
+
+.. picture:: 0025.g2.png
+   :alt: Archival folio 0025 g2
+
+.. picture:: 0025.g2.svg
+   :alt: Circle abgd with intersecting chords ag and bd at e
 
 primus est ad secundum, in eadem est tertius ad quartum. Et notandum, cum aliquis numerus diuiditur per aliquem numerum, si illud quod ex diuisione euenerit, multiplicabitur
 per diuisorem, nimirum diuisus numerus ex ipsa redibit multiplicatione. Vt si .20. diuidantur per .4., exibunt .5.; et ex multiplicatione igitur de .4. in .5.

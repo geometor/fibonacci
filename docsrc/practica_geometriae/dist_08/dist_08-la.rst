@@ -23,6 +23,18 @@ DISTINCTIO VIII — DE SUBTILITATIBUS GEOMETRICIS & FLOS (1225)
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0214
    :page: 207
 
+.. picture:: 0214.g1.png
+   :alt: Archival folio 0214 g1
+
+.. picture:: 0214.g1.svg
+   :alt: Pentagon acefh inscribed in square abgd
+
+.. picture:: 0214.g2.png
+   :alt: Archival folio 0214 g2
+
+.. picture:: 0214.g2.svg
+   :alt: Regular pentagon abgde inscribed in circle with center c
+
 Incipit Distinctio Octaua de Quibusdam Subtilitatibus Geometricis
 -----------------------------------------------------------------
 
@@ -62,6 +74,18 @@ multiplica ergo medietatem censuum, que est 1/2 62., in se, uenient 1/4 3906.; d
    :page: 208
 
 
+.. picture:: 0215.g1.png
+   :alt: Archival folio 0215 g1
+
+.. picture:: 0215.g1.svg
+   :alt: Regular decagon inscribed in circle with center a
+
+.. picture:: 0215.g2.png
+   :alt: Archival folio 0215 g2
+
+.. picture:: 0215.g2.svg
+   :alt: Pentagon abgde inscribed in circle with diagonals ag, gd, zi
+
 uenient pro quadrato linee .ba. 1/2 62. minus radice de 1/4 781., quorum radix est latus penthagonicum .ab., et est radix residui, quod est a radice 1/4 781. usque in 1/2 62.;
 quorum residuum est parum plus de 1/2 34., cuius residui, secundum propinquitatem, radix est .6. minus 1/8; et hec est quantitas .ab. secundum propinquitatem.
 
@@ -88,6 +112,18 @@ super latus exagoni et decagoni; et est .g.i. latus exagonicum., et .il. latus d
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0216
    :page: 209
 
+.. picture:: 0216.g1.png
+   :alt: Archival folio 0216 g1
+
+.. picture:: 0216.g1.svg
+   :alt: Decagon inscribed in circle with center a and radial triangles
+
+.. picture:: 0216.g2.png
+   :alt: Archival folio 0216 g2
+
+.. picture:: 0216.g2.svg
+   :alt: Auxiliary triangle for decagon chord
+
 uenient .25. et 1/4 6.; quibus insimul iunctis, erunt 1/4 31. pro quadrato linee .gh., hoc est pro quadrato linee .hl. Quare recta .hl. est radix de 1/4 31.: de qua si auferatur linea .hi.,
 que est 1/2 2., remanebit pro linea .il., scilicet pro latere decagoni, radix 1/4 31. minus 1/2 2., ut superius inuenimus. Et si multiplicauerimus .il. in se, et .gi. in se, uenient 1/2 62. minus radice 1/4 781.
 pro linea .gl., scilicet pro latere penthagoni, ut supra diximus.
@@ -111,6 +147,18 @@ ut superius inuentum est. Et si uis inuenire mensuram lateris decagoni circundan
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0217
    :page: 210
+
+.. picture:: 0217.g1.png
+   :alt: Archival folio 0217 g1
+
+.. picture:: 0217.g1.svg
+   :alt: Pentagon chord construction
+
+.. picture:: 0217.g2.png
+   :alt: Archival folio 0217 g2
+
+.. picture:: 0217.g2.svg
+   :alt: Pentagon abgde with diagonal be and center z
 
 .def. in punctis .d.e.; et copulentur recte .dc. et .ha. et .hb. et .et. hd. et .ha.; et sit .h. centrum circulj; et erit per ea que dicta sunt in superiori figura, sicut .ab. ad .dh., ita .de. ad .hl.
 Vnde multiplicatio quadrati, et quadratum .ab. in .hl. est sicut multiplicatio quadrati; et quadratum .de. in .dh. etiam est corda .de. latus decagoni cadentis in circulo .def., cuius mensuram inuenimus esse radicem 1/4 31. minus 1/2 2.
@@ -137,6 +185,18 @@ Vnde si posuerimus dyametrum .cd. rem, et multiplicauerimus quadratum eius, quod
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0218
    :page: 211
 
+.. picture:: 0218.g1.png
+   :alt: Archival folio 0218 g1
+
+.. picture:: 0218.g1.svg
+   :alt: Decagon abgdeihc inscribed in circle with center m
+
+.. picture:: 0218.g2.png
+   :alt: Archival folio 0218 g2
+
+.. picture:: 0218.g2.svg
+   :alt: Decagon abgdeihtc with chord ch and center m
+
 aliter peruenire. Videlicet cum circulo, cuius dyameter est .10., latus penthagoni cadentis in ipso sit radix 1/2 62. minus radice 1/4 781.; et uolo latus penthagoni esse .10.; et ex hoc queratur notitia dyametri;
 erit proportio 1/2 62. minus radice 1/4 781. ad quadratum sui dyametri, scilicet ad .100., sicut proportio quadrati lateris dati penthagoni, quod est .100., ad quadratum sui dyametri ingnoti. Quare si posuerimus ipsum dyametrum ingnotum rem,
 et multiplicauerimus quadratum eius, quod est census, per 1/2 62. minus radice 1/4 781., uenient similiter census 1/2 62. minus radice censuum census 1/4 781., que equantur multiplicationi de .100. in .100., hoc est .10000. dragmis, ut superius inuenimus.
@@ -157,6 +217,18 @@ et decagonicum: et hic est latus exagonicum res: et eius potentia census: et lat
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0219
    :page: 212
+
+.. picture:: 0219.g1.png
+   :alt: Archival folio 0219 g1
+
+.. picture:: 0219.g1.svg
+   :alt: Equilateral triangle abc with parallel de and quadrilateral dbce
+
+.. picture:: 0219.g2.png
+   :alt: Archival folio 0219 g2
+
+.. picture:: 0219.g2.svg
+   :alt: Equilateral triangle abc with inscribed quadrilateral and altitude af
 
 in .cf., hoc est quadrato linee .cf.; cui quadrato si addatur quadratum linee .ac., quod est census et .100., habebuntur siquidem .2. census, et .20. res, et .200. dragme, que equantur .4. censibus, scilicet quadrato dyametri:
 abice ergo ab utraque parte .2. census, et reliquum dimidia, ueniet census equalis .10. rebus, et .100. dragmis: age in his secundum algebram, et erit res, scilicet medietas dyametri .af., radix .125., et .5. dragme,
@@ -180,6 +252,24 @@ quod est 1/4 dyametri eius .50., et radix .500., prohice ex eo quadratum .ac., q
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0220
    :page: 213
 
+.. picture:: 0220.g1.png
+   :alt: Archival folio 0220 g1
+
+.. picture:: 0220.g1.svg
+   :alt: Completing-the-square rectangle io (ik + mo)
+
+.. picture:: 0220.g2.png
+   :alt: Archival folio 0220 g2
+
+.. picture:: 0220.g2.svg
+   :alt: Equilateral triangle abg with inscribed rectangle cdef and hikl
+
+.. picture:: 0220.g3.png
+   :alt: Archival folio 0220 g3
+
+.. picture:: 0220.g3.svg
+   :alt: Equilateral triangle abg with inscribed rectangle and altitude
+
 pro quadrato .cm. .25., et radix .500.; quorum quadruplum, quod est .100., et radix .8000. est quadratum dyametri circulj contencti á penthagono .abcde. Et si uolueris ex quadrato dyametri continentis penthagonum,
 quod est .20., et radix .8000. penthagoni, remanebunt similiter .100., et radix .8000. pro quadrato quesiti dyametri. Quia quadratum omnis dyametri circulj continentis figuram equilateram et equiangulam equatur quadrato lateris ipsius figurę:
 et quadrato dyametri circulj contencti ab ipsa figura. Et ad hoc demonstrandum adiaceat circulus .abc.; et in ipso scribatur triangulus .abc. equilaterus et equiangulus; et á centro .d. protrahantur recte .da. db. dc.;
@@ -201,6 +291,18 @@ In quadrato quidem equilatero et equiangulo .abgd., cuius unumquodque latus est 
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0221
    :page: 214
+
+.. picture:: 0221.g1.png
+   :alt: Archival folio 0221 g1
+
+.. picture:: 0221.g1.svg
+   :alt: Equilateral triangle abg with inscribed rectangle
+
+.. picture:: 0221.g2.png
+   :alt: Archival folio 0221 g2
+
+.. picture:: 0221.g2.svg
+   :alt: Equilateral triangle abg with inscribed rectangles cdef and hikl
 
 rectarum .hd. et .cb. 10., minus re: et quia latera .ce. et .hf. sunt equalia, erunt quadrata linearum .cb. et .be. equalia quadratis linearum .hd. et .df. Sed .cb. equalis est .hd.,
 remanebit .be. equalis .fd.; relique .eg. et .gf. sibi inuicem equales erunt, cum latera .bg. et .gd. sunt equalia; et quia .ef. est res; si ducatur in se, producit censum. Vnde unaqueque rectarum .eg. et .gf. est radix 1/2 census;
@@ -224,6 +326,24 @@ Quare unaqueque linearum .ab. et .ag. est semidyameter ipsius circulj; et est tr
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0222
    :page: 215
+
+.. picture:: 0222.g1.png
+   :alt: Archival folio 0222 g1
+
+.. picture:: 0222.g1.svg
+   :alt: Equilateral triangle abg with inscribed rectangle cbef
+
+.. picture:: 0222.g2.png
+   :alt: Archival folio 0222 g2
+
+.. picture:: 0222.g2.svg
+   :alt: Equilateral triangle abg with inscribed rectangle cbef and altitudes
+
+.. picture:: 0222.g3.png
+   :alt: Archival folio 0222 g3
+
+.. picture:: 0222.g3.svg
+   :alt: Equilateral triangle abg with inscribed quadrilateral adcf
 
 Et iam scis quod quando latus decagoni est .10., quod dyameter circulj circundantis decagonum est .10. et radix .500. Vnde medietas eius est .5., et radix .125.
 Similiter cum ponamus latus .bg. rem, erit dyameter circulj similiter res, et radix .5. censuum, hoc est radix quincupli quadrati rei. Vnde semidyameter .ab. erit 1/2 rei, et radix census 1/4 1.:
@@ -250,6 +370,18 @@ maior eius pars est equalis lateri penthagonico, ut in Evclide habetur: in quo e
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0223
    :page: 216
+
+.. picture:: 0223.g1.png
+   :alt: Archival folio 0223 g1
+
+.. picture:: 0223.g1.svg
+   :alt: Equilateral triangle abc with inscribed square defg
+
+.. picture:: 0223.g2.png
+   :alt: Archival folio 0223 g2
+
+.. picture:: 0223.g2.svg
+   :alt: Equilateral triangle abc with inscribed pentagon adefg
 
 diuise, quadratum additę lineę erit quincuplum quadrati medietatis ipsius diuisę lineę:
 et quia quando linea .be. diuisa est media et extrema proportione, maior eius pars est linea .ab., que est latus penthagonicum; si ei adiungatur linea .bz., que est medietas lineę .be.;
@@ -303,6 +435,18 @@ quadratum parem in duas, uel in quatuor, uel in plures partes, ita quod unaquequ
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0225
    :page: 218
 
+.. picture:: 0225.g1.png
+   :alt: Archival folio 0225 g1
+
+.. picture:: 0225.g1.svg
+   :alt: Equilateral triangle abc with inscribed square and altitude
+
+.. picture:: 0225.g2.png
+   :alt: Archival folio 0225 g2
+
+.. picture:: 0225.g2.svg
+   :alt: Equilateral triangle abc with inscribed pentagon
+
 per .16., uenient .80.; et diuidamus .80. in duos pares numeros, qui sint continui in ordine imparium numerorum, eruntque .39. et .41.: deinde aggrega omnes impares numeros ab unitate, qui sunt infra .39.; quam aggregationem habebis, si multiplicauerimus in se medietatem duorum extremorum, scilicet de .1. et 37.; de qua multiplicatione exhibit .361.: cum quibus si addiderimus .80., uenient .441.: si diuiserimus hos duos quadratos per .10., habebimus 9/16 22. et 9/16 27., et radices eorum habebimus, si per radicem de .10., que est .4., diuiserimus .19. et 21., qui sunt radices de 361. et de 441.
 Et si de .80. fecerimus .4. partes impares, que sunt .17. et 19 et 21 et 23; que quatuor partes sunt circa quartam de .80., que est .20.; et aggregabimus numeros impares, qui sunt infra .17., ueniunt .64., qui est quadratus numerus, cuius radix est .8.:
 super quem si addiderimus .80., uenient .144.: unde si diuiserimus .64. per .144. per .16., et radices eorum per .4., habebimus optatum ut supra. Et si dicemus: de quodam quadrato numero abstulj .10., et remansit quadratus numerus; hec questio similis est antecedenti; quia si super minorem quadratum addantur .10, prouenit inde quadratus numerus : operare ergo in eam secundum quod superius operati fuimus, et inuenias.
@@ -323,6 +467,12 @@ Unde si si (sic) radix eorum auferatur de .10., remanebunt pro linea .db. 10. mi
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0226
    :page: 219
+
+.. picture:: 0226.g1.png
+   :alt: Archival folio 0226 g1
+
+.. picture:: 0226.g1.svg
+   :alt: Tall rectangle for Flos cubic x^3 + 2x^2 + 10x = 20
 
 que est inter radicem de 1/3 533., et 100. dragmas:
 et si á puncto .d. protrahatur cathetus .dh.; et uis inuenire longitudinem eius, pone ipsum rem, et accipe medietatem laterum .de. et .bc., et multiplica eam in rem; et que prouenerint, equabantur .10.,
@@ -349,6 +499,12 @@ et hoc quod remanet, quod est census
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0227
    :page: 220
 
+.. picture:: 0227.g1.png
+   :alt: Archival folio 0227 g1
+
+.. picture:: 0227.g1.svg
+   :alt: Geometric diagram on folio 0227
+
 .tk., est secundum propinquitatem circa 1/5 1; cuius radix, que est circa 1/12 1., est cathetus quesita .dh.; et hoc uolui demonstrare.
 Et si dicetur: in triangulo .abg., cuius unumquodque latus est .10., protractum est quadrilaterum oblongum et rectorum angulorum .cdef., et quadrilaterum .h.i.k.l., quod est similiter oblongum et rectiangulum;
 et est .10. mensura uniuscuiusque quadrilateri; et queritur quanta est longitudo laterum .cf. et .hl., que sunt sibi inuicem equidistantia, nec non et lateris .bg.; protraham primum perpendicularem .am. no.,
@@ -373,6 +529,18 @@ quibus extractis ex .bg., remanebit .de. 10. minus radice 1/3 1.: unde cum multi
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0228
    :page: 221
 
+.. picture:: 0228.g1.png
+   :alt: Archival folio 0228 g1
+
+.. picture:: 0228.g1.svg
+   :alt: Geometric diagram on folio 0228 (top)
+
+.. picture:: 0228.g2.png
+   :alt: Archival folio 0228 g2
+
+.. picture:: 0228.g2.svg
+   :alt: Geometric diagram on folio 0228 (bottom)
+
 similiter radix .100. rerum minus radice census 1/3 1., quod erat .10. similiter: vnde si utrique parti addatur radix census 1/3 1., erit .10., et radix census 1/3 1. equales radici .100. rerum: multiplica itaque .10.,
 et radicem census 1/3 1. in se, erunt .100., et census 1/3 1., et radix censuum 1/3 533., que equantur .100. rebus, scilicet multiplicationi radicis .100. rerum in se. Reduc modo omnia que habes ad censum, quod est ut ducas
 omnia que habes in 3/4 dragme, uenient census, et 75, et radix .300. censuum equales .75. rebus: abice itaque ab utraque parte radicem .300. censuum, remanebunt census, et .75. dragme, que equantur .75. rebus, diminuta ex eis radice .300. censuum:
@@ -393,6 +561,12 @@ ponam latus .ef. radicem rei; quare .eg. erit una radix 1/3 rei; qua subtracta e
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0229
    :page: 222
+
+.. picture:: 0229.g1.png
+   :alt: Archival folio 0229 g1
+
+.. picture:: 0229.g1.svg
+   :alt: Geometric diagram on folio 0229
 
 pro linea .be. 10. minus radice 1/3 rei: et quia anguli .cfe. et .feb. sunt recti, erit linea .cf. equidistans lineę .be.: sunt enim .ci. et .fe. sibi inuicem equidistantes; quare .cf. et .ie.
 sibi inuicem sunt equales, nec non et recta .ei. recte .fe. equalis est: vnde si tollatur .cf., scilicet .ie., ex tota .bg., que est .10., remanebunt pro linea .cf. 10. minus duabus radicibus 1/3 rei;
@@ -417,6 +591,18 @@ hoc est inter radicem 13472 9263 et 67/81 493.: et cum ex his acceperis radicem,
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0230
    :page: 223
 
+.. picture:: 0230.g1.png
+   :alt: Archival folio 0230 g1
+
+.. picture:: 0230.g1.svg
+   :alt: Geometric diagram on folio 0230 (top)
+
+.. picture:: 0230.g2.png
+   :alt: Archival folio 0230 g2
+
+.. picture:: 0230.g2.svg
+   :alt: Geometric diagram on folio 0230 (bottom)
+
 et quia est sicut .ab. ad .bh., ita .cb. ad .bi., erit .cb. duplum minutorum .38., et secundorum .27., et tertiorum .42.; quod duplum est .1., et minuta .16., et secunda .55., et tertia .24.;
 quibus extractis ex tota .ab., remanebit pro quantitate lineę .ac., hoc est pro .cf. 8., et minuta .43., et secunda .4., et tertia .36.: est enim triangulus .acf. equilaterus, cum sit similis triangulo .abg.:
 et si ex .bc., hoc est ex .10., auferantur minuta .38., et secunda .27., remanebunt pro linea .be. 9., et minuta .21., et secunda .32., et tertia .18. Rursus in triangulo .abg. equilatero,
@@ -438,6 +624,12 @@ parum plus de .21., et minutis .32., et secundis .20. pro quantitate rei, hoc es
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0231
    :page: 224
+
+.. picture:: 0231.g1.png
+   :alt: Archival folio 0231 g1
+
+.. picture:: 0231.g1.svg
+   :alt: Geometric diagram on folio 0231
 
 .de.; quorum radix, que est circa .4., et minuta .38., et secunda et tertia est unumquodque laterum ipsius quadrati. Et est etiam secundum hoc in triangulo .abc. equilatero, cuius unum constitutum penthagonum equilaterum .adefg., cuius unumquodque latus, per ea que diximus,
 erit notum. Aliter protraham cathetum .ai., et ducam .ai. in .bi., hoc est radicem de .75. in .5., ueniet radix .1875. dragmarum pro area totius trianguli .abc. Deinde ducam .de., scilicet radicem rei, in .be.,
@@ -497,6 +689,12 @@ quare hinc sumens materiam, libellum incepi componere ad uestrę maiestatis cels
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0235
    :page: 228
 
+.. picture:: 0235.g1.png
+   :alt: Archival folio 0235 g1
+
+.. picture:: 0235.g1.svg
+   :alt: Flos cubic proof rectangle at=20 (a, e, b, d)
+
 Altera uero questio á predicto magistro Iohanne proposita fuit, ut inueniretur quidam cubus numerus, qui cum suis duobus quadratis et decem radicibus in unum collectis essent uiginti: super hoc meditando putaui huius questionis solutionem egredi ex his que 
 continentur in .x.° lib.° Euclidis; et ob hoc super ipso .x.° Euclidis accuratius studui, adeo quod sui teoremata ipsius memorie commendaui, et ipsarum intellectum comprehendi. Et quia difficilior est antecedentium et quorumdam sequentium librorum Euclidis, 
 ideo ipsum xᵐ librum glosare incepi, reducens intellectum ipsius ad numerum, qui in eo per lineas et superficies demonstratur; qui liber .x.ª tractat de diuersitatibus xv. linearum rectarum, quarum .xv. linearum due uocantur rite, seu ratiocinate.
@@ -520,6 +718,12 @@ et ex duobus quadratis et x radicibus; qui omnes coniuncti esse .xx. proponuntur
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0236
    :page: 229
 
+.. picture:: 0236.g1.png
+   :alt: Archival folio 0236 g1
+
+.. picture:: 0236.g1.svg
+   :alt: Flos cubic proof rectangle with irrationality segments
+
 unumquodque laterum .ad. et .it. est .x., erit unumquodque laterum .ai. et .dt. duo. Cum superficies .at. sit .xx. Dico primum itaque radicem .ab. esse non posse ex numeris ratiocinatis, neque ex radicibus ratiocinatorum, 
 uel ex radicibus radicum ratiocinatorum, seu ex sex numeris coniunctorum uel recisorum, aut ex sex numeris residuis suprascriptis, neque ex radicibus coniunctorum uel recisorum. Et si possibile est, esto primum radix .ab. ex numeris, 
 qui sunt ratiocinati longitudine et potentia. Et quoniam tota .ai. est duo, et .ab. minor est quam .ai.; ergo radix .ab. minus est binario. Et quia positum est, ipsam .ab. esse ex numeris ratiocinatis; 
@@ -541,6 +745,12 @@ fueritque sicut prima ad secundam, ita tertia ad quartam; et prima fuerit secund
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0237
    :page: 230
+
+.. picture:: 0237.g1.png
+   :alt: Archival folio 0237 g1
+
+.. picture:: 0237.g1.svg
+   :alt: Flos cubic proof rectangle (fol. 3 verso)
 
 .gb. commensurabilis est secundo .bk. Quare et ab numerus numero be commensurabilis est. Est enim ab radix numeri ratiocinati. Quare et .be. est radix numeri ratiocinati. Et quia .ab. commensurabilis est .be.; 
 erit ergo .ab. toti .ae. commensurabilis. Quare .ae. est radix numeri ratiocinati, et est commensurabilis potentia solum toti .ai. numero, scilicet binario. Quare si a binario .ai. auferatur radix .ae., qui sunt potentia solum ratiocinati, 
@@ -583,6 +793,12 @@ faciunt numerum ratiocinatum; et ex multiplicatione unius in aliam prouenit nume
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0239
    :page: 232
 
+.. picture:: 0239.g1.png
+   :alt: Archival folio 0239 g1
+
+.. picture:: 0239.g1.svg
+   :alt: Flos cubic proof rectangle for sixth apotome (fol. 5 recto)
+
 est linea, que dicitur riton et medium potens, hoc est super ratiocinatum et inratiocinatum numerum, que componitur ex duabus lineis potentia incommensurabilibus, quarum quadrati insimul iuncti faciunt radicem numeri;
 et ex multiplicatione unius in aliam prouenit numerus ratiocinatus. Vt si prima fuerit radix radicis de .XX. et ex duobus, et alia fuerit radix de .XX. minus .II. Sexti autem binomij radix est linea,
 que dicitur poteus super duos inratiocinatos numeros, que componitur ex duabus lineis potentia incommensurabilibus, quarum quadrati insimul iuncti faciunt numerum inratiocinatum; et ex multiplicatione unius in aliam surgit similiter numerus inratiocinatus:
@@ -609,6 +825,12 @@ Quadrati enim .bc. et .ca. sunt ratiocinati, cum .bc. sit numerus, et .ca. sit r
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0240
    :page: 233
+
+.. picture:: 0240.g1.png
+   :alt: Archival folio 0240 g1
+
+.. picture:: 0240.g1.svg
+   :alt: Flos cubic proof rectangle (fol. 5 verso)
 
 .fk. ad .ca., sicut numerus ad numerum. Quare commensurabilis est .fk. linee .ca. Diuidatur itaque superficies .dk. in quatuor superficies rectiangulas .go. et .ol. et .do. et .ok.
 Et quia .gb. et .bf. sunt numeri; numerus est ergo tota .gf. Est enim et linea .fo. numerus, cum sit equalis linee .bc. Quare superficies .go. est ratiocinata: et quia .fk.

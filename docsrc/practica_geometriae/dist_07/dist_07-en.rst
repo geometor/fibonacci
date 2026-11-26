@@ -22,6 +22,12 @@ DISTINCTIO VII — SURVEYING WITH THE QUADRANS
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0209
    :page: 202
 
+.. picture:: 0209.g1.png
+   :alt: Archival folio 0209 g1
+
+.. picture:: 0209.g1.svg
+   :alt: Height measurement with rod de=5 at distance cd=5 and cb=30
+
 Surveying Heights & Distances with the *Quadrans*
 -------------------------------------------------
 
@@ -40,6 +46,30 @@ and let point *c* be your eye, from which passes line *ac* ascending through the
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0210
    :page: 203
 
+.. picture:: 0210.g1.png
+   :alt: Archival folio 0210 g1
+
+.. picture:: 0210.g1.svg
+   :alt: Height measurement with rod de=8 at cd=12 and cb=60 giving ab=40
+
+.. picture:: 0210.g2.png
+   :alt: Archival folio 0210 g2
+
+.. picture:: 0210.g2.svg
+   :alt: Height measurement with rod de=12 at cd=9 and db=45 giving ab=60
+
+.. picture:: 0210.g3.png
+   :alt: Archival folio 0210 g3
+
+.. picture:: 0210.g3.svg
+   :alt: Tree height measurement by sighting across staff cd
+
+.. picture:: 0210.g4.png
+   :alt: Archival folio 0210 g4
+
+.. picture:: 0210.g4.svg
+   :alt: Tree height measurement by two arrows ac and bc
+
 indeed triangles *abc* and *edc* are similar to one another, because they are equiangular; for each of the angles *abc* and *edc* is right, and the angle at *c* is common to both triangles; the remaining angle at *a* is equal to the remaining angle *ced*: therefore triangles *abc* and *dec* are equiangular, and hence similar.
 For similar triangles have sides proportional about equal angles; for as *cd* is to *de*, so *cb* is to *ba*. Hence if *cd* and *de*, namely the space between eye and rod and the rod *de* itself, are known, line *cb* will be known, and height *ab* will also be known: because if *cd* equals *de*,
 *cb* will equal *ba*; if greater, greater; if lesser, lesser: which things may be shown with numbers. Let rod *ed* be five palms, and space *cd* equal to it, and space *cb* be 30 *ulnae*; on this account height *ab* will likewise be 30 *ulnae*, since *cd* equals *de*, as appears in the first figure.
@@ -56,6 +86,18 @@ a right triangle, whose cathetus is the tree itself, and whose base is the threa
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0211
    :page: 204
+
+.. picture:: 0211.g1.png
+   :alt: Archival folio 0211 g1
+
+.. picture:: 0211.g1.svg
+   :alt: Wooden triangle ecf sighting summit a (cf=3, fb=30, ab=40)
+
+.. picture:: 0211.g2.png
+   :alt: Archival folio 0211 g2
+
+.. picture:: 0211.g2.svg
+   :alt: Geometric quadrant (horoscopum) with shadow square ahdi and plumb line ad
 
 arrow be *bc*, and the thread of the other be *ac*. And when they have the measure of each thread, the square of thread *bc* shall be subtracted from the square of thread *ac*, and there remains for them the square of the tree *ab*: as if thread *ac* be 50 cubits, and thread *bc* be 30,
 let the square of 30, which is 900, be taken away from the square of 50, which is 2500; there will remain 1600 for the square of the tree *ab*, whose root, which is 40, is the height of the tree *ab*.
@@ -84,6 +126,18 @@ and I shall mark all those parts as they are found marked on similar instruments
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0212
    :page: 205
 
+.. picture:: 0212.g1.png
+   :alt: Archival folio 0212 g1
+
+.. picture:: 0212.g1.svg
+   :alt: Quadrant surveying Prima (plumb line on d)
+
+.. picture:: 0212.g2.png
+   :alt: Archival folio 0212 g2
+
+.. picture:: 0212.g2.svg
+   :alt: Quadrant surveying Secunda (plumb line on ik)
+
 to be measured; and raise the quadrant from the side *b*, or incline it until your sight goes forth through pinhole *e*, passes through pinhole *g*, and arrives at the summit of the height to be measured; and then line *eg*, which we noted above, will fall upon that very line:
 and the point is observed where the aforesaid thread falls upon lines *hd*, *di*; because if the thread falls upon point *d*, then the height to be measured will be as great as the length between you and the foot of that height, and as much more as your own stature is.
 And if the thread falls between points *d* and *i* upon line *di*, say at point *k*, then the ratio of the plane between you and the height to the excess which that height has above your stature will be as *ki* to *ia*, that is as *ki* to *di*; and this is the ratio of a part or parts to its whole:
@@ -100,6 +154,18 @@ And if the thread falls upon line *di* at point *k*, it will also be shown that 
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0213
    :page: 206
+
+.. picture:: 0213.g1.png
+   :alt: Archival folio 0213 g1
+
+.. picture:: 0213.g1.svg
+   :alt: Quadrant surveying with plumb line on hl (M)
+
+.. picture:: 0213.g2.png
+   :alt: Archival folio 0213 g2
+
+.. picture:: 0213.g2.svg
+   :alt: Large geometric quadrant measuring height oQ (nf=105, L=30)
 
 and *i* are right; wherefore the remaining angle *aki* is equal to the remaining angle *oeq*. Hence it will be as *ki* to *ia*, that is to *di*, so *eo* to *oq*. What part or parts therefore *ki* is of *ia*, the same part or parts *eo* is of *oq*. If therefore *ik* of *ai*,
 that is of *di*, be half, *eo* of *oq* is also half; if a third, a third; if two thirds, two thirds; and so on. And that these may be better understood in numbers: let plane *nf*, that is line *eo*, be 50 *ulnae*; and let *ik* be 37 marks out of the 60 equal marks which are in *di*,

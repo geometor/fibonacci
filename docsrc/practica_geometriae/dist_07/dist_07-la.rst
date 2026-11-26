@@ -22,6 +22,12 @@ DISTINCTIO VII — DE ALTITUDINIBUS ET QUADRANTE
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0209
    :page: 202
 
+.. picture:: 0209.g1.png
+   :alt: Archival folio 0209 g1
+
+.. picture:: 0209.g1.svg
+   :alt: Height measurement with rod de=5 at distance cd=5 and cb=30
+
 Incipit Septima Distinctio de Inuentione Altitudinum
 ----------------------------------------------------
 
@@ -38,6 +44,30 @@ ascendens per summitatem aste, que est punctus .e.; et erit trigonum .abc. ex su
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0210
    :page: 203
+
+.. picture:: 0210.g1.png
+   :alt: Archival folio 0210 g1
+
+.. picture:: 0210.g1.svg
+   :alt: Height measurement with rod de=8 at cd=12 and cb=60 giving ab=40
+
+.. picture:: 0210.g2.png
+   :alt: Archival folio 0210 g2
+
+.. picture:: 0210.g2.svg
+   :alt: Height measurement with rod de=12 at cd=9 and db=45 giving ab=60
+
+.. picture:: 0210.g3.png
+   :alt: Archival folio 0210 g3
+
+.. picture:: 0210.g3.svg
+   :alt: Tree height measurement by sighting across staff cd
+
+.. picture:: 0210.g4.png
+   :alt: Archival folio 0210 g4
+
+.. picture:: 0210.g4.svg
+   :alt: Tree height measurement by two arrows ac and bc
 
 .abc. et .edc. sibi inuicem sunt similia, quia sunt equiangula; est enim uterque angulorum .abc. et .edc. rectus: et angulus qui ad .c. utrique triangulo est communis; reliquus qui ad .a.
 reliquo qui sub .ced. est equalis: equiangula ergo sunt trigona .abc. et .dec.; quare et similia. Similia enim trigona circa equales angulos habent latera proportionalia; est enim sicut .cd. ad .de., ita .cb. ad .ba.
@@ -60,6 +90,18 @@ eius ypothenusa est filum alterius sagitte, quod subtendit angulum rectum. Verbi
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0211
    :page: 204
+
+.. picture:: 0211.g1.png
+   :alt: Archival folio 0211 g1
+
+.. picture:: 0211.g1.svg
+   :alt: Wooden triangle ecf sighting summit a (cf=3, fb=30, ab=40)
+
+.. picture:: 0211.g2.png
+   :alt: Archival folio 0211 g2
+
+.. picture:: 0211.g2.svg
+   :alt: Geometric quadrant (horoscopum) with shadow square ahdi and plumb line ad
 
 gitte sit .bc., et filum alterius sit .ac. Cumque utriusque fili mensuram habuerint: quadratum fili .bc. extrahetur ex quadrato fili .ac., remanet eis quadratum arboris .ab.: ut si filum
 .ac. fuerit cubitorum .50., et filum .bc. fuerit .30., auferatur quadratum de .30., quod est .900., de quadrato de .50., quod est .2500., remanebunt pro quadrato arboris .ab. 1600.; cuius radix, que est .40., est altitudo arboris .ab.
@@ -88,6 +130,18 @@ non est in ea linea .eg.: sunt enim .e. et .g. foramina: et si cum hoc instrumen
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0212
    :page: 205
 
+.. picture:: 0212.g1.png
+   :alt: Archival folio 0212 g1
+
+.. picture:: 0212.g1.svg
+   :alt: Quadrant surveying Prima (plumb line on d)
+
+.. picture:: 0212.g2.png
+   :alt: Archival folio 0212 g2
+
+.. picture:: 0212.g2.svg
+   :alt: Quadrant surveying Secunda (plumb line on ik)
+
 tiendam; et leuabis quadrantem a parte .b., uel declinabis donec uisus tuus egrediatur per foramen .e., et transeat per foramen .g., et perueniat ad cacumen altitudinis metiende; et tunc in ipsa linea cadet linea .eg.,
 quam superius notauimus: et consideratur punctus ubi cadit predictum filum super lineas .hd. di.; quia si ceciderit filum super punctum .d., tunc tanta erit altitudo metienda, quanta erit longitudo, que est inter
 te et pedem ipsius altitudinis; et tantum plus quantum est statura tua. Et si filum ceciderit inter puncta .d.i. super lineam .di., ut dicamus in puncto .k., tunc erit proportio plani, quod est
@@ -109,6 +163,18 @@ ceciderit super lineam .di. in puncto .k., ostendetur etiam, trigonum .qoe. simi
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0213
    :page: 206
+
+.. picture:: 0213.g1.png
+   :alt: Archival folio 0213 g1
+
+.. picture:: 0213.g1.svg
+   :alt: Quadrant surveying with plumb line on hl (M)
+
+.. picture:: 0213.g2.png
+   :alt: Archival folio 0213 g2
+
+.. picture:: 0213.g2.svg
+   :alt: Large geometric quadrant measuring height oQ (nf=105, L=30)
 
 et .i. sunt recti; quare reliquus qui sub .aki. reliquo qui sub .o.e.q. equalis est. Vnde erit sicut .ki. ad .ia., hoc est ad .d.i., ita .eo. ad .oq. Que ergo pars est .ki. ex .ia.
 uel partes, eadem pars est .eo. ex .oq. uel partes. Si ergo .ik. ex .ai., hoc est ex .di. est medietas: et .e.o. ex .oq. est medietas: et si tertia, tertia: et si due tertie,

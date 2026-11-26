@@ -50,6 +50,24 @@ In ampligonijs namque due cadunt exterius, et alia interius. *Colligitur quippe 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0038
    :page: 31
 
+.. picture:: 0038.g1.png
+   :alt: Archival folio 0038 g1
+
+.. picture:: 0038.g1.svg
+   :alt: Geometric diagram on folio 0038 (figure 1)
+
+.. picture:: 0038.g2.png
+   :alt: Archival folio 0038 g2
+
+.. picture:: 0038.g2.svg
+   :alt: Geometric diagram on folio 0038 (figure 2)
+
+.. picture:: 0038.g3.png
+   :alt: Archival folio 0038 g3
+
+.. picture:: 0038.g3.svg
+   :alt: Geometric diagram on folio 0038 (figure 3)
+
 *ex multiplicatione dimidij cathetus in totam basem,* 
 *uel ex multiplicatione medietatis basis in totam perpendicularem;* que cum demonstrationibus ostendere procurabo. Si in trigono ab angulo, qui non sit minor alicui reliquorum angulorum, cathetus supra latus subtendens ipsum angulum 
 erigatur, infra trigonum cadet. SI in trigono .abg. sit angulus .bag. non minor angulo .abg. uel .bga.; dico, si a puncto .a. super rectam .bg. cathetus erigatur, infra trigonum .abg. cadet.
@@ -75,6 +93,24 @@ cum acutiangulum sit trigonum .abg.: non enim cadit cathetus ab .a. extra trigon
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0039
    :page: 32
 
+.. picture:: 0039.g1.png
+   :alt: Archival folio 0039 g1
+
+.. picture:: 0039.g1.svg
+   :alt: Geometric diagram on folio 0039 (figure 1)
+
+.. picture:: 0039.g2.png
+   :alt: Archival folio 0039 g2
+
+.. picture:: 0039.g2.svg
+   :alt: Geometric diagram on folio 0039 (figure 2)
+
+.. picture:: 0039.g3.png
+   :alt: Archival folio 0039 g3
+
+.. picture:: 0039.g3.svg
+   :alt: Geometric diagram on folio 0039 (figure 3)
+
 In ampligonio trigono si ab angulo acuto cathetus trahatur super latus subtendens ipsum angulum, extra trigonum cadet. Sit trigonum ampligonium .bdg., amplum habens angulum, qui sub .bdg. 
 Dico, si ab angulo .dbg. cathetus ducatur super .gd. rectam, extra trigonum .bdg. cadet. Non enim; sed si possibile est, cadat inter .dg. ad punctum .a. Et quoniam .ba. cathetus est 
 super rectam .gd.; angulus quidem, qui sub .bad., rectus est. Est enim maior recto, qui sub .bda. Quare in trigono .bda. sunt duo anguli duobus rectis maiores; quod est impossibile. 
@@ -99,6 +135,18 @@ Iis itaque demonstratis, qualiter trigona mensurentur, demonstramus. Sed notandu
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0040
    :page: 33
+
+.. picture:: 0040.g1.png
+   :alt: Archival folio 0040 g1
+
+.. picture:: 0040.g1.svg
+   :alt: Geometric diagram on folio 0040 (figure 1)
+
+.. picture:: 0040.g2.png
+   :alt: Archival folio 0040 g2
+
+.. picture:: 0040.g2.svg
+   :alt: Geometric diagram on folio 0040 (figure 2)
 
 sunt equicruria, alia diuersilatera. 
 Oxigoniorum quidem, alia sunt equilatera, alia equicruria, alia uero diuersilatera. Vnde, ut doctrinam mensurandi omnia genera trigonorum perfecte habeamus, hanc partem, scilicet primam huius tertie distinctionis, in tres differentias diuidimus. 
@@ -128,6 +176,30 @@ scilicet .10. per .10., erunt .100.; de quibus tolle multiplicationem basis in s
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0041
    :page: 34
 
+.. picture:: 0041.g1.png
+   :alt: Archival folio 0041 g1
+
+.. picture:: 0041.g1.svg
+   :alt: Geometric diagram on folio 0041 (figure 1)
+
+.. picture:: 0041.g2.png
+   :alt: Archival folio 0041 g2
+
+.. picture:: 0041.g2.svg
+   :alt: Geometric diagram on folio 0041 (figure 2)
+
+.. picture:: 0041.g3.png
+   :alt: Archival folio 0041 g3
+
+.. picture:: 0041.g3.svg
+   :alt: Geometric diagram on folio 0041 (figure 3)
+
+.. picture:: 0041.g4.png
+   :alt: Archival folio 0041 g4
+
+.. picture:: 0041.g4.svg
+   :alt: Geometric diagram on folio 0041 (figure 4)
+
 et ignoraueris basem .cd. Ex tetragono quidem .bd., scilicet de .100., extrahe tetragonum .bc., scilicet .64., remanent .36.; quorum radix, scilicet .6., est latus .cd.
 
 .. rubric:: *Incipit Differentia secunda.*
@@ -156,6 +228,18 @@ Quare quadrilaterum .dgfh. equale est trigono .def. Nam quadrilaterum .dgfh.
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0042
    :page: 35
 
+.. picture:: 0042.g1.png
+   :alt: Archival folio 0042 g1
+
+.. picture:: 0042.g1.svg
+   :alt: Geometric diagram on folio 0042 (figure 1)
+
+.. picture:: 0042.g2.png
+   :alt: Archival folio 0042 g2
+
+.. picture:: 0042.g2.svg
+   :alt: Geometric diagram on folio 0042 (figure 2)
+
 constat ex multiplicatione catheti .dg. in .gf., scilicet indimidio .ef. Item sit trigonum diuersilaterum 
 et acutiangulum .abc.; cuius latus .ab. sit pertice .13.; latus .ac. sit pertice .15.; basis .bc. sit pertice .14. In hoc enim triangulo cathetus inueniri non potest, 
 donec primum inueniatur casus supra basem, in quo perpendicularis, scilicet cathetus, cadat; qui casus tribus modis inueniri potest. Primus quidem modus est, ut potentia unius lateris cum potentia basis iungas; 
@@ -181,6 +265,12 @@ in duo equalia diuisus est secundum punctum .e.; et per punctum
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0043
    :page: 36
+
+.. picture:: 0043.g1.png
+   :alt: Archival folio 0043 g1
+
+.. picture:: 0043.g1.svg
+   :alt: Geometric diagram on folio 0043 (figure 1)
 
 .e. protracta est basis .bc. equidistans recte .fg., que secat rectas .ab. et .ac. in duo equalia in punctis .h. et .I., 
 secundum quod in geometria declaratur; et anguli, ad .e. recti erunt, sicut sunt anguli, qui ad .d.: quare anguli .f. et .g. rectj sunt: ideo si scindatur recta .ae. ab .a. in .e., 
@@ -210,6 +300,12 @@ quia equalis est interiori et opposito, qui sub .fch.: cathetus ergo est linea .
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0044
    :page: 37
+
+.. picture:: 0044.g1.png
+   :alt: Archival folio 0044 g1
+
+.. picture:: 0044.g1.svg
+   :alt: Geometric diagram on folio 0044 (figure 1)
 
 est equidistans linee .fc.; paralilogramum ergo est quadrilaterum .kbcf. Quare opposita latera sibi inuicem sunt equalia: equalis ergo est recta .fk. recte .bc., et recta .bk. recte .cf. Ergo .bk. est 13, 
 remanet .ke. 2. Nam recta .ih. equalis est utrique rectarum .fc. et .kb.
@@ -241,6 +337,12 @@ scilicet minoris casus
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0045
    :page: 38
 
+.. picture:: 0045.g1.png
+   :alt: Archival folio 0045 g1
+
+.. picture:: 0045.g1.svg
+   :alt: Geometric diagram on folio 0045 (figure 1)
+
 in quantitate multiplicationis linee .dg. in lineam .bg. Sed ostensum est superius in alia figura, quod superhabundantia quadrati casus .cg. ad quadratum casus .cb. est 
 sicut superhabundantia quadrati lateris .ag. ad quadratum lateris .ab. Quare superhabundantia quadrati lateris .ag. ad quadratum lateris .ab. est sicut multiplicatio recte .dg. in rectam .bg. 
 Sed quadratum lateris .ag., scilicet .225., superhabundat potentiam lateris .ab., scilicet .169. in .56.; quare multiplicatio .dg. in .bg. surgit in .56. Sed .bg. est .14.; 
@@ -271,6 +373,24 @@ reperire
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0046
    :page: 39
 
+.. picture:: 0046.g1.png
+   :alt: Archival folio 0046 g1
+
+.. picture:: 0046.g1.svg
+   :alt: Geometric diagram on folio 0046 (figure 1)
+
+.. picture:: 0046.g2.png
+   :alt: Archival folio 0046 g2
+
+.. picture:: 0046.g2.svg
+   :alt: Geometric diagram on folio 0046 (figure 2)
+
+.. picture:: 0046.g3.png
+   :alt: Archival folio 0046 g3
+
+.. picture:: 0046.g3.svg
+   :alt: Geometric diagram on folio 0046 (figure 3)
+
 uidelicet per eos, quos demonstrationibus superius demonstrauimus. Et est iste primus modus: adde .13. cum .15., scilicet latus .ab. cum latere .ag., erunt .28.; quorum dimidium, 
 scilicet .14., multiplica per differentiam, que est ab ipsis .14. usque ad unum ex lateribus predictis, scilicet per .1., erunt .14.; que si diuiserimus per .2., scilicet per dimidium basis, 
 egredientur .7.; de quibus demptis .2., scilicet .bf., remanebunt .5. pro casu .bd.: super quibus namque .7., si addiderimus lineam .fg., habebimus .9. pro tota linea .dg. 
@@ -295,6 +415,18 @@ equatur quadratis linearum .db. et .bg.: quare recte .dg. et .gf. sibi inuicem s
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0047
    :page: 40
+
+.. picture:: 0047.g1.png
+   :alt: Archival folio 0047 g1
+
+.. picture:: 0047.g1.svg
+   :alt: Geometric diagram on folio 0047 (figure 1)
+
+.. picture:: 0047.g2.png
+   :alt: Archival folio 0047 g2
+
+.. picture:: 0047.g2.svg
+   :alt: Geometric diagram on folio 0047 (figure 2)
 
 equalem linee .db. et .ke. esse superhabundantiam linee .he. ad .bd.; et trigonum .ghe. esse simile trigono .ekd. Quare est sicut .dk. ad .ek., ita .eh. est ad .hg. 
 Quare si multiplicatio .ek. in .eh. diuidatur per .dk., scilicet per .bh., que est dimidium linee .bc., exibit linea .hg. 10 1/2: ex quibus extracta linea .ch., scilicet 5 1/2, 
@@ -335,6 +467,18 @@ protrahantur ergo recte .ab. et .ag. in directo in punctis .L.M.; et sit .bl. eq
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0048
    :page: 41
 
+.. picture:: 0048.g1.png
+   :alt: Archival folio 0048 g1
+
+.. picture:: 0048.g1.svg
+   :alt: Geometric diagram on folio 0048 (figure 1)
+
+.. picture:: 0048.g2.png
+   :alt: Archival folio 0048 g2
+
+.. picture:: 0048.g2.svg
+   :alt: Geometric diagram on folio 0048 (figure 2)
+
 .al. et .am., 
 sicut medietas laterum trigoni .abg. Deinde producatur .at. in puncto .k.; et copulentur recte .lk. et .km.; et sit rectus qui sub .alk. Quare rectus erit qui sub .amk.; 
 quia due recte .al. et .ak. equales sunt rectis .ak. et .am.; et angulus qui sub .lak. angulo, qui sub .kam. est equalis: quare et latus .lk. lateri .mk. equatur; 
@@ -362,6 +506,30 @@ Quare ductus .et. in .al., scilicet in dimidio laterum trigoni .abg., reddit are
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0049
    :page: 42
 
+.. picture:: 0049.g1.png
+   :alt: Archival folio 0049 g1
+
+.. picture:: 0049.g1.svg
+   :alt: Geometric diagram on folio 0049 (figure 1)
+
+.. picture:: 0049.g2.png
+   :alt: Archival folio 0049 g2
+
+.. picture:: 0049.g2.svg
+   :alt: Geometric diagram on folio 0049 (figure 2)
+
+.. picture:: 0049.g3.png
+   :alt: Archival folio 0049 g3
+
+.. picture:: 0049.g3.svg
+   :alt: Geometric diagram on folio 0049 (figure 3)
+
+.. picture:: 0049.g4.png
+   :alt: Archival folio 0049 g4
+
+.. picture:: 0049.g4.svg
+   :alt: Geometric diagram on folio 0049 (figure 4)
+
 trigoni .abg., ut oportebat ostendere. Et si in trigono aliquo duo tantum latera proponantur nota; et uolueris per ea habere embadi, et alterius lateris notitiam, ut in trigono .abg., 
 cuius latera .ab. et .bg. sint nota; considerandum est primum, utrum angulus contentus a notis lateribus, scilicet angulus .abg. sit rectus, uel minor, aut maior recto. Esto primum rectus; 
 quare recta .ab. super rectam .bg. cathetus est. Ex ductu ergo .ab. in .bg. dimidium prouenit area trigoni .abg.; et si acceperimus in unum quadrata linearum .ab. et .bg. notarum, 
@@ -387,6 +555,18 @@ trigoni
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0050
    :page: 43
+
+.. picture:: 0050.g1.png
+   :alt: Archival folio 0050 g1
+
+.. picture:: 0050.g1.svg
+   :alt: Geometric diagram on folio 0050 (figure 1)
+
+.. picture:: 0050.g2.png
+   :alt: Archival folio 0050 g2
+
+.. picture:: 0050.g2.svg
+   :alt: Geometric diagram on folio 0050 (figure 2)
 
 .abg. Et si unum tantum latus alicuius trigoni proponatur notum; et uolueris per ispum reliquorum laterum, et ipsius embadi habere notitiam. Vt trigoni .dez.; 
 cuius latus .dz. sit notum, accipiam in rectam .dz. partem aliquam, que sit .az.; et a puncto .a. super rectam .az. protraham lineam .ab. equidistantem linee .de.; et mensurabo lineas .ab. et .bz., 
@@ -415,6 +595,18 @@ cadere debeat super lineam .bc.: quo facto figet lensam in puncto .a.; et extend
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0051
    :page: 44
+
+.. picture:: 0051.g1.png
+   :alt: Archival folio 0051 g1
+
+.. picture:: 0051.g1.svg
+   :alt: Geometric diagram on folio 0051 (figure 1)
+
+.. picture:: 0051.g2.png
+   :alt: Archival folio 0051 g2
+
+.. picture:: 0051.g2.svg
+   :alt: Geometric diagram on folio 0051 (figure 2)
 
 tenebit cum manu lensam super punctum .d., scilicet aliquantulum extra trigonum ducet ipsam lensam uersus .c., donec .d. punctus tangat lineam .bc.;
 sitque contactus eius punctus .e.; quare lensa .ae. erit lensa .ad.: deinde ducet lensam uersus .b., donec punctus .d. tangat lineam .bc., ubi sors dederit; sitque contactus ipsius punctus .f.,
@@ -447,6 +639,12 @@ Quare si multiplicatio ex .ad. in .bg., scilicet de .4. in .14., diuisa fuerit p
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0052
    :page: 45
 
+.. picture:: 0052.g1.png
+   :alt: Archival folio 0052 g1
+
+.. picture:: 0052.g1.svg
+   :alt: Geometric diagram on folio 0052 (figure 1)
+
 Volumus inuenire quantitatem linee protracte, et terminate in notis terminis duorum laterum trigoni, que non sit equidistans reliquo lateri. Sit idem trigonum .bag.; et protracta sit linea .ez.
 et sit .eb. due tertie linee .ba. et .z. sit in medio .bg.: ergo .be. est 2/3 8., remanet .ea. 1/3 4.: uolumus ergo scire quantitatem .ez.:
 protrahatur cathetus .bd., quam esse .12. superius demonstrauimus; et est minor casus .ad. 5.; maior quoque .dg. est .9.; et per punctum .e. basi .ag. equidistans ducatur .ei.;
@@ -472,6 +670,12 @@ Aliter protrahatur .ic. equidistans linee .bd.; et erit trigonum .icg. simile tr
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0053
    :page: 46
 
+.. picture:: 0053.g1.png
+   :alt: Archival folio 0053 g1
+
+.. picture:: 0053.g1.svg
+   :alt: Geometric diagram on folio 0053 (figure 1)
+
 .bdg. et .zti. : est ergo sicut .gi. ad .gb., ita .gc. ad .gd., et .ic. ad .bd. Est enim .gi. tertia pars ex .gb.;
 et .gc. est tertia ex .gd.; et .ic. est tertia similiter ex .bd.: ergo .gi. est 5, et .gc. 3, et .ic. 4. Et quoniam trigonum .zti. simile est trigono .icg.,
 est sicut .zi. ad .ig., ita .ti. ad .cg.: est enim .gi. medietas ex .ig.; quare .it. est medietas ex .gc. et .zt. est medietas ex .ic.; que oportebat ostendere.
@@ -495,6 +699,18 @@ Adiaceat quidem quidam recta .mno.;
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0054
    :page: 47
+
+.. picture:: 0054.g1.png
+   :alt: Archival folio 0054 g1
+
+.. picture:: 0054.g1.svg
+   :alt: Geometric diagram on folio 0054 (figure 1)
+
+.. picture:: 0054.g2.png
+   :alt: Archival folio 0054 g2
+
+.. picture:: 0054.g2.svg
+   :alt: Geometric diagram on folio 0054 (figure 2)
 
 et sit .mni., et non sit .2. Et quia est sicut .mn. ad .no., ita .ze. ad .eh.; et coniuncte proportionales erunt;
 eruntque sicut .mn. ad .mo., ita .ez. ad .zh. Quare est sicut quadratum linee .mn. ad quadratum linee .mo., hoc est sicut .1. est ad .9.,
@@ -520,6 +736,30 @@ Item sit idem trigonum .abg.; et extra ipsum summatur .d. punctus, qui non sit i
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0055
    :page: 48
+
+.. picture:: 0055.g1.png
+   :alt: Archival folio 0055 g1
+
+.. picture:: 0055.g1.svg
+   :alt: Geometric diagram on folio 0055 (figure 1)
+
+.. picture:: 0055.g2.png
+   :alt: Archival folio 0055 g2
+
+.. picture:: 0055.g2.svg
+   :alt: Geometric diagram on folio 0055 (figure 2)
+
+.. picture:: 0055.g3.png
+   :alt: Archival folio 0055 g3
+
+.. picture:: 0055.g3.svg
+   :alt: Geometric diagram on folio 0055 (figure 3)
+
+.. picture:: 0055.g4.png
+   :alt: Archival folio 0055 g4
+
+.. picture:: 0055.g4.svg
+   :alt: Geometric diagram on folio 0055 (figure 4)
 
 equidistans basi .bg.; et sint .de. et .bg. note, remanebit .ea. nota; cum tota .ab. sit nota. Et sumatur in .ab. punctus .z. notus; et copuletur .dz.;
 et emictatur in punctum .i. Dico, quod proportio .gi. ad .ia. erit nota; compleatur figura. Et quoniam trigonum .dze. simile est trigono .zat., est sicut .ez. ad .za.;
@@ -550,6 +790,24 @@ Similiter si per punctum datum infra trigonum a puncto dato in uno laterum trigo
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0056
    :page: 49
+
+.. picture:: 0056.g1.png
+   :alt: Archival folio 0056 g1
+
+.. picture:: 0056.g1.svg
+   :alt: Geometric diagram on folio 0056 (figure 1)
+
+.. picture:: 0056.g2.png
+   :alt: Archival folio 0056 g2
+
+.. picture:: 0056.g2.svg
+   :alt: Geometric diagram on folio 0056 (figure 2)
+
+.. picture:: 0056.g3.png
+   :alt: Archival folio 0056 g3
+
+.. picture:: 0056.g3.svg
+   :alt: Geometric diagram on folio 0056 (figure 3)
 
 lateribus trigoni inuenietur proportio sectionis illius lateris.
 Exempli causa: in trigono .bdg. sit datus punctus, punctus notus .e. in base .gd.; et infra trigonum sit datus punctus .a. Similiter notus in linea .zk.,
@@ -583,6 +841,18 @@ nec non et linea .ti. sint ubi prediximus; et sit angulus .egt. rectus. Quare eq
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0057
    :page: 50
 
+.. picture:: 0057.g1.png
+   :alt: Archival folio 0057 g1
+
+.. picture:: 0057.g1.svg
+   :alt: Geometric diagram on folio 0057 (figure 1)
+
+.. picture:: 0057.g2.png
+   :alt: Archival folio 0057 g2
+
+.. picture:: 0057.g2.svg
+   :alt: Geometric diagram on folio 0057 (figure 2)
+
 scire sectiones linearum .gb. et .ad., nec non et .ab. Emictatur quidem linea .ef. in puncto .c., et linea .ti. in puncto .l.; et copuletur .cal.;
 et sit equidistans linee .bg.; eritque ut .eg. ad .ti., ita .gz. ad .zt. Quare erit sicut .eg. et .ti. ad .ti., hoc est sicut .5. ad .3., ita .gt. ad .zt.:
 ergo .zt. erit 2/5 2., cum .gt. sit .4. Item est sicut .ti. ad .il., ita .zt. ad .tc. Quare .lc. est 1/5 7; de qua dempta .la., remanet .ac. 1/5 2.
@@ -613,6 +883,12 @@ Quare multiplicaui .36. per .5., et habui .180. pro quadrato linee .ed.: quod qu
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0058
    :page: 51
 
+.. picture:: 0058.g1.png
+   :alt: Archival folio 0058 g1
+
+.. picture:: 0058.g1.svg
+   :alt: Geometric diagram on folio 0058 (figure 1)
+
 .900., remanserunt .720. pro quadrato linee .ae.:
 uel aliter quia est sicut .ad. ad .ac., ita .ae. ad .ab.: fuit ergo sicut .36. ad .5., ita quadratum linee .ea. ad quadratum linee .ba., hoc est ad .100.:
 quare permutatim est sicut .5. ad .100., ita .36. ad quadratum linee .ae. Quare multiplicanda sunt .36. per .20.; quia .5. sunt 1/20. de .100.; et habentur similiter .720.
@@ -639,6 +915,12 @@ Dico quod proportio de .3. ad .10. componitur ex ea quam habet .3. ad .7., et ea
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0059
    :page: 52
+
+.. picture:: 0059.g1.png
+   :alt: Archival folio 0059 g1
+
+.. picture:: 0059.g1.svg
+   :alt: Geometric diagram on folio 0059 (figure 1)
 
 habent .7. ad .10. Nam multiplicatio ex antecedentibus ad multiplicatum ex consequentibus
 fit sicut .3. ad .10.; quam si multiplicauerimus insimul antecedentes, scilicet .3. per .7., prouenient .21.: et si multiplicauerimus insimul consequentes, scilicet .7. per .10., prouenient .70.:
@@ -669,6 +951,18 @@ erit etiam proportio de .8. ad .15. composita ex permutatis proportionibus, sicu
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0060
    :page: 53
 
+.. picture:: 0060.g1.png
+   :alt: Archival folio 0060 g1
+
+.. picture:: 0060.g1.svg
+   :alt: Geometric diagram on folio 0060 (figure 1)
+
+.. picture:: 0060.g2.png
+   :alt: Archival folio 0060 g2
+
+.. picture:: 0060.g2.svg
+   :alt: Geometric diagram on folio 0060 (figure 2)
+
 .4. ad .3.; quia multiplicatio de .3. in .5.
 equa est multiplicationi de .5. in .3.; et sunt .3. et .5. in utraque compositione consequentes; et .2. et .4. sunt antecedentes. Simili quoque modo ostendetur, quod proportio .ba. ad .ad.
 componitur ex proportione .be. ad .ez.; et ex ea quam habet .gz. ad .gd.: si protraxerimus infra trigonum a puncto .d. lineam equidistantem linee .be.;
@@ -695,6 +989,12 @@ Et quamuis proportiones sectionum reflexarum sint note, tamen longitudines ipsar
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0061
    :page: 54
+
+.. picture:: 0061.g1.png
+   :alt: Archival folio 0061 g1
+
+.. picture:: 0061.g1.svg
+   :alt: Geometric diagram on folio 0061 (figure 1)
 
 .ag. inuenire casum perpendicularis cadentis super eam ab angulo .b.; et inueniemus ipsum esse, per ea que demonstrata sunt inuentione casuum, punctum .e.; quare recta .be. cathetus est super rectam .ag.
 Orthogonia ergo sunt trigona .beg. et .eba.: quare si quadratum lateris .eg., quod est .16., auferatur ex quadrato linee .bg., scilicet de .97., remanebunt .81. pro quadrato linee .be.;
@@ -780,6 +1080,12 @@ et numero, uel quadrati radicibus et numero, aut numerus radicibus et censibus. 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0064
    :page: 57
 
+.. picture:: 0064.g1.png
+   :alt: Archival folio 0064 g1
+
+.. picture:: 0064.g1.svg
+   :alt: Geometric diagram on folio 0064 (figure 1)
+
 quadrati est .4.; et quadratum est .16., hoc est latus superficiei quadrate et equilatere et equiangule est .4.; et eius embadum est .16. Nam quot unitates sunt in unoquoque laterum ipsius, tot radices
 in eius embado continentur, ut in hoc quadrilatero .abcd. ostenditur, quod habet in unoquoque laterum perticas .4. Quare embadum eius equatur quatuor radicibus, quarum una est quadrilaterum .ae.; secunda .zt.; tertia .ik.; quarta
 quadrilaterum .lk.cd.: et si latus quadrati fuerit .5., equabitur radicibus; et erit quadratum .25. Et cum dicitur: quatuor quadrati equantur .24. radicibus, tunc unum quadratum equatur sex radicibus; et unaqueque radix est .6.,
@@ -800,6 +1106,18 @@ et .5. radices equantur 39. Et si dicas: .32 equantur dimidio quadrati et sex ra
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0065
    :page: 58
 
+.. picture:: 0065.g1.png
+   :alt: Archival folio 0065 g1
+
+.. picture:: 0065.g1.svg
+   :alt: Geometric diagram on folio 0065 (figure 1)
+
+.. picture:: 0065.g2.png
+   :alt: Archival folio 0065 g2
+
+.. picture:: 0065.g2.svg
+   :alt: Geometric diagram on folio 0065 (figure 2)
+
 quadratum, et duodecim radices equantur .64. dragmis: et sic semper debemus questiones redigere ad unum censum; et secundum illud quod proportionaliter ceciderit reductio plurium quadratorum, uel partes unius quadratj ad unum quadratum in eadem
 proportione reducende sunt radices et numeri, qui cum quadratis, uel contra eos proponentur, ut ueniamus ad notitiam quadratorum et radicum eorum, ut in sequentibus ostendemus. Si in quadrato quidem .abgd., quod in singulis
 lateribus habet perticas .10., dyametrum eius .ag., uel .bd. habere desideras, ipsius embadum, scilicet .100., duplica, erunt .200.; quorum radicem accipe, et habebis longitudinem unius dyametrorum. Verbi gratia: quoniam rectus est angulus, qui
@@ -818,6 +1136,18 @@ et earum radicem, scilicet .10., habebis pro
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0066
    :page: 59
+
+.. picture:: 0066.g1.png
+   :alt: Archival folio 0066 g1
+
+.. picture:: 0066.g1.svg
+   :alt: Geometric diagram on folio 0066 (figure 1)
+
+.. picture:: 0066.g2.png
+   :alt: Archival folio 0066 g2
+
+.. picture:: 0066.g2.svg
+   :alt: Geometric diagram on folio 0066 (figure 2)
 
 latere; hoc est duo quadrati equantur .200.: quare unum quadratum, scilicet embadum tetragonj, erit .100. Et si quadratum dyametri cum embado tetragonj fiant .300.; ergo tres
 quadrati equantur .300.; quare tertia pars eorum, scilicet .100., erit embadum. Relique quidem .cc. habebuntur pro quadrato dyametri; et radix embadi erit latus tetragoni. Et si embadum et quatuor eius latera faciunt .cxl.;
@@ -844,6 +1174,18 @@ Quare embadum quadrati .bd. est undecies undecim,
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0067
    :page: 60
 
+.. picture:: 0067.g1.png
+   :alt: Archival folio 0067 g1
+
+.. picture:: 0067.g1.svg
+   :alt: Geometric diagram on folio 0067 (figure 1)
+
+.. picture:: 0067.g2.png
+   :alt: Archival folio 0067 g2
+
+.. picture:: 0067.g2.svg
+   :alt: Geometric diagram on folio 0067 (figure 2)
+
 scilicet .121.; et quatuor eius latera, scilicet superficies .ba., est ba. est .44., remanet superficies .zd. 7., ut oportebat.
 Et sic faciendum est in omnibus questionibus, in quibus quadratum equabitur radicibus et numero; uidelicet super numerum addatur quadratum medietatis radicum; et de summa collecta accipiatur radix, eique addatur medietas radicum;
 et sic habebitur radix quadrati, que in se multiplicata faciet quesitum quadratum: ut si proponatur quod census equatur decem radicibus et .39. dragmis, addatur quadratum quinque radicum, scilicet .25. super .39., erunt .64.;
@@ -866,6 +1208,12 @@ Quare ut reducas hec ad censum unum, accipe tertiam
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0068
    :page: 61
+
+.. picture:: 0068.g1.png
+   :alt: Archival folio 0068 g1
+
+.. picture:: 0068.g1.svg
+   :alt: Geometric diagram on folio 0068 (figure 1)
 
 ex omnibus predictis, et inuenies,
 censum et radicem
@@ -892,6 +1240,24 @@ Adiaceat tetragonum .abgd.; et sumantur puncta .ez.; et sit unaqueque rectarum .
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0069
    :page: 62
 
+.. picture:: 0069.g1.png
+   :alt: Archival folio 0069 g1
+
+.. picture:: 0069.g1.svg
+   :alt: Geometric diagram on folio 0069 (figure 1)
+
+.. picture:: 0069.g2.png
+   :alt: Archival folio 0069 g2
+
+.. picture:: 0069.g2.svg
+   :alt: Geometric diagram on folio 0069 (figure 2)
+
+.. picture:: 0069.g3.png
+   :alt: Archival folio 0069 g3
+
+.. picture:: 0069.g3.svg
+   :alt: Geometric diagram on folio 0069 (figure 3)
+
 Erit itaque superficies .dz. equalis quatuor lateribus tetragoni .db., remanet itaque superficies .eb. 4.;
 ergo quatuor radices et .4. equantur tetragono .db.: diuidatur itaque recta .az. in duo equalia super .i.; eritque multiplicatio .zb. in .ab. cum quadrato linee .iz. sicut tetragonum linee .ib. Sed .zb.
 in .ab. est sicut .zb. in .ze. Sed .zb. in .ze. facit superficiem .eb., scilicet .4.; ergo ex .zb. in .ab. proueniunt .4.; quibus addito trigono linee .iz., erunt .8. pro quadrato
@@ -915,6 +1281,18 @@ rectam .bg. rem, erit tetragonum .gk. census, qui equatur .12. suis radicibus et
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0070
    :page: 63
+
+.. picture:: 0070.g1.png
+   :alt: Archival folio 0070 g1
+
+.. picture:: 0070.g1.svg
+   :alt: Geometric diagram on folio 0070 (figure 1)
+
+.. picture:: 0070.g2.png
+   :alt: Archival folio 0070 g2
+
+.. picture:: 0070.g2.svg
+   :alt: Geometric diagram on folio 0070 (figure 2)
 
 Rursus multiplicaui dyametrum per latus, et prouenit .100.; quanta est ergo dyameter et latus tetragonj. Quoniam multiplicato dyametro per latus proueniunt .100. Si multiplicauerimus quadratum dyametri per quadratum lateris, scilicet per aream
 tetragoni, prouenit quadratum de .100., scilicet decem milia. Quare si multiplicauerimus quadratum dyametri per duplum embadi, scilicet per quadratum dyametri, proueniet duplum eius, scilicet uiginti milia. Ergo dyameter est radix radicis uiginti
@@ -942,6 +1320,18 @@ cui si addatur quadratum linee .ge.,
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0071
    :page: 64
 
+.. picture:: 0071.g1.png
+   :alt: Archival folio 0071 g1
+
+.. picture:: 0071.g1.svg
+   :alt: Geometric diagram on folio 0071 (figure 1)
+
+.. picture:: 0071.g2.png
+   :alt: Archival folio 0071 g2
+
+.. picture:: 0071.g2.svg
+   :alt: Geometric diagram on folio 0071 (figure 2)
+
 faciet .49.: ergo quadratus linee .gc. est .1.; cuius radix, scilicet .1., est linea .gc. quadrata super .ac., erit tota .ag., scilicet .gd. 8, quod est
 maius latus; remanet ergo .gb. 6., ut prediximus. Item sit area 48 et latus longius addat super breuius secundum quantitatem duorum. Accipe medietatem ipsorum duorum, erit .1.; cuius quadratum adde super .48.,
 erunt .49.; de quibus accipe radicem, que est .7., et adde super eam .1., quod fuit medietas duorum supradictorum, erunt .8., quod est latus longius; de quo tolle .2., in quo longius
@@ -965,6 +1355,12 @@ Quare si auferatur quadratum dyametri, scilicet .100., ex quadrato linee .ae., s
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0072
    :page: 65
+
+.. picture:: 0072.g1.png
+   :alt: Archival folio 0072 g1
+
+.. picture:: 0072.g1.svg
+   :alt: Geometric diagram on folio 0072 (figure 1)
 
 remanebunt .96. pro duplo .ab. in .be., hoc est pro duplo .ab. in .bg.: ergo .ab. in .bg.
 facit 48., scilicet dimidium de .96. Sed .ab. in .bg. facit embadum; ergo embadum est .48., ut prediximus: cum quo predicto modo separabis latera; et erit breuius latus .6., longius uero .8.
@@ -1040,6 +1436,12 @@ et maius sit duo plus minore. tunc erit manifestum: quod si minus latus tollatur
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0075
    :page: 68
 
+.. picture:: 0075.g1.png
+   :alt: Archival folio 0075 g1
+
+.. picture:: 0075.g1.svg
+   :alt: Geometric diagram on folio 0075 (figure 1)
+
 area, remanebunt duo plus ex eo quod remanet, cum ex area tollitur maius latus; ergo dempto
 minore latere ex area, remanent 42: fac ergo ut supra, et habebis propositum, si deus uoluerit.
 
@@ -1060,6 +1462,12 @@ tetragona sunt que describuntur circa dyametrum ipsius; ergo tetragonum est .kdb
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0076
    :page: 69
+
+.. picture:: 0076.g1.png
+   :alt: Archival folio 0076 g1
+
+.. picture:: 0076.g1.svg
+   :alt: Geometric diagram on folio 0076 (figure 1)
 
 tetragonum est quadrilaterum .nh., tetragona quidem sunt .pimk. et .ilfg.; et est latus tetragoni .do. recta .db.
 Quare .do. tetragonum equale est quadrato dyametri; et tetragonum quidem .pm. est latus; recta .pk., que est equalis recte .cd., et .cd. est equalis minori lateri. Ergo tetragonum .pm. equale est tetragono
@@ -1106,6 +1514,12 @@ que sunt superhabundantia laterum: quam multiplica per
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0078
    :page: 71
+
+.. picture:: 0078.g1.png
+   :alt: Archival folio 0078 g1
+
+.. picture:: 0078.g1.svg
+   :alt: Geometric diagram on folio 0078 (figure 1)
 
 4, et per .3., erunt .16. et 12, que sunt latera. Item latus longius sit .20.; diuide ergo ipsum per .4., quia quaternarius est similis lateribus longioribus et 3 breuioribus et 5 dyametris.
 Diuisis ergo .20. per .4., ueniunt .5. pro superhabundantia; quam multiplica per .3. et per .5., uenient .15. pro latere breuiori et 25 pro dyametro. Rursus latus breuius sit .18.:
@@ -1158,6 +1572,12 @@ et habebis dyametrum .10.; latus quoque maius .8., minus uero .6.
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0080
    :page: 73
 
+.. picture:: 0080.g1.png
+   :alt: Archival folio 0080 g1
+
+.. picture:: 0080.g1.svg
+   :alt: Geometric diagram on folio 0080 (figure 1)
+
 Et si proponatur: est quadrilaterum longius altera parte, cuius dyametri proportio ad ipsius longitudinem est sicut proportio longitudinis eius ad eius latitudinem, etiam dyameter est 10.
 In hac autem diuidende sunt .10. secundum mediam et extremam proportionem; et quod medie proportioni ceciderit, erit minus latus; ipsumque per .10 multiplicandum est;
 et ipsius multiplicationis radix erit latus longius: verbi gratia: adiaceat trigonum orthogonium .abg., scilicet dimidium quadrilateri parte altera longioris, cuius dyameter est .ag., latus longius .ab., breuius quoque .bg.;
@@ -1190,6 +1610,18 @@ duplicabimus aream trigoni .abd. uel .bcd.; et sic habebimus propositum. Nam are
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0081
    :page: 74
 
+.. picture:: 0081.g1.png
+   :alt: Archival folio 0081 g1
+
+.. picture:: 0081.g1.svg
+   :alt: Geometric diagram on folio 0081 (figure 1)
+
+.. picture:: 0081.g2.png
+   :alt: Archival folio 0081 g2
+
+.. picture:: 0081.g2.svg
+   :alt: Geometric diagram on folio 0081 (figure 2)
+
 demonstratum est. Quare si multiplicauerimus cathetum .ae. in totam .bd., ueniet duplum aree trigoni .abd., hoc est area rumbi .abcd.: cadit itaque cathetus .ae. in medio .bd., cum equicrurium
 sit trigonum .abd. Quare si notitiam eius habere uis, extrahe quadratum linee .eb. ex quadrato linee .ab., scilicet .25. de 169, remanebunt 144.; quorum radix, scilicet .12., est cathetus .ae.:
 propter eadem ergo et cathetus .ce. est similiter .12.; et est .c.e. recta in directo recte .ea. Cum anguli .aed. et .dec. sint recti. Quare dyameter est recta .ac., et est .24.
@@ -1216,6 +1648,12 @@ Reliquum, scilicet .24., est longior; multiplica quidem dimidium unius dyametror
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0082
    :page: 75
+
+.. picture:: 0082.g1.png
+   :alt: Archival folio 0082 g1
+
+.. picture:: 0082.g1.svg
+   :alt: Geometric diagram on folio 0082 (figure 1)
 
 Rursus aggregaui duos dyametros cum area rumbi, et prouenerunt .154.; et maior dyameter addit super minorem .14. Quoniam duo dyametri rumbi equantur .IIIIor lateribus quadrilateri .ef.:
 pone latus breuius rem; eritque latus longius res et 7.: multiplica ergo rem in re et in .7., proueniet census et .7. radices, que sunt area quadrilateri .ef.
@@ -1245,6 +1683,12 @@ ex quibus si extraxeris
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0083
    :page: 76
 
+.. picture:: 0083.g1.png
+   :alt: Archival folio 0083 g1
+
+.. picture:: 0083.g1.svg
+   :alt: Geometric diagram on folio 0083 (figure 1)
+
 multiplicationem ex .ad. in .db., remanebunt .49. pro quadrato .dg.; ergo .dg. est .7.; quibus additis cum .bg., erit tota .bd., scilicet maior dyameter .24.; remanet .da. 10., que est minor dyameter.
 Iterum diuisi maiorem dyametrum per minorem, et egredietur ex diuisione 2/5 2., et area rumbi est .120.; quanta est ergo queque dyameter. Quoniam est sicut totum ad totum,
 ita quelibet pars est ad eandem partem. Erit itaque sicut maior dyameter est ad minorem, ita medietas maioris ad medietatem minoris; et medietas maioris est maius latus quadrilateri .ef.,
@@ -1272,6 +1716,12 @@ Vel aliter: pone latus minus rem, eritque latus maius due res et due quinte rei:
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0084
    :page: 77
 
+.. picture:: 0084.g1.png
+   :alt: Archival folio 0084 g1
+
+.. picture:: 0084.g1.svg
+   :alt: Geometric diagram on folio 0084 (figure 1)
+
 duo census et due quinte census, que equantur aree date. Sit ergo area data .100.; que diuide per 2/5 2., proueniet 2/3 41; quorum radix est .d., scilicet latus minus.
 Et quoniam est sicut .a. ad .b., ita d. ad .e.; erit itaque sicut quadratus numeri .a. ad quadratum numeri .b., ita quadratus quantitatis .d. ad quadratum quantitatis .e.
 Quare multiplica quadratum numeri .b. per quadratum quantitatis .d., scilicet .144 per 2/3 41.; et multiplicationis summam diuide per quadratum numeri .a., scilicet per 25,
@@ -1295,6 +1745,24 @@ de potentia lateris .bc., scilicet ex 1369., remanent 300;
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0085
    :page: 78
+
+.. picture:: 0085.g1.png
+   :alt: Archival folio 0085 g1
+
+.. picture:: 0085.g1.svg
+   :alt: Geometric diagram on folio 0085 (figure 1)
+
+.. picture:: 0085.g2.png
+   :alt: Archival folio 0085 g2
+
+.. picture:: 0085.g2.svg
+   :alt: Geometric diagram on folio 0085 (figure 2)
+
+.. picture:: 0085.g3.png
+   :alt: Archival folio 0085 g3
+
+.. picture:: 0085.g3.svg
+   :alt: Geometric diagram on folio 0085 (figure 3)
 
 cuius dimidium si diuisum fuerit per basem .cd., scilicet per 30, reddit .5. pro quantitate .dg. uel .ah.; cuius potentia, scilicet .25., extracta ex potentia .bd., scilicet de .169.,
 remanet .144.; cuius radix, scilicet .12., est cathetus .bg. Quo multiplicato per basem .cd., scilicet 12 per 30, reddunt perticas .360 pro embado dicti rumboidis, ut superius docuimus.
@@ -1352,6 +1820,18 @@ NAM si linea .ca et .db. in partes .ab. protrahantur, donec ad punctum .h.
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0087
    :page: 80
 
+.. picture:: 0087.g1.png
+   :alt: Archival folio 0087 g1
+
+.. picture:: 0087.g1.svg
+   :alt: Geometric diagram on folio 0087 (figure 1)
+
+.. picture:: 0087.g2.png
+   :alt: Archival folio 0087 g2
+
+.. picture:: 0087.g2.svg
+   :alt: Geometric diagram on folio 0087 (figure 2)
+
 concurrant, ut in hac alia figura, in qua quadrilaterum abcd transmutatur in trigono hcd.; et uolueris scire quantitatem linee .ah. uel .bh.
 Dimidium capitis ex dimidio abscissionis basis extrahe, scilicet .4. de .9.; super reliquum uero, scilicet super .5., diuide multiplicationem dimidij abscissionis capitis in lineam .ca., scilicet de .4. in 13.,
 exibunt 2/5 10. pro quantitate linee .ah. uel .bh.: et si multiplicaueris eadem 4 per cathetum .ae., scilicet per 12; et diuiseris per 5., exibunt 3/5 9 pro catheto trigoni .hab.,
@@ -1378,6 +1858,12 @@ est enim uterque illorum 16.; area ergo quadrilateri .abed. est .288., que colli
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0088
    :page: 81
+
+.. picture:: 0088.g1.png
+   :alt: Archival folio 0088 g1
+
+.. picture:: 0088.g1.svg
+   :alt: Geometric diagram on folio 0088 (figure 1)
 
 ex multiplicatione .de. in .eb., hoc est de 16. in .18.: area quidem trigonj .dec. colligitur ex multiplicatione catheti .de. in dimidium .ec., scilicet .16. in 6. faciunt .96.;
 quibus additis cum 288., scilicet cum embado quadrilateri .abed., reddunt 384. pro embado quadrilateri .abcd., ut predixi.
@@ -1411,6 +1897,18 @@ supra basem .cd. protrahere uolueris, oportet primum inuenire casus ipsorum cath
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0089
    :page: 82
 
+.. picture:: 0089.g1.png
+   :alt: Archival folio 0089 g1
+
+.. picture:: 0089.g1.svg
+   :alt: Geometric diagram on folio 0089 (figure 1)
+
+.. picture:: 0089.g2.png
+   :alt: Archival folio 0089 g2
+
+.. picture:: 0089.g2.svg
+   :alt: Geometric diagram on folio 0089 (figure 2)
+
 inde extrahe potentiam lateris .ac., scilicet .169., ex potentia lateris .bd., scilicet de 225, remanent .56.; que diuide per .14. suprascripta, exibunt .4.; que adde cum .14., erunt 18.;
 cuius dimidium, scilicet .9., est casus longior .de. a parte lateris .bd.: a quibus .9. usque in 14. desunt .5., que sunt casus breuior .fc. a latere .ac., ut in trigonis acutiangulis diximus.
 Extracta quidem potentia minoris casus, scilicet ex .cf., que est .25., ex potentia lateris .ac., scilicet .169., remanent .144.; cuius radix, scilicet .12., est cathetus .af.
@@ -1440,6 +1938,24 @@ scilicet .12. de .16., remanent .4.; quorum potentia, scilicet 16, addatur cum p
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0090
    :page: 83
 
+.. picture:: 0090.g1.png
+   :alt: Archival folio 0090 g1
+
+.. picture:: 0090.g1.svg
+   :alt: Geometric diagram on folio 0090 (figure 1)
+
+.. picture:: 0090.g2.png
+   :alt: Archival folio 0090 g2
+
+.. picture:: 0090.g2.svg
+   :alt: Geometric diagram on folio 0090 (figure 2)
+
+.. picture:: 0090.g3.png
+   :alt: Archival folio 0090 g3
+
+.. picture:: 0090.g3.svg
+   :alt: Geometric diagram on folio 0090 (figure 3)
+
 .40.; quorum dimidium, scilicet 20, diuidenda sunt per suprascripta .4., exibunt .5. pro exteriori casu .ce., ut in trigono ampligonio demonstrauimus: quibus .5. additis cum base .cb.,
 scilicet cum .16., reddunt .21. pro tota linea .eb.; ex qua extractis .12., que sunt quantitas capitis, remanent .9. pro quantitate casus .fb. interioris.
 Quare extracta potentia ex .fb., scilicet .81., ex potentia lateris .ba., scilicet .225.; uel extracta potentia .ce., scilicet .25., ex potentia .cd., scilicet ex 169, remanebunt .144.;
@@ -1468,6 +1984,12 @@ Et notandum quia multilatera figura, que constat ex quinque lateribus, soluitur 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0091
    :page: 84
 
+.. picture:: 0091.g1.png
+   :alt: Archival folio 0091 g1
+
+.. picture:: 0091.g1.svg
+   :alt: Geometric diagram on folio 0091 (figure 1)
+
 per resolutionem ipsarum in trigona multilatere figure mensurare possint, tamen quandoque subtilius in quibusdam procedere possumus, scilicet cum figura fuerit penthagona, hoc est ex quinque lateribus; et poteris ex ea facere
 duo petia, quorum unum erit trigonum, et alterum fit quadrilaterum, in quo latera ipsius erunt equidistantia, ut in penthagono .abcde., ex quo absciso trigono .abe., remanet quadrilaterum .ebcd.
 caput abscisum, cuius .be. latus equidistans est lateri .cd.; tunc colliges aream trigoni .abe., et addes eam cum area quadrilateri .bcde., et habebis aream penthagoni .abcde.
@@ -1484,6 +2006,18 @@ equalis est angulo qui sub .fal.: quare et basis .fl. equalis est basi .fg.; et 
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0092
    :page: 85
+
+.. picture:: 0092.g1.png
+   :alt: Archival folio 0092 g1
+
+.. picture:: 0092.g1.svg
+   :alt: Geometric diagram on folio 0092 (figure 1)
+
+.. picture:: 0092.g2.png
+   :alt: Archival folio 0092 g2
+
+.. picture:: 0092.g2.svg
+   :alt: Geometric diagram on folio 0092 (figure 2)
 
 super rectam .ae.; et quia .al. equalis est recte .el.,
 si comuniter adiaceat recta .fl., erunt duo recte .fl. et .la. equales duabus rectis .fl. et .le.; et anguli qui ad .l. sunt equales; cum rectus sit uterque eorum:
@@ -1509,6 +2043,18 @@ et corda .be. erit radix de .40., et radicis de 320.; et hoc est cum dyametrum .
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0093
    :page: 86
+
+.. picture:: 0093.g1.png
+   :alt: Archival folio 0093 g1
+
+.. picture:: 0093.g1.svg
+   :alt: Geometric diagram on folio 0093 (figure 1)
+
+.. picture:: 0093.g2.png
+   :alt: Archival folio 0093 g2
+
+.. picture:: 0093.g2.svg
+   :alt: Geometric diagram on folio 0093 (figure 2)
 
 **SI** uero campus rectilineus non fuerit, ut quadrilaterum .abcdez., cuius duo latera .az. et .cd. sunt rectilinea, reliqua uero .abc. et .dez. sunt curua;
 qualiter ipsum etiam et similia mensurarj debeas, indicabo. Ex .a. quidem in .c. et ex .z. in .d. recte protrahantur .ac. et .dz.; deinde quadrilaterj .acdz. rectilinej aream, secundum ea que dicta
@@ -1547,6 +2093,12 @@ Verbi gratia : medietas curuę .abgd. est 22, quorum quadratum est .484.; quod p
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0094
    :page: 87
+
+.. picture:: 0094.g1.png
+   :alt: Archival folio 0094 g1
+
+.. picture:: 0094.g1.svg
+   :alt: Geometric diagram on folio 0094 (figure 1)
 
 22 diuisis, ueniunt 154., ut superius inuenimus: uel si 484 diuiserimus per 22, uenient .22; quibus multiplicatis per 7 faciunt similiter 154. **ET** si dyameter circulj fuerit .10.,
 erit utique circumferens linea 2/7 31., que proueniunt ex multiplicatione .10. in 1/7 3. Quare si dimidium dyametrj, scilicet .5., multiplicauerimus per dimidium circumferentis lineę,
@@ -1631,6 +2183,12 @@ ergo proportio .ca. ad .ak. est quasi 4/5 458 ad 15. Sed proportio .ca. ad .ak. 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0097
    :page: 90
 
+.. picture:: 0097.g1.png
+   :alt: Archival folio 0097 g1
+
+.. picture:: 0097.g1.svg
+   :alt: Geometric diagram on folio 0097 (figure 1)
+
 .ai. Sed duplum .ai. est latus equilaterę figure descriptę circa circulum .abgd., habentis latera 96; quare est sicut 4/5 458 ad 15.,
 ita dyametrum .ga. ad unum ex lateribus figurę supradictę habentis latera .96. Quare si multiplicauerimus 15 per 96, prouenient .1440. pro summa laterum ipsius figurę:
 ergo proportio omnium laterum figurę supradicte ad dyametrum circulj cadentis in ipsa est sicut 1440 ad 4/5 458. Inueniam rursus proportionem circulj ad dyametrum ipsius
@@ -1677,6 +2235,18 @@ ideo posuerunt sapientes antiqui, circulum esse triplum et septimam sui dyametrj
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0099
    :page: 92
+
+.. picture:: 0099.g1.png
+   :alt: Archival folio 0099 g1
+
+.. picture:: 0099.g1.svg
+   :alt: Geometric diagram on folio 0099 (figure 1)
+
+.. picture:: 0099.g2.png
+   :alt: Archival folio 0099 g2
+
+.. picture:: 0099.g2.svg
+   :alt: Geometric diagram on folio 0099 (figure 2)
 
 Ad cuius rei euidentiam esto semicirculus .abg., cuius dyameter .ag. sit .24.; et expleatur circulus .abgd.; et erit suplementum .adg. similiter semicirculus.
 Quare si acceperimus dimidium embadj circulj .abgd., habebimus utique embadum dati semicirculj .abg. Vel dimidium dyametrj, scilicet 12, in 1/7 3 multiplica,
@@ -1736,6 +2306,18 @@ Sed .fa. equalis est .fb., cum utraque ipsarum producantur á centro .f., et ter
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0101
    :page: 94
+
+.. picture:: 0101.g1.png
+   :alt: Archival folio 0101 g1
+
+.. picture:: 0101.g1.svg
+   :alt: Geometric diagram on folio 0101 (figure 1)
+
+.. picture:: 0101.g2.png
+   :alt: Archival folio 0101 g2
+
+.. picture:: 0101.g2.svg
+   :alt: Geometric diagram on folio 0101 (figure 2)
 
 lineę .ef. equatur quadrato lineę .fb. Sed quadratum lineę .fb. equale est duobus quadratis linearum .be. et .ef.; ergo multiplicatio .ae. in .ec.
 cum quadrato lineę .ef. equalis est duobus quadratis linearum .be. et .ef.: quare si comuniter auferantur quadrata lineę .ef., remanebit multiplicatio .ae. in .ec.
@@ -2207,6 +2789,12 @@ ideo duos arcus ante ipsas cordas ordinaui, ut in sequentibus tabulis ostenditur
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0104
    :page: 97
 
+.. picture:: 0104.g1.png
+   :alt: Archival folio 0104 g1
+
+.. picture:: 0104.g1.svg
+   :alt: Geometric diagram on folio 0104 (figure 1)
+
 **CVM** per has tabulas, qualiter arcus circulorum inueniri debeant, demonstrare proposuerim, ut ipsa doctrina melius habeatur ostendendum est: quod si in circulo duo
 arcus inequales fuerint, erit proportio maioris arcus ad suam cordam maior proportione minoris arcus ad suam; quod patet, et etiam ad oculum deprehendi potest in
 tabulis suprascriptis: proportio quidem arcus semicirculj ad suam cordam, scilicet ad dyametrum circulj, est sicut .66 ad 42; et hec est sicut .11 ad .7; et proportio arcus
@@ -2231,6 +2819,12 @@ Quare proportio totius anguli .gde. ad angulum .eda. maior est proportione recte
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0105
    :page: 98
+
+.. picture:: 0105.g1.png
+   :alt: Archival folio 0105 g1
+
+.. picture:: 0105.g1.svg
+   :alt: Geometric diagram on folio 0105 (figure 1)
 
 .ge. ad rectam .ea. Sed proportio anguli .gde. ad angulum .ade. est sicut proportio
 arcus .gb. ad arcum .ba.; et proportio .ge. ad .ea. est sicut proportio corde .gb. ad cordam .ba. Ergo proportio arcus .gb. ad arcum .ba. est maior proportione corde .gb. ad
@@ -2259,6 +2853,18 @@ que erit perticarum .21, et pedum 3, et
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0106
    :page: 99
 
+.. picture:: 0106.g1.png
+   :alt: Archival folio 0106 g1
+
+.. picture:: 0106.g1.svg
+   :alt: Geometric diagram on folio 0106 (figure 1)
+
+.. picture:: 0106.g2.png
+   :alt: Archival folio 0106 g2
+
+.. picture:: 0106.g2.svg
+   :alt: Geometric diagram on folio 0106 (figure 2)
+
 unciarum .9., ut superius inuentum est. Et ex his omnibus uolumus inuenire quantitatem arcus .ei.
 Sed nos scimus ex premissis, quod proportio arcus .ez. ad cordam .ez. est minor proportione arcus .ei. ad cordam .ei.: sed si ponamus proportiones arcus .ei. ad cordam
 .ei. eam quam habet arcus .ez. ad cordam .ez., erit arcus .ei. perticarum .22, et pedum .3, et unciarum .12., que proueniunt ex diuisa multiplicatione corde .ez. in cordam .ei.
@@ -2284,6 +2890,12 @@ perticas .22, et pedes .4., et unciam .1., et puncta .6. pro arcu suprascripto .
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0107
    :page: 100
+
+.. picture:: 0107.g1.png
+   :alt: Archival folio 0107 g1
+
+.. picture:: 0107.g1.svg
+   :alt: Geometric diagram on folio 0107 (figure 1)
 
 .ei., que erit similis corde .ad. dati circulj .abgd. ex inuento arcu .ezi.; et extrahes arcum .ez., remanebunt pedes .4., et uncie .1., et puncta .6., que sunt in summa puncta
 1466.; que multiplica per differentiam, que est inter cordam .ez., et cordam .et., que sunt note ex tabulis; et est illa differentia linea .nt., que est punctorum 1856; et diuides
@@ -2313,6 +2925,30 @@ semidyametrum .ad. per dimidium arcus .bgd., scilicet .5 per 4, uenient 20 pro a
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0108
    :page: 101
 
+.. picture:: 0108.g1.png
+   :alt: Archival folio 0108 g1
+
+.. picture:: 0108.g1.svg
+   :alt: Geometric diagram on folio 0108 (figure 1)
+
+.. picture:: 0108.g2.png
+   :alt: Archival folio 0108 g2
+
+.. picture:: 0108.g2.svg
+   :alt: Geometric diagram on folio 0108 (figure 2)
+
+.. picture:: 0108.g3.png
+   :alt: Archival folio 0108 g3
+
+.. picture:: 0108.g3.svg
+   :alt: Geometric diagram on folio 0108 (figure 3)
+
+.. picture:: 0108.g4.png
+   :alt: Archival folio 0108 g4
+
+.. picture:: 0108.g4.svg
+   :alt: Geometric diagram on folio 0108 (figure 4)
+
 punctum .e.; et sit proportio recte .de. ad rectam .da. sicut .da. ad .db.; quare .ed. erit .16, scilicet duplum linee .da.; cum .da. sit duplum linee .db.
 Vel aliter multiplicetur .ad. in .dg., scilicet .8 per 8., erunt 64; que diuidantur per rectam .bd., scilicet per .4., uenient .16 pro linea .de., ut diximus; erit ergo tota dyameter .be. 20.;
 et sumatur centrum circulj punctus .f.; et copulentur .fa. fg., et erit sector .fabg.: quare si multiplicauerimus .fb. in dimidium arcus .abg., scilicet in arcu .bg., ueniet area sectoris
@@ -2333,6 +2969,18 @@ si protraxerimus triangulos .eab. et .zbg. et .igd. et .tad. rectilineos, non re
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0109
    :page: 102
+
+.. picture:: 0109.g1.png
+   :alt: Archival folio 0109 g1
+
+.. picture:: 0109.g1.svg
+   :alt: Geometric diagram on folio 0109 (figure 1)
+
+.. picture:: 0109.g2.png
+   :alt: Archival folio 0109 g2
+
+.. picture:: 0109.g2.svg
+   :alt: Geometric diagram on folio 0109 (figure 2)
 
 protrahatur triangulus; et in residuis pectoribus illud idem operari studueris, resoluetur tota figura elana suprascripta dicta in figuris rectilineis; et non remanebit ex
 ea aliquid sensibile; quarum rectilinearum figurarum omnium, si embada in unum reduxerimus, nimirum embadum totius figurę incontanter habebimus. Aliter dyametros
@@ -2362,6 +3010,18 @@ scilicet per .8., uenient 1/2 12 pro dyametro .ad.: uel aliter quia due recte .a
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0110
    :page: 103
 
+.. picture:: 0110.g1.png
+   :alt: Archival folio 0110 g1
+
+.. picture:: 0110.g1.svg
+   :alt: Geometric diagram on folio 0110 (figure 1)
+
+.. picture:: 0110.g2.png
+   :alt: Archival folio 0110 g2
+
+.. picture:: 0110.g2.svg
+   :alt: Geometric diagram on folio 0110 (figure 2)
+
 multiplicatio .be. in .eg.; quare si multiplicauerimus .be. in .eg., et diuiserimus per .ae., scilicet 36 per 8, uenient 1/2 4 pro linea .ed. Quare tota .ad. dyameter erit 1/2 12, ut prediximus.
 Sed sit unaqueque rectarum .ab et .ag. cum dyametro .ad. nota; et recta .bg. sit ignota; quoniam orthogonium est trigonum .abd.; et ab angulo ipsius recto
 super basem .ad. ad rectos angulos protracta est recta .be., erunt trigona .abe. et .bed. sibi inuicem similia, nec non et toti trigono .abd.; quare est sicut .da. ad .ab.,
@@ -2388,6 +3048,24 @@ cum orthogonia sint trigona .abd. et .agd.; et erit .bd. 3/4 9; et recta .gd. er
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0111
    :page: 104
 
+.. picture:: 0111.g1.png
+   :alt: Archival folio 0111 g1
+
+.. picture:: 0111.g1.svg
+   :alt: Geometric diagram on folio 0111 (figure 1)
+
+.. picture:: 0111.g2.png
+   :alt: Archival folio 0111 g2
+
+.. picture:: 0111.g2.svg
+   :alt: Geometric diagram on folio 0111 (figure 2)
+
+.. picture:: 0111.g3.png
+   :alt: Archival folio 0111 g3
+
+.. picture:: 0111.g3.svg
+   :alt: Geometric diagram on folio 0111 (figure 3)
+
 tiplicauerimus 1/4 6. per .13., hoc est gd. per .ab., et 3/4 9 per 15, hoc est .bd. per ag., habebimus 1/2 227; quibus diuisis per dyametrum .ad., hoc est per 1/4 16, reddunt .14. pro corda .bg.; et quibus diuisis per 1/4 16, scilicet per dyametrum .ad., uenient 14 pro corda .bg.: et hoc est ualde utile in reperiendo corda cuilibet arcui agregato ex duabus arcubus, quorum corde sint note. Fuerunt quidem note corde arcuum .ba. et .ag., scilicet recte .ab. et .ag.; per quarum notitiam inuenimus cordam .bg. arcui .abg., qui fuit agregatus ex arcu .ba. et .ag.; et hoc demonstrauit TAOLOMEVS in compositione tabule arcuum, et cordarum in almagesti per alium modum. Demonstrauit quidem TAOLOMEVS per consimilem figuram, quod omnis quadrilateri qualitercumque cadentis in circulo, si duo dyametri protrahantur in ipso, multiplicatio unius dyametri in alium equatur duabus multiplicationibus oppositorum laterum; quod sic probatur. In circulo quidem .abcd. sit quadrilaterum .abcd.; et in ipso sint dyametri ipsius quadrilateri .ac. et .bd se inuicem secantes super punctum .e. Dico quod multiplicatio .ac. in .bd. equatur duabus multiplicationibus, que fiunt ex ab. in .cd., et ex .ad. in .bc. Anguli quidem .bae. et .ead. aut sunt equales, aut inequales: sint prius equales; et ostendetur, trigonum .aed. simile esse trigono .abc., cum anguli qui sub .adb. et .acb. sint sibi inuicem equales. Sunt enim in eadem sectione reliquus qui sub .aed. reliquo qui sub .abc. similiter est equalis; quare est sicut .ac ad cb., ita ad. ad .de.: erit ergo multiplicatio .ad. in .cb. equalis .ac. in de.
 
 Similiter ostendetur, trigonum .aeb. simile esse trigono .adc.; quare erit sicut .ac. ad .cd., ita .ab. ad .be.: multiplicatio ergo .ac. in .eb. est equalis multiplicationj .ab. in cd.; ergo multiplicatio .ad. in .bc. cum .ab. in .cd. equatur multiplicationi .ac. in .bd., ut predixi. Sed sit angulus .bae. maior angulo .ead.; et iaceat angulus .bai. equalis angulo .ead.; comunis accipiatur angulus .iae., erit angulus .bae. equalis angulo .iad.; quare ostendetur, trigonum .iad. simile esse trigono .abc.; et trigonum .aib. simile esse trigono .adc., et prouenient de inceps que diximus superius; et ostendetur, multiplicatio dyametri .ac. in dyametrum .bd. equari duabus multiplicationibus oppositorum laterum. Vnde si una ex ipsis cordis fuerit ignota, per notitiam reliquorum poteris ipsam inuenire. Verbi gratia: sit ignotus unus ex dyametris, reliquus uero cum lateribus quadrilateri sit notus.
@@ -2399,6 +3077,18 @@ Si in circulo, cuius dyameter sit 8, latus trigoni equilateri cadentis in circul
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0112
    :page: 105
 
+.. picture:: 0112.g1.png
+   :alt: Archival folio 0112 g1
+
+.. picture:: 0112.g1.svg
+   :alt: Geometric diagram on folio 0112 (figure 1)
+
+.. picture:: 0112.g2.png
+   :alt: Archival folio 0112 g2
+
+.. picture:: 0112.g2.svg
+   :alt: Geometric diagram on folio 0112 (figure 2)
+
 ipso circulo, erit proportio areę exagoni ad quadratum dyametri sui circulj sicut .41, et pedes 3, et uncie 1/2 7 ad 64.; quibus multiplicatis per quadratum dyametrj cuius uis circulj, si summa diuidatur per 64, ueniet utique embadum exagoni cadentis in ipso circulo. Et si in circulo .abgd. eius dyameter .bd. sit .8.; et uis latus penthagonicum, seu decagonicum cadens in ipso circulo reperire, super dyametrum .b.d. á centro .e. cathetus erigatur .ea.; et diuidatur .ed. in duo equa super punctum .z.; et copuletur recta .az.; et iaceat recta .z. equalis recte .az., et copuletur recta .ai. Dico quidem quod recta .ai. latus est penthagonicum: et recta .ie. latus est decagonicum; quod sic probatur: quia linea .ed. diuisa est in duo equa super .z.; et indirecto ipsius adiuncta est linea .ei., erit multiplicatio .ei. in .id. cum quadrato linee .ez. est equalis quadrato lineę .zi. Sed .zi. recta iacet equalis recte .az.; ergo factum ex .ie. in .di. cum quadrato linee .ez. equatur quadrato linee .az. Sed quadrato linee .az. equantur quadrata linearum .ae. et .ez.; ergo factum ex .ie. in .id. cum quadrato lineę .ze. equatur duobus quadratis linearum .ae. et .ez.: comuniter auferatur quadratum linee .ez., remanebit multiplicatio .ei. in .id. equalis quadrato semidyametri .ae., hoc est quadrato semidyametri .de., cum .de. sit equalis linee .ae.; ergo linea .d.i. diuisa est media, et extrema proportione.
 
 Est enim ut .id. ad .de., ita .de. ad .ei.; et est latus exagonicum linea .de.: cum itaque lateri exagonici adiungatur recta, que cum tota diuisa sit secundum mediam, et extremam proportionem in puncto coniunctionis ipsarum, ipsa recta, que coniungitur lateri exagonico, est latus decagonicum, ut EVCLIDES in tertio decimo libro demonstrat. Quare recta .ei. est latus decagonicum. Et quia, ut idem EVCLIDES in eodem libro ostendit, latus penthagonicum posse super latus exagonicum et decagonicum, erit siquidem recta .ai. latus penthagonicum, cum possit equale quadratorum linearum .ae. et .ei., scilicet quadratis lateris exagonici, et decagonici, quod .ai. latus. Monstrabo cum numeris, esse lineam minorem, scilicet radicem abscisionis quartę.
@@ -2408,6 +3098,12 @@ Verbi gratia: dyameter .bd. est .8.; quare utraque rectarum .ae. et .ed. est .4.
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0113
    :page: 106
 
+.. picture:: 0113.g1.png
+   :alt: Archival folio 0113 g1
+
+.. picture:: 0113.g1.svg
+   :alt: Geometric diagram on folio 0113 (figure 1)
+
 et diuiserimus per 8., habebimus latus decagonicum ipsius circulj. Si vero cordam anguli penthagonici .be. in penthagono .abcde., circa quod penthagonum sit circulus .abgde. descriptus, inuenire desideras. Dyametrum ipsius circulj .bz. protrahe, que sit .8.; et copulabis .ze., que erit latus decagonicum: et quia angulus .zeb. est in semicirculo .zeb.; ideo est rectus. Quare si ex quadrato dyametri .bz., quod est .64., auferatur quadratum lateris decagonici .ze., quod inuenimus esse superius .24., minus radice de 320.; quorum radix dicitur linea maior, cum sit radix binomij quarti, remanebunt 40, et radix de 320., que est longitudo corde .be. Vnde potest haberi, quod quorumcumque nominum fuerit quadratum penthagonici, eorumdem nominum erit corda anguli penthagonici. Sed latus penthagonicum est radix recisi quarti, scilicet numeri, minus radice; et quadratum cordę est binomium quartum; et quia minus est reciso suo binomio; idcirco radix quarti recisi dicitur linea minor: et radix quarti binomij dicitur maior.
 
 Aliter protrahatur dyameter .ati. secans cordam .be. super punctum .t.; et copulabo rectam .ib., et erit trigonum .iba. orthogonium; et est diuisum á catheto .bt. in duo trigona sibi inuicem similia et toti; quare est sicut .ia. ad .ab., ita .ab. ad .at.: quare si diuiserimus quadratum lineę .ab., quod est .40, minus radice de .320., per dyametrum .ai., scilicet per .8., habebuntur .5, minus radice de .5. pro linea .at.: quibus extractis ex tota .ai., remanebunt .3, et radix de .5. pro linea .ti.: unde si multiplicauerimus .ti. in .ta., et quadruplicauerimus illud quod prouenerit, habebuntur similiter .40, et radix de .320 pro quadrato linee .be.: est enim radix de 320. 18 minus 1/9; quibus additis cum .40, faciunt 58, minus nona, pro quadrato linee .be., quorum radix est .7, et pedes .3, et uncie .11, et puncta .14. Per quam etiam cordam poteris habere notitiam similium cordarum cadentium in quolibet circulo, si ipsam per dyametrum ipsius circulj duxeris, et summam diuiseris per .8. Et ut habeamus embadum suprascripti penthagoni, multiplicabimus 3/4 dyametri, scilicet .6 per 5/6 corde .be.; uel 5/6 de .6, que sunt .5., multiplica per totam cordam .be., et uenient circa perticas .38, et denarios 1/2 1. mensurę pro embado penthagoni .abgde.: per quod etiam possumus habere notitiam embadorum omnium penthagonorum cadentium in quibuslibet circulis: si multiplicauerimus perticas 38, et denarios 1/2 1. per quadrata dyametrorum ipsorum circulorum, et diuiserimus per quadratum prepositi circulj, scilicet per 64.; quia et EVCLIDES in principio duodecimi libri ostendit similia rectilinea in circulis ad se inuicem sunt sicuti ad dyametrorum tetragona: permutatim ergo est sicut quadratum dyametri unius circulj ad multilaterum cadens in ipsum, ita quadratum alterius circulj ad simile multilaterum cadens in ipsum: possumus etiam aliter habere notitiam corde .be.; et habebitur ex ea que probantur in quarto decimo libro EVCLIDIS, quod corda anguli penthagonici cum latere penthagonico possunt quincuplum tetragoni semidyametri circulj: quare si acceperimus quincuplum quadrati medietatis dyametri, habebimus .80.; de quibus si extraxerimus quadratum lateris penthagonici, scilicet 40, minus radice de 320, remanebunt 40, et radix de 320. pro quadrato corde .be., ut prediximus: uel si multiplicauerimus dyametrum per 5/64, habebimus .40. pro maiori nomine: et si ex quadrato quadrati dyametri acceperimus 5/64, hoc est de 4096, habebimus 320; quorum radix est minus nomen; et sic poteris facere in alijs circulis.
@@ -2416,6 +3112,18 @@ Embadum quidem trigoni equilateri et equianguli cadentis in circulo, cuius
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0114
    :page: 107
+
+.. picture:: 0114.g1.png
+   :alt: Archival folio 0114 g1
+
+.. picture:: 0114.g1.svg
+   :alt: Geometric diagram on folio 0114 (figure 1)
+
+.. picture:: 0114.g2.png
+   :alt: Archival folio 0114 g2
+
+.. picture:: 0114.g2.svg
+   :alt: Geometric diagram on folio 0114 (figure 2)
 
 dyameter est .8.; inuenimus esse superius perticas quadratas .20, et pedes .4., et uncias 3/4 12. Embadum quidem tetragonj est 32, scilicet dimidium de 64., scilicet ex tetragono dyametri. Penthagoni uero 1/24 38. Exagoni quoque .41, et pedes .3, et uncie 1/2 7. Octagoni embadum quidem est perticarum 45, et pedis .1, et uncie 4/9 9, que habentur ex multiplicatione dupli dyametri in medietatem lateris tetragoni, scilicet ex 16 in radice de .8. Embadum quoque decagonj est perticarum 47, et unciarum 1/2 2, que habentur ex multiplicatione quincuplationis quarte partis dyametrj in latus penthagonicum, scilicet ex .10., in perticas .4, et pedes .4., et uncias .3, et puncta .17. Embadum namque dodecagonj est .48 perticarum, que proueniunt ex multiplicatione medietatis dyametrj in medietate omnium laterum exagoni cadentis in ipso circulo. Cvmque omnium harum notitiam habueris: poteris embadum similium figurarum cadentium in alijs circulis de facilj habere: si in memor non fueris ex predictis. Explicatis itaque que ad circulorum demonstrationes pertinent; nunc ad diminutionem camporum, qui in ascensione montium iacent, accedamus.
 
@@ -2430,12 +3138,42 @@ Verbi gratia: sit pertica primo posita .ae., que equidistet lateri .gb.; et per 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0115
    :page: 108
 
+.. picture:: 0115.g1.png
+   :alt: Archival folio 0115 g1
+
+.. picture:: 0115.g1.svg
+   :alt: Geometric diagram on folio 0115 (figure 1)
+
+.. picture:: 0115.g2.png
+   :alt: Archival folio 0115 g2
+
+.. picture:: 0115.g2.svg
+   :alt: Geometric diagram on folio 0115 (figure 2)
+
+.. picture:: 0115.g3.png
+   :alt: Archival folio 0115 g3
+
+.. picture:: 0115.g3.svg
+   :alt: Geometric diagram on folio 0115 (figure 3)
+
 una erit in latere .gb. Verbi gratia: quia pertica .ae. equidistat lateri .gb., erit angulus .eag. rectus, cum sit rectus angulus, qui ad .g.: et quia .ec. est casus lapillj, si emiserimus lineam per .c. á puncto .e. super lineam .gb., que sit linea .ek., erit recta .ek. cathetus super rectam .gb.: quare recta .ek. equidistans est: et equalis recte .ag.; quare .gk. equalis est longitudini perticę .ae. Similiter si per .h. protraxerimus lineam .f.l., inuenies, eisdem dispositis, lineam .kl. equari pertice .ef. Rursus si per casum lapillj cadentis ab .i. in .b. punctum protraxerimus lineam .ib., erit ipsa equidistans, et equalis linee .hl.; quare et .lb. equalis est .hi., scilicet pertice; ergo quotiens pertica accepta fuit equidistanter lineę .gb. super lineam .ab., totiens unius perticę longitudo erit linea .gb., ut prediximus. Est enim archipendulus instrumentum ligneum habens formam trianguli equicrurij; et ab uno angulorum pendit filum cum plumbo: cumque posueris basem ipsius archipendulj super perticam, et ab angulo superiori plumbum cum filo ceciderit super dimidium basis ipsius: tunc pertica stabit equidistanter illj plano, quod mensurare uolueris; quod potueris ad oculum deprehendere in subiecta figura, in qua ponitur pro pertica linea .po., super quam erectus est archipendulus .abg.; et á puncto .a. cadit filum cum plumbo .ad. per punctum .e., qui est in medio .bg. Et si in antecedente figura apparens latus .ab. recte descenderit, non oportebit ponere perticam cum archipendulo nisi semel; quia cum posueris perticam .ae. equidistantem lateri .gb.; et super casum .ec. erecxeris arundinem equalem lineę .ec., erit triangulus .aec. similis triangulo .abg.; quia cum in equidistantibus .ae. et .bg. recta incidit .ab., erit angulus .aec. equalis angulo .abg: similiter quia in equidistantibus .ag. et .ec. recta incidit .ab., erit angulus .gab. equalis angulo .eca.; quare reliquus qui sub .aec. reliquo qui sub .agb. remanet equalis: quare proportionaliter erit sicut .ac. ad totam .ab., ita pertica .ae. ad totam .gb. Vnde si multiplicauerimus .ab. in .ae., et diuiserimus per .ac., proueniet utique linea .gb.; hoc est si feceris perticam equalem lineę .ac., et cum ipsa mensurabis totam lineam .ab., habebis similiter lineam .gb.; quia quot equales linee .ac. sunt in linea .ab., tot equales pertice .ae. sunt in latere .gb.: similiter quot equales linee .ac. sunt in linea .ab., tot equales linee .ec. sunt in altitudine .ag. Vnde si multiplicauerimus .ab. per .ec., et diuiserimus per .ac., proueniet utique altitudo catheti .ag.: et hec inuestigatio catheti est multum utilis in reperiendis altitudinibus pyramidum.
 
 SAPIENTES uero antiqui ordinabant cum arundinibus triangulum similem in hunc modum. Descripta itaque figura suprascripta .agb., cuius latus .ab. iaceat in apparentia montis, per quod uolebant habere longitudinem plani .bg., nec non et altitudinem .ag.; erigebant itaque super radicem montis arundinem .bc. orthogonaliter cuiuscumque magnitudinis, super quam ponebant aliam arundinem facientem angulum .c. rectum, cuius caput alter iacebat super lineam .ab.; que arundo sit linea .ce.; et sic triangulus .cbe. erat similis triangulo .abg.; quare erat sicut .be. ad .ba., ita .ec. ad .bg.: multiplicabant igitur .ab. per .ce., et diuidebant per .be.; et sic habebant notitiam lateris .bg. Similiter quia erat sicut .be. ad .ba., ita .cb. ad .ag.; multiplicabant .ab. per .bc., et diuidebant per .be.; et sic habebant altitudinem .ag. Et si campus in monte positus habuerit formam superficiei alicuius portionum colupne, ita quod apparens superficies sit gimbosa, ut superficies .abde., cuius latera .ab. et .de. sint arcus
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0116
    :page: 109
+
+.. picture:: 0116.g1.png
+   :alt: Archival folio 0116 g1
+
+.. picture:: 0116.g1.svg
+   :alt: Geometric diagram on folio 0116 (figure 1)
+
+.. picture:: 0116.g2.png
+   :alt: Archival folio 0116 g2
+
+.. picture:: 0116.g2.svg
+   :alt: Geometric diagram on folio 0116 (figure 2)
 
 circulj; reliqua uero latera .ad. et .be. sint recta; et sit latus .be. in uertice montis; latus quoque .ad. sit inuersus radicem. Intelligam primum latera plani existentis sub ipsa superficie .agdz. et .gz., nec non et altitudines .bg. et .ez. cadentes orthogonaliter super planum .adzg., et in puncta .g.z.; quare anguli .agb. et .dze. sunt recti: mensurabo siquidem super arcus .ba. et .ed. cum pertica et archipendulo, prohiciendo lapillos super ipsos arcus, incipiendo á punctis .be., que sunt in eminentia campi, et descendendo usque ad puncta .ad.; et sic habebo quantitates .ag. et dz.: et quia latus .ad. est rectus, nec non et in plano superficiei .gadz., mensurabo ipsum sicuti mensurantur latera planorum.
 

@@ -47,6 +47,24 @@ while the remaining perpendiculars are the two sides containing the right angle.
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0038
    :page: 31
 
+.. picture:: 0038.g1.png
+   :alt: Archival folio 0038 g1
+
+.. picture:: 0038.g1.svg
+   :alt: Geometric diagram on folio 0038 (figure 1)
+
+.. picture:: 0038.g2.png
+   :alt: Archival folio 0038 g2
+
+.. picture:: 0038.g2.svg
+   :alt: Geometric diagram on folio 0038 (figure 2)
+
+.. picture:: 0038.g3.png
+   :alt: Archival folio 0038 g3
+
+.. picture:: 0038.g3.svg
+   :alt: Geometric diagram on folio 0038 (figure 3)
+
 *from the multiplication of half the cathetus into the whole base, or from the multiplication of half the base into the whole perpendicular*; which I shall take care to show with demonstrations. 
 If in a triangle from an angle that is not less than any of the remaining angles a cathetus is erected upon the side subtending that angle, it will fall within the triangle. If in triangle .abg. angle .bag. is not less than angle .abg. or .bga., 
 I say that if from point .a. upon straight line .bg. a cathetus is erected, it will fall within triangle .abg.
@@ -68,6 +86,24 @@ which is absurd, since triangle .abg. is acute-angled: therefore the cathetus fr
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0039
    :page: 32
 
+.. picture:: 0039.g1.png
+   :alt: Archival folio 0039 g1
+
+.. picture:: 0039.g1.svg
+   :alt: Geometric diagram on folio 0039 (figure 1)
+
+.. picture:: 0039.g2.png
+   :alt: Archival folio 0039 g2
+
+.. picture:: 0039.g2.svg
+   :alt: Geometric diagram on folio 0039 (figure 2)
+
+.. picture:: 0039.g3.png
+   :alt: Archival folio 0039 g3
+
+.. picture:: 0039.g3.svg
+   :alt: Geometric diagram on folio 0039 (figure 3)
+
 In an obtuse-angled triangle, if a cathetus is drawn from an acute angle upon the side subtending that angle, it will fall outside the triangle. 
 Let there be an obtuse-angled triangle .bdg., having an obtuse angle at .bdg. I say that if from angle .dbg. a cathetus is drawn upon straight line .gd., it will fall outside triangle .bdg. Not so; rather if it is possible, let it fall between .dg. at point .a. And since .ba. is the cathetus upon straight line .gd., 
 the angle at .bad. is indeed right. For the angle at .bda. is greater than a right angle. Wherefore in triangle .bda. there are two angles greater than two right angles; which is impossible. Therefore from point .b. a cathetus upon .gd. does not fall within triangle .bdg. Similarly it will be shown 
@@ -86,6 +122,18 @@ But it is first to be noted that of right-angled and obtuse-angled triangles som
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0040
    :page: 33
+
+.. picture:: 0040.g1.png
+   :alt: Archival folio 0040 g1
+
+.. picture:: 0040.g1.svg
+   :alt: Geometric diagram on folio 0040 (figure 1)
+
+.. picture:: 0040.g2.png
+   :alt: Archival folio 0040 g2
+
+.. picture:: 0040.g2.svg
+   :alt: Geometric diagram on folio 0040 (figure 2)
 
 are isosceles, others scalene. Of acute-angled triangles indeed some are equilateral, others isosceles, and others scalene. Wherefore, that we may have perfectly the doctrine of measuring all kinds of triangles, 
 we divide this part, namely the first of this third distinction, into three differences. In the first of these we shall measure right-angled triangles; in the second, acute-angled; in the third, obtuse-angled.
@@ -106,6 +154,30 @@ from which take away the multiplication of the base into itself, namely 36, ther
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0041
    :page: 34
+
+.. picture:: 0041.g1.png
+   :alt: Archival folio 0041 g1
+
+.. picture:: 0041.g1.svg
+   :alt: Geometric diagram on folio 0041 (figure 1)
+
+.. picture:: 0041.g2.png
+   :alt: Archival folio 0041 g2
+
+.. picture:: 0041.g2.svg
+   :alt: Geometric diagram on folio 0041 (figure 2)
+
+.. picture:: 0041.g3.png
+   :alt: Archival folio 0041 g3
+
+.. picture:: 0041.g3.svg
+   :alt: Geometric diagram on folio 0041 (figure 3)
+
+.. picture:: 0041.g4.png
+   :alt: Archival folio 0041 g4
+
+.. picture:: 0041.g4.svg
+   :alt: Geometric diagram on folio 0041 (figure 4)
 
 and let the base .cd. be unknown. 
 From the square of .bd., namely from 100., extract the square of .bc., namely 64., there remain 36.; whose root, namely 6., is side .cd.
@@ -131,6 +203,18 @@ Wherefore quadrilateral .dgfh. is equal to triangle .def. For quadrilateral .dgf
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0042
    :page: 35
 
+.. picture:: 0042.g1.png
+   :alt: Archival folio 0042 g1
+
+.. picture:: 0042.g1.svg
+   :alt: Geometric diagram on folio 0042 (figure 1)
+
+.. picture:: 0042.g2.png
+   :alt: Archival folio 0042 g2
+
+.. picture:: 0042.g2.svg
+   :alt: Geometric diagram on folio 0042 (figure 2)
+
 consists of the multiplication of cathetus .dg. into .gf., 
 namely into half of .ef. Likewise let there be a scalene and acute-angled triangle .abc.; whose side .ab. let be 13 perticas; side .ac. let be 15 perticas; let base .bc. be 14 perticas. For in this triangle the cathetus cannot be found until first the *casus* upon the base, on which the perpendicular, namely the cathetus, falls, is found; 
 which *casus* can be found in three ways. The first way indeed is that you join the power of one side with the power of the base; and from their sum extract the power of the other side; and divide half of the remainder by the length of the base; and what comes from the division will be the *casus* on that side 
@@ -150,6 +234,12 @@ and since cathetus .ad. is divided into two equal parts according to point .e.; 
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0043
    :page: 36
+
+.. picture:: 0043.g1.png
+   :alt: Archival folio 0043 g1
+
+.. picture:: 0043.g1.svg
+   :alt: Geometric diagram on folio 0043 (figure 1)
 
 .e. is drawn the base .bc. equidistant to straight line .fg., which cuts straight lines .ab. and .ac. into two equal parts at points .h. and .I., according to what is declared in geometry; 
 and the angles at .e. will be right, just as are the angles at .d.: wherefore angles .f. and .g. are right: therefore if straight line .ae. is cut from .a. at .e., and straight line .eh. from .e. at .h.; and triangle .aeh. is placed upon triangle .bfh., straight line .ae. will fall upon straight line .fb.: 
@@ -173,6 +263,12 @@ Likewise since through point .f. is drawn line .fik. equidistant to line .cb.; a
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0044
    :page: 37
 
+.. picture:: 0044.g1.png
+   :alt: Archival folio 0044 g1
+
+.. picture:: 0044.g1.svg
+   :alt: Geometric diagram on folio 0044 (figure 1)
+
 is equidistant to line .fc.; therefore quadrilateral .kbcf. is a parallelogram. Wherefore opposite sides are equal to one another: therefore straight line .fk. is equal to straight line .bc., 
 and straight line .bk. to straight line .cf. Therefore .bk. is 13, there remains .ke. 2. For straight line .ih. is equal to both straight lines .fc. and .kb.
 
@@ -195,6 +291,12 @@ Wherefore the square of line .cg., namely of the greater *casus*, exceeds the sq
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0045
    :page: 38
+
+.. picture:: 0045.g1.png
+   :alt: Archival folio 0045 g1
+
+.. picture:: 0045.g1.svg
+   :alt: Geometric diagram on folio 0045 (figure 1)
 
 in the quantity of the multiplication of line .dg. into line .bg. But it was shown above in another figure, that the excess of the square of *casus* .cg. over the square of *casus* .cb. 
 is as the excess of the square of side .ag. over the square of side .ab. Wherefore the excess of the square of side .ag. over the square of side .ab. is as the multiplication of straight line .dg. into straight line .bg. 
@@ -221,6 +323,24 @@ For in the second book of Euclid it is clearly demonstrated whence proceeds the 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0046
    :page: 39
 
+.. picture:: 0046.g1.png
+   :alt: Archival folio 0046 g1
+
+.. picture:: 0046.g1.svg
+   :alt: Geometric diagram on folio 0046 (figure 1)
+
+.. picture:: 0046.g2.png
+   :alt: Archival folio 0046 g2
+
+.. picture:: 0046.g2.svg
+   :alt: Geometric diagram on folio 0046 (figure 2)
+
+.. picture:: 0046.g3.png
+   :alt: Archival folio 0046 g3
+
+.. picture:: 0046.g3.svg
+   :alt: Geometric diagram on folio 0046 (figure 3)
+
 namely by those which we demonstrated above with demonstrations. And this is the first way: add .13. with .15., namely side .ab. with side .ag., they will be .28.; half of which, namely .14., multiply by the difference, which is from those .14. up to one of the aforesaid sides, namely by .1., 
 they will be .14.; which if you divide by .2., namely by half of the base, there will come .7.; from which having taken away .2., namely .bf., there will remain .5. for *casus* .bd.: upon which .7., if we add line .fg., we shall have .9. for the whole line .dg. 
 Another way indeed is that you extract the power of line .ab. from the power of line .ag., namely .169. from .225.; and the remainder, namely .56., divide by base .bg., namely by .4.; and what came from that division, .4., extract from the base, there will remain .10.; half of which, namely .5., is *casus* .bd. 
@@ -239,6 +359,18 @@ wherefore straight lines .dg. and .gf. are equal to one another; and straight li
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0047
    :page: 40
+
+.. picture:: 0047.g1.png
+   :alt: Archival folio 0047 g1
+
+.. picture:: 0047.g1.svg
+   :alt: Geometric diagram on folio 0047 (figure 1)
+
+.. picture:: 0047.g2.png
+   :alt: Archival folio 0047 g2
+
+.. picture:: 0047.g2.svg
+   :alt: Geometric diagram on folio 0047 (figure 2)
 
 equal to line .db. 
 and .ke. to be the excess of line .he. over .bd.; and triangle .ghe. to be similar to triangle .ekd. Wherefore as .dk. is to .ek., so .eh. is to .hg. Wherefore if the multiplication of .ek. into .eh. is divided by .dk., namely by .bh., which is half of line .bc., there will come line .hg. 10 1/2: 
@@ -276,6 +408,18 @@ and let .bl. be equal to straight line .hg., and .gm. equal to straight line .hb
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0048
    :page: 41
 
+.. picture:: 0048.g1.png
+   :alt: Archival folio 0048 g1
+
+.. picture:: 0048.g1.svg
+   :alt: Geometric diagram on folio 0048 (figure 1)
+
+.. picture:: 0048.g2.png
+   :alt: Archival folio 0048 g2
+
+.. picture:: 0048.g2.svg
+   :alt: Geometric diagram on folio 0048 (figure 2)
+
 the straight lines .al. and .am. will therefore be as half of the sides of triangle .abg. Then let .at. be produced to point .k.; 
 and let straight lines .lk. and .km. be joined; and let that at .alk. be right. Wherefore that at .amk. will be right; because the two straight lines .al. and .ak. are equal to straight lines .ak. and .am.; and the angle at .lak. is equal to the angle at .kam.: wherefore also side .lk. is equal to side .mk.; 
 and the remaining angles will be equal to the remaining angles, which are subtended by equal straight lines: the angle at .akl. indeed to that at .akm., and that at .alk. to that at .amk.; but that at .alk. is right; therefore that at .amk. is right, as we said before. 
@@ -298,6 +442,30 @@ Wherefore the product of .et. into .al., namely into half of the sides of triang
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0049
    :page: 42
 
+.. picture:: 0049.g1.png
+   :alt: Archival folio 0049 g1
+
+.. picture:: 0049.g1.svg
+   :alt: Geometric diagram on folio 0049 (figure 1)
+
+.. picture:: 0049.g2.png
+   :alt: Archival folio 0049 g2
+
+.. picture:: 0049.g2.svg
+   :alt: Geometric diagram on folio 0049 (figure 2)
+
+.. picture:: 0049.g3.png
+   :alt: Archival folio 0049 g3
+
+.. picture:: 0049.g3.svg
+   :alt: Geometric diagram on folio 0049 (figure 3)
+
+.. picture:: 0049.g4.png
+   :alt: Archival folio 0049 g4
+
+.. picture:: 0049.g4.svg
+   :alt: Geometric diagram on folio 0049 (figure 4)
+
 triangle .abg., as was to be shown. 
 And if in any triangle only two sides are proposed as known, and you wish through them to have knowledge of the area and of the other side, as in triangle .abg., whose sides .ab. and .bg. are known, it must first be considered whether the angle contained by the known sides, namely angle .abg., is right, 
 or less, or greater than a right angle. First let it be right; wherefore straight line .ab. is a cathetus upon straight line .bg. Therefore from the product of .ab. into half of .bg. comes the area of triangle .abg.; and if we take together into one the squares of the known lines .ab. and .bg., 
@@ -318,6 +486,18 @@ there will be had .281. for the square of line .ag.: wherefore side .ag. is the 
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0050
    :page: 43
+
+.. picture:: 0050.g1.png
+   :alt: Archival folio 0050 g1
+
+.. picture:: 0050.g1.svg
+   :alt: Geometric diagram on folio 0050 (figure 1)
+
+.. picture:: 0050.g2.png
+   :alt: Archival folio 0050 g2
+
+.. picture:: 0050.g2.svg
+   :alt: Geometric diagram on folio 0050 (figure 2)
 
 .abg. 
 And if only one side of some triangle is proposed as known, and you wish through it to have knowledge of the remaining sides and of its area, as of triangle .dez., whose side .dz. let be known, I shall take on straight line .dz. some part, which let be .az.; 
@@ -342,6 +522,18 @@ it ought to fall upon line .bc.; which done, he will fix the cord at point .a., 
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0051
    :page: 44
+
+.. picture:: 0051.g1.png
+   :alt: Archival folio 0051 g1
+
+.. picture:: 0051.g1.svg
+   :alt: Geometric diagram on folio 0051 (figure 1)
+
+.. picture:: 0051.g2.png
+   :alt: Archival folio 0051 g2
+
+.. picture:: 0051.g2.svg
+   :alt: Geometric diagram on folio 0051 (figure 2)
 
 he will hold the cord with his hand at point .d., namely a little outside the triangle he will lead that cord toward .c., until point .d. touches line .bc.;
 and let its point of contact be .e.; wherefore cord .ae. will be cord .ad.: then he will lead the cord toward .b., until point .d. touches line .bc., wherever chance may grant; and let its point of contact be .f.,
@@ -374,6 +566,12 @@ Wherefore if the multiplication of .ad. into .bg., namely of .4. into .14., is d
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0052
    :page: 45
 
+.. picture:: 0052.g1.png
+   :alt: Archival folio 0052 g1
+
+.. picture:: 0052.g1.svg
+   :alt: Geometric diagram on folio 0052 (figure 1)
+
 We wish to find the quantity of a line drawn and terminated at known endpoints of two sides of a triangle, which is not equidistant to the remaining side. Let there be the same triangle .bag.; and let line .ez. be drawn.
 And let .eb. be two thirds of line .ba., and let .z. be in the middle of .bg.: therefore .be. is 8 2/3, there remains .ea. 4 1/3: we wish therefore to know the quantity of .ez.:
 let cathetus .bd. be drawn, which above we demonstrated to be .12.; and the lesser casus .ad. is 5; the greater also .dg. is .9.; and through point .e. equidistant to base .ag. let .ei. be drawn;
@@ -399,6 +597,12 @@ Otherwise let .ic. be drawn equidistant to line .bd.; and triangle .icg. will be
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0053
    :page: 46
 
+.. picture:: 0053.g1.png
+   :alt: Archival folio 0053 g1
+
+.. picture:: 0053.g1.svg
+   :alt: Geometric diagram on folio 0053 (figure 1)
+
 .bdg. and .zti.: therefore as .gi. is to .gb., so .gc. is to .gd., and .ic. to .bd. For .gi. is the third part of .gb.;
 and .gc. is the third of .gd.; and .ic. is likewise the third of .bd.: therefore .gi. is 5, and .gc. 3, and .ic. 4. And since triangle .zti. is similar to triangle .icg.,
 as .zi. is to .ig., so .ti. is to .cg.: for .gi. is half of .ig.; wherefore .it. is half of .gc. and .zt. is half of .ic.; which was to be shown.
@@ -422,6 +626,18 @@ Let a certain straight line .mno. lie adjacent;
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0054
    :page: 47
+
+.. picture:: 0054.g1.png
+   :alt: Archival folio 0054 g1
+
+.. picture:: 0054.g1.svg
+   :alt: Geometric diagram on folio 0054 (figure 1)
+
+.. picture:: 0054.g2.png
+   :alt: Archival folio 0054 g2
+
+.. picture:: 0054.g2.svg
+   :alt: Geometric diagram on folio 0054 (figure 2)
 
 and let .mn. be .1., and let .no. be .2. And because as .mn. is to .no., so .ze. is to .eh., compoundedly they will also be proportional;
 and it will be as .mn. is to .mo., so .ez. is to .zh. Wherefore as the square of line .mn. is to the square of line .mo., that is, as .1. is to .9.,
@@ -447,6 +663,30 @@ Again let there be the same triangle .abg.; and outside it let point .d. be take
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0055
    :page: 48
+
+.. picture:: 0055.g1.png
+   :alt: Archival folio 0055 g1
+
+.. picture:: 0055.g1.svg
+   :alt: Geometric diagram on folio 0055 (figure 1)
+
+.. picture:: 0055.g2.png
+   :alt: Archival folio 0055 g2
+
+.. picture:: 0055.g2.svg
+   :alt: Geometric diagram on folio 0055 (figure 2)
+
+.. picture:: 0055.g3.png
+   :alt: Archival folio 0055 g3
+
+.. picture:: 0055.g3.svg
+   :alt: Geometric diagram on folio 0055 (figure 3)
+
+.. picture:: 0055.g4.png
+   :alt: Archival folio 0055 g4
+
+.. picture:: 0055.g4.svg
+   :alt: Geometric diagram on folio 0055 (figure 4)
 
 equidistant to base .bg.; and let .de. and .bg. be known, there will remain .ea. known; since the whole .ab. is known. And let a known point .z. be taken in .ab.; and let .dz. be joined;
 and let it be sent out to point .i. I say that the proportion of .gi. to .ia. will be known; let the figure be completed. And since triangle .dze. is similar to triangle .zat., as .ez. is to .za.;
@@ -477,6 +717,24 @@ Likewise if through a given point within the triangle from a given point on one 
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0056
    :page: 49
+
+.. picture:: 0056.g1.png
+   :alt: Archival folio 0056 g1
+
+.. picture:: 0056.g1.svg
+   :alt: Geometric diagram on folio 0056 (figure 1)
+
+.. picture:: 0056.g2.png
+   :alt: Archival folio 0056 g2
+
+.. picture:: 0056.g2.svg
+   :alt: Geometric diagram on folio 0056 (figure 2)
+
+.. picture:: 0056.g3.png
+   :alt: Archival folio 0056 g3
+
+.. picture:: 0056.g3.svg
+   :alt: Geometric diagram on folio 0056 (figure 3)
 
 of the sides of the triangle, the proportion of the division of that side will be found.
 For the sake of example: in triangle .bdg. let there be a given point, a known point .e. on base .gd.; and within the triangle let there be a given point .a., likewise known on line .zk.,
@@ -510,6 +768,18 @@ and also line .ti., let be where we said before; and let angle .egt. be right. W
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0057
    :page: 50
 
+.. picture:: 0057.g1.png
+   :alt: Archival folio 0057 g1
+
+.. picture:: 0057.g1.svg
+   :alt: Geometric diagram on folio 0057 (figure 1)
+
+.. picture:: 0057.g2.png
+   :alt: Archival folio 0057 g2
+
+.. picture:: 0057.g2.svg
+   :alt: Geometric diagram on folio 0057 (figure 2)
+
 to know the segments of lines .gb. and .ad., and also .ab. Let line .ef. indeed be sent out to point .c., and line .ti. to point .l.; and let .cal. be joined;
 and let it be equidistant to line .bg.; and it will be as .eg. is to .ti., so .gz. is to .zt. Wherefore as .eg. and .ti. are to .ti., that is, as .5. is to .3., so .gt. is to .zt.:
 therefore .zt. will be 2 2/5, since .gt. is .4. Again, as .ti. is to .il., so .zt. is to .tc. Wherefore .lc. is 7 1/5; from which having subtracted .la., there remains .ac. 2 1/5.
@@ -540,6 +810,12 @@ Wherefore I multiplied .36. by .5., and had .180. for the square of line .ed.: w
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0058
    :page: 51
 
+.. picture:: 0058.g1.png
+   :alt: Archival folio 0058 g1
+
+.. picture:: 0058.g1.svg
+   :alt: Geometric diagram on folio 0058 (figure 1)
+
 .900., there remained .720. for the square of line .ae.:
 or otherwise, because as .ad. is to .ac., so .ae. is to .ab.: therefore as .36. was to .5., so the square of line .ea. is to the square of line .ba., that is, to .100.:
 wherefore alternately as .5. is to .100., so .36. is to the square of line .ae. Wherefore .36. is to be multiplied by .20., because .5. is 1/20 of .100.; and likewise .720. is had
@@ -566,6 +842,12 @@ I say that the proportion of .3. to .10. is compounded of that which .3. has to 
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0059
    :page: 52
+
+.. picture:: 0059.g1.png
+   :alt: Archival folio 0059 g1
+
+.. picture:: 0059.g1.svg
+   :alt: Geometric diagram on folio 0059 (figure 1)
 
 .7. has to .10. For the multiplication of the antecedents to the product of the consequents
 becomes as .3. to .10.; for if we multiply together the antecedents, namely .3. by .7., there will come .21.: and if we multiply together the consequents, namely .7. by .10., there will come .70.:
@@ -596,6 +878,18 @@ the proportion of .8. to .15. will also be compounded of the permuted proportion
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0060
    :page: 53
 
+.. picture:: 0060.g1.png
+   :alt: Archival folio 0060 g1
+
+.. picture:: 0060.g1.svg
+   :alt: Geometric diagram on folio 0060 (figure 1)
+
+.. picture:: 0060.g2.png
+   :alt: Archival folio 0060 g2
+
+.. picture:: 0060.g2.svg
+   :alt: Geometric diagram on folio 0060 (figure 2)
+
 .4. has to .3.; because the multiplication of .3. into .5.
 is equal to the multiplication of .5. into .3.; and .3. and .5. are consequents in each composition, and .2. and .4. are antecedents. In a similar way also it will be shown that the proportion of .ba. to .ad.
 is compounded of the proportion of .be. to .ez., and of that which .gz. has to .gd., if we draw within the triangle from point .d. a line equidistant to line .be.;
@@ -622,6 +916,12 @@ And although the proportions of the segments of the reflex lines are known, yet 
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0061
    :page: 54
+
+.. picture:: 0061.g1.png
+   :alt: Archival folio 0061 g1
+
+.. picture:: 0061.g1.svg
+   :alt: Geometric diagram on folio 0061 (figure 1)
 
 .ag. to find the *casus* of the perpendicular falling upon it from angle .b.; and we shall find it to be, through those things which were demonstrated in the finding of *casus*, point .e.; wherefore straight line .be. is a cathetus upon straight line .ag.
 Therefore triangles .beg. and .eba. are right-angled: wherefore if the square of side .eg., which is .16., is taken away from the square of line .bg., namely from .97., there will remain .81. for the square of line .be.;
@@ -707,6 +1007,12 @@ and a number, or squares to roots and a number, or a number to roots and *census
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0064
    :page: 57
 
+.. picture:: 0064.g1.png
+   :alt: Archival folio 0064 g1
+
+.. picture:: 0064.g1.svg
+   :alt: Geometric diagram on folio 0064 (figure 1)
+
 of the square is .4., and the square is .16.; that is, the side of the square, equilateral, and equiangular surface is .4., and its area is .16. For as many units as are in each of its sides, so many roots
 are contained in its area, as is shown in this quadrilateral .abcd., which has in each of its sides .4. perticas. Wherefore its area is equal to four roots, of which one is quadrilateral .ae.; the second .zt.; the third .ik.; the fourth
 quadrilateral .lk.cd.: and if the side of the square is .5., it will be equated to roots; and the square will be .25. And when it is said: four squares are equal to .24. roots, then one square is equal to six roots; and each root is .6.,
@@ -727,6 +1033,18 @@ and .5. roots are equal to 39. And if you say: .32 are equal to half a square an
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0065
    :page: 58
 
+.. picture:: 0065.g1.png
+   :alt: Archival folio 0065 g1
+
+.. picture:: 0065.g1.svg
+   :alt: Geometric diagram on folio 0065 (figure 1)
+
+.. picture:: 0065.g2.png
+   :alt: Archival folio 0065 g2
+
+.. picture:: 0065.g2.svg
+   :alt: Geometric diagram on folio 0065 (figure 2)
+
 square, and twelve roots are equal to .64. dragmas: and thus we ought always to reduce questions to one *census*; and according to that which falls proportionally as the reduction of several squares, or parts of one square, to one square, in the same
 proportion are the roots and numbers to be reduced which are proposed with the squares or against them, so that we may come to the knowledge of squares and their roots, as we shall show in what follows. If indeed in square .abgd., which in each
 of its sides has .10. perticas, you desire to have its diameter .ag. or .bd., double its area, namely .100., there will be .200.; take the root of which, and you will have the length of one of the diameters. For example: since the angle is right which
@@ -745,6 +1063,18 @@ and their root, namely .10., you will have for
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0066
    :page: 59
+
+.. picture:: 0066.g1.png
+   :alt: Archival folio 0066 g1
+
+.. picture:: 0066.g1.svg
+   :alt: Geometric diagram on folio 0066 (figure 1)
+
+.. picture:: 0066.g2.png
+   :alt: Archival folio 0066 g2
+
+.. picture:: 0066.g2.svg
+   :alt: Geometric diagram on folio 0066 (figure 2)
 
 the side; that is, two squares are equal to .200.: wherefore one square, namely the area of the tetragon, will be .100. And if the square of the diameter with the area of the tetragon make .300.; therefore three
 squares are equal to .300.; wherefore the third part of them, namely .100., will be the area. The remaining .200. indeed will be had for the square of the diameter; and the root of the area will be the side of the tetragon. And if the area and four of its sides make .140.;
@@ -771,6 +1101,18 @@ Wherefore the area of square .bd. is eleven times eleven,
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0067
    :page: 60
 
+.. picture:: 0067.g1.png
+   :alt: Archival folio 0067 g1
+
+.. picture:: 0067.g1.svg
+   :alt: Geometric diagram on folio 0067 (figure 1)
+
+.. picture:: 0067.g2.png
+   :alt: Archival folio 0067 g2
+
+.. picture:: 0067.g2.svg
+   :alt: Geometric diagram on folio 0067 (figure 2)
+
 namely .121.; and four of its sides, namely surface .ba., is .44., surface .zd. remains 77, as was fitting.
 And thus is to be done in all questions in which a square is equal to roots and a number; namely upon the number let the square of half the roots be added; and from the collected sum let the root be taken, and to it let half of the roots be added;
 and thus will be had the root of the square, which multiplied into itself will make the sought square: as if it is proposed that a *census* is equal to ten roots and .39. dragmas, let the square of five roots, namely .25., be added upon .39., there will be .64.;
@@ -793,6 +1135,12 @@ Wherefore, so that you may reduce these to one *census*, take the third
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0068
    :page: 61
+
+.. picture:: 0068.g1.png
+   :alt: Archival folio 0068 g1
+
+.. picture:: 0068.g1.svg
+   :alt: Geometric diagram on folio 0068 (figure 1)
 
 from all the aforesaid, and you will find
 that a *census* and
@@ -819,6 +1167,24 @@ Let tetragon .abgd. lie adjacent; and let points .e. and .z. be taken; and let e
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0069
    :page: 62
 
+.. picture:: 0069.g1.png
+   :alt: Archival folio 0069 g1
+
+.. picture:: 0069.g1.svg
+   :alt: Geometric diagram on folio 0069 (figure 1)
+
+.. picture:: 0069.g2.png
+   :alt: Archival folio 0069 g2
+
+.. picture:: 0069.g2.svg
+   :alt: Geometric diagram on folio 0069 (figure 2)
+
+.. picture:: 0069.g3.png
+   :alt: Archival folio 0069 g3
+
+.. picture:: 0069.g3.svg
+   :alt: Geometric diagram on folio 0069 (figure 3)
+
 Surface .dz. will therefore be equal to four sides of tetragon .db., therefore surface .eb. remains 4.;
 therefore four roots and .4. are equal to tetragon .db.: let straight line .az. therefore be divided into two equal parts upon .i.; and the multiplication of .zb. into .ab. with the square of line .iz. will be as the tetragon of line .ib. But .zb.
 into .ab. is as .zb. into .ze. But .zb. into .ze. makes surface .eb., namely .4.; therefore from .zb. into .ab. there come out .4.; to which having added the square of line .iz., there will be .8. for the square
@@ -842,6 +1208,18 @@ straight line .bg. as a thing, tetragon .gk. will be a *census*, which is equal 
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0070
    :page: 63
+
+.. picture:: 0070.g1.png
+   :alt: Archival folio 0070 g1
+
+.. picture:: 0070.g1.svg
+   :alt: Geometric diagram on folio 0070 (figure 1)
+
+.. picture:: 0070.g2.png
+   :alt: Archival folio 0070 g2
+
+.. picture:: 0070.g2.svg
+   :alt: Geometric diagram on folio 0070 (figure 2)
 
 Again, I multiplied the diameter by the side, and there came out .100.; how great is therefore the diameter and the side of the tetragon? Since when the diameter is multiplied by the side there comes out .100., if we multiply the square of the diameter by the square of the side, namely by the area
 of the tetragon, there comes out the square of .100., namely ten thousand. Wherefore if we multiply the square of the diameter by double the area, namely by the square of the diameter, there will come out double of it, namely twenty thousand. Therefore the diameter is the root of the root of twenty
@@ -869,6 +1247,18 @@ to which if the square of line .gc. is added,
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0071
    :page: 64
 
+.. picture:: 0071.g1.png
+   :alt: Archival folio 0071 g1
+
+.. picture:: 0071.g1.svg
+   :alt: Geometric diagram on folio 0071 (figure 1)
+
+.. picture:: 0071.g2.png
+   :alt: Archival folio 0071 g2
+
+.. picture:: 0071.g2.svg
+   :alt: Geometric diagram on folio 0071 (figure 2)
+
 it will make .49.: therefore the square of line .gc. is .1.; whose root, namely .1., is line .gc., which added upon .ac., the whole .ag., namely .gd., will be 8, which is
 the longer side; therefore .gb. remains 6., as we said before. Likewise let the area be 48 and let the longer side exceed the shorter by the quantity of two. Take half of that two, it will be .1.; add whose square upon .48.,
 there will be .49.; from which take the root, which is .7., and add upon it .1., which was half of the two aforesaid, there will be .8., which is the longer side; from which take away .2., by which the longer
@@ -892,6 +1282,12 @@ Wherefore if the square of the diameter, namely .100., is taken away from the sq
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0072
    :page: 65
+
+.. picture:: 0072.g1.png
+   :alt: Archival folio 0072 g1
+
+.. picture:: 0072.g1.svg
+   :alt: Geometric diagram on folio 0072 (figure 1)
 
 there will remain .96. for double .ab. into .be., that is, for double .ab. into .bg.: therefore .ab. into .bg.
 makes 48., namely half of .96. But .ab. into .bg. makes the area; therefore the area is .48., as we said before: with which in the aforesaid manner you will separate the sides; and the shorter side will be .6., and the longer .8.
@@ -967,6 +1363,12 @@ and the greater is two more than the lesser, then it will be manifest that if th
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0075
    :page: 68
 
+.. picture:: 0075.g1.png
+   :alt: Archival folio 0075 g1
+
+.. picture:: 0075.g1.svg
+   :alt: Geometric diagram on folio 0075 (figure 1)
+
 the area, there will remain two more than that which remains when the greater side is taken away from the area; therefore having taken away
 the lesser side from the area, there remain 42: do therefore as above, and you will have what was proposed, if God wills.
 
@@ -987,6 +1389,12 @@ those which are described about its diameter are tetragons; therefore .kdbc. and
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0076
    :page: 69
+
+.. picture:: 0076.g1.png
+   :alt: Archival folio 0076 g1
+
+.. picture:: 0076.g1.svg
+   :alt: Geometric diagram on folio 0076 (figure 1)
 
 quadrilateral .nh. is a tetragon, .pimk. and .ilfg. indeed are tetragons; and the side of tetragon .do. is straight line .db.
 Wherefore tetragon .do. is equal to the square of the diameter; and tetragon .pm. indeed has side straight line .pk., which is equal to straight line .cd., and .cd. is equal to the lesser side. Therefore tetragon .pm. is equal to the tetragon
@@ -1033,6 +1441,12 @@ which is the excess of the sides: which multiply by
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0078
    :page: 71
+
+.. picture:: 0078.g1.png
+   :alt: Archival folio 0078 g1
+
+.. picture:: 0078.g1.svg
+   :alt: Geometric diagram on folio 0078 (figure 1)
 
 4, and by .3., there will be .16. and 12, which are the sides. Likewise let the longer side be .20.; divide it therefore by .4., because the four is similar to the longer sides and 3 to the shorter and 5 to the diameters.
 Having divided .20. therefore by .4., there come .5. for the excess; which multiply by .3. and by .5., there will come .15. for the shorter side and 25 for the diameter. Again let the shorter side be .18.:
@@ -1085,6 +1499,12 @@ and you will have the diameter .10.; the greater side also .8., and the lesser .
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0080
    :page: 73
 
+.. picture:: 0080.g1.png
+   :alt: Archival folio 0080 g1
+
+.. picture:: 0080.g1.svg
+   :alt: Geometric diagram on folio 0080 (figure 1)
+
 And if it is proposed: there is an oblong quadrilateral, whose diameter's proportion to its length is as the proportion of its length to its breadth, and the diameter is 10.
 In this moreover .10. is to be divided according to mean and extreme proportion; and what falls to the mean proportion will be the lesser side; and it is to be multiplied by .10;
 and the root of that multiplication will be the longer side: for example: let there lie right-angled triangle .abg., namely half of the oblong quadrilateral, whose diameter is .ag., longer side .ab., and shorter also .bg.;
@@ -1117,6 +1537,18 @@ we shall double the area of triangle .abd. or .bcd.; and thus we shall have what
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0081
    :page: 74
 
+.. picture:: 0081.g1.png
+   :alt: Archival folio 0081 g1
+
+.. picture:: 0081.g1.svg
+   :alt: Geometric diagram on folio 0081 (figure 1)
+
+.. picture:: 0081.g2.png
+   :alt: Archival folio 0081 g2
+
+.. picture:: 0081.g2.svg
+   :alt: Geometric diagram on folio 0081 (figure 2)
+
 has been demonstrated. Wherefore if we multiply cathetus .ae. into the whole .bd., there will come double the area of triangle .abd., that is, the area of rhombus .abcd.: therefore cathetus .ae. falls in the middle of .bd., since isosceles
 is triangle .abd. Wherefore if you wish to have knowledge of it, subtract the square of line .eb. from the square of line .ab., namely .25. from 169, there will remain 144.; whose root, namely .12., is cathetus .ae.:
 for the same reason therefore also cathetus .ce. is likewise .12.; and .c.e. is a straight line in continuation of straight line .ea., since angles .aed. and .dec. are right. Wherefore the diameter is straight line .ac., and it is .24.
@@ -1143,6 +1575,12 @@ The remainder, namely .24., is the longer; multiply indeed half of one of the di
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0082
    :page: 75
+
+.. picture:: 0082.g1.png
+   :alt: Archival folio 0082 g1
+
+.. picture:: 0082.g1.svg
+   :alt: Geometric diagram on folio 0082 (figure 1)
 
 Again I added the two diameters together with the area of the rhombus, and there came forth .154.; and the greater diameter exceeds the lesser by .14. Since the two diameters of the rhombus are equal to the four sides of quadrilateral .ef.:
 set the shorter side to be a thing; and the longer side will be a thing and 7.: multiply therefore the thing into the thing and into .7., there will come forth a *census* and .7. roots, which are the area of quadrilateral .ef.
@@ -1172,6 +1610,12 @@ from which if you subtract
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0083
    :page: 76
 
+.. picture:: 0083.g1.png
+   :alt: Archival folio 0083 g1
+
+.. picture:: 0083.g1.svg
+   :alt: Geometric diagram on folio 0083 (figure 1)
+
 the multiplication of .ad. into .db., there will remain .49. for the square of .dg.; therefore .dg. is .7.; which being added with .bg., the whole .bd., namely the greater diameter, will be .24.; there remains .da. 10., which is the lesser diameter.
 Again I divided the greater diameter by the lesser, and there will come forth from the division 2 2/5, and the area of the rhombus is .120.; how great is therefore each diameter? Since it is as the whole to the whole,
 so is any part to the same part. Therefore as the greater diameter is to the lesser, so half of the greater will be to half of the lesser; and half of the greater is the greater side of quadrilateral .ef.,
@@ -1199,6 +1643,12 @@ Or otherwise: set the lesser side to be a thing, and the greater side will be tw
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0084
    :page: 77
 
+.. picture:: 0084.g1.png
+   :alt: Archival folio 0084 g1
+
+.. picture:: 0084.g1.svg
+   :alt: Geometric diagram on folio 0084 (figure 1)
+
 two *census* and two fifths of a *census*, which are equal to the given area. Let therefore the given area be .100.; which divide by 2 2/5., there will come forth 41 2/3; whose root is .d., namely the lesser side.
 And since it is as .a. to .b., so d. to .e.; therefore as the square of number .a. is to the square of number .b., so the square of quantity .d. will be to the square of quantity .e.
 Wherefore multiply the square of number .b. by the square of quantity .d., namely .144 by 41 2/3.; and divide the sum of the multiplication by the square of number .a., namely by 25,
@@ -1222,6 +1672,24 @@ from the power of side .bc., namely from 1369., there remain 300;
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0085
    :page: 78
+
+.. picture:: 0085.g1.png
+   :alt: Archival folio 0085 g1
+
+.. picture:: 0085.g1.svg
+   :alt: Geometric diagram on folio 0085 (figure 1)
+
+.. picture:: 0085.g2.png
+   :alt: Archival folio 0085 g2
+
+.. picture:: 0085.g2.svg
+   :alt: Geometric diagram on folio 0085 (figure 2)
+
+.. picture:: 0085.g3.png
+   :alt: Archival folio 0085 g3
+
+.. picture:: 0085.g3.svg
+   :alt: Geometric diagram on folio 0085 (figure 3)
 
 whose half, if it is divided by base .cd., namely by 30, yields .5. for the quantity of .dg. or .ah.; whose power, namely .25., having been subtracted from the power of .bd., namely from .169.,
 there remains .144.; whose root, namely .12., is cathetus .bg. Which being multiplied by base .cd., namely 12 by 30, they yield .360 perticas for the area of the said rhomboid, as we taught above.
@@ -1279,6 +1747,18 @@ Now if line .ca and .db. are drawn into the parts of .ab., until at point .h.
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0087
    :page: 80
 
+.. picture:: 0087.g1.png
+   :alt: Archival folio 0087 g1
+
+.. picture:: 0087.g1.svg
+   :alt: Geometric diagram on folio 0087 (figure 1)
+
+.. picture:: 0087.g2.png
+   :alt: Archival folio 0087 g2
+
+.. picture:: 0087.g2.svg
+   :alt: Geometric diagram on folio 0087 (figure 2)
+
 they meet, as in this other figure, in which quadrilateral abcd is transformed into triangle hcd.; and you wish to know the quantity of line .ah. or .bh.
 Subtract half of the head from half of the cutting-off of the base, namely .4. from .9.; and upon the remainder, namely upon .5., divide the multiplication of half of the cutting-off of the head into line .ca., namely of .4. into 13.,
 there will come out 10 2/5. for the quantity of line .ah. or .bh.: and if you multiply the same 4 by cathetus .ae., namely by 12; and divide by 5., there will come out 9 3/5 for the cathetus of triangle .hab.,
@@ -1305,6 +1785,12 @@ for each of them is 16.; the area therefore of quadrilateral .abed. is .288., wh
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0088
    :page: 81
+
+.. picture:: 0088.g1.png
+   :alt: Archival folio 0088 g1
+
+.. picture:: 0088.g1.svg
+   :alt: Geometric diagram on folio 0088 (figure 1)
 
 from the multiplication of .de. into .eb., that is of 16. into .18.: the area indeed of triangle .dec. is gathered from the multiplication of cathetus .de. into half of .ec., namely .16. into 6. make .96.;
 which having been added with 288., namely with the area of quadrilateral .abed., render 384. for the area of quadrilateral .abcd., as I said before.
@@ -1338,6 +1824,18 @@ you wish to draw upon base .cd., it is necessary first to find the falls of the 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0089
    :page: 82
 
+.. picture:: 0089.g1.png
+   :alt: Archival folio 0089 g1
+
+.. picture:: 0089.g1.svg
+   :alt: Geometric diagram on folio 0089 (figure 1)
+
+.. picture:: 0089.g2.png
+   :alt: Archival folio 0089 g2
+
+.. picture:: 0089.g2.svg
+   :alt: Geometric diagram on folio 0089 (figure 2)
+
 thence subtract the power of side .ac., namely .169., from the power of side .bd., namely from 225, there remain .56.; which divide by the above-written .14., there will come out .4.; which add with .14., there will be 18.;
 whose half, namely .9., is the longer fall .de. on the part of side .bd.: from which .9. up to 14. there are lacking .5., which are the shorter fall .fc. from side .ac., as we said in acute-angled triangles.
 Indeed when the power of the lesser fall, namely of .cf., which is .25., is subtracted from the power of side .ac., namely .169., there remain .144.; whose root, namely .12., is cathetus .af.
@@ -1367,6 +1865,24 @@ namely .12. from .16., there remain .4.; whose power, namely 16, let be added wi
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0090
    :page: 83
 
+.. picture:: 0090.g1.png
+   :alt: Archival folio 0090 g1
+
+.. picture:: 0090.g1.svg
+   :alt: Geometric diagram on folio 0090 (figure 1)
+
+.. picture:: 0090.g2.png
+   :alt: Archival folio 0090 g2
+
+.. picture:: 0090.g2.svg
+   :alt: Geometric diagram on folio 0090 (figure 2)
+
+.. picture:: 0090.g3.png
+   :alt: Archival folio 0090 g3
+
+.. picture:: 0090.g3.svg
+   :alt: Geometric diagram on folio 0090 (figure 3)
+
 .40.; whose half, namely 20, is to be divided by the above-written .4., there will come out .5. for the exterior fall .ce., as we demonstrated in the obtuse-angled triangle: which .5. having been added with base .cb.,
 namely with .16., render .21. for the whole line .eb.; from which having subtracted .12., which are the quantity of the head, there remain .9. for the quantity of the interior fall .fb.
 Wherefore when the power of .fb., namely .81., is subtracted from the power of side .ba., namely .225.; or the power of .ce., namely .25., is subtracted from the power of .cd., namely from 169, there will remain .144.;
@@ -1395,6 +1911,12 @@ And it is to be noted that a multilateral figure which consists of five sides is
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0091
    :page: 84
 
+.. picture:: 0091.g1.png
+   :alt: Archival folio 0091 g1
+
+.. picture:: 0091.g1.svg
+   :alt: Geometric diagram on folio 0091 (figure 1)
+
 through the resolution of them into triangles multilateral figures can be measured, yet sometimes we can proceed more subtly in certain ones, namely when the figure is a pentagon, that is, of five sides; and you will be able to make from it
 two pieces, of which one will be a triangle, and the other becomes a quadrilateral, in which its sides will be equidistant, as in pentagon .abcde., from which triangle .abe. having been cut off, there remains quadrilateral .ebcd.
 with cut-off head, whose side .be. is equidistant to side .cd.; then you will gather the area of triangle .abe., and you will add it with the area of quadrilateral .bcde., and you will have the area of pentagon .abcde.
@@ -1411,6 +1933,18 @@ is equal to the angle which is under .fal.: wherefore also base .fl. is equal to
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0092
    :page: 85
+
+.. picture:: 0092.g1.png
+   :alt: Archival folio 0092 g1
+
+.. picture:: 0092.g1.svg
+   :alt: Geometric diagram on folio 0092 (figure 1)
+
+.. picture:: 0092.g2.png
+   :alt: Archival folio 0092 g2
+
+.. picture:: 0092.g2.svg
+   :alt: Geometric diagram on folio 0092 (figure 2)
 
 upon straight line .ae.; and because .al. is equal to straight line .el.,
 if straight line .fl. lies in common, the two straight lines .fl. and .la. will be equal to the two straight lines .fl. and .le.; and the angles which are at .l. are equal, since each of them is right:
@@ -1436,6 +1970,18 @@ and chord .be. will be the root of .40., and of the root of 320.; and this is wh
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0093
    :page: 86
+
+.. picture:: 0093.g1.png
+   :alt: Archival folio 0093 g1
+
+.. picture:: 0093.g1.svg
+   :alt: Geometric diagram on folio 0093 (figure 1)
+
+.. picture:: 0093.g2.png
+   :alt: Archival folio 0093 g2
+
+.. picture:: 0093.g2.svg
+   :alt: Geometric diagram on folio 0093 (figure 2)
 
 **If** indeed a field is not rectilinear, as quadrilateral .abcdez., whose two sides .az. and .cd. are rectilinear, while the remaining .abc. and .dez. are curved;
 in what manner you ought to measure it and similar ones, I shall show. From .a. indeed into .c. and from .z. into .d. let straight lines .ac. and .dz. be drawn; then take care to gather the area of rectilinear quadrilateral .acdz., according to those things which
@@ -1474,6 +2020,12 @@ For example: half of curve .abgd. is 22, whose square is .484.; which multiplied
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0094
    :page: 87
+
+.. picture:: 0094.g1.png
+   :alt: Archival folio 0094 g1
+
+.. picture:: 0094.g1.svg
+   :alt: Geometric diagram on folio 0094 (figure 1)
 
 22, there come 154., as we found above: or if we divide 484 by 22, there will come .22; which multiplied by 7 similarly make 154. **And** if the diameter of the circle is .10.,
 the circumferential line will certainly be 31 2/7., which come forth from the multiplication of .10. by 3 1/7. Wherefore if we multiply half of the diameter, namely .5., by half of the circumferential line,
@@ -1558,6 +2110,12 @@ therefore the proportion of .ca. to .ak. is almost 458 4/5 to 15. But the propor
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0097
    :page: 90
 
+.. picture:: 0097.g1.png
+   :alt: Archival folio 0097 g1
+
+.. picture:: 0097.g1.svg
+   :alt: Geometric diagram on folio 0097 (figure 1)
+
 .ai. But double .ai. is the side of the equilateral figure described about circle .abgd., having 96 sides; wherefore it is as 458 4/5 to 15.,
 so diameter .ga. to one of the sides of the above-said figure having .96. sides. Wherefore if we multiply 15 by 96, there will come forth .1440. for the sum of the sides of that figure:
 therefore the proportion of all the sides of the above-said figure to the diameter of the circle falling in it is as 1440 to 458 4/5. I shall find again the proportion of the circle to its diameter
@@ -1604,6 +2162,18 @@ therefore the ancient sages laid down that the circle is triple and a seventh of
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0099
    :page: 92
+
+.. picture:: 0099.g1.png
+   :alt: Archival folio 0099 g1
+
+.. picture:: 0099.g1.svg
+   :alt: Geometric diagram on folio 0099 (figure 1)
+
+.. picture:: 0099.g2.png
+   :alt: Archival folio 0099 g2
+
+.. picture:: 0099.g2.svg
+   :alt: Geometric diagram on folio 0099 (figure 2)
 
 For the evidence of which matter let there be semicircle .abg., whose diameter .ag. let be .24.; and let circle .abgd. be completed; and the supplement .adg. will similarly be a semicircle.
 Wherefore if we take half of the area of circle .abgd., we shall certainly have the area of the given semicircle .abg. Or multiply half of the diameter, namely 12, by 3 1/7,
@@ -1663,6 +2233,18 @@ But .fa. is equal to .fb., since both of them are produced from center .f. and t
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0101
    :page: 94
+
+.. picture:: 0101.g1.png
+   :alt: Archival folio 0101 g1
+
+.. picture:: 0101.g1.svg
+   :alt: Geometric diagram on folio 0101 (figure 1)
+
+.. picture:: 0101.g2.png
+   :alt: Archival folio 0101 g2
+
+.. picture:: 0101.g2.svg
+   :alt: Geometric diagram on folio 0101 (figure 2)
 
 of line .ef. is equal to the square of line .fb. But the square of line .fb. is equal to the two squares of lines .be. and .ef.; therefore the multiplication of .ae. into .ec.
 with the square of line .ef. is equal to the two squares of lines .be. and .ef.: wherefore if the squares of line .ef. are taken away in common, there will remain the multiplication of .ae. into .ec.
@@ -2134,6 +2716,12 @@ therefore I have arranged two arcs before those chords, as is shown in the follo
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0104
    :page: 97
 
+.. picture:: 0104.g1.png
+   :alt: Archival folio 0104 g1
+
+.. picture:: 0104.g1.svg
+   :alt: Geometric diagram on folio 0104 (figure 1)
+
 **Since** through these tables I have proposed to demonstrate how the arcs of circles ought to be found, so that this teaching may be better grasped, it must be shown that if in a circle there are two
 unequal arcs, the proportion of the greater arc to its chord will be greater than the proportion of the lesser arc to its own; which is clear, and can even be perceived by the eye in
 the above-written tables: indeed the proportion of the arc of a semicircle to its chord, namely to the diameter of the circle, is as .66 to 42; and this is as .11 to .7; and the proportion of the arc
@@ -2158,6 +2746,12 @@ Wherefore the proportion of the whole angle .gde. to angle .eda. is greater than
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0105
    :page: 98
+
+.. picture:: 0105.g1.png
+   :alt: Archival folio 0105 g1
+
+.. picture:: 0105.g1.svg
+   :alt: Geometric diagram on folio 0105 (figure 1)
 
 .ge. to straight line .ea. But the proportion of angle .gde. to angle .ade. is as the proportion
 of arc .gb. to arc .ba.; and the proportion of .ge. to .ea. is as the proportion of chord .gb. to chord .ba. Therefore the proportion of arc .gb. to arc .ba. is greater than the proportion of chord .gb. to
@@ -2186,6 +2780,18 @@ which will be of .21 perticas, and 3 feet, and
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0106
    :page: 99
 
+.. picture:: 0106.g1.png
+   :alt: Archival folio 0106 g1
+
+.. picture:: 0106.g1.svg
+   :alt: Geometric diagram on folio 0106 (figure 1)
+
+.. picture:: 0106.g2.png
+   :alt: Archival folio 0106 g2
+
+.. picture:: 0106.g2.svg
+   :alt: Geometric diagram on folio 0106 (figure 2)
+
 .9. unciae, as was found above. And from all these things we wish to find the quantity of arc .ei.
 But we know from the premises that the proportion of arc .ez. to chord .ez. is less than the proportion of arc .ei. to chord .ei.: but if we set the proportion of arc .ei. to chord
 .ei. to be that which arc .ez. has to chord .ez., arc .ei. will be of .22 perticas, and .3 feet, and .12. unciae, which come forth from the divided multiplication of chord .ez. into chord .ei.
@@ -2211,6 +2817,12 @@ and divide by 42.; or if you multiply it by the sixth of .12., and divide the su
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0107
    :page: 100
+
+.. picture:: 0107.g1.png
+   :alt: Archival folio 0107 g1
+
+.. picture:: 0107.g1.svg
+   :alt: Geometric diagram on folio 0107 (figure 1)
 
 .ei., which will be similar to chord .ad. of the given circle .abgd. from the found arc .ezi.; and you will subtract arc .ez., there will remain .4. feet, and .1. uncia, and .6. points, which are in sum
 1466. points; which multiply by the difference which is between chord .ez. and chord .et., which are known from the tables; and that difference is line .nt., which is of 1856 points; and you will divide
@@ -2240,6 +2852,30 @@ semidiameter .ad. by half of arc .bgd., namely .5 by 4, there will come 20 for t
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0108
    :page: 101
 
+.. picture:: 0108.g1.png
+   :alt: Archival folio 0108 g1
+
+.. picture:: 0108.g1.svg
+   :alt: Geometric diagram on folio 0108 (figure 1)
+
+.. picture:: 0108.g2.png
+   :alt: Archival folio 0108 g2
+
+.. picture:: 0108.g2.svg
+   :alt: Geometric diagram on folio 0108 (figure 2)
+
+.. picture:: 0108.g3.png
+   :alt: Archival folio 0108 g3
+
+.. picture:: 0108.g3.svg
+   :alt: Geometric diagram on folio 0108 (figure 3)
+
+.. picture:: 0108.g4.png
+   :alt: Archival folio 0108 g4
+
+.. picture:: 0108.g4.svg
+   :alt: Geometric diagram on folio 0108 (figure 4)
+
 point .e.; and let the proportion of straight line .de. to straight line .da. be as .da. to .db.; wherefore .ed. will be .16, namely double line .da.; since .da. is double line .db.
 Or otherwise let .ad. be multiplied into .dg., namely .8 by 8., there will be 64; which let be divided by straight line .bd., namely by .4., there will come .16 for line .de., as we said; therefore the whole diameter .be. will be 20.;
 and let the center of the circle be taken as point .f.; and let .fa. fg. be joined, and there will be sector .fabg.: wherefore if we multiply .fb. into half of arc .abg., namely into arc .bg., there will come the area of sector
@@ -2260,6 +2896,18 @@ if we draw rectilinear triangles .eab. and .zbg. and .igd. and .tad., there will
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0109
    :page: 102
+
+.. picture:: 0109.g1.png
+   :alt: Archival folio 0109 g1
+
+.. picture:: 0109.g1.svg
+   :alt: Geometric diagram on folio 0109 (figure 1)
+
+.. picture:: 0109.g2.png
+   :alt: Archival folio 0109 g2
+
+.. picture:: 0109.g2.svg
+   :alt: Geometric diagram on folio 0109 (figure 2)
 
 a triangle is drawn; and in the remaining breasts you take care to work that same thing, the whole oval figure above-written and spoken of will be resolved into rectilinear figures; and there will not remain from
 it anything perceptible; of all which rectilinear figures, if we reduce the areas into one, surely we shall immediately have the area of the whole figure. Otherwise join the diameters
@@ -2289,6 +2937,18 @@ namely by .8., there will come 12 1/2 for diameter .ad.: or otherwise because th
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0110
    :page: 103
 
+.. picture:: 0110.g1.png
+   :alt: Archival folio 0110 g1
+
+.. picture:: 0110.g1.svg
+   :alt: Geometric diagram on folio 0110 (figure 1)
+
+.. picture:: 0110.g2.png
+   :alt: Archival folio 0110 g2
+
+.. picture:: 0110.g2.svg
+   :alt: Geometric diagram on folio 0110 (figure 2)
+
 the multiplication of .be. into .eg.; wherefore if we multiply .be. into .eg., and divide by .ae., namely 36 by 8, there will come 4 1/2 for line .ed. Wherefore the whole diameter .ad. will be 12 1/2, as we said before.
 But let each of straight lines .ab and .ag. be known with diameter .ad.; and let straight line .bg. be unknown; since triangle .abd. is right-angled, and from its right angle
 upon base .ad. at right angles straight line .be. has been drawn, triangles .abe. and .bed. will be similar to one another, and also to the whole triangle .abd.; wherefore as .da. is to .ab.,
@@ -2315,6 +2975,24 @@ since triangles .abd. and .agd. are right-angled; and .bd. will be 9 3/4; and st
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0111
    :page: 104
 
+.. picture:: 0111.g1.png
+   :alt: Archival folio 0111 g1
+
+.. picture:: 0111.g1.svg
+   :alt: Geometric diagram on folio 0111 (figure 1)
+
+.. picture:: 0111.g2.png
+   :alt: Archival folio 0111 g2
+
+.. picture:: 0111.g2.svg
+   :alt: Geometric diagram on folio 0111 (figure 2)
+
+.. picture:: 0111.g3.png
+   :alt: Archival folio 0111 g3
+
+.. picture:: 0111.g3.svg
+   :alt: Geometric diagram on folio 0111 (figure 3)
+
 we multiply 6 1/4 by .13., that is gd. by .ab., and 9 3/4 by 15, that is .bd. by ag., we shall have 227 1/2; which divided by diameter .ad., that is by 16 1/4, they yield .14. for chord .bg.; and when these are divided by 16 1/4, namely by diameter .ad., there will come 14 for chord .bg.: and this is very useful in finding the chord for any arc compounded of two arcs, whose chords are known. Indeed the chords of arcs .ba. and .ag. were known, namely straight lines .ab. and .ag.; through the knowledge of which we found chord .bg. for arc .abg., which was compounded from arc .ba. and .ag.; and this Ptolemy demonstrated in the composition of the table of arcs and chords in the Almagest in another way. Indeed Ptolemy demonstrated through a very similar figure that for any quadrilateral whatsoever inscribed in a circle, if two diameters are drawn in it, the multiplication of one diameter into the other is equal to the two multiplications of opposite sides; which is proved thus. In circle .abcd. let there be quadrilateral .abcd.; and in it let there be the diameters of that quadrilateral, .ac. and .bd, intersecting one another upon point .e. I say that the multiplication of .ac. into .bd. is equal to the two multiplications which are made from ab. into .cd., and from .ad. into .bc. Indeed angles .bae. and .ead. are either equal or unequal: let them first be equal; and it will be shown that triangle .aed. is similar to triangle .abc., since the angles which are under .adb. and .acb. are equal to one another. For they are in the same segment; the remaining angle which is under .aed. is likewise equal to the remaining one which is under .abc.; wherefore as .ac is to cb., so is ad. to .de.: therefore the multiplication of .ad. into .cb. will be equal to .ac. into de.
 
 Similarly it will be shown that triangle .aeb. is similar to triangle .adc.; wherefore as .ac. is to .cd., so is .ab. to .be.: therefore the multiplication of .ac. into .eb. is equal to the multiplication of .ab. into cd.; therefore the multiplication of .ad. into .bc. with .ab. into .cd. is equal to the multiplication of .ac. into .bd., as I said before. But let angle .bae. be greater than angle .ead.; and let angle .bai. lie equal to angle .ead.; let angle .iae. be taken in common, angle .bae. will be equal to angle .iad.; wherefore it will be shown that triangle .iad. is similar to triangle .abc.; and triangle .aib. is similar to triangle .adc., and there will come forth in turn what we said above; and it will be shown that the multiplication of diameter .ac. into diameter .bd. is equal to the two multiplications of opposite sides. Hence if one of those chords is unknown, through knowledge of the remaining ones you will be able to find it. For example: let one of the diameters be unknown, while the remaining one with the sides of the quadrilateral is known.
@@ -2326,6 +3004,18 @@ If in a circle whose diameter is 8 you desire to find the side of an equilateral
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0112
    :page: 105
 
+.. picture:: 0112.g1.png
+   :alt: Archival folio 0112 g1
+
+.. picture:: 0112.g1.svg
+   :alt: Geometric diagram on folio 0112 (figure 1)
+
+.. picture:: 0112.g2.png
+   :alt: Archival folio 0112 g2
+
+.. picture:: 0112.g2.svg
+   :alt: Geometric diagram on folio 0112 (figure 2)
+
 the same circle, the ratio of the area of the hexagon to the square of the diameter of its circle will be as .41, and 3 feet, and 7 1/2 unciae to 64.; which having been multiplied by the square of the diameter of any circle whatsoever, if the sum is divided by 64, there will come indeed the area of the hexagon inscribed in that circle. And if in circle .abgd. its diameter .bd. is .8.; and you wish to find the pentagonal or decagonal side inscribed in that circle, upon diameter .b.d. from center .e. let cathetus .ea. be erected; and let .ed. be divided into two equal parts at point .z.; and let straight line .az. be joined; and let straight line .z. lie equal to straight line .az., and let straight line .ai. be joined. I say indeed that straight line .ai. is the pentagonal side: and straight line .ie. is the decagonal side; which is proved thus: because line .ed. is divided into two equal parts at .z.; and in a straight line with it is adjoined line .ei., the multiplication of .ei. into .id. with the square of line .ez. is equal to the square of line .zi. But straight line .zi. lies equal to straight line .az.; therefore the product of .ie. into .di. with the square of line .ez. is equal to the square of line .az. But to the square of line .az. are equal the squares of lines .ae. and .ez.; therefore the product of .ie. into .id. with the square of line .ze. is equal to the two squares of lines .ae. and .ez.: let the square of line .ez. be removed in common, the multiplication of .ei. into .id. will remain equal to the square of semidiameter .ae., that is to the square of semidiameter .de., since .de. is equal to line .ae.; therefore line .d.i. is divided in mean and extreme ratio.
 
 For as .id. is to .de., so is .de. to .ei.; and the hexagonal side is line .de.: since therefore to the side of a hexagon a straight line is adjoined which with the whole is divided according to mean and extreme ratio at the point of their conjunction, that straight line which is joined to the hexagonal side is the decagonal side, as Euclid demonstrates in the thirteenth book. Wherefore straight line .ei. is the decagonal side. And because, as the same Euclid shows in the same book, the pentagonal side has power equal to the hexagonal and decagonal side, straight line .ai. will indeed be the pentagonal side, since it has power equal to the squares of lines .ae. and .ei., namely to the squares of the hexagonal and decagonal side, which side .ai. I shall show with numbers to be the minor line, namely the root of the fourth apotome.
@@ -2335,6 +3025,12 @@ For example: diameter .bd. is .8.; wherefore each of the straight lines .ae. and
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0113
    :page: 106
 
+.. picture:: 0113.g1.png
+   :alt: Archival folio 0113 g1
+
+.. picture:: 0113.g1.svg
+   :alt: Geometric diagram on folio 0113 (figure 1)
+
 and divide by 8., we shall have the decagonal side of that circle. But if you desire to find the chord of the pentagonal angle .be. in pentagon .abcde., around which pentagon let circle .abgde. be described. Draw diameter .bz. of that circle, which let be .8.; and you will join .ze., which will be the decagonal side: and because angle .zeb. is in semicircle .zeb.; therefore it is right. Wherefore if from the square of diameter .bz., which is .64., the square of the decagonal side .ze. is taken away, which we found above to be .24., minus the root of 320.; whose root is called the major line, since it is the root of the fourth binomial, there will remain 40, and the root of 320., which is the length of chord .be. Whence it can be had that of whatever terms the square of the pentagonal side is, of the same terms will be the chord of the pentagonal angle. But the pentagonal side is the root of the fourth apotome, namely of a number minus a root; and the square of the chord is the fourth binomial; and because an apotome is less than its binomial; therefore the root of the fourth apotome is called the minor line: and the root of the fourth binomial is called the major.
 
 Otherwise let diameter .ati. be drawn cutting chord .be. at point .t.; and I shall join straight line .ib., and triangle .iba. will be right-angled; and it is divided by cathetus .bt. into two triangles similar to one another and to the whole; wherefore as .ia. is to .ab., so is .ab. to .at.: wherefore if we divide the square of line .ab., which is .40, minus the root of .320., by diameter .ai., namely by .8., there will be had .5, minus the root of .5. for line .at.: which subtracted from the whole .ai., there will remain .3, and the root of .5. for line .ti.: hence if we multiply .ti. into .ta., and quadruple that which comes forth, there will similarly be had .40, and the root of .320 for the square of line .be.: for the root of 320. is 18 minus 1/9; which added with .40, make 58, minus a ninth, for the square of line .be., whose root is .7, and .3 feet, and .11 unciae, and .14 points. Through which chord also you will be able to have knowledge of similar chords inscribed in any circle, if you multiply it by the diameter of that circle, and divide the sum by .8. And so that we may have the area of the above-written pentagon, we shall multiply 3/4 of the diameter, namely .6, by 5/6 of chord .be.; or 5/6 of .6, which are .5., multiply by the whole chord .be., and there will come about .38 perticas, and 1 1/2 denarii of measure for the area of pentagon .abgde.: through which also we can have knowledge of the areas of all pentagons inscribed in any circles whatsoever: if we multiply 38 perticas, and 1 1/2 denarii by the squares of the diameters of those circles, and divide by the square of the proposed circle, namely by 64.; because Euclid also at the beginning of the twelfth book shows that similar rectilinear figures in circles are to one another as the squares of their diameters: alternately therefore as the square of the diameter of one circle is to the multilateral inscribed in it, so is the square of another circle to a similar multilateral inscribed in it: we can also otherwise have knowledge of chord .be.; and it will be had from those things which are proved in the fourteenth book of Euclid, that the chord of the pentagonal angle together with the pentagonal side has power equal to five times the square of the semidiameter of the circle: wherefore if we take five times the square of half of the diameter, we shall have .80.; from which if we subtract the square of the pentagonal side, namely 40, minus the root of 320, there will remain 40, and the root of 320. for the square of chord .be., as we said before: or if we multiply the diameter by 5/64, we shall have .40. for the greater term: and if from the square of the square of the diameter we take 5/64, that is from 4096, we shall have 320; whose root is the lesser term; and thus you will be able to do in other circles.
@@ -2343,6 +3039,18 @@ Indeed the area of an equilateral and equiangular triangle inscribed in a circle
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0114
    :page: 107
+
+.. picture:: 0114.g1.png
+   :alt: Archival folio 0114 g1
+
+.. picture:: 0114.g1.svg
+   :alt: Geometric diagram on folio 0114 (figure 1)
+
+.. picture:: 0114.g2.png
+   :alt: Archival folio 0114 g2
+
+.. picture:: 0114.g2.svg
+   :alt: Geometric diagram on folio 0114 (figure 2)
 
 diameter is .8.; we found above to be .20 square perticas, and .4. feet, and 12 3/4 unciae. Indeed the area of the tetragon is 32, namely half of 64., namely of the square of the diameter. That of the pentagon indeed is 38 1/24. That of the hexagon also is .41, and .3 feet, and 7 1/2 unciae. The area of the octagon indeed is 45 perticas, and .1 foot, and 9 4/9 unciae, which are had from the multiplication of the double diameter into half the side of the tetragon, namely from 16 into the root of .8. The area also of the decagon is 47 perticas, and 2 1/2 unciae, which are had from the multiplication of five times the fourth part of the diameter into the pentagonal side, namely from .10., into .4 perticas, and .4. feet, and .3 unciae, and .17 points. For the area of the dodecagon is .48 perticas, which come forth from the multiplication of half the diameter into half of all the sides of the hexagon inscribed in that circle. And when you have knowledge of all these things, you will easily be able to have the area of similar figures inscribed in other circles, if you are not unmindful of the aforesaid things. Having therefore unfolded those things which pertain to the demonstrations of circles, let us now proceed to the reduction of fields which lie on the ascent of mountains.
 
@@ -2357,12 +3065,42 @@ For example: let the rod first be placed .ae., so that it is equidistant to side
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0115
    :page: 108
 
+.. picture:: 0115.g1.png
+   :alt: Archival folio 0115 g1
+
+.. picture:: 0115.g1.svg
+   :alt: Geometric diagram on folio 0115 (figure 1)
+
+.. picture:: 0115.g2.png
+   :alt: Archival folio 0115 g2
+
+.. picture:: 0115.g2.svg
+   :alt: Geometric diagram on folio 0115 (figure 2)
+
+.. picture:: 0115.g3.png
+   :alt: Archival folio 0115 g3
+
+.. picture:: 0115.g3.svg
+   :alt: Geometric diagram on folio 0115 (figure 3)
+
 in side .gb. For example: because rod .ae. is equidistant to side .gb., angle .eag. will be right, since the angle at .g. is right: and because .ec. is the fall of the pebble, if we send out a line through .c. from point .e. upon line .gb., which let be line .ek., straight line .ek. will be a cathetus upon straight line .gb.: wherefore straight line .ek. is equidistant and equal to straight line .ag.; wherefore .gk. is equal to the length of rod .ae. Similarly if through .h. we draw line .f.l., you will find, with the same things disposed, line .kl. to be equal to rod .ef. Again, if through the fall of the pebble falling from .i. onto point .b. we draw line .ib., it will be equidistant and equal to line .hl.; wherefore .lb. is also equal to .hi., namely to the rod; therefore as many times as the rod was taken equidistantly to line .gb. upon line .ab., so many times will the length of one rod be line .gb., as we said before. For an archipendulum is a wooden instrument having the form of an isosceles triangle; and from one of the angles hangs a thread with a plumb: and when you have placed the base of that archipendulum upon the rod, and from the upper angle the plumb with the thread falls upon the midpoint of its base: then the rod will stand equidistantly to that plane which you wish to measure; which you will be able to perceive by the eye in the underlying figure, in which is set for the rod line .po., upon which archipendulum .abg. is erected; and from point .a. falls the thread with the plumb .ad. through point .e., which is in the middle of .bg. And if in the preceding figure the apparent side .ab. descends in a straight line, it will not be necessary to place the rod with the archipendulum except once; because when you have placed rod .ae. equidistant to side .gb., and upon the fall .ec. have erected a reed equal to line .ec., triangle .aec. will be similar to triangle .abg.; because when upon equidistant lines .ae. and .bg. straight line .ab. falls, angle .aec. will be equal to angle .abg: similarly because upon equidistant lines .ag. and .ec. straight line .ab. falls, angle .gab. will be equal to angle .eca.; wherefore the remaining angle which is under .aec. remains equal to the remaining one which is under .agb.: wherefore proportionally as .ac. is to the whole .ab., so is rod .ae. to the whole .gb. Hence if we multiply .ab. into .ae., and divide by .ac., there will come forth indeed line .gb.; that is, if you make a rod equal to line .ac., and with it you measure the whole line .ab., you will similarly have line .gb.; because as many equal lines .ac. as there are in line .ab., so many equal rods .ae. are in side .gb.: similarly as many equal lines .ac. as there are in line .ab., so many equal lines .ec. are in altitude .ag. Hence if we multiply .ab. by .ec., and divide by .ac., there will come forth indeed the altitude of cathetus .ag.: and this investigation of the cathetus is very useful in finding the altitudes of pyramids.
 
 Wise ancients indeed used to arrange a similar triangle with reeds in this manner. Having therefore drawn the above-written figure .agb., whose side .ab. lies on the apparent slope of the mountain, through which they wished to have the length of plane .bg., and likewise the altitude .ag.; they therefore erected upon the foot of the mountain a reed .bc. orthogonally of any magnitude whatsoever, upon which they placed another reed making angle .c. right, whose other head lay upon line .ab.; which reed let be line .ce.; and thus triangle .cbe. was similar to triangle .abg.; wherefore as .be. was to .ba., so was .ec. to .bg.: they therefore multiplied .ab. by .ce., and divided by .be.; and thus they had knowledge of side .bg. Similarly because as .be. was to .ba., so was .cb. to .ag.; they multiplied .ab. by .bc., and divided by .be.; and thus they had altitude .ag. And if a field placed on a mountain has the form of the surface of some portion of a column, so that the apparent surface is convex, like surface .abde., whose sides .ab. and .de. are arcs
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0116
    :page: 109
+
+.. picture:: 0116.g1.png
+   :alt: Archival folio 0116 g1
+
+.. picture:: 0116.g1.svg
+   :alt: Geometric diagram on folio 0116 (figure 1)
+
+.. picture:: 0116.g2.png
+   :alt: Archival folio 0116 g2
+
+.. picture:: 0116.g2.svg
+   :alt: Geometric diagram on folio 0116 (figure 2)
 
 of a circle; while the remaining sides .ad. and .be. are straight; and let side .be. be at the summit of the mountain; let side .ad. also be toward the foot. I shall understand first the sides of the plane existing beneath that surface to be .agdz. and .gz., and likewise the altitudes .bg. and .ez. falling orthogonally upon plane .adzg., and at points .g. and .z.; wherefore angles .agb. and .dze. are right: I shall measure indeed upon arcs .ba. and .ed. with the rod and archipendulum, throwing pebbles upon those arcs, beginning from points .be., which are at the height of the field, and descending all the way to points .ad.; and thus I shall have the quantities .ag. and dz.: and because side .ad. is straight, and likewise in the plane of surface .gadz., I shall measure it just as the sides of planes are measured.
 
