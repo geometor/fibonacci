@@ -23,7 +23,7 @@ NOTES — DISTINCTIO III: MENSURATION OF FIELDS, HERON'S PROOF & CIRCLE BOUNDS
 Section 1: The (13, 14, 15) Scalene Benchmark & Rational Trigonometry
 ---------------------------------------------------------------------
 
-Triangle $(13, 14, 15)$ is the canonical medieval Heronian triangle. Its perpendicular altitude splits base $14$ into rational segments $5$ and $9$, creating two adjacent integer right triangles $(5, 12, 13)$ and $(9, 12, 15)$. Leonardo uses this rational decomposition to demonstrate both the Euclidean *casus* method [II. 13] and the semiperimeter product rule.
+Triangle :math:`(13, 14, 15)` is the canonical medieval Heronian triangle. Its perpendicular altitude splits base :math:`14` into rational segments :math:`5` and :math:`9`, creating two adjacent integer right triangles :math:`(5, 12, 13)` and :math:`(9, 12, 15)`. Leonardo uses this rational decomposition to demonstrate both the Euclidean *casus* method [II. 13] and the semiperimeter product rule.
 
 ----
 
@@ -33,7 +33,7 @@ Triangle $(13, 14, 15)$ is the canonical medieval Heronian triangle. Its perpend
 Section 2: The Transmission of Heron's Proof via the Banū Mūsā
 --------------------------------------------------------------
 
-While the formula $\Delta = \sqrt{s(s-a)(s-b)(s-c)}$ originated with :person:`Hero of Alexandria <heron>` (*Metrica* I. 8), Hero's Greek text was lost to medieval Europe until Schöne's 1896 discovery in Constantinople. Leonardo received the proof through :person:`Gerard of Cremona <gerard-of-cremona>`'s 12th-century Latin translation of the *Verba Filiorum* of the :person:`Banū Mūsā <banu-musa>` (:cite:`banu-musa:verba`). Leonardo's exposition is clearer than the Arabic-Latin translation, emphasizing the incenter $T$ and the semiperimeter line $BL$.
+While the formula :math:`\Delta = \sqrt{s(s-a)(s-b)(s-c)}` originated with :person:`Hero of Alexandria <heron>` (*Metrica* I. 8), Hero's Greek text was lost to medieval Europe until Schöne's 1896 discovery in Constantinople. Leonardo received the proof through :person:`Gerard of Cremona <gerard-of-cremona>`'s 12th-century Latin translation of the *Verba Filiorum* of the :person:`Banū Mūsā <banu-musa>` (:cite:`banu-musa:verba`). Leonardo's exposition is clearer than the Arabic-Latin translation, emphasizing the incenter :math:`T` and the semiperimeter line :math:`BL`.
 
 Symbolic verification in `geometor.fibonacci`:
 
@@ -59,7 +59,7 @@ Symbolic verification in `geometor.fibonacci`:
 Section 3: Quadrilateral Fallacies & Agromensorial Caution
 ----------------------------------------------------------
 
-Leonardo issues a sharp warning against Roman *agrimensores* who computed quadrilateral areas by $\frac{a+c}{2} \cdot \frac{b+d}{2}$. He proves by [I. 28] and [I. 41] that this formula is strictly an upper bound, yielding exact results if and only if the quadrilateral is rectangular.
+Leonardo issues a sharp warning against Roman *agrimensores* who computed quadrilateral areas by :math:`\frac{a+c}{2} \cdot \frac{b+d}{2}`. He proves by [I. 28] and [I. 41] that this formula is strictly an upper bound, yielding exact results if and only if the quadrilateral is rectangular.
 
 ----
 
@@ -69,8 +69,10 @@ Leonardo issues a sharp warning against Roman *agrimensores* who computed quadri
 Section 4: The 96-gon Bounds & Fibonacci's Ratio 864 : 275
 ----------------------------------------------------------
 
-In demonstrating :person:`Archimedes <archimedes>`' circle bounds (:cite:`archimedes:circle`), Leonardo avoids large 5-digit square roots by scaling diameter $d = 1440$ ($r = 720$). His harmonic mean:
+In demonstrating :person:`Archimedes <archimedes>`' circle bounds (:cite:`archimedes:circle`), Leonardo avoids large 5-digit square roots by scaling diameter :math:`d = 1440` (:math:`r = 720`). His harmonic mean:
 
-$$\frac{1440}{458\frac{1}{3}} = \frac{864}{275} \approx 3.141818\dots$$
+.. math::
 
-yields an approximation whose error is under $0.007\%$, closer to $\pi$ than Archimedes' upper bound $\frac{22}{7} \approx 3.142857$.
+   \frac{1440}{458\frac{1}{3}} = \frac{864}{275} \approx 3.141818\dots
+
+yields an approximation whose error is under :math:`0.007\%`, closer to :math:`\pi` than Archimedes' upper bound :math:`\frac{22}{7} \approx 3.142857`.

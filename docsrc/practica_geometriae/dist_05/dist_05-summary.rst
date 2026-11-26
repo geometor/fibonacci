@@ -19,7 +19,7 @@ SUMMARY — DISTINCTIO V: EXTRACTION OF CUBE ROOTS
 Binomial Spatial Partition of the Cube
 --------------------------------------
 
-The algebraic identity $(a + b)^3 = a^3 + 3a^2 b + 3ab^2 + b^3$ corresponds to the eightfold geometric partition of a physical cube:
+The algebraic identity :math:`(a + b)^3 = a^3 + 3a^2 b + 3ab^2 + b^3` corresponds to the eightfold geometric partition of a physical cube:
 
 .. list-table::
    :header-rows: 1
@@ -29,34 +29,36 @@ The algebraic identity $(a + b)^3 = a^3 + 3a^2 b + 3ab^2 + b^3$ corresponds to t
      - Count & Dimensions
      - Geometric Interpretation
    * - **Primary Cube**
-     - $1 \times (a \times a \times a)$
-     - Cube on the initial tens/hundreds root $a^3$
+     - :math:`1 \times (a \times a \times a)`
+     - Cube on the initial tens/hundreds root :math:`a^3`
    * - **Square Prisms**
-     - $3 \times (a \times a \times b)$
-     - Three square slabs of thickness $b$ on the three faces of $a^3$
+     - :math:`3 \times (a \times a \times b)`
+     - Three square slabs of thickness :math:`b` on the three faces of :math:`a^3`
    * - **Columnar Prisms**
-     - $3 \times (a \times b \times b)$
+     - :math:`3 \times (a \times b \times b)`
      - Three oblong square columns filling the three corner edges
    * - **Corner Cube**
-     - $1 \times (b \times b \times b)$
-     - Small unit cube filling the final vertex corner $b^3$
+     - :math:`1 \times (b \times b \times b)`
+     - Small unit cube filling the final vertex corner :math:`b^3`
 
 ----
 
 Algorithmic Steps for Triad Extraction
 --------------------------------------
 
-1. **Partition**: Group digits into triads from right to left ($d_{3k-1} d_{3k-2} d_{3k-3}$).
-2. **First Root $a$**: Find maximum integer $a$ such that $a^3 \le \text{highest triad}$.
-3. **Remainder & Trial Divisor**: Compute $R = \text{triad} - a^3$. Bring down the next triad.
-4. **Second Digit $b$**: Divide the brought-down remainder by trial divisor $300 a^2$.
-5. **Deduction**: Verify and subtract $300 a^2 b + 30 a b^2 + b^3 = [3a(10a + b) + b^2]b$.
+1. **Partition**: Group digits into triads from right to left (:math:`d_{3k-1} d_{3k-2} d_{3k-3}`).
+2. **First Root** :math:`a`: Find maximum integer :math:`a` such that :math:`a^3 \le \text{highest triad}`.
+3. **Remainder & Trial Divisor**: Compute :math:`R = \text{triad} - a^3`. Bring down the next triad.
+4. **Second Digit** :math:`b`: Divide the brought-down remainder by trial divisor :math:`300 a^2`.
+5. **Deduction**: Verify and subtract :math:`300 a^2 b + 30 a b^2 + b^3 = [3a(10a + b) + b^2]b`.
 
 ----
 
 Rational Bounds for Surd Cubes
 ------------------------------
 
-For integer $N = a^3 + R$ with $0 < R < 3a^2 + 3a + 1$:
+For integer :math:`N = a^3 + R` with :math:`0 < R < 3a^2 + 3a + 1`:
 
-$$\text{Root} \approx a + \frac{R}{3a^2 + 3a + 1} = a + \frac{R}{(a+1)^3 - a^3}.$$
+.. math::
+
+   \text{Root} \approx a + \frac{R}{3a^2 + 3a + 1} = a + \frac{R}{(a+1)^3 - a^3}.

@@ -23,9 +23,9 @@ NOTES — DISTINCTIO VIII: SUBTILITATES GEOMETRICAE & FLOS (1225)
 Section 1: The Influence of Abū Kāmil's *On the Pentagon and Decagon*
 ---------------------------------------------------------------------
 
-Leonardo's algebraic treatment of the pentagon is directly modeled on the 9th-century Egyptian master :person:`Abū Kāmil Shujāʿ ibn Aslam <abu-kamil>` (*Kitāb fī al-jabr wa-al-muqābala* and *On the Pentagon and Decagon*). By setting $x$ for the side, $x^2$ for :term:`census`, and $x^4$ for *census census*, Leonardo introduces the earliest complete Latin demonstration of a biquadratic algebraic equation applied to classical Euclidean geometry.
+Leonardo's algebraic treatment of the pentagon is modeled on :person:`Abū Kāmil Shujāʿ ibn Aslam <abu-kamil>` (*On the Pentagon and Decagon*). Setting :math:`x` for *res*, :math:`x^2` for :term:`census`, and :math:`x^4` for *census census*, he gives the earliest complete Latin demonstration of a biquadratic equation in Euclidean geometry.
 
-Exact symbolic verification in `geometor.fibonacci`:
+Exact symbolic verification in ``geometor.fibonacci``:
 
 .. code-block:: python
 
@@ -45,12 +45,12 @@ Exact symbolic verification in `geometor.fibonacci`:
 Section 2: The 1225 Imperial Mathematical Contest in Pisa
 ---------------------------------------------------------
 
-In 1225, Emperor :person:`Frederick II <frederick-ii>` visited Pisa with his court philosopher :person:`Master John of Palermo <john-of-palermo>`. John proposed two famous challenge problems:
+In 1225, Emperor :person:`Frederick II <frederick-ii>` visited Pisa with court philosopher :person:`Master John of Palermo <john-of-palermo>`, who proposed two challenges:
 
-1. **The Congruum Problem**: Solved by Fibonacci using the congruum identity $C = 4mn(m^2 - n^2)$ with generator pair $(m, n) = (5, 4)$, yielding $C = 720$ and the rational solution $x = \frac{41}{12}$.
-2. **The Cubic Equation**: $x^3 + 2x^2 + 10x = 20$. Leonardo's geometric proof that this equation has no solution among the rational numbers or the quadratic irrationals of Euclid's Book X represents the high-water mark of medieval European algebra, three centuries before Cardano and Tartaglia.
+1. **The Congruum Problem**: Solved using :math:`C = 4mn(m^2 - n^2)` with :math:`(m, n) = (5, 4)`, yielding :math:`C = 720` and :math:`x = \frac{41}{12}`.
+2. **The Cubic Equation**: :math:`x^3 + 2x^2 + 10x = 20`, proven irreducible over Euclid Book X quadratic irrationals.
 
-Symbolic verification in `geometor.fibonacci`:
+Symbolic verification in ``geometor.fibonacci``:
 
 .. code-block:: python
 
@@ -64,3 +64,5 @@ Symbolic verification in `geometor.fibonacci`:
    cubic = flos_sexagesimal_cubic()
    assert cubic.rational_root == sp.Rational(1_596_577_777, 1_166_400_000)
    assert float(cubic.abs_root_error.evalf()) < 4e-11
+
+**Textual Witness Note**: Boncompagni Vol. II, pp. 207–224 (fol. 134r–146r) contains *Distinctio VIII*; p. 218 preserves the rubric noting the triangle problems belong after the equilateral-triangle problem in the preceding quire. Pages 227–234 contain the *Flos* prologue to Cardinal R., the congruum, and the cubic proof.

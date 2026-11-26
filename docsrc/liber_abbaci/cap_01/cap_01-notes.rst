@@ -22,7 +22,7 @@ CAPITULUM I NOTES — SCHOLARLY & HISTORICAL COMMENTARY
 1. Master Michael Scot and the Court of Frederick II
 ----------------------------------------------------
 
-The revised $1228$ edition of *Liber Abbaci* opens with a personal dedication to :person:`Master Michael Scot <michael-scot>` (*c. 1175–c. 1232*), court astrologer and philosopher to Holy Roman Emperor :person:`Frederick II <frederick-ii>` Hohenstaufen in Palermo. Scot, who had worked in Toledo translating :person:`Averroës <averroes>` and :person:`Aristotle <aristotle>` from Arabic into Latin, recognized the profound mathematical rigor of Fibonacci's work. The collaboration between Leonardo and the imperial court circle (including Master John of Palermo and Master Dominick) catalyzed the production of *Flos* ($1225$), *Epistola ad Magistrum Theodorum*, and *Liber Quadratorum* ($1225$).
+The revised 1228 edition of *Liber Abbaci* opens with a personal dedication to :person:`Master Michael Scot <michael-scot>` (*c.* 1175–*c.* 1232), court astrologer and philosopher to Holy Roman Emperor :person:`Frederick II <frederick-ii>` Hohenstaufen in Palermo. Scot, who had worked in Toledo translating Averroës and Aristotle from Arabic into Latin, recognized the profound mathematical rigor of Fibonacci's work. The collaboration between Leonardo and the imperial court circle (including Master John of Palermo and Master Dominick) catalyzed the production of *Flos* (1225), *Epistola ad Magistrum Theodorum*, and *Liber Quadratorum* (1225).
 
 2. The Pisan Customs House at Bugia and Mediterranean Commerce
 --------------------------------------------------------------
@@ -46,7 +46,7 @@ The "arcs of Pythagoras" (*arcus Pictagorae*) referred to the medieval board aba
 
 Fibonacci recognized that pencil-and-paper calculation on sand or parchment (*algorismus* via the Indian method) superseded physical abacus tables completely because:
 
-1. The :term:`zephirum` ($0$) is treated as a positional symbol equal in operational stature to $1..9$.
+1. The :term:`zephirum` (0) is treated as a positional symbol equal in operational stature to 1–9.
 2. Carries, borrowings, and intermediate partial products can be inspected, corrected, and archived without losing previous state.
 3. Positional notation scales uniformly across fractional operations (:term:`virgula`, common fractions, sexagesimals).
 

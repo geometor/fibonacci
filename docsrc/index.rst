@@ -43,7 +43,7 @@ Books in This Collection
 
       .. rubric:: Latin & English Edition · 1202 / 1228 (ed. Boncompagni, 1857) · Chapters I & XII · 4 Tracks
 
-      **The Book of Calculation** (*Liber Abbaci*) — The historic opening chapter on the nine Indian figures and zero (*zephirum*) paired with Chapter XII.7's famous rabbit problem (*Quot paria coniculorum*), tracing the recurrence $F_{n+1} = F_n + F_{n-1}$ and its convergence to $\phi$.
+      **The Book of Calculation** (*Liber Abbaci*) — The historic opening chapter on the nine Indian figures and zero (*zephirum*) paired with Chapter XII.7's famous rabbit problem (*Quot paria coniculorum*), tracing the recurrence :math:`F_{n+1} = F_n + F_{n-1}` and its convergence to :math:`\phi`.
 
       .. container:: home-actions
 
@@ -72,7 +72,7 @@ Key Features
 
       **Exact Rational & Radical Verifications**
 
-      Verify Heron's proof on $(13, 14, 15)$, Fibonacci's 96-gon $\pi$ bounds, Ptolemy's quartic, and rabbit-sequence convergence to $\phi$ in :doc:`demos/index`.
+      Verify Heron's proof on :math:`(13, 14, 15)`, Fibonacci's 96-gon :math:`\pi` bounds, Ptolemy's quartic, and rabbit-sequence convergence to :math:`\phi` in :doc:`demos/index`.
 
 Reference & Project
 -------------------

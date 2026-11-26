@@ -23,7 +23,7 @@ NOTES — DISTINCTIO VI: SOLID MENSURATION & THE FIVE REGULAR POLYHEDRA
 Section 1: Archimedes' *On the Sphere and Cylinder*
 ---------------------------------------------------
 
-The ratio of the sphere to the circumscribed cylinder ($2 : 3$) was discovered by :person:`Archimedes <archimedes>` (:cite:`archimedes:sphere`), who requested it engraved upon his tombstone. Leonardo incorporates the result directly into Pisan cubic metrology ($1 \text{ pertica corporalis} = 216 \text{ cubic feet}$).
+The ratio of the sphere to the circumscribed cylinder (:math:`2 : 3`) was discovered by :person:`Archimedes <archimedes>` (:cite:`archimedes:sphere`), who requested it engraved upon his tombstone. Leonardo incorporates the result directly into Pisan cubic metrology (:math:`1 \text{ pertica corporalis} = 216 \text{ cubic feet}`).
 
 ----
 
@@ -33,7 +33,7 @@ The ratio of the sphere to the circumscribed cylinder ($2 : 3$) was discovered b
 Section 2: The Direct Source of Piero della Francesca & Luca Pacioli
 --------------------------------------------------------------------
 
-Distinctio VI (pp. 190–202) is the fountainhead of Renaissance polyhedral geometry. :person:`Piero della Francesca <piero-della-francesca>` transcribed Leonardo's calculations into his *Libellus de quinque corporibus regularibus* (c. 1482), using the identical sphere of diameter $6$. :person:`Luca Pacioli <pacioli>` then translated Piero's text into Italian and published it in *De Divina Proportione* (Venice, 1509), accompanied by the 60 solid plates drawn by :person:`Leonardo da Vinci <leonardo>`.
+Distinctio VI (pp. 190–202) is the fountainhead of Renaissance polyhedral geometry. :person:`Piero della Francesca <piero-della-francesca>` transcribed Leonardo's calculations into his *Libellus de quinque corporibus regularibus* (c. 1482), using the identical sphere of diameter :math:`6`. :person:`Luca Pacioli <pacioli>` then translated Piero's text into Italian and published it in *De Divina Proportione* (Venice, 1509), accompanied by the 60 solid plates drawn by :person:`Leonardo da Vinci <leonardo>`.
 
 Exact symbolic verification in `geometor.fibonacci`:
 

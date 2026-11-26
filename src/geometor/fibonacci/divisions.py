@@ -5,18 +5,18 @@ transmission and expansion of **Euclid's lost treatise *On Divisions of Figures*
 1862, Vol. II, pp. 110–148):
 
 1. **Dividing a Triangle from a Point on a Side** (pp. 111–112, ``fol. 68v–69r``):
-   Straightedge-and-compass division of $\triangle ABG$ in exact ratio $p : q$ by a line $[DZ]$
-   drawn from any given point $D$ on side $[BG]$, using Euclid I.31 parallel transfer $[EZ] \parallel [AD]$
-   and Euclid I.37 equal-area shearing ($\triangle ADE = \triangle ADZ$).
+   Straightedge-and-compass division of :math:`\triangle ABG` in exact ratio :math:`p : q` by a line :math:`[DZ]`
+   drawn from any given point :math:`D` on side :math:`[BG]`, using Euclid I.31 parallel transfer :math:`[EZ] \parallel [AD]`
+   and Euclid I.37 equal-area shearing (:math:`\triangle ADE = \triangle ADZ`).
 2. **Dividing a Triangle Parallel to the Base** (p. 119, ``fol. 73r–73v``):
-   Straightedge-and-compass division of $\triangle ABG$ in exact ratio $p : q$ by $[EZ] \parallel [BG]$
-   via Euclid VI.13 semicircle mean proportional $AE = \sqrt{\frac{p}{p+q}}\, AB$.
+   Straightedge-and-compass division of :math:`\triangle ABG` in exact ratio :math:`p : q` by :math:`[EZ] \parallel [BG]`
+   via Euclid VI.13 semicircle mean proportional :math:`AE = \sqrt{\frac{p}{p+q}}\, AB`.
 3. **Concurrency of Medians & Three-Consort Centroid Division** (pp. 112–113, 120, ``fol. 69r–74r``):
-   Fibonacci's *Preparatoria* proving the $2 : 1$ concurrency of medians at centroid $D$ ($X(2)$)
-   and partitioning $\triangle ABG$ into three equal consort triangles $\triangle DAB, \triangle DBG, \triangle DGA$.
+   Fibonacci's *Preparatoria* proving the :math:`2 : 1` concurrency of medians at centroid :math:`D` (:math:`X(2)`)
+   and partitioning :math:`\triangle ABG` into three equal consort triangles :math:`\triangle DAB, \triangle DBG, \triangle DGA`.
 4. **Dividing a Trapezoid Parallel to its Bases** (*Distinctio IV, Pars II*):
-   Root-mean-square chord $c = \sqrt{\frac{q a^2 + p b^2}{p + q}}$, linking planar field division
-   to three squares in arithmetic progression ($7^2, 13^2, 17^2$) in *Liber Quadratorum* (1225).
+   Root-mean-square chord :math:`c = \sqrt{\frac{q a^2 + p b^2}{p + q}}`, linking planar field division
+   to three squares in arithmetic progression (:math:`7^2, 13^2, 17^2`) in *Liber Quadratorum* (1225).
 """
 
 from __future__ import annotations
@@ -52,7 +52,7 @@ def construct_midpoint(
     classes: list[str] | None = None,
     guide: bool = False,
 ) -> spg.Point:
-    """Construct the exact midpoint of $[PQ]$ via Euclid I.10 symmetric circles."""
+    """Construct the exact midpoint of :math:`[PQ]` via Euclid I.10 symmetric circles."""
     with model.subconstruction(f"I.10_{pt_id or 'mid'}", hide_guides=True) as scope:
         ln_pq = model.construct_line(pt_p, pt_q, guide=True)
         c1 = model.construct_circle(pt_p, pt_q, guide=True)
@@ -82,11 +82,11 @@ def construct_parallel_line(
     classes: list[str] | None = None,
     guide: bool = False,
 ) -> spg.Line:
-    """Construct the line through ``through_pt`` parallel to $[\\text{ref\\_p1}\\,\\text{ref\\_p2}]$ (Euclid I.31).
+    """Construct the line through ``through_pt`` parallel to :math:`[\\text{ref\\_p1}\\,\\text{ref\\_p2}]` (Euclid I.31).
 
-    Uses central reflection across the midpoint $M$ of $[\\text{ref\\_p2}, \\text{through\\_pt}]$ so
-    quadrilateral $(\\text{ref\\_p1}, \\text{ref\\_p2}, \\text{S}, \\text{through\\_pt})$ is an exact
-    parallelogram over any symbolic subfield of $\\mathbb{R}$.
+    Uses central reflection across the midpoint :math:`M` of :math:`[\\text{ref\\_p2}, \\text{through\\_pt}]` so
+    quadrilateral :math:`(\\text{ref\\_p1}, \\text{ref\\_p2}, \\text{S}, \\text{through\\_pt})` is an exact
+    parallelogram over any symbolic subfield of :math:`\\mathbb{R}`.
     """
     with model.subconstruction(f"I.31_{line_id or 'par'}", hide_guides=True) as scope:
         mid_m = construct_midpoint(model, ref_p2, through_pt, guide=True)
@@ -115,7 +115,7 @@ def _divide_segment_in_ratio(
     pt_id: str,
     classes: list[str] | None = None,
 ) -> spg.Point:
-    """Divide $[\\text{pt\\_start}, \\text{pt\\_end}]$ at $E$ with $|\\text{pt\\_start}\\,E| : |\\text{pt\\_start}\\,\\text{pt\\_end}| = \\text{num} : \\text{den}$ (Euclid VI.9)."""
+    """Divide :math:`[\\text{pt\\_start}, \\text{pt\\_end}]` at :math:`E` with :math:`|\\text{pt\\_start}\\,E| : |\\text{pt\\_start}\\,\\text{pt\\_end}| = \\text{num} : \\text{den}` (Euclid VI.9)."""
     if num <= 0 or den <= num:
         raise ValueError(f"Expected 0 < num < den, got {num}/{den}.")
     if 2 * num == den:
@@ -154,7 +154,7 @@ def _divide_segment_in_ratio(
 
 @dataclass(frozen=True)
 class SidePointDivisionResult:
-    """Exact model & invariants for dividing $\\triangle ABG$ from a point $D$ on side $BG$."""
+    """Exact model & invariants for dividing :math:`\\triangle ABG` from a point :math:`D` on side :math:`BG`."""
 
     model: Model
     pt_a: spg.Point
@@ -177,11 +177,11 @@ def construct_triangle_side_point_division(
     q: int = 1,
     d_offset_from_b: int | sp.Rational = 5,
 ) -> SidePointDivisionResult:
-    """Divide $\\triangle ABG$ $(13, 14, 15)$ in ratio $p : q$ from point $D$ on $[BG]$ (Boncompagni p. 112).
+    """Divide :math:`\\triangle ABG` :math:`(13, 14, 15)` in ratio :math:`p : q` from point :math:`D` on :math:`[BG]` (Boncompagni p. 112).
 
-    Assumes $D$ lies between $B$ and the fractional base division point $E$ (so $BD < BE$, i.e.,
-    $Z$ falls on side $[AG]$ just as in Fibonacci's figure on p. 112 where $BD = 5$, $BE = 7$,
-    $DG = 9$, and $GZ = 11\\frac{2}{3}$).
+    Assumes :math:`D` lies between :math:`B` and the fractional base division point :math:`E` (so :math:`BD < BE`, i.e.,
+    :math:`Z` falls on side :math:`[AG]` just as in Fibonacci's figure on p. 112 where :math:`BD = 5`, :math:`BE = 7`,
+    :math:`DG = 9`, and :math:`GZ = 11\\frac{2}{3}`).
     """
     if p <= 0 or q <= 0:
         raise ValueError("Ratio components p and q must be positive integers.")
@@ -275,7 +275,7 @@ def construct_triangle_side_point_division(
 
 @dataclass(frozen=True)
 class ParallelDivisionResult:
-    """Exact model & invariants for dividing $\\triangle ABG$ by $[EZ] \\parallel [BG]$."""
+    """Exact model & invariants for dividing :math:`\\triangle ABG` by :math:`[EZ] \\parallel [BG]`."""
 
     model: Model
     pt_a: spg.Point
@@ -301,13 +301,13 @@ def construct_triangle_parallel_division(
     q: int = 1,
     preset: str = "10-14-12",
 ) -> ParallelDivisionResult:
-    """Divide $\\triangle ABG$ in ratio $p : q$ by $[EZ] \\parallel [BG]$ via Euclid VI.13 mean proportional.
+    """Divide :math:`\\triangle ABG` in ratio :math:`p : q` by :math:`[EZ] \\parallel [BG]` via Euclid VI.13 mean proportional.
 
     Supports two exact symbolic presets:
 
     - ``"10-14-12"`` (default): Fibonacci's exact numerical triangle on Boncompagni p. 119
-      ($AB = 10$, $BG = 14$, $GA = 12$), where $p = q = 1$ yields $AE^2 = 50$, $AZ^2 = 72$, $EZ^2 = 98$.
-    - ``"13-14-15"``: Heronian triangle $A=(5, 12)$, $B=(0, 0)$, $G=(14, 0)$.
+      (:math:`AB = 10`, :math:`BG = 14`, :math:`GA = 12`), where :math:`p = q = 1` yields :math:`AE^2 = 50`, :math:`AZ^2 = 72`, :math:`EZ^2 = 98`.
+    - ``"13-14-15"``: Heronian triangle :math:`A=(5, 12)`, :math:`B=(0, 0)`, :math:`G=(14, 0)`.
     """
     if p <= 0 or q <= 0:
         raise ValueError("Ratio components p and q must be positive integers.")
@@ -557,7 +557,7 @@ def construct_triangle_medians_centroid() -> CentroidDivisionResult:
 
 @dataclass(frozen=True)
 class TrapezoidDivisionResult:
-    """Exact symbolic result for dividing a trapezoid parallel to bases $a$ and $b$ in ratio $p : q$."""
+    """Exact symbolic result for dividing a trapezoid parallel to bases :math:`a` and :math:`b` in ratio :math:`p : q`."""
 
     top_base_a: sp.Expr
     bottom_base_b: sp.Expr
@@ -581,10 +581,10 @@ def trapezoid_parallel_division(
 ) -> TrapezoidDivisionResult:
     """Compute the exact parallel dividing line of a trapezoid (*Distinctio IV, Pars II*).
 
-    For parallel bases $a$ (top) and $b$ (bottom), the parallel chord $c$ cutting off upper area :
-    lower area $= p : q$ satisfies $c^2 = \\frac{q a^2 + p b^2}{p + q}$. On $(a, b) = (7, 17)$ with
-    $p = q = 1$, $c = \\sqrt{(49 + 289)/2} = 13$, exhibiting the arithmetic progression of squares
-    $(7^2, 13^2, 17^2)$ with *congruum* $120$ celebrated in Fibonacci's *Liber Quadratorum* (1225).
+    For parallel bases :math:`a` (top) and :math:`b` (bottom), the parallel chord :math:`c` cutting off upper area :
+    lower area :math:`= p : q` satisfies :math:`c^2 = \\frac{q a^2 + p b^2}{p + q}`. On :math:`(a, b) = (7, 17)` with
+    :math:`p = q = 1`, :math:`c = \\sqrt{(49 + 289)/2} = 13`, exhibiting the arithmetic progression of squares
+    :math:`(7^2, 13^2, 17^2)` with *congruum* :math:`120` celebrated in Fibonacci's *Liber Quadratorum* (1225).
     """
     a_s = sp.sympify(top_base_a)
     b_s = sp.sympify(bottom_base_b)

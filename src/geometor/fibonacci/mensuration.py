@@ -5,16 +5,16 @@ Pisano*, Vol. II: *Leonardi Pisani Practica Geometriae ed Opuscoli*, Rome, 1862)
 
 - **Pisan Surveyor's Metrology** (*Introductoria* & *Distinctio I*, pp. 3–5, ``fol. 2v–3v``):
   Exact rational conversions across the Pisan rod (*pertica*), *pes*, *uncia*, *denarius*,
-  *scala*, *panorum*, *stariorum* ($66$ square *perticae*), and *modiorum* ($24$ *stariora*).
+  *scala*, *panorum*, *stariorum* (:math:`66` square *perticae*), and *modiorum* (:math:`24` *stariora*).
 - **Heron's Formula & Geometric Incenter Proof** (*Distinctio III*, pp. 39–41, ``fol. 23v–25r``):
-  Exact :class:`~geometor.model.Model` straightedge-and-compass construction of incenter $T$,
-  perpendiculars $TH, TE, TZ$, tangent excesses $(s-a, s-b, s-c)$, and semiperimeter extension
-  on Fibonacci's $(13, 14, 15)$ scalene triangle, alongside symbolic polynomial verification over
-  $\mathbb{Z}[a, b, c]$.
+  Exact :class:`~geometor.model.Model` straightedge-and-compass construction of incenter :math:`T`,
+  perpendiculars :math:`TH, TE, TZ`, tangent excesses :math:`(s-a, s-b, s-c)`, and semiperimeter extension
+  on Fibonacci's :math:`(13, 14, 15)` scalene triangle, alongside symbolic polynomial verification over
+  :math:`\mathbb{Z}[a, b, c]`.
 - **Fibonacci's Circle Measurement** (*Distinctio III*, pp. 88–91, ``fol. 53v–55v``):
-  Fibonacci's small-number Pisan reformulation of Archimedes' 96-gon ($1440 : 458\frac{1}{5}$ and
-  $1440 : 458\frac{4}{9}$), yielding $\pi_{\text{Fib}} = \frac{1440}{458\frac{1}{3}} = \frac{864}{275}$
-  and his exact rational identity $\frac{864}{275 - \frac{1}{11}} = \frac{22}{7}$.
+  Fibonacci's small-number Pisan reformulation of Archimedes' 96-gon (:math:`1440 : 458\frac{1}{5}` and
+  :math:`1440 : 458\frac{4}{9}`), yielding :math:`\pi_{\text{Fib}} = \frac{1440}{458\frac{1}{3}} = \frac{864}{275}`
+  and his exact rational identity :math:`\frac{864}{275 - \frac{1}{11}} = \frac{22}{7}`.
 """
 
 from __future__ import annotations
@@ -57,12 +57,12 @@ PISAN_AREA_PERTICAE: dict[str, sp.Rational] = {
 
 @dataclass(frozen=True)
 class PisanLinearMeasure:
-    """Exact Pisan linear length in *perticae*, *pedes* ($1/6$), and *unciae* ($1/108$).
+    """Exact Pisan linear length in *perticae*, *pedes* (:math:`1/6`), and *unciae* (:math:`1/108`).
 
     Attributes:
         perticae: Whole or rational Pisan rods (*perticae*).
-        pedes: Linear feet ($1\text{ pertica} = 6\text{ pedes}$).
-        unciae: Linear inches/points ($1\text{ pes} = 18\text{ unciae}$, $1\text{ pertica} = 108\text{ unciae}$).
+        pedes: Linear feet (:math:`1\text{ pertica} = 6\text{ pedes}`).
+        unciae: Linear inches/points (:math:`1\text{ pes} = 18\text{ unciae}`, :math:`1\text{ pertica} = 108\text{ unciae}`).
     """
 
     perticae: int | sp.Rational = 0
@@ -148,7 +148,7 @@ def heron_area_exact(
     b: int | sp.Expr,
     c: int | sp.Expr,
 ) -> tuple[sp.Expr, tuple[sp.Expr, sp.Expr, sp.Expr], sp.Expr, sp.Expr]:
-    """Compute semiperimeter, excesses, squared area, and exact Heron area for sides $(a, b, c)$."""
+    """Compute semiperimeter, excesses, squared area, and exact Heron area for sides :math:`(a, b, c)`."""
     a_s, b_s, c_s = sp.sympify(a), sp.sympify(b), sp.sympify(c)
     s = (a_s + b_s + c_s) / 2
     da, db, dc = s - a_s, s - b_s, s - c_s
@@ -158,12 +158,12 @@ def heron_area_exact(
 
 
 def verify_heron_polynomial_identity() -> sp.Expr:
-    r"""Verify symbolically over $\mathbb{Z}[x, y, z]$ that $r^2 (x+y+z)^2 = (x+y+z) x y z$.
+    r"""Verify symbolically over :math:`\mathbb{Z}[x, y, z]` that :math:`r^2 (x+y+z)^2 = (x+y+z) x y z`.
 
     In Fibonacci's geometric proof (*Distinctio III*, pp. 40–41), a triangle with tangent
-    segments $x = s - a$, $y = s - b$, $z = s - c$ and inradius $r$ satisfies both
-    $\Delta = r(x + y + z)$ and the similar-triangle proportion $r^2 (x + y + z) = x y z$
-    (since $\tan(\alpha/2)\tan(\beta/2) + \tan(\beta/2)\tan(\gamma/2) + \tan(\gamma/2)\tan(\alpha/2) = 1$).
+    segments :math:`x = s - a`, :math:`y = s - b`, :math:`z = s - c` and inradius :math:`r` satisfies both
+    :math:`\Delta = r(x + y + z)` and the similar-triangle proportion :math:`r^2 (x + y + z) = x y z`
+    (since :math:`\tan(\alpha/2)\tan(\beta/2) + \tan(\beta/2)\tan(\gamma/2) + \tan(\gamma/2)\tan(\alpha/2) = 1`).
     Returns ``0`` after exact algebraic simplification.
     """
     x, y, z = sp.symbols("x y z", positive=True)
@@ -239,7 +239,7 @@ def _build_pertica_grid_prop(model: Model) -> spg.Polygon:
 
 
 def construct_pisan_pertica_grid() -> Model:
-    """Construct the exact $6 \\times 6$ *denarius* grid of the Pisan *pertica superficialis*."""
+    """Construct the exact :math:`6 \\times 6` *denarius* grid of the Pisan *pertica superficialis*."""
     model = Model("pisan_pertica_grid", logger=False, auto_intersect=False)
     _build_pertica_grid_prop(model, hide_guides=False)
     return model
@@ -268,15 +268,15 @@ class HeronProofResult:
 def construct_heron_incenter_proof() -> HeronProofResult:
     """Construct Fibonacci's geometric proof of Heron's formula (*Distinctio III*, pp. 40–41).
 
-    Uses the canonical $(13, 14, 15)$ triangle $A=(5, 12)$, $B=(0, 0)$, $G=(14, 0)$ so that
+    Uses the canonical :math:`(13, 14, 15)` triangle :math:`A=(5, 12)`, :math:`B=(0, 0)`, :math:`G=(14, 0)` so that
     every bisector, perpendicular foot, tangent segment, and auxiliary construction point has
-    100% exact rational coordinates in $\\mathbb{Q}$:
+    100% exact rational coordinates in :math:`\\mathbb{Q}`:
 
-    - Sides: $AB = 13$, $BG = 14$, $GA = 15$, semiperimeter $s = 21$.
-    - Incenter: $T = (6, 4)$ ($X(1)$), inradius $r = TH = TE = TZ = 4$.
-    - Tangent excesses: $AE = AZ = 7 = s - BG$, $BE = BH = 6 = s - GA$, $GH = GZ = 8 = s - AB$.
-    - Extended base point: $L = (21, 0)$ on ray $BG$ with $GL = AE = 7$, so $BL = s = 21$ and
-      $\\operatorname{Area}(\\triangle ABG) = TH \\cdot BL = 4 \\times 21 = 84 = \\sqrt{21 \\cdot 7 \\cdot 6 \\cdot 8}$.
+    - Sides: :math:`AB = 13`, :math:`BG = 14`, :math:`GA = 15`, semiperimeter :math:`s = 21`.
+    - Incenter: :math:`T = (6, 4)` (:math:`X(1)`), inradius :math:`r = TH = TE = TZ = 4`.
+    - Tangent excesses: :math:`AE = AZ = 7 = s - BG`, :math:`BE = BH = 6 = s - GA`, :math:`GH = GZ = 8 = s - AB`.
+    - Extended base point: :math:`L = (21, 0)` on ray :math:`BG` with :math:`GL = AE = 7`, so :math:`BL = s = 21` and
+      :math:`\\operatorname{Area}(\\triangle ABG) = TH \\cdot BL = 4 \\times 21 = 84 = \\sqrt{21 \\cdot 7 \\cdot 6 \\cdot 8}`.
     """
     model = Model("heron_incenter_proof", logger=False, auto_intersect=False)
 
@@ -432,7 +432,7 @@ def construct_heron_incenter_proof() -> HeronProofResult:
 
 @dataclass(frozen=True)
 class CircleBoundsResult:
-    """Exact rational bounds on $\\pi$ from *Practica Geometriae*, Dist. III (pp. 88–91)."""
+    """Exact rational bounds on :math:`\\pi` from *Practica Geometriae*, Dist. III (pp. 88–91)."""
 
     perimeter_numerator: sp.Integer
     circumscribed_96_denom: sp.Rational
@@ -447,7 +447,7 @@ class CircleBoundsResult:
 
 
 def fibonacci_circle_bounds() -> CircleBoundsResult:
-    """Return Fibonacci's exact 96-gon rational bounds and $\\pi_{\\text{Fib}} = \\frac{864}{275}$."""
+    """Return Fibonacci's exact 96-gon rational bounds and :math:`\\pi_{\\text{Fib}} = \\frac{864}{275}`."""
     perim = sp.Integer(1440)
     # Boncompagni 1862, pp. 90–91: 1440 : 458 1/5 (circumscribed) and 1440 : 458 4/9 (inscribed)
     circ_denom = sp.Integer(458) + sp.Rational(1, 5)
@@ -487,10 +487,10 @@ def fibonacci_circle_bounds() -> CircleBoundsResult:
 def construct_circle_archimedean_step() -> Model:
     """Construct Fibonacci's circle `.abgd.` with inscribed & circumscribed 6-gon and 12-gon bisection (pp. 88–90).
 
-    Models circle center $C=(0,0)$, diameter $[GA]$ from $G=(-15, 0)$ to $A=(15, 0)$ (radius $15$),
-    tangent at $A$ carrying the circumscribed hexagon half-side $AE = 5\\sqrt{3}$ ($\\angle ACE = 30^\\circ$),
-    its angle bisector $[CF]$ cutting the tangent at the circumscribed dodecagon half-side
-    $AF = 15(2 - \\sqrt{3})$, and the corresponding inscribed hexagon/dodecagon chords.
+    Models circle center :math:`C=(0,0)`, diameter :math:`[GA]` from :math:`G=(-15, 0)` to :math:`A=(15, 0)` (radius :math:`15`),
+    tangent at :math:`A` carrying the circumscribed hexagon half-side :math:`AE = 5\\sqrt{3}` (:math:`\\angle ACE = 30^\\circ`),
+    its angle bisector :math:`[CF]` cutting the tangent at the circumscribed dodecagon half-side
+    :math:`AF = 15(2 - \\sqrt{3})`, and the corresponding inscribed hexagon/dodecagon chords.
     """
     model = Model("circle_96gon_bounds", logger=False, auto_intersect=False)
 
