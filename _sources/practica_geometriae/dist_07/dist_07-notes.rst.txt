@@ -22,14 +22,14 @@ NOTES — DISTINCTIO VII: SURVEYING WITH THE QUADRANS
 Section 1: The Quadrans Shadow Scale & Arabic Astrolabes
 --------------------------------------------------------
 
-The $12 \times 12$ *puncta* shadow scale (*scala altimetrica* or *quadratum umbrae*) on the back of the medieval astrolabe and quadrant derives from Islamic astronomy (al-Khwārizmī, al-Battānī). Leonardo calls the instrument both :term:`quadrans` and *oroscopus*. By defining:
+The :math:`12 \times 12` (or :math:`60 \times 60`) *puncta* shadow scale (*scala altimetrica* or *quadratum umbrae*) on the back of the medieval astrolabe and quadrant derives from Islamic astronomy (al-Khwārizmī, al-Battānī). Leonardo calls the instrument both :term:`quadrans` and *oroscopus*, dividing each side :math:`dh` and :math:`di` into 12 or 60 equal parts (using 60 parts in his worked numerical examples on p. 206). By defining:
 
-* *Umbra recta* (horizontal shadow, cotangent scale): for angles between $45^\circ$ and $90^\circ$;
-* *Umbra versa* (vertical shadow, tangent scale): for angles between $0^\circ$ and $45^\circ$;
+* *Umbra recta* (horizontal shadow, cotangent scale): for angles between :math:`45^\circ` and :math:`90^\circ`;
+* *Umbra versa* (vertical shadow, tangent scale): for angles between :math:`0^\circ` and :math:`45^\circ`;
 
-the surveyor computes elevations purely through rational proportions of the $12$-point scale without trigonometric tables.
+the surveyor computes elevations purely through rational proportions without trigonometric tables.
 
-Exact symbolic verification in `geometor.fibonacci`:
+Exact symbolic verification in ``geometor.fibonacci``:
 
 .. code-block:: python
 

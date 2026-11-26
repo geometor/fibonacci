@@ -127,27 +127,33 @@
         <section class="level-2" id="positional-extraction-decomposition">
         <h2>Positional Extraction Decomposition<a class="headerlink" href="#positional-extraction-decomposition" title="Link to this heading">¶</a></h2>
         <ul class="simple">
-        <li><p><strong>Identity</strong>: $(10a + b)^2 = 100a^2 + 20ab + b^2 = 100a^2 + (20a + b)b$.</p></li>
-        <li><p><strong>Digit Pairs</strong>: For $N = d_{2k-1} d_{2k-2} \dots d_1 d_0$:
-        1. Determine greatest integer $a$ such that $a^2 \le d_{2k-1} d_{2k-2}$.
-        2. Compute remainder $R_1 = d_{2k-1} d_{2k-2} - a^2$.
-        3. Form trial divisor $20a$; find maximum digit $b$ such that $(20a + b)b \le 100 R_1 + d_{2k-3} d_{2k-4}$.
-        4. Recurse until all digit pairs are exhausted.</p></li>
+        <li><p><strong>Identity</strong>: <span class="math notranslate nohighlight">\((10a + b)^2 = 100a^2 + 20ab + b^2 = 100a^2 + (20a + b)b\)</span>.</p></li>
+        <li><p><strong>Digit Pairs</strong>: For <span class="math notranslate nohighlight">\(N = d_{2k-1} d_{2k-2} \dots d_1 d_0\)</span>:</p>
+        <ol class="arabic simple">
+        <li><p>Determine greatest integer <span class="math notranslate nohighlight">\(a\)</span> such that <span class="math notranslate nohighlight">\(a^2 \le d_{2k-1} d_{2k-2}\)</span>.</p></li>
+        <li><p>Compute remainder <span class="math notranslate nohighlight">\(R_1 = d_{2k-1} d_{2k-2} - a^2\)</span>.</p></li>
+        <li><p>Form trial divisor <span class="math notranslate nohighlight">\(20a\)</span>; find maximum digit <span class="math notranslate nohighlight">\(b\)</span> such that <span class="math notranslate nohighlight">\((20a + b)b \le 100 R_1 + d_{2k-3} d_{2k-4}\)</span>.</p></li>
+        <li><p>Recurse until all digit pairs are exhausted.</p></li>
+        </ol>
+        </li>
         </ul>
         </section>
         <hr class="docutils" />
         <section class="level-2" id="rational-convergents-for-non-square-integers">
         <h2>Rational Convergents for Non-Square Integers<a class="headerlink" href="#rational-convergents-for-non-square-integers" title="Link to this heading">¶</a></h2>
-        <p>For $N = a^2 + r$ with $0 &lt; r &lt; 2a + 1$:</p>
+        <p>For <span class="math notranslate nohighlight">\(N = a^2 + r\)</span> with <span class="math notranslate nohighlight">\(0 &lt; r &lt; 2a + 1\)</span>:</p>
         <ol class="arabic">
         <li><p><strong>Lower Bound</strong>:</p>
-        <p>$$a_{\text{low}} = a + \frac{r}{2a + 1}.$$</p>
+        <div class="math notranslate nohighlight">
+        \[a_{\text{low}} = a + \frac{r}{2a + 1}.\]</div>
         </li>
         <li><p><strong>Upper Bound (Hero-Fibonacci First Step)</strong>:</p>
-        <p>$$a_1 = a + \frac{r}{2a}.$$</p>
+        <div class="math notranslate nohighlight">
+        \[a_1 = a + \frac{r}{2a}.\]</div>
         </li>
         <li><p><strong>Second Iterative Correction (Newton-Raphson Step)</strong>:</p>
-        <p>$$a_2 = a_1 - \frac{a_1^2 - N}{2a_1} = \frac{1}{2}\left(a_1 + \frac{N}{a_1}\right).$$</p>
+        <div class="math notranslate nohighlight">
+        \[a_2 = a_1 - \frac{a_1^2 - N}{2a_1} = \frac{1}{2}\left(a_1 + \frac{N}{a_1}\right).\]</div>
         </li>
         </ol>
         </section>
@@ -167,13 +173,13 @@
         </tr>
         </thead>
         <tbody>
-        <tr class="row-even"><td><p>$\frac{2}{3}$ superficial pertica</p></td>
-        <td><p>$24$ denarii ($7{,}776$ sq. unciae)</p></td>
-        <td><p>$88\frac{2}{11}$ unciae = $4\text{ft } 16\frac{2}{11}\text{in}$</p></td>
+        <tr class="row-even"><td><p><span class="math notranslate nohighlight">\(\frac{2}{3}\)</span> superficial pertica</p></td>
+        <td><p><span class="math notranslate nohighlight">\(24\)</span> denarii (<span class="math notranslate nohighlight">\(7{,}776\)</span> sq. unciae)</p></td>
+        <td><p><span class="math notranslate nohighlight">\(88\frac{2}{11}\)</span> unciae = <span class="math notranslate nohighlight">\(4\text{ft } 16\frac{2}{11}\text{in}\)</span></p></td>
         </tr>
-        <tr class="row-odd"><td><p>$1$ стариorum ($66$ perticae)</p></td>
-        <td><p>$2{,}376$ denarii ($769{,}824$ sq. unciae)</p></td>
-        <td><p>$8\text{p } 0\text{ft } 13\frac{3}{4}\text{in}$</p></td>
+        <tr class="row-odd"><td><p><span class="math notranslate nohighlight">\(1\)</span> stariorum (<span class="math notranslate nohighlight">\(66\)</span> perticae)</p></td>
+        <td><p><span class="math notranslate nohighlight">\(2{,}376\)</span> denarii (<span class="math notranslate nohighlight">\(769{,}824\)</span> sq. unciae)</p></td>
+        <td><p><span class="math notranslate nohighlight">\(8\text{p } 0\text{ft } 13\frac{3}{4}\text{in}\)</span></p></td>
         </tr>
         </tbody>
         </table>
@@ -258,6 +264,8 @@
   <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
   <script src="../../_static/js/collection_directory.js?v=0928c9d3"></script>
   <script src="../../_static/js/geometor_interactive.js?v=219c1955"></script>
+  <script>window.MathJax = {"options": {"ignoreHtmlClass": ".*|etc-lazy-math", "processHtmlClass": "math|arithmatex", "enableComplexity": true, "makeCollapsible": true, "menuOptions": {"settings": {"zoom": "Click", "zscale": "200%", "collapsible": true, "enrich": true, "speech": false, "braille": false, "assistiveMml": false}}}, "output": {"displayOverflow": "linebreak", "linebreaks": {"inline": true}}}</script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
   <script src="../../_static/js/search_highlight.js"></script>
 
 </body>

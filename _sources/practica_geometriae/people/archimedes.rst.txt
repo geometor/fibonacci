@@ -14,7 +14,7 @@ Archimedes of Syracuse
 
 **Role**: *Geometer of Circle Bounds & Sphere-Cylinder Mensuration*
 
-Cited by Fibonacci as *Archimenides phylosophus* (*Distinctio III*, p. 88); his 96-gon polygon bisection in *Measurement of a Circle* and his sphere-and-cylinder theorems underlie *Distinctio III* ($\pi \approx \frac{864}{275}$) and *Distinctio VI*.
+Cited by Fibonacci as *Archimenides phylosophus* (*Distinctio III*, p. 88); his 96-gon polygon bisection in *Measurement of a Circle* and his sphere-and-cylinder theorems underlie *Distinctio III* (:math:`\pi \approx \frac{864}{275}`) and *Distinctio VI*.
 
 * **GEOMETOR Website**: `Archimedes of Syracuse <https://geometor.github.io/archimedes/>`_
 * **GitHub Repository**: `https://github.com/geometor/archimedes <https://github.com/geometor/archimedes>`_

@@ -19,11 +19,12 @@ SUMMARY — DISTINCTIO II: EXTRACTION OF SQUARE ROOTS
 Positional Extraction Decomposition
 -----------------------------------
 
-* **Identity**: $(10a + b)^2 = 100a^2 + 20ab + b^2 = 100a^2 + (20a + b)b$.
-* **Digit Pairs**: For $N = d_{2k-1} d_{2k-2} \dots d_1 d_0$:
-  1. Determine greatest integer $a$ such that $a^2 \le d_{2k-1} d_{2k-2}$.
-  2. Compute remainder $R_1 = d_{2k-1} d_{2k-2} - a^2$.
-  3. Form trial divisor $20a$; find maximum digit $b$ such that $(20a + b)b \le 100 R_1 + d_{2k-3} d_{2k-4}$.
+* **Identity**: :math:`(10a + b)^2 = 100a^2 + 20ab + b^2 = 100a^2 + (20a + b)b`.
+* **Digit Pairs**: For :math:`N = d_{2k-1} d_{2k-2} \dots d_1 d_0`:
+
+  1. Determine greatest integer :math:`a` such that :math:`a^2 \le d_{2k-1} d_{2k-2}`.
+  2. Compute remainder :math:`R_1 = d_{2k-1} d_{2k-2} - a^2`.
+  3. Form trial divisor :math:`20a`; find maximum digit :math:`b` such that :math:`(20a + b)b \le 100 R_1 + d_{2k-3} d_{2k-4}`.
   4. Recurse until all digit pairs are exhausted.
 
 ----
@@ -31,19 +32,25 @@ Positional Extraction Decomposition
 Rational Convergents for Non-Square Integers
 --------------------------------------------
 
-For $N = a^2 + r$ with $0 < r < 2a + 1$:
+For :math:`N = a^2 + r` with :math:`0 < r < 2a + 1`:
 
 1. **Lower Bound**:
 
-   $$a_{\text{low}} = a + \frac{r}{2a + 1}.$$
+   .. math::
+
+      a_{\text{low}} = a + \frac{r}{2a + 1}.
 
 2. **Upper Bound (Hero-Fibonacci First Step)**:
 
-   $$a_1 = a + \frac{r}{2a}.$$
+   .. math::
+
+      a_1 = a + \frac{r}{2a}.
 
 3. **Second Iterative Correction (Newton-Raphson Step)**:
 
-   $$a_2 = a_1 - \frac{a_1^2 - N}{2a_1} = \frac{1}{2}\left(a_1 + \frac{N}{a_1}\right).$$
+   .. math::
+
+      a_2 = a_1 - \frac{a_1^2 - N}{2a_1} = \frac{1}{2}\left(a_1 + \frac{N}{a_1}\right).
 
 ----
 
@@ -57,9 +64,9 @@ Root Extraction in Pisan Subunits
    * - Agrarian Area
      - Reduction to Subunits
      - Resulting Linear Side
-   * - $\frac{2}{3}$ superficial pertica
-     - $24$ denarii ($7{,}776$ sq. unciae)
-     - $88\frac{2}{11}$ unciae = $4\text{ft } 16\frac{2}{11}\text{in}$
-   * - $1$ стариorum ($66$ perticae)
-     - $2{,}376$ denarii ($769{,}824$ sq. unciae)
-     - $8\text{p } 0\text{ft } 13\frac{3}{4}\text{in}$
+   * - :math:`\frac{2}{3}` superficial pertica
+     - :math:`24` denarii (:math:`7{,}776` sq. unciae)
+     - :math:`88\frac{2}{11}` unciae = :math:`4\text{ft } 16\frac{2}{11}\text{in}`
+   * - :math:`1` stariorum (:math:`66` perticae)
+     - :math:`2{,}376` denarii (:math:`769{,}824` sq. unciae)
+     - :math:`8\text{p } 0\text{ft } 13\frac{3}{4}\text{in}`

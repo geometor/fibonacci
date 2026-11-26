@@ -38,12 +38,12 @@ Section 2: The Pisan 6 × 6 Pertica System
 
 Unlike modern metric or pure decimal systems, medieval Italian land mensuration utilized a mixed radix lattice. The Pisan system was governed by:
 
-* $1 \text{ pertica} = 6 \text{ pedes}$
-* $1 \text{ pes} = 18 \text{ unciae}$ (points)
-* $1 \text{ pertica} = 108 \text{ unciae}$
-* $1 \text{ pertica superficialis} = 36 \text{ denarii} = 36 \text{ sq. pedes}$
-* $1 \text{ panorum} = 5\frac{1}{2} \text{ perticae} = 198 \text{ denarii}$
-* $1 \text{ stariorum} = 12 \text{ panora} = 66 \text{ perticae} = 2{,}376 \text{ denarii}$
+* :math:`1 \text{ pertica} = 6 \text{ pedes}`
+* :math:`1 \text{ pes} = 18 \text{ unciae}` (points)
+* :math:`1 \text{ pertica} = 108 \text{ unciae}`
+* :math:`1 \text{ pertica superficialis} = 36 \text{ denarii} = 36 \text{ sq. pedes}`
+* :math:`1 \text{ panorum} = 5\frac{1}{2} \text{ perticae} = 198 \text{ denarii}`
+* :math:`1 \text{ stariorum} = 12 \text{ panora} = 66 \text{ perticae} = 2{,}376 \text{ denarii}`
 
 Exact symbolic verification in `geometor.fibonacci`:
 
@@ -66,4 +66,4 @@ Exact symbolic verification in `geometor.fibonacci`:
 Section 3: Geometric Algebra of Book II
 ---------------------------------------
 
-Leonardo embeds :person:`Euclid <euclid>`'s Book II propositions directly into the surveyor's art. Proposition [II. 4] gives the algebraic basis for rectangular expansions $(a + b)^2 = a^2 + 2ab + b^2$, while [II. 5–6] provide the geometric foundation for solving quadratic equations by completing the square without symbolic notation.
+Leonardo embeds :person:`Euclid <euclid>`'s Book II propositions directly into the surveyor's art. Proposition [II. 4] gives the algebraic basis for rectangular expansions :math:`(a + b)^2 = a^2 + 2ab + b^2`, while [II. 5–6] provide the geometric foundation for solving quadratic equations by completing the square without symbolic notation.

@@ -130,9 +130,10 @@
         <ol class="arabic">
         <li><p><strong>Indian and Arabic Positional Arithmetic</strong>: Derived from <a class="person-ref" id="occ-person-al-khwarizmi-1" href="../people/al-khwarizmi.html#person-al-khwarizmi" data-person="al-khwarizmi" title="Muḥammad ibn Mūsā al-Khwārizmī (c. 780 – c. 850) — Founder of Hisāb al-jabr wa-l-muqābala">al-Khwārizmī</a> and Indian dust-board reckoning, utilizing digit pairing from the units place.</p></li>
         <li><p><strong>Heronian Mean Iteration</strong>: Formulated in <a class="person-ref" id="occ-person-heron-1" href="../people/heron.html#person-heron" data-person="heron" title="Heron of Alexandria (fl. 1st century AD) — Author of Metrica &amp; Dioptra">Hero of Alexandria</a>’s <em>Metrica</em> I. 8 (<a class="citation-ref" id="occ-cite-heron-metrica-1" href="../bibliography.html#cite-heron-metrica" data-cite="heron:metrica" title="Heron of Alexandria (1st century AD) — Metrica, Books I–III (ed. H. Schöne (Teubner, 1903); Book I.8 (area of triangle); Book III (division of figures))">heron:metrica</a>):</p>
-        <p>$$x_{n+1} = \frac{1}{2}\left(x_n + \frac{N}{x_n}\right).$$</p>
+        <div class="math notranslate nohighlight">
+        \[x_{n+1} = \frac{1}{2}\left(x_n + \frac{N}{x_n}\right).\]</div>
         </li>
-        <li><p><strong>Duodecimal Pisan Scaling</strong>: Exact integer scaling into <em>denarii</em> ($36 = 6^2$) and square <em>unciae</em> ($324 = 18^2$), ensuring that irrational roots can be expressed to arbitrary precision in native surveyor’s subdivisions.</p></li>
+        <li><p><strong>Duodecimal Pisan Scaling</strong>: Exact integer scaling into <em>denarii</em> (<span class="math notranslate nohighlight">\(36 = 6^2\)</span>) and square <em>unciae</em> (<span class="math notranslate nohighlight">\(324 = 18^2\)</span>), ensuring that irrational roots can be expressed to arbitrary precision in native surveyor’s subdivisions.</p></li>
         </ol>
         <p>Exact verification in SymPy:</p>
         <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">sympy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">sp</span>
@@ -229,6 +230,8 @@
   <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
   <script src="../../_static/js/collection_directory.js?v=0928c9d3"></script>
   <script src="../../_static/js/geometor_interactive.js?v=219c1955"></script>
+  <script>window.MathJax = {"options": {"ignoreHtmlClass": ".*|etc-lazy-math", "processHtmlClass": "math|arithmatex", "enableComplexity": true, "makeCollapsible": true, "menuOptions": {"settings": {"zoom": "Click", "zscale": "200%", "collapsible": true, "enrich": true, "speech": false, "braille": false, "assistiveMml": false}}}, "output": {"displayOverflow": "linebreak", "linebreaks": {"inline": true}}}</script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
   <script src="../../_static/js/search_highlight.js"></script>
 
 </body>

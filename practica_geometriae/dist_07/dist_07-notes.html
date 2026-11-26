@@ -126,13 +126,13 @@
         <hr class="docutils" />
         <section class="level-2" id="section-1-the-quadrans-shadow-scale-arabic-astrolabes">
         <span id="dist-07-s1-notes"></span><h2>Section 1: The Quadrans Shadow Scale &amp; Arabic Astrolabes<a class="headerlink" href="#section-1-the-quadrans-shadow-scale-arabic-astrolabes" title="Link to this heading">¶</a></h2>
-        <p>The $12 \times 12$ <em>puncta</em> shadow scale (<em>scala altimetrica</em> or <em>quadratum umbrae</em>) on the back of the medieval astrolabe and quadrant derives from Islamic astronomy (al-Khwārizmī, al-Battānī). Leonardo calls the instrument both <a class="term-ref glossary-term" id="occ-term-quadrans-1" href="../glossary.html#term-quadrans" data-term="quadrans" title="quadrans (oroscopus) (surveyor&#x27;s and astronomer&#x27;s quadrant with shadow square): Quarter-circle sighting instrument equipped with two pinnules (tabulae perforatae), a plumb bob (perpendiculum), a 90-degree arc, and an inscribed 12 × 12 shadow square (umbra recta / umbra versa) used in Distinctio VII (p. 204) to measure inaccessible tower heights and valley widths by similar right triangles.">quadrans</a> and <em>oroscopus</em>. By defining:</p>
+        <p>The <span class="math notranslate nohighlight">\(12 \times 12\)</span> (or <span class="math notranslate nohighlight">\(60 \times 60\)</span>) <em>puncta</em> shadow scale (<em>scala altimetrica</em> or <em>quadratum umbrae</em>) on the back of the medieval astrolabe and quadrant derives from Islamic astronomy (al-Khwārizmī, al-Battānī). Leonardo calls the instrument both <a class="term-ref glossary-term" id="occ-term-quadrans-1" href="../glossary.html#term-quadrans" data-term="quadrans" title="quadrans (oroscopus) (surveyor&#x27;s and astronomer&#x27;s quadrant with shadow square): Quarter-circle sighting instrument equipped with two pinnules (tabulae perforatae), a plumb bob (perpendiculum), a 90-degree arc, and an inscribed 12 × 12 shadow square (umbra recta / umbra versa) used in Distinctio VII (p. 204) to measure inaccessible tower heights and valley widths by similar right triangles.">quadrans</a> and <em>oroscopus</em>, dividing each side <span class="math notranslate nohighlight">\(dh\)</span> and <span class="math notranslate nohighlight">\(di\)</span> into 12 or 60 equal parts (using 60 parts in his worked numerical examples on p. 206). By defining:</p>
         <ul class="simple">
-        <li><p><em>Umbra recta</em> (horizontal shadow, cotangent scale): for angles between $45^\circ$ and $90^\circ$;</p></li>
-        <li><p><em>Umbra versa</em> (vertical shadow, tangent scale): for angles between $0^\circ$ and $45^\circ$;</p></li>
+        <li><p><em>Umbra recta</em> (horizontal shadow, cotangent scale): for angles between <span class="math notranslate nohighlight">\(45^\circ\)</span> and <span class="math notranslate nohighlight">\(90^\circ\)</span>;</p></li>
+        <li><p><em>Umbra versa</em> (vertical shadow, tangent scale): for angles between <span class="math notranslate nohighlight">\(0^\circ\)</span> and <span class="math notranslate nohighlight">\(45^\circ\)</span>;</p></li>
         </ul>
-        <p>the surveyor computes elevations purely through rational proportions of the $12$-point scale without trigonometric tables.</p>
-        <p>Exact symbolic verification in <cite>geometor.fibonacci</cite>:</p>
+        <p>the surveyor computes elevations purely through rational proportions without trigonometric tables.</p>
+        <p>Exact symbolic verification in <code class="docutils literal notranslate"><span class="pre">geometor.fibonacci</span></code>:</p>
         <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">geometor.fibonacci</span><span class="w"> </span><span class="kn">import</span> <span class="n">construct_quadrans_surveying</span>
 
         <span class="n">quad</span> <span class="o">=</span> <span class="n">construct_quadrans_surveying</span><span class="p">()</span>
@@ -220,6 +220,8 @@
   <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
   <script src="../../_static/js/collection_directory.js?v=0928c9d3"></script>
   <script src="../../_static/js/geometor_interactive.js?v=219c1955"></script>
+  <script>window.MathJax = {"options": {"ignoreHtmlClass": ".*|etc-lazy-math", "processHtmlClass": "math|arithmatex", "enableComplexity": true, "makeCollapsible": true, "menuOptions": {"settings": {"zoom": "Click", "zscale": "200%", "collapsible": true, "enrich": true, "speech": false, "braille": false, "assistiveMml": false}}}, "output": {"displayOverflow": "linebreak", "linebreaks": {"inline": true}}}</script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
   <script src="../../_static/js/search_highlight.js"></script>
 
 </body>

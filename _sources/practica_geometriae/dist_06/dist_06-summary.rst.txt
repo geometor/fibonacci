@@ -17,37 +17,37 @@ SUMMARY — DISTINCTIO VI: SOLID MENSURATION & THE FIVE REGULAR POLYHEDRA
 
 ----
 
-Exact Metrics of the Five Polyhedra Inscribed in Sphere $d = 6$
----------------------------------------------------------------
+Exact Metrics of the Five Polyhedra Inscribed in Sphere :math:`d = 6`
+---------------------------------------------------------------------
 
 .. list-table::
    :header-rows: 1
    :widths: 20 20 25 35
 
    * - Solid
-     - Edge Squared ($e^2$)
-     - Exact Edge ($e$)
-     - Volume ($V$)
+     - Edge Squared (:math:`e^2`)
+     - Exact Edge (:math:`e`)
+     - Volume (:math:`V`)
    * - **Tetrahedron**
-     - $24$
-     - $2\sqrt{6}$
-     - $8\sqrt{3} = \sqrt{192}$
+     - :math:`24`
+     - :math:`2\sqrt{6}`
+     - :math:`8\sqrt{3} = \sqrt{192}`
    * - **Cube**
-     - $12$
-     - $2\sqrt{3}$
-     - $24\sqrt{3} = \sqrt{1{,}728}$
+     - :math:`12`
+     - :math:`2\sqrt{3}`
+     - :math:`24\sqrt{3} = \sqrt{1{,}728}`
    * - **Octahedron**
-     - $18$
-     - $3\sqrt{2}$
-     - **$36$ (rational integer!)**
+     - :math:`18`
+     - :math:`3\sqrt{2}`
+     - :math:`36` **(rational integer!)**
    * - **Dodecahedron**
-     - $18 - \sqrt{180} = 18 - 6\sqrt{5}$
-     - $\sqrt{15} - \sqrt{3}$
-     - $30\sqrt{3} + 6\sqrt{15}$
+     - :math:`18 - \sqrt{180} = 18 - 6\sqrt{5}`
+     - :math:`\sqrt{15} - \sqrt{3}`
+     - :math:`30\sqrt{3} + 6\sqrt{15}`
    * - **Icosahedron**
-     - $18 - \sqrt{64\frac{4}{5}} = 18 - \frac{18}{5}\sqrt{5}$
-     - $\sqrt{18 - \frac{18}{5}\sqrt{5}}$
-     - $18\sqrt{10 + 2\sqrt{5}}$
+     - :math:`18 - \sqrt{64\frac{4}{5}} = 18 - \frac{18}{5}\sqrt{5}`
+     - :math:`\sqrt{18 - \frac{18}{5}\sqrt{5}}`
+     - :math:`18\sqrt{10 + 2\sqrt{5}}`
 
 ----
 
@@ -56,4 +56,6 @@ Hypsicles' Book XIV Ratio
 
 For the dodecahedron and icosahedron inscribed in the identical sphere:
 
-$$\frac{V_{12}}{V_{20}} = \frac{S_{12}}{S_{20}} = \frac{e_6}{e_{20}} = \sqrt{\frac{12}{18 - \frac{18}{5}\sqrt{5}}} = \sqrt{\frac{5 + \sqrt{5}}{6}} \approx 1.098684\dots$$
+.. math::
+
+   \frac{V_{12}}{V_{20}} = \frac{S_{12}}{S_{20}} = \frac{e_6}{e_{20}} = \sqrt{\frac{12}{18 - \frac{18}{5}\sqrt{5}}} = \sqrt{\frac{5 + \sqrt{5}}{6}} \approx 1.098684\dots

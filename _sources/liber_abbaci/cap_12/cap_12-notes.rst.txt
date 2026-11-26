@@ -30,7 +30,7 @@ The rabbit problem in Chapter XII, Part 7 of *Liber Abbaci* (*Boncompagni Vol. I
 3. A newborn pair matures and begins bearing in the second month after its birth.
 4. No mortality occurs during the one-year observation period.
 
-Under these boundary conditions, the population progression is given by the recursive sum of the existing population and the reproductive cohort: $F_{n+1} = F_n + F_{n-1}$.
+Under these boundary conditions, the population progression is given by the recursive sum of the existing population and the reproductive cohort: :math:`F_{n+1} = F_n + F_{n-1}`.
 
 ----
 
@@ -41,10 +41,10 @@ Under these boundary conditions, the population progression is given by the recu
 
 Curiously, Fibonacci himself did not explore the asymptotic ratio of the sequence, nor did he name it after himself. The historical rediscovery proceeded in stages:
 
-* **Johannes Kepler ($1611$)**: In *Strena Seu de Nive Sexangula* (*On the Six-Cornered Snowflake*), Kepler observed that the ratio of consecutive terms in $1, 1, 2, 3, 5, 8, 13, \dots$ converges to the divine proportion $\tau = \frac{\sqrt{5}-1}{2}$ and governs the phyllotactic arrangement of leaves and seeds.
-* **Albert Girard ($1634$)**: Stated the general recurrence $A_{n+2} = A_{n+1} + A_n$ in his edition of Simon Stevin's works.
-* **Giovanni Domenico Cassini ($1680$)**: Discovered the determinant identity $F_{n-1}F_{n+1} - F_n^2 = (-1)^n$, which later formed the basis of the Lewis Carroll chessboard dissection paradox ($64 = 65$).
-* **Édouard Lucas ($1876$)**: Formally bestowed the name **Fibonacci sequence** (*suite de Fibonacci*) upon Leonardo's numbers and developed the companion Lucas sequence $L_n = F_{n-1} + F_{n+1}$ ($2, 1, 3, 4, 7, 11, \dots$).
+* **Johannes Kepler (1611)**: In *Strena Seu de Nive Sexangula* (*On the Six-Cornered Snowflake*), Kepler observed that the ratio of consecutive terms in :math:`1, 1, 2, 3, 5, 8, 13, \dots` converges to the divine proportion :math:`\tau = \frac{\sqrt{5}-1}{2}` and governs the phyllotactic arrangement of leaves and seeds.
+* **Albert Girard (1634)**: Stated the general recurrence :math:`A_{n+2} = A_{n+1} + A_n` in his edition of Simon Stevin's works.
+* **Giovanni Domenico Cassini (1680)**: Discovered the determinant identity :math:`F_{n-1}F_{n+1} - F_n^2 = (-1)^n`, which later formed the basis of the Lewis Carroll chessboard dissection paradox (:math:`64 = 65`).
+* **Édouard Lucas (1876)**: Formally bestowed the name **Fibonacci sequence** (*suite de Fibonacci*) upon Leonardo's numbers and developed the companion Lucas sequence :math:`L_n = F_{n-1} + F_{n+1}` (:math:`2, 1, 3, 4, 7, 11, \dots`).
 
 ----
 
@@ -55,13 +55,17 @@ Curiously, Fibonacci himself did not explore the asymptotic ratio of the sequenc
 
 The characteristic equation of the recurrence is:
 
-$$r^2 - r - 1 = 0 \implies r = \frac{1 \pm \sqrt{5}}{2}.$$
+.. math::
 
-Letting $\phi = \frac{1 + \sqrt{5}}{2}$ and $\psi = \frac{1 - \sqrt{5}}{2} = -\frac{1}{\phi}$, the closed-form expression discovered by :person:`Jacques Philippe Marie Binet <binet>` ($1843$) gives:
+   r^2 - r - 1 = 0 \implies r = \frac{1 \pm \sqrt{5}}{2}.
 
-$$F_n = \frac{\phi^n - \psi^n}{\sqrt{5}} = \frac{1}{\sqrt{5}} \left[ \left(\frac{1+\sqrt{5}}{2}\right)^n - \left(\frac{1-\sqrt{5}}{2}\right)^n \right].$$
+Letting :math:`\phi = \frac{1 + \sqrt{5}}{2}` and :math:`\psi = \frac{1 - \sqrt{5}}{2} = -\frac{1}{\phi}`, the closed-form expression discovered by Jacques Philippe Marie Binet (1843) gives:
 
-Because $|\psi| \approx 0.618 < 1$, the term $\psi^n \to 0$ rapidly as $n \to \infty$, so $F_n = \left\lfloor \frac{\phi^n}{\sqrt{5}} + \frac{1}{2} \right\rfloor$ for all $n \ge 1$.
+.. math::
+
+   F_n = \frac{\phi^n - \psi^n}{\sqrt{5}} = \frac{1}{\sqrt{5}} \left[ \left(\frac{1+\sqrt{5}}{2}\right)^n - \left(\frac{1-\sqrt{5}}{2}\right)^n \right].
+
+Because :math:`|\psi| \approx 0.618 < 1`, the term :math:`\psi^n \to 0` rapidly as :math:`n \to \infty`, so :math:`F_n = \left\lfloor \frac{\phi^n}{\sqrt{5}} + \frac{1}{2} \right\rfloor` for all :math:`n \ge 1`.
 
 ----
 
@@ -70,7 +74,7 @@ Because $|\psi| \approx 0.618 < 1$, the term $\psi^n \to 0$ rapidly as $n \to \i
 4. SymPy Computational Modeling in GEOMETOR
 -------------------------------------------
 
-In ``geometor.fibonacci``, the sequence and its convergence to $\phi$ are verified symbolically using SymPy:
+In ``geometor.fibonacci``, the sequence and its convergence to :math:`\phi` are verified symbolically using SymPy:
 
 .. code-block:: python
 
@@ -88,4 +92,4 @@ In ``geometor.fibonacci``, the sequence and its convergence to $\phi$ are verifi
    # Verify Cassini's identity for n=1..12
    assert verify_cassini_identity(12)
 
-The connection between *Liber Abbaci* Cap. XII and *Practica Geometriae* Distinctio VIII is direct: the irrational segment $s_{10} = \frac{5}{\phi}$ and pentagon side $s_5$ constructed by ruler and compass in *Practica Geometriae* are the exact geometric realization of the algebraic ratio towards which Fibonacci's rabbits multiply.
+The connection between *Liber Abbaci* Cap. XII and *Practica Geometriae* Distinctio VIII is direct: the irrational segment :math:`s_{10} = \frac{5}{\phi}` and pentagon side :math:`s_5` constructed by ruler and compass in *Practica Geometriae* are the exact geometric realization of the algebraic ratio towards which Fibonacci's rabbits multiply.

@@ -27,9 +27,11 @@ Leonardo's square root method in Distinctio II represents a synthesis of three a
 1. **Indian and Arabic Positional Arithmetic**: Derived from :person:`al-Khwārizmī <al-khwarizmi>` and Indian dust-board reckoning, utilizing digit pairing from the units place.
 2. **Heronian Mean Iteration**: Formulated in :person:`Hero of Alexandria <heron>`'s *Metrica* I. 8 (:cite:`heron:metrica`):
 
-   $$x_{n+1} = \frac{1}{2}\left(x_n + \frac{N}{x_n}\right).$$
+   .. math::
 
-3. **Duodecimal Pisan Scaling**: Exact integer scaling into *denarii* ($36 = 6^2$) and square *unciae* ($324 = 18^2$), ensuring that irrational roots can be expressed to arbitrary precision in native surveyor's subdivisions.
+      x_{n+1} = \frac{1}{2}\left(x_n + \frac{N}{x_n}\right).
+
+3. **Duodecimal Pisan Scaling**: Exact integer scaling into *denarii* (:math:`36 = 6^2`) and square *unciae* (:math:`324 = 18^2`), ensuring that irrational roots can be expressed to arbitrary precision in native surveyor's subdivisions.
 
 Exact verification in SymPy:
 
