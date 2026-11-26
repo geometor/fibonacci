@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     class="euclid-graphic"
+     data-graphic-id="0160.g1"
+     data-folio="0160"
+     data-graphic="g1"
+     viewBox="0 0 150 48"
+     width="150"
+     height="48"
+     role="img"
+     aria-label="Two given quantities f and c">
+  <title>Two given quantities f and c</title>
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" markerWidth="10" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="0" y1="-4" x2="0" y2="4" stroke="currentColor" stroke-width="1.5" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-2" y1="-4" x2="-2" y2="4" stroke="currentColor" stroke-width="1.5" />
+      <line x1="2" y1="-4" x2="2" y2="4" stroke="currentColor" stroke-width="1.5" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" markerWidth="14" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-3.5" y1="-4" x2="-3.5" y2="4" stroke="currentColor" stroke-width="1.5" />
+      <line x1="0" y1="-4" x2="0" y2="4" stroke="currentColor" stroke-width="1.5" />
+      <line x1="3.5" y1="-4" x2="3.5" y2="4" stroke="currentColor" stroke-width="1.5" />
+    </marker>
+  </defs>
+  <style>
+    .euclid-graphic {
+      --geom-bg: #fafaf9;
+      --geom-fg: #1c1917;
+      --geom-carrier: #334155;
+      --geom-circle: #0284c7;
+      --geom-accent: #d97706;
+      --geom-assert: #059669;
+      --geom-point: #0f172a;
+      --geom-label-halo: rgba(250, 250, 249, 0.92);
+      font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      .euclid-graphic {
+        --geom-bg: #141417;
+        --geom-fg: #f4f4f5;
+        --geom-carrier: #cbd5e1;
+        --geom-circle: #38bdf8;
+        --geom-accent: #fbbf24;
+        --geom-assert: #34d399;
+        --geom-point: #f8fafc;
+        --geom-label-halo: rgba(20, 20, 23, 0.92);
+      }
+    }
+    .euclid-graphic .svg-bg { fill: var(--geom-bg); }
+    .euclid-graphic .geom-segment { fill: none; stroke: var(--geom-carrier); stroke-width: 1.65; stroke-linecap: round; }
+    .euclid-graphic .geom-segment.dashed { stroke-dasharray: 4 3; opacity: 0.75; }
+    .euclid-graphic .geom-circle { fill: none; stroke: var(--geom-circle); stroke-width: 1.75; }
+    .euclid-graphic .geom-polygon { fill: var(--geom-circle); fill-opacity: 0.05; stroke: var(--geom-carrier); stroke-width: 1.5; stroke-linejoin: round; }
+    .euclid-graphic .geom-point { fill: var(--geom-point); stroke: var(--geom-bg); stroke-width: 1.2; }
+    .euclid-graphic .geom-label {
+      fill: var(--geom-fg);
+      font-size: 12px;
+      font-weight: 600;
+      font-style: italic;
+      paint-order: stroke fill;
+      stroke: var(--geom-label-halo);
+      stroke-width: 3px;
+      stroke-linejoin: round;
+      user-select: none;
+    }
+    .euclid-graphic .geom-num {
+      fill: var(--geom-accent);
+      font-size: 11px;
+      font-weight: 600;
+      paint-order: stroke fill;
+      stroke: var(--geom-label-halo);
+      stroke-width: 2.5px;
+      user-select: none;
+    }
+  </style>
+  <rect class="svg-bg" x="0" y="0" width="150" height="48" rx="4" />
+
+  <g id="elements">
+    <g id="graphics">
+      <path class="geom-segment" d="M 12.0 16.0 L 76.0 16.0 L 140.0 16.0" data-ref="/ F1 F2 /" data-aliases="/ F2 F1 / | [ F1 F2 ] | [ F2 F1 ]" />
+      <path class="geom-segment" d="M 28.0 36.0 L 76.0 36.0 L 124.0 36.0" data-ref="/ C1 C2 /" data-aliases="/ C2 C1 / | [ C1 C2 ] | [ C2 C1 ]" />
+    </g>
+    <g id="highlights" style="pointer-events: none;"></g>
+    <g id="points">
+      <circle class="geom-point" cx="76.0" cy="16.0" r="2.6" data-ref="F" />
+      <circle class="geom-point" cx="76.0" cy="36.0" r="2.6" data-ref="C" />
+    </g>
+    <g id="labels">
+      <text class="geom-label" x="73.0" y="12.0" data-ref="F">f</text>
+      <text class="geom-label" x="73.0" y="32.0" data-ref="C">c</text>
+    </g>
+  </g>
+</svg>

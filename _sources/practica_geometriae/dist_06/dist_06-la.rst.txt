@@ -129,6 +129,18 @@ et quedam ex suprascriptis quinque solidis infra quedam eorum aptare: ut in quin
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0170
    :page: 163
 
+.. picture:: 0170.g1.png
+   :alt: Archival folio 0170 g1
+
+.. picture:: 0170.g1.svg
+   :alt: Geometric diagram on folio 0170 (figure 1)
+
+.. picture:: 0170.g2.png
+   :alt: Archival folio 0170 g2
+
+.. picture:: 0170.g2.svg
+   :alt: Geometric diagram on folio 0170 (figure 2)
+
 **CVM** autem aliquod corpus huius prime partis mensurare desideras; embadum basis ipsius, secundum quod superius in tractatu embadorum docui, diligenter inquiras: quod per ipsius corporis altitudinem multiplica, et quod prouenerit,
 erit embadum ipsius corporis: est enim altitudo corporum huius prime partis linea recta, que orthogonaliter erigitur supra basem, et terminatur in superficiem equidistantem basi. Et ut hec aperte monstrentur, adiaceat
 primum cubus .aeg. habens palmos .10. in latitudine: longitudine: et altitudine. Cuius sex superficies sunt tetragone, cum habeant angulos rectos, lateraque equalia; et sit basis eius tetragonum .ac., cui equidistans est
@@ -150,6 +162,12 @@ pro quadrato linee .db.: et signabo punctum .c. in rectam .dt., et sit .ct. duo;
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0171
    :page: 164
+
+.. picture:: 0171.g1.png
+   :alt: Archival folio 0171 g1
+
+.. picture:: 0171.g1.svg
+   :alt: Geometric diagram on folio 0171 (figure 1)
 
 est radix: et quia recta .dt. diuisa est in duo super punctum .c., erunt duo quadrata sectionum .dc. et .ct. cum duplo .tc. in .cd. equalia quadrato linee .td. Nam ex dc in
 se prouenit census; et ex .ct. in se prouenient .4.; et ex duplo .tc. in .cd. prouenient .iiij.or radices: ergo pro quadrato linee .td. habetur census, et .iiij.or radices, et 4 dragme;
@@ -174,6 +192,12 @@ quare .ad. est .11., et .dh. est 12. Similiter dicatur: addidi quadrata linearum
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0172
    :page: 165
 
+.. picture:: 0172.g1.png
+   :alt: Archival folio 0172 g1
+
+.. picture:: 0172.g1.svg
+   :alt: Geometric diagram on folio 0172 (figure 1)
+
 aggregatum est .730.; dimidiabo siquidem ea, et uenient .365. pro quadrato dyametri .hb., cum quibus operandum est ut supra. Sed si dictum fuerit: agregaui altitudinem .dh. cum quadrato dyametri .hb.,
 et habui .377.; et fuit .dh. uno plus ex .da., et .da. uno plus ex .ab.; ponam similiter .ba. rem; quare et .ad. erit res, uno addito, et .dh. erit res, duobus additis;
 et erunt quadrata earum trium linearum, secundum quod demonstratum est superius, tres census, et sex radices, et 5, que equantur quadrato dyametri .hb.: cui si addatur altitudo .dh., que est radix,
@@ -197,6 +221,18 @@ uel etiam a puncto .e., ut cadat extra figuram. Sed si
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0173
    :page: 166
+
+.. picture:: 0173.g1.png
+   :alt: Archival folio 0173 g1
+
+.. picture:: 0173.g1.svg
+   :alt: Geometric diagram on folio 0173 (figure 1)
+
+.. picture:: 0173.g2.png
+   :alt: Archival folio 0173 g2
+
+.. picture:: 0173.g2.svg
+   :alt: Geometric diagram on folio 0173 (figure 2)
 
 secundum artem operari uolumus, oportebit nos uti arundinum instrumento: sic erigam arundinem orthogonaliter a puncto .b. supra basem .ac., que sit .bm., cuius longitudo sit nota; et aptabo super eam
 arundinem .mn. faciens angulum rectum, qui ad .m.; et ponamus rectam .of. cathetum esse solidi .dhf.; et erit proportio .bm. ad .of., sicut .bn. ad .bf.: ergo si nota erit longitudo recte .bf.,
@@ -224,6 +260,18 @@ multiplicabo .bg. per .be., scilicet .14.
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0174
    :page: 167
 
+.. picture:: 0174.g1.png
+   :alt: Archival folio 0174 g1
+
+.. picture:: 0174.g1.svg
+   :alt: Geometric diagram on folio 0174 (figure 1)
+
+.. picture:: 0174.g2.png
+   :alt: Archival folio 0174 g2
+
+.. picture:: 0174.g2.svg
+   :alt: Geometric diagram on folio 0174 (figure 2)
+
 per .20., et uenient .280. pro embado basis quadrilateri .eg.; quibus ductis in dimidium .al., scilicet in .6., uenient .1680., ut supra, pro embado seratilis .abgdez.
 
 **SI** uero corpus aliquod commistum fuerit ex solido sex basium equidistantium, et aliquo cuno, ut sunt arce, in quibus tenetur frumentum: embadum solidi cum embado seratilis in unum coniunge,
@@ -250,6 +298,12 @@ alicuius corporis huius partis fuerit penthagona, uel plurium laterum, poterunt
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0175
    :page: 168
 
+.. picture:: 0175.g1.png
+   :alt: Archival folio 0175 g1
+
+.. picture:: 0175.g1.svg
+   :alt: Geometric diagram on folio 0175 (figure 1)
+
 resolui in tres, uel plures cunos habentes bases triangulas, cum quelibet figura plana rectilinea resoluatur in duos triangulos minus numero laterum ipsius, ut penthagonum quod resoluitur in tres triangulos,
 exagonum in .iiij.or etc. Vnde cum areas omnium triangulorum cadentium infra basem similium corporum: hoc est aream eiusdem basis per altitudinem corporis multiplicaueris, nimirum embadum ipsius corporis habere non dubites.
 Sed quia inuentione embadorum multilaterum figurarum cadentium in circulis alia, preter ea que dicta sunt, dicere possumus; ut hoc opus perfectum sit, aliqua inde dicere presentialiter procuraui.
@@ -275,6 +329,24 @@ cum in eis intelligatur esse latum, longum, et altum.
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0176
    :page: 169
 
+.. picture:: 0176.g1.png
+   :alt: Archival folio 0176 g1
+
+.. picture:: 0176.g1.svg
+   :alt: Geometric diagram on folio 0176 (figure 1)
+
+.. picture:: 0176.g2.png
+   :alt: Archival folio 0176 g2
+
+.. picture:: 0176.g2.svg
+   :alt: Geometric diagram on folio 0176 (figure 2)
+
+.. picture:: 0176.g3.png
+   :alt: Archival folio 0176 g3
+
+.. picture:: 0176.g3.svg
+   :alt: Geometric diagram on folio 0176 (figure 3)
+
 .. rubric:: *Incipit pars secunda de dimensione pyramidum.*
 
 **CVM** itaque piramidem aliquam metiri desideras, embadum sue basis, cuiuscumque sit forme, per tertiam altitudinis ipsius multiplica; et quod prouenerit, erit embadum ipsius piramidis; que regula prouenit ex eis que
@@ -299,6 +371,24 @@ quadratum recte procedentes ab unoquoque angulorum ad casum altitudinis pyramidi
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0177
    :page: 170
 
+.. picture:: 0177.g1.png
+   :alt: Archival folio 0177 g1
+
+.. picture:: 0177.g1.svg
+   :alt: Geometric diagram on folio 0177 (figure 1)
+
+.. picture:: 0177.g2.png
+   :alt: Archival folio 0177 g2
+
+.. picture:: 0177.g2.svg
+   :alt: Geometric diagram on folio 0177 (figure 2)
+
+.. picture:: 0177.g3.png
+   :alt: Archival folio 0177 g3
+
+.. picture:: 0177.g3.svg
+   :alt: Geometric diagram on folio 0177 (figure 3)
+
 inuestigare hoc modo. Est enim .bi. dimidium ex .bg.; quare quadratum ex .bi. est quarta quadrati ex .ab.; quare quadratum ex .ai. est 3/4 ex quadrato, quod fit a recta .ab.:
 est enim recta .ae. 2/3 ex .a.i.; quare quadratum ex .ae. est 4/9 ex quadrato recte .ai.; ergo quadratum ex .ae., hoc est ex .be., uel ex .ge., est 4/9 de 3/4 quadrati lateris .ab.
 Sed 4/9 de 3/4 alicuius rei est quantum 3/4 de 4/9 eiusdem rei, hoc est 1/3; ergo quadratum uniuscuiusque rectarum .ae. be. ge. est tertia quadrati lateris .ba.; hoc est ex latere .da.
@@ -321,6 +411,24 @@ et unumquodque laterum .db. et .dg. .14.; latus quoque .da. sit .12.: inueniam p
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0178
    :page: 171
+
+.. picture:: 0178.g1.png
+   :alt: Archival folio 0178 g1
+
+.. picture:: 0178.g1.svg
+   :alt: Geometric diagram on folio 0178 (figure 1)
+
+.. picture:: 0178.g2.png
+   :alt: Archival folio 0178 g2
+
+.. picture:: 0178.g2.svg
+   :alt: Geometric diagram on folio 0178 (figure 2)
+
+.. picture:: 0178.g3.png
+   :alt: Archival folio 0178 g3
+
+.. picture:: 0178.g3.svg
+   :alt: Geometric diagram on folio 0178 (figure 3)
 
 cathetus .ae. erit .8.: deinde inueniam casum trigoni .dae. super basem .ae. sic: ex quadrato quidem, quod fit ex .de., auferam quadratum ex .da., scilicet 144 de 160., remanebunt .16.;
 quibus diuisis per .ae., uenient .2.; quibus additis cum .ae., erunt .10.; cuius dimidium, scilicet .5., est maior casus a latere maiori .de.: quare ponam .h. super punctum casus, ut sit .eh. 5,
@@ -347,6 +455,24 @@ sit .12.; in hoc pyramide recta
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0179
    :page: 172
 
+.. picture:: 0179.g1.png
+   :alt: Archival folio 0179 g1
+
+.. picture:: 0179.g1.svg
+   :alt: Geometric diagram on folio 0179 (figure 1)
+
+.. picture:: 0179.g2.png
+   :alt: Archival folio 0179 g2
+
+.. picture:: 0179.g2.svg
+   :alt: Geometric diagram on folio 0179 (figure 2)
+
+.. picture:: 0179.g3.png
+   :alt: Archival folio 0179 g3
+
+.. picture:: 0179.g3.svg
+   :alt: Geometric diagram on folio 0179 (figure 3)
+
 .dg. est cathetus ipsius, cum quadrata linearum .bg. et .gd. equentur quadrato linee .db.; nec non et quadrata linearum .dg. et .ga. equentur quadrato linee .ad.; ergo si tertia ex .dg.
 ducatur per embadum trianguli .abg., habebitur embadum pyramidis .a.b.g.d. Sed non sit cathetus pyramidis aliqua ex lineis descendentibus a summitate eius, ut in pyramide .abcd., cuius latus .ab. sit .13.,
 .bc. 14., .ac. 15.; latus quoque .bd. 13., et .dc. 15., et .da. 14. Primum in triangulo .abc. protraham cathetum .ae.; et in trigono .dbc. protraham cathetum .df.;
@@ -372,6 +498,18 @@ quod est radix de .160.; quare quadratum de .72., quod est 5184, diuidam per 160
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0180
    :page: 173
 
+.. picture:: 0180.g1.png
+   :alt: Archival folio 0180 g1
+
+.. picture:: 0180.g1.svg
+   :alt: Geometric diagram on folio 0180 (figure 1)
+
+.. picture:: 0180.g2.png
+   :alt: Archival folio 0180 g2
+
+.. picture:: 0180.g2.svg
+   :alt: Geometric diagram on folio 0180 (figure 2)
+
 duplum radicis multiplicationis de 2/5 32 in 160.; quod duplum est .144., remanebunt 2/5 48. pro quadrato dupli minoris casus, qui sit .bk.; quare quadratum ex .bk. erit 1/10 12,
 scilicet quartum de 2/5 48; quibus 1/10 12 extractis de quadrato linee .db., remanebunt 9/10 276 pro quadrato catheti .dk.: deinde ut habeamus notitiam linee .kh., addam quadratum
 ex .bk. cum quadrato, quod fit a .bh., scilicet 1/10 12 cum 2250, erunt 1/10 2262; ex quibus auferam duplum radicis eius, quod fit ex 1/10 12 in 2250;
@@ -395,6 +533,12 @@ ipsorum trigonorum equidistantia; latus quidem .ez. lateri .ab., et latus .ei. l
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0181
    :page: 174
+
+.. picture:: 0181.g1.png
+   :alt: Archival folio 0181 g1
+
+.. picture:: 0181.g1.svg
+   :alt: Geometric diagram on folio 0181 (figure 1)
 
 in trigonis .dab. et .dag. et .dbg. protracte sunt recte .ez. ei. zi. equidistantes basibus .ab. ag. bg., erunt anguli exteriores equales oppositis et interioribus angulis, siquidem
 qui sub .dez. angulo qui sub .dab., nec non et anguli qui sub .dze. et .dzi. et .diz. et .die. et .dei. angulis qui sub .dba. et .dbg. et .dgb. et .dga. et .dag. sunt equales.
@@ -422,6 +566,18 @@ equalem linee .z.i.; et applicabo super rectam .ng. superficiem rectiangulam .no
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0182
    :page: 175
 
+.. picture:: 0182.g1.png
+   :alt: Archival folio 0182 g1
+
+.. picture:: 0182.g1.svg
+   :alt: Geometric diagram on folio 0182 (figure 1)
+
+.. picture:: 0182.g2.png
+   :alt: Archival folio 0182 g2
+
+.. picture:: 0182.g2.svg
+   :alt: Geometric diagram on folio 0182 (figure 2)
+
 equalem superficiei trianguli .ezi.; et ducam rectam .po. in .q. Dico primum, superficiem .np. similem esse superficiei .bm. Quod sic probatur: quoniam, ut in antecedente figura,
 trigona .abg. et .ezi. demonstrata sunt equiangula esse, erunt etiam propter hoc sibi inuicem similia. Similia uero trigona in duplici proportione sunt similium laterum. Latera quidem .bg. et .zi. sibi inuicem sunt similia;
 quare proportio trigoni .abg. ad trigonum .ezi. est duplicata lateris .bg. ad latus .z.i.: sit itaque sicut .bg. ad .zi., ita .zi. ad .u.; quare est sicut .bg. ad .v.,
@@ -444,6 +600,12 @@ Sed sicut .mp. ad .pg., ita superficies .qm. ad superficiem .bp.; quare multipli
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0183
    :page: 176
+
+.. picture:: 0183.g1.png
+   :alt: Archival folio 0183 g1
+
+.. picture:: 0183.g1.svg
+   :alt: Geometric diagram on folio 0183 (figure 1)
 
 equalis est multiplicationi ex .dt. in superficiem .R., hoc est in superficiem .qm. Rursus quia est sicut .bn. ad .ng., ita .tk. ad .dt.; et est sicut .bn. ad .ng., ita superficies .S.,
 hoc est superficies .bo., ad superficiem .np.: quare multiplicatio ex .tk. in superficiem .np. equatur multiplicationi ex .dt. in superficiem .S.; ergo multiplicatio ex .tk. in coniunctum ex superficiebus .bp. et .pn.
@@ -468,6 +630,12 @@ et protrahantur dyametri ipsorum .bd. et .fh.; et sint ipsi circulj sibi inuicem
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0184
    :page: 177
 
+.. picture:: 0184.g1.png
+   :alt: Archival folio 0184 g1
+
+.. picture:: 0184.g1.svg
+   :alt: Geometric diagram on folio 0184 (figure 1)
+
 circulj. Verbi gratia: semi .bd. pone inter utrumque in proportione media semidyametrum .bk. et .i.f.l.m. lineam, cuius spatio circinetur circulus .mno. Dico primum, circulum .mno. cadere in proportione media inter circulum .abc.,
 et circulum .efg. Probatio. Quoniam est sicut .bk. recta ad rectam .lm., ita recta .lm. ad rectam .if. Quare erit sicut .bk. ad .fi., ita quadratum ex .bk. ad quadratum ex .lm.
 Sed sicut quadratum ex .bk. ad quadratum ex .ml., ita quadratum dyametri .bd. ad quadratum dyametri .pm. Est enim sicut quadratum dyametri .bd. ad quadratum dyametri .pm., ita circulus .abcd. ad circulum .mnpo.:
@@ -490,6 +658,24 @@ Sit rursus sicut .it. ad .de., hoc est sicut .ab. ad .it., ita .de. ad .i.: perm
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0185
    :page: 178
+
+.. picture:: 0185.g1.png
+   :alt: Archival folio 0185 g1
+
+.. picture:: 0185.g1.svg
+   :alt: Geometric diagram on folio 0185 (figure 1)
+
+.. picture:: 0185.g2.png
+   :alt: Archival folio 0185 g2
+
+.. picture:: 0185.g2.svg
+   :alt: Geometric diagram on folio 0185 (figure 2)
+
+.. picture:: 0185.g3.png
+   :alt: Archival folio 0185 g3
+
+.. picture:: 0185.g3.svg
+   :alt: Geometric diagram on folio 0185 (figure 3)
 
 .kit., ita trigonum .kit. ad trigonum .dez.; ergo trigonum .kit. est in proportione media inter trigonum .abg., et trigonum .dez. Eleuetur siquidem super trigonum .kit. cathetus .km. equalis catheto cadenti inter triangulum .daz., et triangulum .abg.;
 et copulentur recte .mi. et .mt.; et erit altitudo pyramidis .mkit. equalis altitudini pyramidis decurtate .abgdez. De inde protrahantur recte .ae. et .eg. et .dg.; et fient in dicta pyramide decurtata tres pyramides continue proportionales,
@@ -515,6 +701,18 @@ Verbi gratia: sit spera .ab.; et in ipsa sit punctus .z., a quo protracte sint q
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0186
    :page: 179
 
+.. picture:: 0186.g1.png
+   :alt: Archival folio 0186 g1
+
+.. picture:: 0186.g1.svg
+   :alt: Geometric diagram on folio 0186 (figure 1)
+
+.. picture:: 0186.g2.png
+   :alt: Archival folio 0186 g2
+
+.. picture:: 0186.g2.svg
+   :alt: Geometric diagram on folio 0186 (figure 2)
+
 Probatio: protrahantur a puncto .b. in puncta .g.d.e. recte .bg. bd. be.; et copulentur recte .dg. de., et erunt omnes iste recte infra speram. Et quoniam omne trigonum, ut in undecimo habetur **EVCLIDIS**,
 est in uno plano, erunt puncta .b.g.d. in uno plano; et puncta .b.d.e. in alio; circa que puncta circinentur circulj .bgd. et .bde.; et a puncto .z. ad plana circulorum .bgd. bde.
 perpendiculares protrahantur .zi. zt., et emittantur ab utraque parte in puncta .k.l.m.n.; et per punctum recte protrahatur .ib. ig. id. Et quoniam .zi. stat orthogonaliter super planum circuli .b.g.d., erunt siquidem anguli .zib. et .zig. et .zid. recti:
@@ -536,6 +734,18 @@ hoc modo: protraham lineam .et., et erunt quadrata linearum .eb. et .bt. equalia
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0187
    :page: 180
+
+.. picture:: 0187.g1.png
+   :alt: Archival folio 0187 g1
+
+.. picture:: 0187.g1.svg
+   :alt: Geometric diagram on folio 0187 (figure 1)
+
+.. picture:: 0187.g2.png
+   :alt: Archival folio 0187 g2
+
+.. picture:: 0187.g2.svg
+   :alt: Geometric diagram on folio 0187 (figure 2)
 
 perpendicularis .ae., erunt quadrata linearum .ae. et .et., hoc est quadratum .at. equalia quadratis linearum .ae. eb. bt.,
 hoc est quadratis linearum .ab. et .bt. Quare angulus .abt. rectus est; perpendicularis ergo est .ab. super lineam .tk.::
@@ -564,6 +774,12 @@ cuius centrum est .f.; et secet ipsam pyramidem superficies .hikl., que sit equi
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0188
    :page: 181
 
+.. picture:: 0188.g1.png
+   :alt: Archival folio 0188 g1
+
+.. picture:: 0188.g1.svg
+   :alt: Geometric diagram on folio 0188 (figure 1)
+
 duo puncta .b.c.; et sit arcus .bc. minor semicirculo; et protraham a punctis .b.c. dyametros .bd. ce.; et copulabo rectas .ab. ac. ad. ae. et .be.;
 et signabo super lineas .ab. et .ac. et .ad. et .ae. super comunem sectionem, quam habent ipse recte cum superficie .hikl. puncta .h.i.k.l.:
 et quoniam trigona .abd. et .ace. sese inuicem secant super puncta .a.f., comunis eorum sectio erit linea recta, que est linea cadens perpendiculariter ab .a. in .f.;
@@ -591,6 +807,12 @@ et erunt recte .mb. et .mg. equales sibi inuicem: nec non et recte .me. et .mz. 
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0189
    :page: 182
+
+.. picture:: 0189.g1.png
+   :alt: Archival folio 0189 g1
+
+.. picture:: 0189.g1.svg
+   :alt: Geometric diagram on folio 0189 (figure 1)
 
 triplum eius, et septimam, erit sicut circulus .abg. ad suum dyametrum .bg., ita circulus .dez. ad suum dyametrum .ez.:
 et propter hoc erit sicut arcus .bag., qui est medietas circulj .abg. ad dyametrum .bg., ita arcus .edz., qui est medietas circulj .dez. ad dyametrum .ez.:
@@ -622,6 +844,12 @@ in 4/5 8., remanebunt similiter .462. pro area contenta inter circulum .edz. et 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0190
    :page: 183
 
+.. picture:: 0190.g1.png
+   :alt: Archival folio 0190 g1
+
+.. picture:: 0190.g1.svg
+   :alt: Geometric diagram on folio 0190 (figure 1)
+
 **CVM** fuerit circulus, cuius dyameter sit protracta, et protrahitur ex centro ipsius linea stans super dyametrum orthogonaliter: et perueniens ad lineam continentem ipsum;
 et secatur una duarum medietatum circulj in duo media; tunc cum diuiditur una harum quartarum in diuisiones equales quecumque sint; deinde protrahitur corda sectionis,
 cuius una extremitas est punctus, super quod secat se linea recta stans super dyametrum, et linea continens circulum: et producitur linea dyametri in parte, in quam concurrere, donec concurrant;
@@ -651,6 +879,18 @@ Comuniter addatur semidyametrum .ea., erit semidyametrum .ea. cum rectis .lg. kf
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0191
    :page: 184
 
+.. picture:: 0191.g1.png
+   :alt: Archival folio 0191 g1
+
+.. picture:: 0191.g1.svg
+   :alt: Geometric diagram on folio 0191 (figure 1)
+
+.. picture:: 0191.g2.png
+   :alt: Archival folio 0191 g2
+
+.. picture:: 0191.g2.svg
+   :alt: Geometric diagram on folio 0191 (figure 2)
+
 columnarum: et superior harum sit pyramis perfecta habens summitatem eius in alio super polum spere (sic) super polum circulj basis semispere;
 et circulus basis ipsius sit caput sequentis portionis, cuius basis etiam sit caput sequentis portionis pyramidis; et hoc semper fiat, donec basis inferioris portionis
 sit circulus maior cadens in spera; et sint omnes circulj portionum equidistantes circulo maiori; et perpendicularis cadens a polo ipsius maioris circuli,
@@ -677,6 +917,18 @@ quod duplum si ducatur in 1/7 3., reddit duplum aree circulj .abgd.; ergo duplum
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0192
    :page: 185
+
+.. picture:: 0192.g1.png
+   :alt: Archival folio 0192 g1
+
+.. picture:: 0192.g1.svg
+   :alt: Geometric diagram on folio 0192 (figure 1)
+
+.. picture:: 0192.g2.png
+   :alt: Archival folio 0192 g2
+
+.. picture:: 0192.g2.svg
+   :alt: Geometric diagram on folio 0192 (figure 2)
 
 recta .hz. quam .hi. Quare ex ductu .zi. in .he. et in 1/7 3. prouenit minus duplo aree circulj .abgd.: est enim .he. equalis rectis .ae. mn. kl. it. coniunctis:
 quare ex multiplicatione .zi. in coniunctum rectarum .ae. mn. kl. it. ducta in 1/7 3. prouenit minus duplo aree circulj .abgd.: ex quibus multiplicationibus
@@ -708,6 +960,18 @@ Si superficiei spere, cuius dyameter est .7., aream colligere uis: aream maioris
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0193
    :page: 186
 
+.. picture:: 0193.g1.png
+   :alt: Archival folio 0193 g1
+
+.. picture:: 0193.g1.svg
+   :alt: Geometric diagram on folio 0193 (figure 1)
+
+.. picture:: 0193.g2.png
+   :alt: Archival folio 0193 g2
+
+.. picture:: 0193.g2.svg
+   :alt: Geometric diagram on folio 0193 (figure 2)
+
 quadruplica; uel quadratum dyametri, quod est 49., per 1/7 3. multiplica, et habetur 154. pro area superficiei ipsius spere:
 et si medietatem quadrati dyametri per 1/7 3 multiplicaueris, uel duplicaueris aream suprascripti circulj, habebis utique .77. pro area superficiei medietatis spere predicte.
 Et si 154., que sunt area superficiei totius spere, in sextam dyametri spere, scilicet in 1/6 1.; uel si tertiam partem de 154.
@@ -734,6 +998,12 @@ in tertiam superficiei sue est maior corpore eius; ipsa igitur est equalis corpo
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0194
    :page: 187
+
+.. picture:: 0194.g1.png
+   :alt: Archival folio 0194 g1
+
+.. picture:: 0194.g1.svg
+   :alt: Geometric diagram on folio 0194 (figure 1)
 
 multiplicabimus aream superficiei ipsius in sextam sui dyametri, uel medietatem dyametri eius ducemus in tertiam partem sue superficiei: verbi gratia:
 sit dyameter date spere .10.; quam si multiplicamus per medietatem eius, uenient .50.; quibus ductis per 1/7 3., uenient 1/7 157.,
@@ -766,6 +1036,24 @@ Et ut hec que dicta sunt geometrice demonstrentur. Adiaceat semisfera .bzd., cui
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0195
    :page: 188
 
+.. picture:: 0195.g1.png
+   :alt: Archival folio 0195 g1
+
+.. picture:: 0195.g1.svg
+   :alt: Geometric diagram on folio 0195 (figure 1)
+
+.. picture:: 0195.g2.png
+   :alt: Archival folio 0195 g2
+
+.. picture:: 0195.g2.svg
+   :alt: Geometric diagram on folio 0195 (figure 2)
+
+.. picture:: 0195.g3.png
+   :alt: Archival folio 0195 g3
+
+.. picture:: 0195.g3.svg
+   :alt: Geometric diagram on folio 0195 (figure 3)
+
 .z.; et signetur super semisfera .bzd. circulus magnus .azg., qui stet orthogonaliter super circulum .abgd.; et comunis eorum sectio .ag. est dyameter utriusque circulj; et descendat a polo .z. per superficiem circulj .azg. perpendicularis .ze. super dyametrum .ag.;
 et erit .e. punctus centrum utriusque circulj: et diuidatur arcus .az. in quotlibet partes equales, que sint arcus .ai. it. tz.;
 et per puncta .i.t. equidistantes dyametro .ag. protrahantur corde .ik. tl.; et protrahatur corda .zt. extra circulum in puncto .m.; ad quem punctum proueniat etiam dyameter .ga.
@@ -792,6 +1080,24 @@ Vnde patet, superficiem portionis spere .hzx. equalem esse superficiei .y.: et q
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0196
    :page: 189
 
+.. picture:: 0196.g1.png
+   :alt: Archival folio 0196 g1
+
+.. picture:: 0196.g1.svg
+   :alt: Geometric diagram on folio 0196 (figure 1)
+
+.. picture:: 0196.g2.png
+   :alt: Archival folio 0196 g2
+
+.. picture:: 0196.g2.svg
+   :alt: Geometric diagram on folio 0196 (figure 2)
+
+.. picture:: 0196.g3.png
+   :alt: Archival folio 0196 g3
+
+.. picture:: 0196.g3.svg
+   :alt: Geometric diagram on folio 0196 (figure 3)
+
 poris altitudinis .zf. ad superficiem .y.: erit propter hoc sicut superficies corporis altitudinis .ze. ad superficiem semispere .dzb., ita superficies corporis altitudinis .zf.
 ad superficiem portionis spere .hzx.: et cum permutabitur, erit proportio portionis .hzx. ad superficiem semispere .bzd. sicut proportio superficiei corporis altitudinis .zf.
 ad superficiem corporis altitudinis .ze. Sed proportio horum duorum corporum est sicut linea .nf. ad lineam .me.; et proportio linee .nf. ad lineam .me.
@@ -815,6 +1121,24 @@ De Quinque Corporibus Regularibus in Spera Cuius Dyameter Sit VI
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0196
    :page: 189
 
+.. picture:: 0196.g1.png
+   :alt: Archival folio 0196 g1
+
+.. picture:: 0196.g1.svg
+   :alt: Geometric diagram on folio 0196 (figure 1)
+
+.. picture:: 0196.g2.png
+   :alt: Archival folio 0196 g2
+
+.. picture:: 0196.g2.svg
+   :alt: Geometric diagram on folio 0196 (figure 2)
+
+.. picture:: 0196.g3.png
+   :alt: Archival folio 0196 g3
+
+.. picture:: 0196.g3.svg
+   :alt: Geometric diagram on folio 0196 (figure 3)
+
 **SI** in spera aliqua construatur cubus et pyramis quatuor basium triangularium et equalium laterum, erit cubus triplus pyramidis. Ad quod demonstrandum adiaceat dyameter date spere .ab., et diuidatur in .c. punctum;
 et sit .bc. duplum ex .ca.; et circinetur semicirculus .adb.; et a puncto .c. super rectam .ab. ad rectos angulos trahatur recta .cd.; et copulentur recte .bd. et .ad.;
 et erit recta .ad. latus cubi, et recta .bd. latus trigonorum pyramidis cadentium in spera, cuius dyameter est recta .ab.; et erit propter similitudinem trigonorum .adb. et .dcb. et .dac. quadratum dyametri .ab. triplum
@@ -832,6 +1156,18 @@ et inscribam in circulo .opq. trigonum
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0197
    :page: 190
+
+.. picture:: 0197.g1.png
+   :alt: Archival folio 0197 g1
+
+.. picture:: 0197.g1.svg
+   :alt: Geometric diagram on folio 0197 (figure 1)
+
+.. picture:: 0197.g2.png
+   :alt: Archival folio 0197 g2
+
+.. picture:: 0197.g2.svg
+   :alt: Geometric diagram on folio 0197 (figure 2)
 
 equilaterum .opq.; et protraham .on. in .r., et erit .or. dyameter circuli .opq.; et copulabo rectas .pr. et .qr.,
 et erunt trigona .opr. et .oqr. equalia et similia; quare angulus .por. equalis est angulo .qor.; quare est sicut .po. ad .oq., ita .ps. ad .sq. equalis .po. ex .oq., ergo .ps. equalis est .sq.: communis adiaceat
@@ -853,6 +1189,18 @@ et ex multiplicatione trigoni .opq. in perpendicularem .tn. prouenit triplum
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0198
    :page: 191
+
+.. picture:: 0198.g1.png
+   :alt: Archival folio 0198 g1
+
+.. picture:: 0198.g1.svg
+   :alt: Geometric diagram on folio 0198 (figure 1)
+
+.. picture:: 0198.g2.png
+   :alt: Archival folio 0198 g2
+
+.. picture:: 0198.g2.svg
+   :alt: Geometric diagram on folio 0198 (figure 2)
 
 aree pyramidis .topq.; ergo cubus .eil. constructus in spera, cuius dyameter est .ab., triplum est pyramidis .topq.
 in eadem spera constructe: et hoc est quod uolui demonstrare. Aliter in cubo .eil. protraham rectas .if. ih. fh. fl. lh. et .il.; et erit in cubo .hmk. constructa pyramis .lhif. quatuor superficierum triangularium et equalium laterum,
@@ -876,6 +1224,18 @@ habebimus similiter .192. pro quadrato pyramidis .topq.: quod si duxerimus per .
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0199
    :page: 192
 
+.. picture:: 0199.g1.png
+   :alt: Archival folio 0199 g1
+
+.. picture:: 0199.g1.svg
+   :alt: Geometric diagram on folio 0199 (figure 1)
+
+.. picture:: 0199.g2.png
+   :alt: Archival folio 0199 g2
+
+.. picture:: 0199.g2.svg
+   :alt: Geometric diagram on folio 0199 (figure 2)
+
 hoc uolui demonstrare.
 Est enim .42. parum plus radicis de .1728.; et .14., que sunt tertia pars de .42., sunt parum plus radicis de .192.; per que ostenditur, cubum esse triplum pyramidis.
 
@@ -898,6 +1258,12 @@ et quia latera .ad. et .ab. equalia sunt, erit unusquisque angulorum qui sub .ab
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0200
    :page: 193
+
+.. picture:: 0200.g1.png
+   :alt: Archival folio 0200 g1
+
+.. picture:: 0200.g1.svg
+   :alt: Geometric diagram on folio 0200 (figure 1)
 
 medietas recti: est enim et angulus .iab. semirectus; et est rectus qui sub .aib.:
 quare trigona .abd. et .abi. sibi inuicem sunt similia: et habent unum angulum comunem, eum uidelicet qui sub .dba.: quare proportionaliter est ut .db. ad .ba., ita .ba. ad .bi.. Quare est sicut prima .db. ad tertiam .bi.,
@@ -943,6 +1309,12 @@ quod **EVCLIDES** in tertio decimo libro infra speram describere docet: quod sol
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0202
    :page: 195
 
+.. picture:: 0202.g1.png
+   :alt: Archival folio 0202 g1
+
+.. picture:: 0202.g1.svg
+   :alt: Geometric diagram on folio 0202 (figure 1)
+
 et altitudo unius pyramidis est
 linea .kl., et alterius .il.; que altitudines sibi inuicem sunt equales; est enim unaqueque earum medietas linee .ik., hoc est dyametri spere, uel axis columne, seu altitudinis cubi; quarum pyramidum magnitudines, hoc est magnitudinem
 totius solidi octobasium habebis ex multiplicatione tetragoni descripti in circulo, cuius centrum est .l., in tertiam partem linee .ik.. Sed magnitudo pyramidis duorum capitum continentis hoc solidum octobasium habetur ex multiplicatione circuli continentis ipsum
@@ -979,6 +1351,12 @@ Modus Dividendi Lineam Media et Extrema Proportione: Dodecaedrum et Ycosaedrum
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0203
    :page: 196
 
+.. picture:: 0203.g1.png
+   :alt: Archival folio 0203 g1
+
+.. picture:: 0203.g1.svg
+   :alt: Geometric diagram on folio 0203 (figure 1)
+
 et ponamus eam esse ulnarum .6.; et abscidam ab ea lineam .ak., que sit tertia ex .ai.;
 et producam ad rectos angulos super lineam .ai. lineam .kl., et copulabo rectas .al. et .il.; et ab angulis penthagoni .abcde. ad centrum spere perducam lineas .bh. ch. dh. eh.; et erit pyramis .habcde., cuius basis est penthagonum .abcde., et summitas eius .h. duodecima pars totius
 solidi duodecim basium penthagonorum descripti in spera, cuius dyameter est .ai.; quia si a centro spere, quod est .h., ad omnes angulos duodecaedri ducantur recte, nimirum in duodecim pyramides equales totum corpus duodecaedri diuidetur, quarum una est pyramis .habcde.: quare si magnitudinem eius inuenerimus,
@@ -995,6 +1373,12 @@ Nam modus diuidendi cordam .be. media et extrema proportione est ut super quadra
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0204
    :page: 197
+
+.. picture:: 0204.g1.png
+   :alt: Archival folio 0204 g1
+
+.. picture:: 0204.g1.svg
+   :alt: Geometric diagram on folio 0204 (figure 1)
 
 de quorum radice auferatur medietas linee .be., que est radix trium,
 et habebitur pro maiori parte radix de .15. minus radice trium; ergo latus penthagonicum .ae., quod est unum ex lateribus penthagoni, est radix de .15. minus radice trium. Et quia, ut in quartodecimo **EVCLIDIS** habetur, quadrata corde et lateris penthagonici
@@ -1016,6 +1400,12 @@ tribus radicibus diminutis de sex
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0205
    :page: 198
+
+.. picture:: 0205.g1.png
+   :alt: Archival folio 0205 g1
+
+.. picture:: 0205.g1.svg
+   :alt: Geometric diagram on folio 0205 (figure 1)
 
 radicibus additis, remanent tres radices de 1/5 7. addite. Et sic habemus 10 et 4/5 et radices tres de 1/5 7., que sunt una radix de 4/5 64.
 Post hec ducam quadratum ex .be. in quadratum de .5., uenient .300., in quibus multiplicabo 4/5 10. et radicem de 4/5 64. Nam ex .300. ductis in 4/5 10. ueniunt .3240., et ex ductis .300. in radicem de 4/5 64.
@@ -1041,6 +1431,12 @@ semicirculum circuli magni .aih., et copulabo rectas .bg. cg.; et erit .gabc. py
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0206
    :page: 199
 
+.. picture:: 0206.g1.png
+   :alt: Archival folio 0206 g1
+
+.. picture:: 0206.g1.svg
+   :alt: Geometric diagram on folio 0206 (figure 1)
+
 .g., qui est centrum spere, lineentur recte ad omnes angulos .20. triangulorum continentium ipsum ycosaedron, nimirum ipsum in .20. pyramides equales diuidetur, quarum una est pyramis .gabc., cuius magnitudinem si in .20. duxerimus, habebimus utique magnitudinem
 totius solidi .20. basium: et quia ut in **EVCLIDE** habetur, circulus continens unum ex trigonis ycosaedri est equalis circulo continenti unum ex penthagonis dodecaedri, cum ambo solida sint in eadem spera constructa; erit propter hoc quod diximus superius, semidyameter circuli
 .abc. nota; hoc quadratum ex .af. erit .6. minus radice de 1/5 7., et quadratum perpendicularis .gf. erit .3. et radix de 1/5 7. Est enim semidyameter spere .ag. 3., et eius quadratum est .9.:
@@ -1058,6 +1454,12 @@ superficies eorumdem .20. triangulorum: quam superficiem si duxerimus in tertiam
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0207
    :page: 200
+
+.. picture:: 0207.g1.png
+   :alt: Archival folio 0207 g1
+
+.. picture:: 0207.g1.svg
+   :alt: Geometric diagram on folio 0207 (figure 1)
 
 pyramidarum continentium totum solidum ycosaedri;
 ergo si multiplicauerimus .af. in .bc.; et illud totum in .5.; et quod prouenerit, duxerimus in .gf., habebimus utique magnitudinem totius solidi: ergo si multiplicauerimus quadratum ex .af. in quadratum ex .bc.;

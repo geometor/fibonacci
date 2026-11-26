@@ -62,6 +62,12 @@ drawn to the circumference are equal to one another; and that point is called th
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0009
    :page: 2
 
+.. picture:: 0009.g1.png
+   :alt: Archival folio 0009 g1
+
+.. picture:: 0009.g1.svg
+   :alt: Parallel lines ab and gd cut by transversal ez
+
 that straight line is called the diameter of the circle,
 which divides the circle into two equal portions, each of which is called a semicircle. A segment of a circle is a figure contained under the periphery of the circle and a straight line, whether it be greater or less than a semicircle. A sector of a circle is a plane figure contained under two straight lines
 drawn from the center to the periphery and the arc of the periphery comprehended by those straight lines. Straight lines which are in the same surface and, produced indefinitely on both sides, never meet one another are called parallel; if any straight line falls upon them, it will make the two interior angles on one side right
@@ -124,6 +130,18 @@ And note that one pertica in breadth and :math:`5\frac{1}{2}` in length is one p
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0012
    :page: 5
 
+.. picture:: 0012.g1.png
+   :alt: Archival folio 0012 g1
+
+.. picture:: 0012.g1.svg
+   :alt: Square abcd divided into four unit squares by ef and gh
+
+.. picture:: 0012.g2.png
+   :alt: Archival folio 0012 g2
+
+.. picture:: 0012.g2.svg
+   :alt: Rectangle abgd divided into six unit squares
+
 Wherefore two perticae at the head and 66 perticae in length are 2 stariora; and 3 perticae at the head and 66 in length are 3 stariora; and so in like cases. Again, double one pertica at the head and half of 66 perticae in length is one stariorum;
 and triple one pertica at the head and a third of 66 perticae in length is likewise one stariorum; and understand this for any other multiple of one pertica at the head and the corresponding part of 66 perticae in length. Hence if it be asked, when 6 perticae are at the head of some square field,
 how many perticae will be in its length to complete a stariorum: since 6 is the sixfold of one pertica, take one-sixth of 66 perticae, namely 11, and you will have the length of that field. Likewise, if there are 7 perticae at the head, a stariorum is completed if in length you have one-seventh of 63 perticae,
@@ -137,6 +155,18 @@ Thus we have 9 perticae, 2 feet, and :math:`10\frac{2}{7}` unciae for :math:`\fr
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0012
    :page: 5
+
+.. picture:: 0012.g1.png
+   :alt: Archival folio 0012 g1
+
+.. picture:: 0012.g1.svg
+   :alt: Square abcd divided into four unit squares by ef and gh
+
+.. picture:: 0012.g2.png
+   :alt: Archival folio 0012 g2
+
+.. picture:: 0012.g2.svg
+   :alt: Rectangle abgd divided into six unit squares
 
 Here Begins the First Distinction, on Multiplying the Breadths of Square Fields into Their Lengths
 ---------------------------------------------------------------------------------------------------
@@ -157,6 +187,12 @@ namely `.a.g.` and `.b.d.`, and 3 perticae in each of the remaining sides. I say
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0013
    :page: 6
+
+.. picture:: 0013.g1.png
+   :alt: Archival folio 0013 g1
+
+.. picture:: 0013.g1.svg
+   :alt: Rectangle abgd partitioned into 33 + 8 by 19 + 16 1/2
 
 at points `.e.`, `.z.` and join `.e.z.`;
 and divide each of `.a.b.` and `.g.d.` into three equal parts at `.i.`, `.t.` and `.k.`, `.l.`, and join `.i.t.` and `.k.l.`; then by the doctrine of the square above, all `.a.b.g.d.` is shown to be divided into six equal right-angled quadrilaterals, each containing one pertica in every side.
@@ -290,6 +326,12 @@ and upon 33 add the multiplication of 15 into 42, making 663 perticae; divide th
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0020
    :page: 13
 
+.. picture:: 0020.g1.png
+   :alt: Archival folio 0020 g1
+
+.. picture:: 0020.g1.svg
+   :alt: Divided line segment agdb (2, 3, 5)
+
 sum 10 stariora, 9 soldi, and :math:`1\frac{1\ 2\ 0}{6\ 6\ 6}` denarii of measure: since above the first two 6s we have part of one denarius; above the other two 6s we have denarii; above 11 we have perticae, namely triple soldi; and above 6 at the head of the bar we have double panora.
 Again, if you wish to multiply 16 perticae, 1 foot, and 10 unciae by 43 perticae and :math:`14\frac{1}{3}` unciae, you shall reduce the unciae to sixths of one foot, giving :math:`3\frac{1}{3}` sixths; from which third make sixths, giving two sixths; and thus you have in the upper side :math:`16\frac{1}{6}\frac{3}{6}\frac{2}{6}` perticae:
 we can otherwise make sixths of one foot from 10 unciae: since 10 unciae are :math:`\frac{10}{18}` of one foot, 10 unciae are :math:`\frac{20}{36}` of a foot; wherefore if we divide 20 by the rule of 36, :math:`\frac{2\ 3}{6\ 6}` of one foot will come out, as we said:
@@ -312,6 +354,24 @@ from multiplying `.g.d.` into `.a.b.`: for the same reason as many times as unit
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0021
    :page: 14
 
+.. picture:: 0021.g1.png
+   :alt: Archival folio 0021 g1
+
+.. picture:: 0021.g1.svg
+   :alt: Line segment agb divided at g (3, 7)
+
+.. picture:: 0021.g2.png
+   :alt: Archival folio 0021 g2
+
+.. picture:: 0021.g2.svg
+   :alt: Auxiliary line segment d
+
+.. picture:: 0021.g3.png
+   :alt: Archival folio 0021 g3
+
+.. picture:: 0021.g3.svg
+   :alt: Line segment abg divided at b (3, 7)
+
 is in number `.d.b.`, so many times does `.a.b.` arise from multiplying `.d.b.` into the whole `.a.b.`.
 Wherefore as many times as unity is in `.a.b.`, namely in portions `.a.g.`, `.g.d.`, and `.d.b.`, so many times will `.a.b.` be gathered together from the multiplications of `.a.g.`, `.g.d.`, and `.d.b.` into `.a.b.`. But as many times as unity is in `.a.b.`, so many times `.a.b.` arises from multiplying `.a.b.` into itself.
 Wherefore the sum of the multiplications of `.a.g.`, `.g.d.`, and `.d.b.` into `.a.b.` equals the multiplication of `.a.b.` into itself, which had to be shown. For that these may be seen more clearly, let straight line `.a.b.` be 10 ells, and portion `.a.g.` be 2, `.g.d.` 3, and `.d.b.` 5; if 2 be multiplied into 10,
@@ -330,6 +390,18 @@ Let line `.a.b.` be 3 and `.b.g.` 7; wherefore whole line `.a.g.` will be 10. He
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0022
    :page: 15
+
+.. picture:: 0022.g1.png
+   :alt: Archival folio 0022 g1
+
+.. picture:: 0022.g1.svg
+   :alt: Line segment bag divided at a (3, 7)
+
+.. picture:: 0022.g2.png
+   :alt: Archival folio 0022 g2
+
+.. picture:: 0022.g2.svg
+   :alt: Line segment adgb with midpoint g (5)
 
 of `.b.g.`, namely 49, and double `.a.b.` into `.b.g.`, they will equal 100, namely the multiplication of `.a.g.` into itself.
 Again, if a straight line be divided anywhere into two portions, double the multiplication of one portion into the whole line with the square of the other portion will be equal to two squares, namely the square of the whole line and the square of that portion which is multiplied twice into the whole line.
@@ -350,6 +422,18 @@ the multiplication of the whole line made of the first line and the adjoined lin
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0023
    :page: 16
+
+.. picture:: 0023.g1.png
+   :alt: Archival folio 0023 g1
+
+.. picture:: 0023.g1.svg
+   :alt: Line segment agbd (5, 5, 3)
+
+.. picture:: 0023.g2.png
+   :alt: Archival folio 0023 g2
+
+.. picture:: 0023.g2.svg
+   :alt: Line segment gbad
 
 to it in a straight line some other line `.b.d.` of any length. I say that the multiplication of line `.a.d.` into `.b.d.`, that is `.b.d.` into `.a.d.`, with the square of line `.g.b.` or `.g.a.`, equals the square of line `.g.d.`.
 Since line `.a.d.` is divided anywhere at points `.g.` and `.b.`, the multiplication of `.b.d.` into whole `.a.d.` will equal the sum of three multiplications, which are `.b.d.` into `.a.g.`, into `.g.b.`, and into `.b.d.`. But because line `.a.g.` is equal to line `.b.g.`, the multiplication of line `.b.d.` into `.a.g.` is equal to `.b.d.` into `.g.b.`.
@@ -373,6 +457,12 @@ the tetragon of the whole line produced with the tetragon of the adjoined line w
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0024
    :page: 17
 
+.. picture:: 0024.g1.png
+   :alt: Archival folio 0024 g1
+
+.. picture:: 0024.g1.svg
+   :alt: Line segment agbd
+
 if line `.a.b.` be divided into two equal parts at `.g.`
 and line `.b.d.` be applied to it in a straight line. I say that the tetragon of line `.a.d.` with the tetragon of line `.b.d.` is double the tetragons of line `.a.g.` and line `.g.d.`. Since line `.a.d.` is divided arbitrarily into two at `.b.`, the square of line `.a.d.` with the square of line `.b.d.` will be equal to the square `.a.b.` and double `.b.d.` into `.a.d.`.
 But double `.b.d.` into `.a.d.` is as two squares of line `.b.d.` with double `.b.d.` into `.b.a.`; therefore tetragon `.a.b.` with two squares of line `.b.d.` and with double `.b.d.` into `.b.a.` equals the squares of lines `.a.d.` and `.b.d.`. But the multiplication of `.b.d.` into `.a.b.` is double the multiplication of `.b.d.` into `.g.b.`,
@@ -392,6 +482,18 @@ that when the multiplication of the first number into the fourth is equal to the
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0025
    :page: 18
+
+.. picture:: 0025.g1.png
+   :alt: Archival folio 0025 g1
+
+.. picture:: 0025.g1.svg
+   :alt: Four proportional quantities a, b, g, d
+
+.. picture:: 0025.g2.png
+   :alt: Archival folio 0025 g2
+
+.. picture:: 0025.g2.svg
+   :alt: Circle abgd with intersecting chords ag and bd at e
 
 the first is to the second, in the same is the third to the fourth.
 And it must be noted that when any number is divided by any number, if that which comes from the division be multiplied by the divisor, surely the divided number will return from that multiplication: as if 20 be divided by 4, 5 comes out; and from multiplying 4 into 5 the divided number 20 returns.

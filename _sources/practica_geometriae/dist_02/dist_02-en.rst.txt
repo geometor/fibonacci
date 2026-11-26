@@ -164,6 +164,18 @@ For the manner of finding roots in lines is that you draw a line of that quantit
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0032
    :page: 25
 
+.. picture:: 0032.g1.png
+   :alt: Archival folio 0032 g1
+
+.. picture:: 0032.g1.svg
+   :alt: Circle gebz with diameter bg, center d, and perpendicular chord ez
+
+.. picture:: 0032.g2.png
+   :alt: Archival folio 0032 g2
+
+.. picture:: 0032.g2.svg
+   :alt: Proportional segments a=20, e=600, b=30 and g, z, d
+
 you desire to have, and add upon it a line of one unit, and fix the center in the middle of that line, and with the interval of half the line draw a circle; 
 and from the point which is between the unit and the line, draw a line at right angles as far as the circle; and that line will be the true root of the number sought. For example: we wish to find the root of 67. 
 Let a certain straight line .ab. lie adjacent, which is 67; to which let the unit .ag. be added in a straight line, and the whole .gb. will be 68: and let .gb. be divided into two equal parts at the point .d.; and with interval .dg. or .db. let the circle .gebz. be described. 
@@ -191,6 +203,12 @@ Again, since .d. is the root of .b., namely of 30; therefore when .d. multiplies
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0033
    :page: 26
+
+.. picture:: 0033.g1.png
+   :alt: Archival folio 0033 g1
+
+.. picture:: 0033.g1.svg
+   :alt: Similar triangles adb and aeg with parallel db and eg (3, 4, 27, 48)
 
 is to .b.: 
 therefore it was as .g. to .d., so .a. to .z.: by equality then it is as .a. to .z., so .z. to .b. Wherefore the multiplication of .a. into .b. is as the multiplication of .z. into itself. But the multiplication of .a. into .b. makes .e., namely 600. And the multiplication of .z. into itself likewise makes .e. 
@@ -220,6 +238,24 @@ and from point .a., making an angle, let straight line .ad.de. be drawn; and let
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0034
    :page: 27
 
+.. picture:: 0034.g1.png
+   :alt: Archival folio 0034 g1
+
+.. picture:: 0034.g1.svg
+   :alt: Similar triangles adb and aeg
+
+.. picture:: 0034.g2.png
+   :alt: Archival folio 0034 g2
+
+.. picture:: 0034.g2.svg
+   :alt: Line segment abg (27, 48)
+
+.. picture:: 0034.g3.png
+   :alt: Archival folio 0034 g3
+
+.. picture:: 0034.g3.svg
+   :alt: Line segment bag
+
 and .db. be joined: therefore the square of line .ab. is triple the square of line .ad., and the square of line .bg. is triple the square of line .de. 
 Therefore as straight line .ab. is to .ad., so straight line .bg. is to .de. Wherefore straight line .db. is parallel to line .eg. Whence triangle .adb. is similar to triangle .aeg.; they have angle .a. common; and angle .adb. is equal to angle .aeg., and angle .adb. to angle .age., namely exterior to interior. 
 Therefore as the square of line .ab. is to the square of line .ad., so the square of line .ag. is to the square of line .ae. But the square of line .ab. is triple the square of line .ad.; wherefore the square of line .ag. is likewise triple the square of line .ae.: 
@@ -240,6 +276,24 @@ that is, the root of 50, and of the root of 2400. Whence, that we may have from 
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0035
    :page: 28
+
+.. picture:: 0035.g1.png
+   :alt: Archival folio 0035 g1
+
+.. picture:: 0035.g1.svg
+   :alt: Triangle agb with parallel de to bg
+
+.. picture:: 0035.g2.png
+   :alt: Archival folio 0035 g2
+
+.. picture:: 0035.g2.svg
+   :alt: Line segment agb
+
+.. picture:: 0035.g3.png
+   :alt: Archival folio 0035 g3
+
+.. picture:: 0035.g3.svg
+   :alt: Line segment agb
 
 minus :math:`\frac{1}{98}`; 
 of which you will find the root, and you will have what was proposed: or you will find the root of 20 and of 30 as closely as you can; and add them together, and you will likewise have what was proposed.
@@ -266,6 +320,12 @@ and thus you will have the residue not fully, but nearly: or otherwise add 20 wi
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0036
    :page: 29
+
+.. picture:: 0036.g1.png
+   :alt: Archival folio 0036 g1
+
+.. picture:: 0036.g1.svg
+   :alt: Proportional segments a=40, g=15, b=600 and d, z, e
 
 600, which is nearly 49 minus :math:`\frac{1}{98}`; 
 and subtract it from 50, and :math:`1\ \frac{1}{98}` remains; of which find the root, and you will have the sought residue, according to approximation.

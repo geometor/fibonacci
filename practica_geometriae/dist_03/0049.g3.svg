@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     class="euclid-graphic"
+     data-graphic-id="0049.g3"
+     data-folio="0049"
+     data-graphic="g3"
+     viewBox="0 0 178 182"
+     width="178"
+     height="182"
+     role="img"
+     aria-label="Geometric diagram on folio 0049 (figure 3)">
+  <title>Geometric diagram on folio 0049 (figure 3)</title>
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" markerWidth="10" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="0" y1="-4" x2="0" y2="4" stroke="currentColor" stroke-width="1.5" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-2" y1="-4" x2="-2" y2="4" stroke="currentColor" stroke-width="1.5" />
+      <line x1="2" y1="-4" x2="2" y2="4" stroke="currentColor" stroke-width="1.5" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" markerWidth="14" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-3.5" y1="-4" x2="-3.5" y2="4" stroke="currentColor" stroke-width="1.5" />
+      <line x1="0" y1="-4" x2="0" y2="4" stroke="currentColor" stroke-width="1.5" />
+      <line x1="3.5" y1="-4" x2="3.5" y2="4" stroke="currentColor" stroke-width="1.5" />
+    </marker>
+  </defs>
+  <style>
+    .euclid-graphic {
+      --geom-bg: #fafaf9;
+      --geom-fg: #1c1917;
+      --geom-carrier: #334155;
+      --geom-circle: #0284c7;
+      --geom-accent: #d97706;
+      --geom-assert: #059669;
+      --geom-point: #0f172a;
+      --geom-label-halo: rgba(250, 250, 249, 0.92);
+      font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      .euclid-graphic {
+        --geom-bg: #141417;
+        --geom-fg: #f4f4f5;
+        --geom-carrier: #cbd5e1;
+        --geom-circle: #38bdf8;
+        --geom-accent: #fbbf24;
+        --geom-assert: #34d399;
+        --geom-point: #f8fafc;
+        --geom-label-halo: rgba(20, 20, 23, 0.92);
+      }
+    }
+    .euclid-graphic .svg-bg { fill: var(--geom-bg); }
+    .euclid-graphic .geom-segment { fill: none; stroke: var(--geom-carrier); stroke-width: 1.65; stroke-linecap: round; }
+    .euclid-graphic .geom-circle { fill: none; stroke: var(--geom-circle); stroke-width: 1.75; }
+    .euclid-graphic .geom-point { fill: var(--geom-point); stroke: var(--geom-bg); stroke-width: 1.2; }
+    .euclid-graphic .geom-label {
+      fill: var(--geom-fg);
+      font-size: 11.5px;
+      font-weight: 600;
+      font-style: italic;
+      paint-order: stroke fill;
+      stroke: var(--geom-label-halo);
+      stroke-width: 3px;
+      stroke-linejoin: round;
+      user-select: none;
+    }
+  </style>
+  <rect class="svg-bg" x="0" y="0" width="178" height="182" rx="4" />
+
+  <g id="elements">
+    <g id="graphics">
+      <path class="geom-segment" d="M 160.2 157.5 L 104.2 87.0 L 48.1 16.5" data-ref="/ P1 P2 /" data-aliases="/ P2 P1 / | [ P1 P2 ] | [ P2 P1 ]" />
+      <path class="geom-segment" d="M 160.2 157.5 L 84.6 156.8 L 9.0 156.1" data-ref="/ P1 P3 /" data-aliases="/ P3 P1 / | [ P1 P3 ] | [ P3 P1 ]" />
+      <path class="geom-segment" d="M 48.4 22.1 L 33.8 87.7 L 19.3 153.3" data-ref="/ P4 P5 /" data-aliases="/ P5 P4 / | [ P4 P5 ] | [ P5 P4 ]" />
+      <path class="geom-segment" d="M 55.0 153.0 L 53.4 90.5 L 51.8 28.0" data-ref="/ P6 P7 /" data-aliases="/ P7 P6 / | [ P6 P7 ] | [ P7 P6 ]" />
+      <path class="geom-segment" d="M 109.0 119.0 L 108.8 135.5 L 108.7 152.0" data-ref="/ P8 P9 /" data-aliases="/ P9 P8 / | [ P8 P9 ] | [ P9 P8 ]" />
+      <path class="geom-segment" d="M 81.0 2.7 L 64.5 2.6 L 48.0 2.4" data-ref="/ P10 P11 /" data-aliases="/ P11 P10 / | [ P10 P11 ] | [ P11 P10 ]" />
+      <path class="geom-segment" d="M 117.0 2.0 L 103.0 1.9 L 89.0 1.8" data-ref="/ P12 P13 /" data-aliases="/ P13 P12 / | [ P12 P13 ] | [ P13 P12 ]" />
+    </g>
+    <g id="highlights" style="pointer-events: none;"></g>
+    <g id="points">
+      <circle class="geom-point" cx="160.2" cy="157.5" r="2.4" data-ref="P1" />
+      <circle class="geom-point" cx="48.1" cy="16.5" r="2.4" data-ref="P2" />
+      <circle class="geom-point" cx="9.0" cy="156.1" r="2.4" data-ref="P3" />
+      <circle class="geom-point" cx="48.4" cy="22.1" r="2.4" data-ref="P4" />
+      <circle class="geom-point" cx="19.3" cy="153.3" r="2.4" data-ref="P5" />
+      <circle class="geom-point" cx="55.0" cy="153.0" r="2.4" data-ref="P6" />
+      <circle class="geom-point" cx="51.8" cy="28.0" r="2.4" data-ref="P7" />
+      <circle class="geom-point" cx="109.0" cy="119.0" r="2.4" data-ref="P8" />
+      <circle class="geom-point" cx="108.7" cy="152.0" r="2.4" data-ref="P9" />
+      <circle class="geom-point" cx="81.0" cy="2.7" r="2.4" data-ref="P10" />
+      <circle class="geom-point" cx="48.0" cy="2.4" r="2.4" data-ref="P11" />
+      <circle class="geom-point" cx="117.0" cy="2.0" r="2.4" data-ref="P12" />
+      <circle class="geom-point" cx="89.0" cy="1.8" r="2.4" data-ref="P13" />
+    </g>
+    <g id="labels">
+    </g>
+  </g>
+</svg>

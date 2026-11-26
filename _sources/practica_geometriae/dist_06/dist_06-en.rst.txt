@@ -129,6 +129,18 @@ and to fit certain of the aforementioned five solids within certain others of th
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0170
    :page: 163
 
+.. picture:: 0170.g1.png
+   :alt: Archival folio 0170 g1
+
+.. picture:: 0170.g1.svg
+   :alt: Geometric diagram on folio 0170 (figure 1)
+
+.. picture:: 0170.g2.png
+   :alt: Archival folio 0170 g2
+
+.. picture:: 0170.g2.svg
+   :alt: Geometric diagram on folio 0170 (figure 2)
+
 When, however, you desire to measure any body of this first part, carefully seek the area of its base, according to what I taught above in the treatise on areas: multiply this by the altitude of the body itself, and what comes forth
 will be the volume of that body: for the altitude of bodies of this first part is a straight line erected orthogonally upon the base and terminated in the surface parallel to the base. And so that these things may be clearly shown, let there lie
 first a cube .aeg. having 10 palms in breadth, length, and altitude. Whose six surfaces are squares, since they have right angles and equal sides; and let its base be the square .ac., to which is parallel
@@ -150,6 +162,12 @@ for the square of line .db.: and I shall mark point .c. on straight line .dt., a
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0171
    :page: 164
+
+.. picture:: 0171.g1.png
+   :alt: Archival folio 0171 g1
+
+.. picture:: 0171.g1.svg
+   :alt: Geometric diagram on folio 0171 (figure 1)
 
 is a root: and because straight line .dt. is divided into two at point .c., the two squares of the segments .dc. and .ct. with double .tc. by .cd. will be equal to the square of line .td. For from .dc. by
 itself there comes forth a census; and from .ct. by itself there will come 4; and from double .tc. by .cd. there will come 4 roots: therefore for the square of line .td. there is had a census, and 4 roots, and 4 dragmas;
@@ -174,6 +192,12 @@ wherefore .ad. is 11, and .dh. is 12. Similarly if it be said: I added the squar
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0172
    :page: 165
 
+.. picture:: 0172.g1.png
+   :alt: Archival folio 0172 g1
+
+.. picture:: 0172.g1.svg
+   :alt: Geometric diagram on folio 0172 (figure 1)
+
 was aggregated was 730; I shall indeed halve them, and there will come 365 for the square of diagonal .hb., with which one must operate as above. But if it is said: I have added altitude .dh. with the square of diagonal .hb.,
 and I had 377; and .dh. was one more than .da., and .da. one more than .ab.; I shall likewise posit .ba. to be a thing; wherefore .ad. also will be a thing with one added, and .dh. will be a thing with two added;
 and the squares of those three lines, according to what was demonstrated above, will be three censuses, and six roots, and 5, which are equal to the square of diagonal .hb.: to which if altitude .dh. is added, which is a root
@@ -197,6 +221,18 @@ or even from point .e., so that it falls outside the figure. But if
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0173
    :page: 166
+
+.. picture:: 0173.g1.png
+   :alt: Archival folio 0173 g1
+
+.. picture:: 0173.g1.svg
+   :alt: Geometric diagram on folio 0173 (figure 1)
+
+.. picture:: 0173.g2.png
+   :alt: Archival folio 0173 g2
+
+.. picture:: 0173.g2.svg
+   :alt: Geometric diagram on folio 0173 (figure 2)
 
 we wish to work according to the art, we must use the instrument of reeds: thus I shall erect a reed orthogonally from point .b. upon base .ac., let it be .bm., whose length is known; and I shall fit upon it
 a reed .mn. making a right angle, namely at .m.; and let us posit straight line .of. to be the perpendicular of solid .dhf.; and the ratio of .bm. to .of. will be as .bn. to .bf.: therefore if the length of straight line .bf. is known,
@@ -224,6 +260,18 @@ I shall multiply .bg. by .be., namely 14
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0174
    :page: 167
 
+.. picture:: 0174.g1.png
+   :alt: Archival folio 0174 g1
+
+.. picture:: 0174.g1.svg
+   :alt: Geometric diagram on folio 0174 (figure 1)
+
+.. picture:: 0174.g2.png
+   :alt: Archival folio 0174 g2
+
+.. picture:: 0174.g2.svg
+   :alt: Geometric diagram on folio 0174 (figure 2)
+
 by 20, and there will come 280 for the area of the quadrilateral base .eg.; which multiplied into half of .al., namely into 6, there will come 1680, as above, for the volume of prism .abgdez.
 
 But if some body is compounded from a solid of six parallel bases and some wedge, as are chests in which grain is kept: join together into one the volume of the solid with the volume of the prism,
@@ -250,6 +298,12 @@ of any body of this part is pentagonal or of more sides, they can
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0175
    :page: 168
 
+.. picture:: 0175.g1.png
+   :alt: Archival folio 0175 g1
+
+.. picture:: 0175.g1.svg
+   :alt: Geometric diagram on folio 0175 (figure 1)
+
 be resolved into three or more wedges having triangular bases, since any plane rectilinear figure is resolved into triangles two fewer than the number of its sides, as a pentagon which is resolved into three triangles,
 a hexagon into 4, etc. Whence when you multiply the areas of all the triangles falling within the base of similar bodies, that is, the area of the base itself, by the altitude of the body, do not doubt that you will certainly have the volume of the body itself.
 But because in finding the areas of many-sided figures falling in circles we can say other things besides those which have been said, so that this work may be complete, I have taken care to say some things therefrom at present.
@@ -275,6 +329,24 @@ since in them are understood to be breadth, length, and depth.
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0176
    :page: 169
 
+.. picture:: 0176.g1.png
+   :alt: Archival folio 0176 g1
+
+.. picture:: 0176.g1.svg
+   :alt: Geometric diagram on folio 0176 (figure 1)
+
+.. picture:: 0176.g2.png
+   :alt: Archival folio 0176 g2
+
+.. picture:: 0176.g2.svg
+   :alt: Geometric diagram on folio 0176 (figure 2)
+
+.. picture:: 0176.g3.png
+   :alt: Archival folio 0176 g3
+
+.. picture:: 0176.g3.svg
+   :alt: Geometric diagram on folio 0176 (figure 3)
+
 .. rubric:: *Here begins the second part, on the measurement of pyramids.*
 
 When, therefore, you desire to measure any pyramid, multiply the area of its base, of whatever form it may be, by a third of its altitude; and what comes forth will be the volume of the pyramid itself; which rule proceeds from the things which
@@ -299,6 +371,24 @@ the square of the straight line proceeding from each of the angles to the foot o
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0177
    :page: 170
 
+.. picture:: 0177.g1.png
+   :alt: Archival folio 0177 g1
+
+.. picture:: 0177.g1.svg
+   :alt: Geometric diagram on folio 0177 (figure 1)
+
+.. picture:: 0177.g2.png
+   :alt: Archival folio 0177 g2
+
+.. picture:: 0177.g2.svg
+   :alt: Geometric diagram on folio 0177 (figure 2)
+
+.. picture:: 0177.g3.png
+   :alt: Archival folio 0177 g3
+
+.. picture:: 0177.g3.svg
+   :alt: Geometric diagram on folio 0177 (figure 3)
+
 investigate in this way. For .bi. is half of .bg.; wherefore the square of .bi. is a fourth of the square of .ab.; wherefore the square of .ai. is :math:`\frac{3}{4}` of the square which is made from straight line .ab.:
 for straight line .ae. is :math:`\frac{2}{3}` of .a.i.; wherefore the square of .ae. is :math:`\frac{4}{9}` of the square of straight line .ai.; therefore the square of .ae., that is of .be. or of .ge., is :math:`\frac{4}{9}` of :math:`\frac{3}{4}` of the square of side .ab.
 But :math:`\frac{4}{9}` of :math:`\frac{3}{4}` of anything is as much as :math:`\frac{3}{4}` of :math:`\frac{4}{9}` of the same thing, that is :math:`\frac{1}{3}`; therefore the square of each of the straight lines .ae., .be., .ge. is a third of the square of side .ba., that is, of side .da.
@@ -321,6 +411,24 @@ and each of the sides .db. and .dg. 14; let side .da. also be 12: I shall first 
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0178
    :page: 171
+
+.. picture:: 0178.g1.png
+   :alt: Archival folio 0178 g1
+
+.. picture:: 0178.g1.svg
+   :alt: Geometric diagram on folio 0178 (figure 1)
+
+.. picture:: 0178.g2.png
+   :alt: Archival folio 0178 g2
+
+.. picture:: 0178.g2.svg
+   :alt: Geometric diagram on folio 0178 (figure 2)
+
+.. picture:: 0178.g3.png
+   :alt: Archival folio 0178 g3
+
+.. picture:: 0178.g3.svg
+   :alt: Geometric diagram on folio 0178 (figure 3)
 
 perpendicular .ae. will be 8: then I shall find the foot of triangle .dae. upon base .ae. thus: from the square indeed which is made from .de., I shall subtract the square of .da., namely 144 from 160, and there will remain 16;
 which divided by .ae., there will come 2; which added with .ae., there will be 10; whose half, namely 5, is the greater foot from the greater side .de.: wherefore I shall place .h. upon the point of the foot, so that .eh. is 5,
@@ -347,6 +455,24 @@ be 12; in this pyramid straight line
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0179
    :page: 172
 
+.. picture:: 0179.g1.png
+   :alt: Archival folio 0179 g1
+
+.. picture:: 0179.g1.svg
+   :alt: Geometric diagram on folio 0179 (figure 1)
+
+.. picture:: 0179.g2.png
+   :alt: Archival folio 0179 g2
+
+.. picture:: 0179.g2.svg
+   :alt: Geometric diagram on folio 0179 (figure 2)
+
+.. picture:: 0179.g3.png
+   :alt: Archival folio 0179 g3
+
+.. picture:: 0179.g3.svg
+   :alt: Geometric diagram on folio 0179 (figure 3)
+
 .dg. is its perpendicular, since the squares of lines .bg. and .gd. are equal to the square of line .db., and also the squares of lines .dg. and .ga. are equal to the square of line .ad.; therefore if a third of .dg.
 is multiplied by the area of triangle .abg., there will be had the volume of pyramid .a.b.g.d. But let not the perpendicular of the pyramid be one of the lines descending from its summit, as in pyramid .abcd., whose side .ab. is 13,
 .bc. 14, .ac. 15; side .bd. also 13, and .dc. 15, and .da. 14. First in triangle .abc. I shall draw perpendicular .ae.; and in triangle .dbc. I shall draw perpendicular .df.;
@@ -372,6 +498,18 @@ which is the root of 160; wherefore the square of 72, which is 5184, I shall div
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0180
    :page: 173
 
+.. picture:: 0180.g1.png
+   :alt: Archival folio 0180 g1
+
+.. picture:: 0180.g1.svg
+   :alt: Geometric diagram on folio 0180 (figure 1)
+
+.. picture:: 0180.g2.png
+   :alt: Archival folio 0180 g2
+
+.. picture:: 0180.g2.svg
+   :alt: Geometric diagram on folio 0180 (figure 2)
+
 double the root of the multiplication of :math:`32\frac{2}{5}` by 160, which double is 144, there will remain :math:`48\frac{2}{5}` for the square of the double of the lesser foot, let it be .bk.; wherefore the square of .bk. will be :math:`12\frac{1}{10}`,
 namely a quarter of :math:`48\frac{2}{5}`; which :math:`12\frac{1}{10}` being subtracted from the square of line .db., there will remain :math:`276\frac{9}{10}` for the square of perpendicular .dk.: then so that we may have knowledge of line .kh., I shall add the square
 of .bk. with the square which is made from .bh., namely :math:`12\frac{1}{10}` with 2250, and there will be :math:`2262\frac{1}{10}`; from which I shall subtract double the root of that which is made from :math:`12\frac{1}{10}` by 2250;
@@ -395,6 +533,12 @@ of those triangles themselves will also be parallel; side .ez. indeed to side .a
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0181
    :page: 174
+
+.. picture:: 0181.g1.png
+   :alt: Archival folio 0181 g1
+
+.. picture:: 0181.g1.svg
+   :alt: Geometric diagram on folio 0181 (figure 1)
 
 in triangles .dab., .dag., and .dbg. the straight lines .ez., .ei., and .zi. are drawn parallel to the bases .ab., .ag., and .bg., the exterior angles will be equal to the opposite interior angles, since
 that under .dez. is equal to the angle under .dab., and also the angles under .dze., .dzi., .diz., .die., and .dei. are equal to the angles under .dba., .dbg., .dgb., .dga., and .dag..
@@ -422,6 +566,18 @@ equal to line .z.i.; and I shall apply upon straight line .ng. the rectangular s
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0182
    :page: 175
 
+.. picture:: 0182.g1.png
+   :alt: Archival folio 0182 g1
+
+.. picture:: 0182.g1.svg
+   :alt: Geometric diagram on folio 0182 (figure 1)
+
+.. picture:: 0182.g2.png
+   :alt: Archival folio 0182 g2
+
+.. picture:: 0182.g2.svg
+   :alt: Geometric diagram on folio 0182 (figure 2)
+
 equal to the surface of triangle .ezi.; and I shall extend straight line .po. to .q.. I say first that surface .np. is similar to surface .bm.. Which is proved thus: since, as in the preceding figure,
 triangles .abg. and .ezi. were demonstrated to be equiangular, they will also on this account be similar to one another. Now similar triangles are in the duplicate ratio of their similar sides. Indeed sides .bg. and .zi. are similar to one another;
 wherefore the ratio of triangle .abg. to triangle .ezi. is the duplicate of side .bg. to side .z.i.: let it therefore be as .bg. is to .zi., so is .zi. to .u.; wherefore as .bg. is to .v.,
@@ -444,6 +600,12 @@ But as .mp. is to .pg., so is surface .qm. to surface .bp.; wherefore the multip
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0183
    :page: 176
+
+.. picture:: 0183.g1.png
+   :alt: Archival folio 0183 g1
+
+.. picture:: 0183.g1.svg
+   :alt: Geometric diagram on folio 0183 (figure 1)
 
 is equal to the multiplication of .dt. into surface .R., that is into surface .qm.. Again because as .bn. is to .ng., so is .tk. to .dt.; and as .bn. is to .ng., so is surface .S.,
 that is surface .bo., to surface .np.: wherefore the multiplication of .tk. into surface .np. equals the multiplication of .dt. into surface .S.; therefore the multiplication of .tk. into the sum of surfaces .bp. and .pn.
@@ -468,6 +630,12 @@ and let their diameters .bd. and .fh. be drawn; and let those circles be paralle
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0184
    :page: 177
 
+.. picture:: 0184.g1.png
+   :alt: Archival folio 0184 g1
+
+.. picture:: 0184.g1.svg
+   :alt: Geometric diagram on folio 0184 (figure 1)
+
 circle. For example: between the semidiameter .bk. of .bd. and .i.f., place line .l.m. in mean proportion, with whose interval let circle .mno. be drawn with compasses. I say first that circle .mno. falls in mean proportion between circle .abc.
 and circle .efg.. Proof. Since as straight line .bk. is to straight line .lm., so is straight line .lm. to straight line .if.. Wherefore as .bk. is to .fi., so will the square of .bk. be to the square of .lm..
 But as the square of .bk. is to the square of .ml., so is the square of diameter .bd. to the square of diameter .pm.. For as the square of diameter .bd. is to the square of diameter .pm., so is circle .abcd. to circle .mnpo.:
@@ -490,6 +658,24 @@ Again let it be as .it. is to .de., that is as .ab. is to .it., so is .de. to .i
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0185
    :page: 178
+
+.. picture:: 0185.g1.png
+   :alt: Archival folio 0185 g1
+
+.. picture:: 0185.g1.svg
+   :alt: Geometric diagram on folio 0185 (figure 1)
+
+.. picture:: 0185.g2.png
+   :alt: Archival folio 0185 g2
+
+.. picture:: 0185.g2.svg
+   :alt: Geometric diagram on folio 0185 (figure 2)
+
+.. picture:: 0185.g3.png
+   :alt: Archival folio 0185 g3
+
+.. picture:: 0185.g3.svg
+   :alt: Geometric diagram on folio 0185 (figure 3)
 
 .kit., so is triangle .kit. to triangle .dez.; therefore triangle .kit. is in mean proportion between triangle .abg. and triangle .dez.. Indeed let there be raised upon triangle .kit. perpendicular .km. equal to the perpendicular falling between triangle .daz. and triangle .abg.;
 and let straight lines .mi. and .mt. be joined; and the altitude of pyramid .mkit. will be equal to the altitude of the truncated pyramid .abgdez.. Next let straight lines .ae., .eg., and .dg. be drawn; and in the said truncated pyramid there will be made three continually proportional pyramids,
@@ -515,6 +701,18 @@ For example: let there be a sphere .ab.; and in it let there be point .z., from 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0186
    :page: 179
 
+.. picture:: 0186.g1.png
+   :alt: Archival folio 0186 g1
+
+.. picture:: 0186.g1.svg
+   :alt: Geometric diagram on folio 0186 (figure 1)
+
+.. picture:: 0186.g2.png
+   :alt: Archival folio 0186 g2
+
+.. picture:: 0186.g2.svg
+   :alt: Geometric diagram on folio 0186 (figure 2)
+
 Proof: let straight lines .bg., .bd., and .be. be drawn from point .b. to points .g., .d., and .e.; and let straight lines .dg. and .de. be joined, and all these straight lines will be within the sphere. And since every triangle, as is held in the eleventh book of Euclid,
 is in one plane, points .b., .g., and .d. will be in one plane, and points .b., .d., and .e. in another; around which points let circles .bgd. and .bde. be drawn with compasses; and from point .z. to the planes of circles .bgd. and .bde.
 let perpendiculars .zi. and .zt. be drawn, and let them be sent out on either side to points .k., .l., .m., and .n.; and through the point let straight lines .ib., .ig., and .id. be drawn. And since .zi. stands orthogonally upon the plane of circle .b.g.d., the angles .zib., .zig., and .zid. will indeed be right:
@@ -536,6 +734,18 @@ in this way: I shall draw line .et., and the squares of lines .eb. and .bt. will
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0187
    :page: 180
+
+.. picture:: 0187.g1.png
+   :alt: Archival folio 0187 g1
+
+.. picture:: 0187.g1.svg
+   :alt: Geometric diagram on folio 0187 (figure 1)
+
+.. picture:: 0187.g2.png
+   :alt: Archival folio 0187 g2
+
+.. picture:: 0187.g2.svg
+   :alt: Geometric diagram on folio 0187 (figure 2)
 
 of perpendicular .ae. be added in common, then the squares of lines .ae. and .et., that is the square of .at., will be equal to the squares of lines .ae., .eb., .bt.,
 that is to the squares of lines .ab. and .bt.. Wherefore angle .abt. is right; therefore .ab. is perpendicular upon line .tk.::
@@ -564,6 +774,12 @@ whose center is .f.; and let surface .hikl., which is parallel to circle .bcde.,
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0188
    :page: 181
 
+.. picture:: 0188.g1.png
+   :alt: Archival folio 0188 g1
+
+.. picture:: 0188.g1.svg
+   :alt: Geometric diagram on folio 0188 (figure 1)
+
 two points .b., .c.; and let arc .bc. be less than a semicircle; and I shall draw from points .b., .c. diameters .bd. and .ce.; and I shall join straight lines .ab., .ac., .ad., .ae., and .be.;
 and I shall mark upon lines .ab., .ac., .ad., and .ae., upon the common section which those straight lines have with surface .hikl., points .h., .i., .k., and .l.:
 and since triangles .abd. and .ace. intersect one another along points .a., .f., their common section will be a straight line, which is the line falling perpendicularly from .a. to .f.;
@@ -591,6 +807,12 @@ and straight lines .mb. and .mg. will be equal to one another: and straight line
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0189
    :page: 182
+
+.. picture:: 0189.g1.png
+   :alt: Archival folio 0189 g1
+
+.. picture:: 0189.g1.svg
+   :alt: Geometric diagram on folio 0189 (figure 1)
 
 its triple and a seventh, as circle .abg. is to its diameter .bg., so will circle .dez. be to its diameter .ez.:
 and on this account as arc .bag., which is half of circle .abg., is to diameter .bg., so will arc .edz., which is half of circle .dez., be to diameter .ez.:
@@ -622,6 +844,12 @@ into :math:`8\frac{4}{5}`, there will likewise remain 462 for the area contained
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0190
    :page: 183
 
+.. picture:: 0190.g1.png
+   :alt: Archival folio 0190 g1
+
+.. picture:: 0190.g1.svg
+   :alt: Geometric diagram on folio 0190 (figure 1)
+
 When there is a circle whose diameter is drawn, and from its center there is drawn a line standing orthogonally upon the diameter and reaching the line containing it;
 and one of the two halves of the circle is cut into two halves; then when one of these quarters is divided into any equal divisions whatever; next a chord of a section is drawn,
 one endpoint of which is the point where the straight line standing upon the diameter and the line containing the circle intersect each other; and the line of the diameter is extended on the side toward which they meet, until they meet;
@@ -651,6 +879,18 @@ If in half of a sphere a body is composed from any number of portions of pyramid
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0191
    :page: 184
 
+.. picture:: 0191.g1.png
+   :alt: Archival folio 0191 g1
+
+.. picture:: 0191.g1.svg
+   :alt: Geometric diagram on folio 0191 (figure 1)
+
+.. picture:: 0191.g2.png
+   :alt: Archival folio 0191 g2
+
+.. picture:: 0191.g2.svg
+   :alt: Geometric diagram on folio 0191 (figure 2)
+
 of columns: and the uppermost of these is a complete pyramid having its summit at the pole of the sphere over the pole of the circle of the base of the hemisphere;
 and let the circle of its base be the top of the following portion, whose base is also the top of the following portion of a pyramid; and let this always be done, until the base of the lowest portion
 is the greatest circle falling in the sphere; and let all the circles of the portions be parallel to the greatest circle; and let the perpendicular falling from the pole of that greatest circle,
@@ -677,6 +917,18 @@ which double, if it be multiplied by :math:`3\frac{1}{7}`, returns double the ar
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0192
    :page: 185
+
+.. picture:: 0192.g1.png
+   :alt: Archival folio 0192 g1
+
+.. picture:: 0192.g1.svg
+   :alt: Geometric diagram on folio 0192 (figure 1)
+
+.. picture:: 0192.g2.png
+   :alt: Archival folio 0192 g2
+
+.. picture:: 0192.g2.svg
+   :alt: Geometric diagram on folio 0192 (figure 2)
 
 straight line .hz. than .hi.. Wherefore from multiplying .zi. into .he. and into :math:`3\frac{1}{7}` comes less than double the area of circle .abgd.: for .he. is equal to straight lines .ae., .mn., .kl., .it. joined together:
 wherefore from the multiplication of .zi. into the sum of straight lines .ae., .mn., .kl., .it. multiplied by :math:`3\frac{1}{7}` comes less than double the area of circle .abgd.: from which multiplications
@@ -708,6 +960,18 @@ If you wish to gather the area of the surface of a sphere whose diameter is 7: t
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0193
    :page: 186
 
+.. picture:: 0193.g1.png
+   :alt: Archival folio 0193 g1
+
+.. picture:: 0193.g1.svg
+   :alt: Geometric diagram on folio 0193 (figure 1)
+
+.. picture:: 0193.g2.png
+   :alt: Archival folio 0193 g2
+
+.. picture:: 0193.g2.svg
+   :alt: Geometric diagram on folio 0193 (figure 2)
+
 quadruple it; or multiply the square of the diameter, which is 49, by :math:`3\frac{1}{7}`, and 154 is had for the area of the surface of that sphere:
 and if you multiply half the square of the diameter by :math:`3\frac{1}{7}`, or double the area of the above-written circle, you will certainly have 77 for the area of the surface of the aforesaid half of the sphere.
 And if 154, which is the area of the surface of the whole sphere, [you multiply] into the sixth of the diameter of the sphere, namely into :math:`1\frac{1}{6}`, or if the third part of 154
@@ -734,6 +998,12 @@ into the third of its surface greater than its body; therefore it is equal to it
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0194
    :page: 187
+
+.. picture:: 0194.g1.png
+   :alt: Archival folio 0194 g1
+
+.. picture:: 0194.g1.svg
+   :alt: Geometric diagram on folio 0194 (figure 1)
 
 we shall multiply the area of its surface into the sixth of its diameter, or we shall multiply half of its diameter into the third part of its surface: for example:
 let the diameter of a given sphere be 10; which if we multiply by its half, there will come 50; which multiplied by :math:`3\frac{1}{7}` give :math:`157\frac{1}{7}`,
@@ -766,6 +1036,24 @@ And so that these things which have been said may be demonstrated geometrically.
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0195
    :page: 188
 
+.. picture:: 0195.g1.png
+   :alt: Archival folio 0195 g1
+
+.. picture:: 0195.g1.svg
+   :alt: Geometric diagram on folio 0195 (figure 1)
+
+.. picture:: 0195.g2.png
+   :alt: Archival folio 0195 g2
+
+.. picture:: 0195.g2.svg
+   :alt: Geometric diagram on folio 0195 (figure 2)
+
+.. picture:: 0195.g3.png
+   :alt: Archival folio 0195 g3
+
+.. picture:: 0195.g3.svg
+   :alt: Geometric diagram on folio 0195 (figure 3)
+
 .z.; and let there be marked upon hemisphere .bzd. great circle .azg., which stands orthogonally upon circle .abgd.; and their common section .ag. is a diameter of each circle; and let perpendicular .ze. descend from pole .z. along the surface of circle .azg. upon diameter .ag.; and point .e. will be the center of both circles: and let arc .az. be divided into any equal parts, which let be arcs .ai., .it., .tz.;
 and through points .i., .t. parallel to diameter .ag. let chords .ik., .tl. be drawn; and let chord .zt. be drawn beyond the circle to point .m.; to which point diameter .ga. will also come.
 Outside the circle, let it be extended: and let one of the two chords parallel to diameter .ag. be drawn outside circle .azg., until it meets line .mz.. Wherefore if we draw chord .ki., it will meet line .mz.
@@ -787,6 +1075,24 @@ to the surface of hemisphere .dzb., so is the surface of the
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0196
    :page: 189
+
+.. picture:: 0196.g1.png
+   :alt: Archival folio 0196 g1
+
+.. picture:: 0196.g1.svg
+   :alt: Geometric diagram on folio 0196 (figure 1)
+
+.. picture:: 0196.g2.png
+   :alt: Archival folio 0196 g2
+
+.. picture:: 0196.g2.svg
+   :alt: Geometric diagram on folio 0196 (figure 2)
+
+.. picture:: 0196.g3.png
+   :alt: Archival folio 0196 g3
+
+.. picture:: 0196.g3.svg
+   :alt: Geometric diagram on folio 0196 (figure 3)
 
 body of altitude .zf. to surface .y.: on this account as the surface of the body of altitude .ze. is to the surface of hemisphere .dzb., so will the surface of the body of altitude .zf. be
 to the surface of the portion of sphere .hzx.: and when it is alternated, the ratio of portion .hzx. to the surface of hemisphere .bzd. will be as the ratio of the surface of the body of altitude .zf. to the surface of the body of altitude .ze..
@@ -810,6 +1116,24 @@ Part II — The Five Regular Polyhedra Inscribed in a Sphere of Diameter 6
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0196
    :page: 189
 
+.. picture:: 0196.g1.png
+   :alt: Archival folio 0196 g1
+
+.. picture:: 0196.g1.svg
+   :alt: Geometric diagram on folio 0196 (figure 1)
+
+.. picture:: 0196.g2.png
+   :alt: Archival folio 0196 g2
+
+.. picture:: 0196.g2.svg
+   :alt: Geometric diagram on folio 0196 (figure 2)
+
+.. picture:: 0196.g3.png
+   :alt: Archival folio 0196 g3
+
+.. picture:: 0196.g3.svg
+   :alt: Geometric diagram on folio 0196 (figure 3)
+
 If in any sphere a cube and a pyramid of four triangular and equal-sided bases are constructed, the cube will be triple the pyramid. To demonstrate this, let the diameter .ab. of the given sphere lie before us, and let it be divided at point .c.; and let .bc. be double .ca.;
 and let the semicircle .adb. be drawn with compasses; and from point .c. upon straight line .ab. at right angles let straight line .cd. be drawn; and let straight lines .bd. and .ad. be joined; and straight line .ad. will be the side of the cube, and straight line .bd. the side of the triangles of the pyramid falling in the sphere
 whose diameter is straight line .ab.; and on account of the similarity of triangles .adb., .dcb., and .dac., the square of diameter .ab. will be triple the square of line .ad., and the square of line .bd. triple the square of line .dc., as Euclid shows; and also the square of line .db. will be double the square of line .ad.;
@@ -826,6 +1150,18 @@ With all these things thus understood, I shall set line .ef. equal to line .ad.;
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0197
    :page: 190
+
+.. picture:: 0197.g1.png
+   :alt: Archival folio 0197 g1
+
+.. picture:: 0197.g1.svg
+   :alt: Geometric diagram on folio 0197 (figure 1)
+
+.. picture:: 0197.g2.png
+   :alt: Archival folio 0197 g2
+
+.. picture:: 0197.g2.svg
+   :alt: Geometric diagram on folio 0197 (figure 2)
 
 and I shall extend .on. to .r., and .or. will be the diameter of circle .opq.; and I shall join straight lines .pr. and .qr., and triangles .opr. and .oqr. will be equal and similar; wherefore angle .por. is equal to angle .qor.;
 wherefore as .po. is to .oq., so is .ps. to .sq. equal: .po. lies equal to .oq., therefore .ps. is equal to .sq.: let straight line .os. lie common; therefore the two straight lines .ps. and .os. are equal to the two .qs. and .os.; and base .op.
@@ -845,6 +1181,18 @@ to the altitude of cube .hmk., that is .tn. to .ei.. Wherefore the multiplicatio
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0198
    :page: 191
 
+.. picture:: 0198.g1.png
+   :alt: Archival folio 0198 g1
+
+.. picture:: 0198.g1.svg
+   :alt: Geometric diagram on folio 0198 (figure 1)
+
+.. picture:: 0198.g2.png
+   :alt: Archival folio 0198 g2
+
+.. picture:: 0198.g2.svg
+   :alt: Geometric diagram on folio 0198 (figure 2)
+
 the volume of pyramid .topq.; therefore cube .eil. constructed in the sphere whose diameter is .ab. is triple pyramid .topq. constructed in the same sphere: and this is what I wished to demonstrate. Otherwise in cube .eil. I shall draw straight lines .if., .ih., .fh., .fl., .lh., and .il.; and in cube .hmk.
 pyramid .lhif. will be constructed of four triangular and equal-sided surfaces, each of which is a diagonal of one of the six squares containing the cube. Wherefore the square of each of those sides is double the square of the side of the cube; for the square of each side of pyramid .topq. is double
 the square of the side of the cube, as was shown above. Wherefore the sides of pyramid .lhif. are equal to the sides of pyramid .topq.. Whence it is clear that pyramid .lhif. is equal to this pyramid .topq.: for when pyramid .lhif. is taken away from cube .hmk., there will remain from the cube itself
@@ -861,6 +1209,18 @@ which if we multiply by 9, we shall have 1728, as above, for the square of cube 
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0199
    :page: 192
+
+.. picture:: 0199.g1.png
+   :alt: Archival folio 0199 g1
+
+.. picture:: 0199.g1.svg
+   :alt: Geometric diagram on folio 0199 (figure 1)
+
+.. picture:: 0199.g2.png
+   :alt: Archival folio 0199 g2
+
+.. picture:: 0199.g2.svg
+   :alt: Geometric diagram on folio 0199 (figure 2)
 
 this is what I wished to demonstrate. For 42 is a little more than the root of 1728; and 14, which is a third part of 42, is a little more than the root of 192; by which it is shown that the cube is triple the pyramid.
 
@@ -879,6 +1239,12 @@ the angle under .dab. is right: and because sides .ad. and .ab. are equal, each 
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0200
    :page: 193
+
+.. picture:: 0200.g1.png
+   :alt: Archival folio 0200 g1
+
+.. picture:: 0200.g1.svg
+   :alt: Geometric diagram on folio 0200 (figure 1)
 
 half of a right angle: for the angle under .iab. is also half a right angle; and the angle under .aib. is right: wherefore triangles .abd. and .abi.
 are similar to one another: and they have one common angle, namely that which is under .dba.: wherefore proportionally it is as .db. to .ba., so .ba. to .bi.. Wherefore as the first .db. is to the third .bi., so is the square which is upon the first .db. to the square which is upon the second .ab.:
@@ -919,6 +1285,12 @@ and upon it four equilateral triangles are raised; and the altitude of one pyram
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0202
    :page: 195
 
+.. picture:: 0202.g1.png
+   :alt: Archival folio 0202 g1
+
+.. picture:: 0202.g1.svg
+   :alt: Geometric diagram on folio 0202 (figure 1)
+
 line .kl., and of the other .il.; which altitudes are equal to one another; for each of them is half of line .ik., that is of the diameter of the sphere, or axis of the column,
 or altitude of the cube; the magnitudes of which pyramids, that is the magnitude of the whole solid of eight bases, you will have from the multiplication of the square described in the circle whose center is .l. into the third part of line .ik.. But the magnitude of the pyramid of two heads
 containing this solid of eight bases is had from the multiplication of the circle containing that square into the same third part of line .ik.; therefore the ratio of the pyramid of two heads to the solid of eight bases is as the circle to the square described within that circle;
@@ -954,6 +1326,12 @@ Part III — Extreme and Mean Ratio: Dodecahedron and Icosahedron
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0203
    :page: 196
 
+.. picture:: 0203.g1.png
+   :alt: Archival folio 0203 g1
+
+.. picture:: 0203.g1.svg
+   :alt: Geometric diagram on folio 0203 (figure 1)
+
 and let us set it to be 6 cubits;
 and let us cut off from it line .ak., which let be a third of .ai.; and let us draw at right angles upon line .ai. line .kl., and let us join straight lines .al. and .il.; and from the angles of pentagon .abcde. to the center of the sphere let us lead lines .bh., .ch., .dh., .eh.;
 and there will be pyramid .habcde., whose base is pentagon .abcde. and summit .h., the twelfth part of the whole solid of twelve pentagonal bases described in the sphere whose diameter is .ai.; because if from the center of the sphere, which is .h., straight lines are drawn to all the angles of the dodecahedron,
@@ -970,6 +1348,12 @@ For the method of dividing chord .be. in mean and extreme ratio is that upon
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0204
    :page: 197
+
+.. picture:: 0204.g1.png
+   :alt: Archival folio 0204 g1
+
+.. picture:: 0204.g1.svg
+   :alt: Geometric diagram on folio 0204 (figure 1)
 
 its square, which is 12., we add a fourth of it, which will be 15.; from the root of which let half of line .be. be taken away, which is the root of three,
 and there will be had for the greater part the root of 15 minus the root of three; therefore the pentagonal side .ae., which is one of the sides of the pentagon, is the root of 15 minus the root of three. And because, as is had in the fourteenth book of Euclid,
@@ -989,6 +1373,12 @@ come three roots of :math:`7\frac{1}{5}` subtracted: and from the multiplication
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0205
    :page: 198
+
+.. picture:: 0205.g1.png
+   :alt: Archival folio 0205 g1
+
+.. picture:: 0205.g1.svg
+   :alt: Geometric diagram on folio 0205 (figure 1)
 
 the six added roots, there remain three roots of :math:`7\frac{1}{5}` added.
 And thus we have 10 and :math:`\frac{4}{5}` and three roots of :math:`7\frac{1}{5}`, which are one root of :math:`64\frac{4}{5}`. After this I shall multiply the square of .be. into the square of .5., and there will come 300., into which I shall multiply :math:`10\frac{4}{5}` and the root of :math:`64\frac{4}{5}`.
@@ -1013,6 +1403,12 @@ whose base is triangle .abc., and whose summit is .g.; which pyramid is :math:`\
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0206
    :page: 199
 
+.. picture:: 0206.g1.png
+   :alt: Archival folio 0206 g1
+
+.. picture:: 0206.g1.svg
+   :alt: Geometric diagram on folio 0206 (figure 1)
+
 .g., which is the center of the sphere, straight lines are drawn to all the angles of the 20 triangles containing that icosahedron,
 surely it will be divided into 20 equal pyramids, one of which is pyramid .gabc., whose magnitude if we multiply by 20., we shall certainly have the magnitude of the whole solid of 20. bases: and because, as is had in Euclid, the circle containing one of the triangles of the icosahedron
 is equal to the circle containing one of the pentagons of the dodecahedron, since both solids are constructed in the same sphere; on account of what we said above, the semidiameter of circle .abc. will be known; this square of .af. will be 6. minus the root of :math:`7\frac{1}{5}`,
@@ -1029,6 +1425,12 @@ But because the ratio of .ae. to .af. is as .15. to .10., there will come from t
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0207
    :page: 200
+
+.. picture:: 0207.g1.png
+   :alt: Archival folio 0207 g1
+
+.. picture:: 0207.g1.svg
+   :alt: Geometric diagram on folio 0207 (figure 1)
 
 of the .20. pyramids containing the whole solid of the icosahedron; therefore if we multiply .af. into .bc.; and that whole into .5.; and what comes forth we multiply into .gf., we shall certainly have the magnitude of the whole solid: therefore if we multiply the square of .af. into the square of .bc.;
 and that whole we multiply by the square of .5., namely by .25.; and this whole we produce into the square of .gf., we shall have from all this the square of the magnitude of the solid. For from the multiplication of the square of line .af. into the square of .fg.,

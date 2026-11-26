@@ -121,6 +121,18 @@ because when the second rank multiplies
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0160
    :page: 153
 
+.. picture:: 0160.g1.png
+   :alt: Archival folio 0160 g1
+
+.. picture:: 0160.g1.svg
+   :alt: Two given quantities f and c
+
+.. picture:: 0160.g2.png
+   :alt: Archival folio 0160 g2
+
+.. picture:: 0160.g2.svg
+   :alt: Archytas doubling-the-cube construction on circle abgd with tangent gz
+
 the second, it makes the third rank, leaving 779 above the fifth, fourth, and third rank. Then the 8 remaining from 48 must be multiplied step by step by the same 21; therefore multiply 8 by 2, giving 16,
 which subtract from the number terminating in the third rank; because when the first rank multiplies the third, it makes the third rank, leaving 763 above the fifth, fourth, and third rank; and 8 by 1 makes 8, which subtract from the number terminating in the second, namely from 7634;
 because when the first rank multiplies the second, it makes the second rank, leaving 7626 above the fifth, fourth, third, and second rank; which join with 3, which is in the first rank, making 76263; from which subtract the cube of 4, namely 64, leaving 76199 above the found root, which is 214.
@@ -140,6 +152,18 @@ But to the rectangle .bm. into .md. is equal the rectangle .gm. into .mt., since
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0161
    :page: 154
+
+.. picture:: 0161.g1.png
+   :alt: Archival folio 0161 g1
+
+.. picture:: 0161.g1.svg
+   :alt: Philo / Heron cube-root construction on circle abg with ruler ebh
+
+.. picture:: 0161.g2.png
+   :alt: Archival folio 0161 g2
+
+.. picture:: 0161.g2.svg
+   :alt: Two given quantities b and a
 
 .abgd.; wherefore angle .glt. is right. For angle .gth. is also right, since straight line .ht. is on the surface of the cylinder.
 And since arc .geha. is a semicircle, angle .gha. will also be right: likewise angle .gml. is right; therefore triangles .gha., .gth., .glt., and .gml. are right-angled, and they have one common angle, namely that under .lgm.; therefore those triangles are similar to one another:
@@ -162,6 +186,18 @@ and that the line in its motion does not cease to pass over point .e. of line .g
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0162
    :page: 155
+
+.. picture:: 0162.g1.png
+   :alt: Archival folio 0162 g1
+
+.. picture:: 0162.g1.svg
+   :alt: Plato moving-square construction for two mean proportionals (first variant)
+
+.. picture:: 0162.g2.png
+   :alt: Archival folio 0162 g2
+
+.. picture:: 0162.g2.svg
+   :alt: Plato moving-square construction for two mean proportionals (second variant)
 
 .ze. is moved as we have told, then .z. is its endpoint upon line .zg.; then line .ze. is in that disposition
 that it must be shown in a straight line, which is between the motion of its endpoint and point .e., like line .ze. Then I shall mark upon the line extended in a straight line the sign .k., and imagine that line .mp. moves from the part of point .m. toward point .k.,
@@ -213,6 +249,24 @@ and I wish to know the
 
 .. folio:: boncompagni_1862_vol2_practica_geometriae:0164
    :page: 157
+
+.. picture:: 0164.g1.png
+   :alt: Archival folio 0164 g1
+
+.. picture:: 0164.g1.svg
+   :alt: Divided line segment abc
+
+.. picture:: 0164.g2.png
+   :alt: Archival folio 0164 g2
+
+.. picture:: 0164.g2.svg
+   :alt: Divided line segment agb
+
+.. picture:: 0164.g3.png
+   :alt: Archival folio 0164 g3
+
+.. picture:: 0164.g3.svg
+   :alt: Square cdef partitioned into rectangles around h
 
 quantity of the whole .ac. Since line .ac. is divided in two at point .b., the two cubes of parts .ab. and .bc., together with three times the square of .ab. into .bc., and also with three times the square of .bc. into .ab.,
 will be equal to the cube of the whole line .ac. Wherefore let the cubes of parts .ab. and .bc. be added, namely 32 with 4, giving 36; and let .ab. be multiplied by itself, namely the cube root of 32 by the cube root of 32, and there will come the cube root of 1024;

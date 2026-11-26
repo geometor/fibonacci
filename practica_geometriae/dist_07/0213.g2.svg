@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     class="euclid-graphic"
+     data-graphic-id="0213.g2"
+     data-folio="0213"
+     data-graphic="g2"
+     viewBox="0 0 495 505"
+     width="495"
+     height="505"
+     role="img"
+     aria-label="Large geometric quadrant measuring height oQ (nf=105, L=30)">
+  <title>Large geometric quadrant measuring height oQ (nf=105, L=30)</title>
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" markerWidth="10" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="0" y1="-4" x2="0" y2="4" stroke="currentColor" stroke-width="1.5" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" markerWidth="12" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-2" y1="-4" x2="-2" y2="4" stroke="currentColor" stroke-width="1.5" />
+      <line x1="2" y1="-4" x2="2" y2="4" stroke="currentColor" stroke-width="1.5" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" markerWidth="14" markerHeight="10" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-3.5" y1="-4" x2="-3.5" y2="4" stroke="currentColor" stroke-width="1.5" />
+      <line x1="0" y1="-4" x2="0" y2="4" stroke="currentColor" stroke-width="1.5" />
+      <line x1="3.5" y1="-4" x2="3.5" y2="4" stroke="currentColor" stroke-width="1.5" />
+    </marker>
+  </defs>
+  <style>
+    .euclid-graphic {
+      --geom-bg: #fafaf9;
+      --geom-fg: #1c1917;
+      --geom-carrier: #334155;
+      --geom-circle: #0284c7;
+      --geom-accent: #d97706;
+      --geom-assert: #059669;
+      --geom-point: #0f172a;
+      --geom-label-halo: rgba(250, 250, 249, 0.92);
+      font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      .euclid-graphic {
+        --geom-bg: #141417;
+        --geom-fg: #f4f4f5;
+        --geom-carrier: #cbd5e1;
+        --geom-circle: #38bdf8;
+        --geom-accent: #fbbf24;
+        --geom-assert: #34d399;
+        --geom-point: #f8fafc;
+        --geom-label-halo: rgba(20, 20, 23, 0.92);
+      }
+    }
+    .euclid-graphic .svg-bg { fill: var(--geom-bg); }
+    .euclid-graphic .geom-segment { fill: none; stroke: var(--geom-carrier); stroke-width: 1.65; stroke-linecap: round; }
+    .euclid-graphic .geom-segment.dashed { stroke-dasharray: 4 3; opacity: 0.75; }
+    .euclid-graphic .geom-circle { fill: none; stroke: var(--geom-circle); stroke-width: 1.75; }
+    .euclid-graphic .geom-polygon { fill: var(--geom-circle); fill-opacity: 0.05; stroke: var(--geom-carrier); stroke-width: 1.5; stroke-linejoin: round; }
+    .euclid-graphic .geom-point { fill: var(--geom-point); stroke: var(--geom-bg); stroke-width: 1.2; }
+    .euclid-graphic .geom-label {
+      fill: var(--geom-fg);
+      font-size: 12px;
+      font-weight: 600;
+      font-style: italic;
+      paint-order: stroke fill;
+      stroke: var(--geom-label-halo);
+      stroke-width: 3px;
+      stroke-linejoin: round;
+      user-select: none;
+    }
+    .euclid-graphic .geom-num {
+      fill: var(--geom-accent);
+      font-size: 11px;
+      font-weight: 600;
+      paint-order: stroke fill;
+      stroke: var(--geom-label-halo);
+      stroke-width: 2.5px;
+      user-select: none;
+    }
+  </style>
+  <rect class="svg-bg" x="0" y="0" width="495" height="505" rx="4" />
+
+  <g id="elements">
+    <g id="graphics">
+      <path class="geom-segment" d="M 38.0 170.0 L 183.0 170.0 L 328.0 170.0" data-ref="/ C A /" data-aliases="/ A C / | [ C A ] | [ A C ]" />
+      <path class="geom-segment" d="M 328.0 170.0 L 328.0 320.0 L 328.0 470.0" data-ref="/ A B /" data-aliases="/ B A / | [ A B ] | [ B A ]" />
+      <path class="geom-segment" d="M 328.0 170.0 L 198.0 313.0 L 68.0 456.0" data-ref="/ A M /" data-aliases="/ M A / | [ A M ] | [ M A ]" />
+      <path class="geom-segment" d="M 468.0 16.0 L 468.0 243.0 L 468.0 470.0" data-ref="/ Q F /" data-aliases="/ F Q / | [ Q F ] | [ F Q ]" />
+      <path class="geom-segment" d="M 468.0 16.0 L 268.0 236.0 L 68.0 456.0" data-ref="/ Q M /" data-aliases="/ M Q / | [ Q M ] | [ M Q ]" />
+      <path class="geom-segment" d="M 328.0 396.0 L 398.0 396.0 L 468.0 396.0" data-ref="/ H O /" data-aliases="/ O H / | [ H O ] | [ O H ]" />
+      <path class="geom-segment" d="M 340.0 470.0 L 404.0 470.0 L 468.0 470.0" data-ref="/ N F /" data-aliases="/ F N / | [ N F ] | [ F N ]" />
+      <path class="geom-segment" d="M 144.0 170.0 L 135.0 269.0 L 126.0 368.0" data-ref="/ I D /" data-aliases="/ D I / | [ I D ] | [ D I ]" />
+      <path class="geom-segment" d="M 126.0 368.0 L 227.0 382.0 L 328.0 396.0" data-ref="/ D H /" data-aliases="/ H D / | [ D H ] | [ H D ]" />
+    </g>
+    <g id="highlights" style="pointer-events: none;"></g>
+    <g id="points">
+      <circle class="geom-point" cx="468.0" cy="16.0" r="2.6" data-ref="Q" />
+      <circle class="geom-point" cx="38.0" cy="170.0" r="2.6" data-ref="C" />
+      <circle class="geom-point" cx="144.0" cy="170.0" r="2.6" data-ref="I" />
+      <circle class="geom-point" cx="328.0" cy="170.0" r="2.6" data-ref="A" />
+      <circle class="geom-point" cx="336.0" cy="170.0" r="2.6" data-ref="G" />
+      <circle class="geom-point" cx="126.0" cy="368.0" r="2.6" data-ref="D" />
+      <circle class="geom-point" cx="328.0" cy="396.0" r="2.6" data-ref="H" />
+      <circle class="geom-point" cx="328.0" cy="470.0" r="2.6" data-ref="B" />
+      <circle class="geom-point" cx="340.0" cy="470.0" r="2.6" data-ref="N" />
+      <circle class="geom-point" cx="468.0" cy="396.0" r="2.6" data-ref="O" />
+      <circle class="geom-point" cx="468.0" cy="470.0" r="2.6" data-ref="F" />
+      <circle class="geom-point" cx="68.0" cy="456.0" r="2.6" data-ref="M" />
+    </g>
+    <g id="labels">
+      <text class="geom-label" x="472.0" y="12.0" data-ref="Q">Q</text>
+      <text class="geom-label" x="30.0" y="166.0" data-ref="C">c</text>
+      <text class="geom-label" x="142.0" y="164.0" data-ref="I">i</text>
+      <text class="geom-label" x="324.0" y="164.0" data-ref="A">a</text>
+      <text class="geom-label" x="340.0" y="174.0" data-ref="G">g</text>
+      <text class="geom-label" x="118.0" y="376.0" data-ref="D">d</text>
+      <text class="geom-label" x="332.0" y="392.0" data-ref="H">h</text>
+      <text class="geom-label" x="326.0" y="482.0" data-ref="B">b</text>
+      <text class="geom-label" x="344.0" y="482.0" data-ref="N">n</text>
+      <text class="geom-label" x="473.0" y="400.0" data-ref="O">o</text>
+      <text class="geom-label" x="472.0" y="482.0" data-ref="F">f</text>
+      <text class="geom-label" x="60.0" y="466.0" data-ref="M">M</text>
+      <text class="geom-num" x="230.0" y="384.0">30</text>
+      <text class="geom-num" x="405.0" y="386.0">105</text>
+    </g>
+  </g>
+</svg>
