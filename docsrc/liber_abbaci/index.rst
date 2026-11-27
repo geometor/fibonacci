@@ -40,35 +40,6 @@ Table of Chapters
 .. collection::
    :sort: order
 
-   cap_01/cap_01-en
-   cap_12/cap_12-en
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: English Edition
-
-   cap_01/cap_01-en
-   cap_12/cap_12-en
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: Latin Edition
-
-   cap_01/cap_01-la
-   cap_12/cap_12-la
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: Summaries & GEOMETOR Commentary
-
-   cap_01/cap_01-summary
-   cap_01/cap_01-notes
-   cap_12/cap_12-summary
-   cap_12/cap_12-notes
-
 .. toctree::
    :maxdepth: 1
    :hidden:

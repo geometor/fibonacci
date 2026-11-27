@@ -31,14 +31,14 @@ Practica Geometriae
 Conspectus Totius Operis
 ------------------------
 
-* Distinctio I: :doc:`Latin <dist_01/dist_01-la>` · :doc:`English <dist_01/dist_01-en>` · :doc:`Summary <dist_01/dist_01-summary>` · :doc:`Notes <dist_01/dist_01-notes>`
-* Distinctio II: :doc:`Latin <dist_02/dist_02-la>` · :doc:`English <dist_02/dist_02-en>` · :doc:`Summary <dist_02/dist_02-summary>` · :doc:`Notes <dist_02/dist_02-notes>`
-* Distinctio III: :doc:`Latin <dist_03/dist_03-la>` · :doc:`English <dist_03/dist_03-en>` · :doc:`Summary <dist_03/dist_03-summary>` · :doc:`Notes <dist_03/dist_03-notes>`
-* Distinctio IV: :doc:`Latin <dist_04/dist_04-la>` · :doc:`English <dist_04/dist_04-en>` · :doc:`Summary <dist_04/dist_04-summary>` · :doc:`Notes <dist_04/dist_04-notes>`
-* Distinctio V: :doc:`Latin <dist_05/dist_05-la>` · :doc:`English <dist_05/dist_05-en>` · :doc:`Summary <dist_05/dist_05-summary>` · :doc:`Notes <dist_05/dist_05-notes>`
-* Distinctio VI: :doc:`Latin <dist_06/dist_06-la>` · :doc:`English <dist_06/dist_06-en>` · :doc:`Summary <dist_06/dist_06-summary>` · :doc:`Notes <dist_06/dist_06-notes>`
-* Distinctio VII: :doc:`Latin <dist_07/dist_07-la>` · :doc:`English <dist_07/dist_07-en>` · :doc:`Summary <dist_07/dist_07-summary>` · :doc:`Notes <dist_07/dist_07-notes>`
-* Distinctio VIII: :doc:`Latin <dist_08/dist_08-la>` · :doc:`English <dist_08/dist_08-en>` · :doc:`Summary <dist_08/dist_08-summary>` · :doc:`Notes <dist_08/dist_08-notes>`
+* Distinctio I: :doc:`Latin <dist_01/la>` · :doc:`English <dist_01/index>` · :doc:`Summary <dist_01/summary>` · :doc:`Notes <dist_01/notes>`
+* Distinctio II: :doc:`Latin <dist_02/la>` · :doc:`English <dist_02/index>` · :doc:`Summary <dist_02/summary>` · :doc:`Notes <dist_02/notes>`
+* Distinctio III: :doc:`Latin <dist_03/la>` · :doc:`English <dist_03/index>` · :doc:`Summary <dist_03/summary>` · :doc:`Notes <dist_03/notes>`
+* Distinctio IV: :doc:`Latin <dist_04/la>` · :doc:`English <dist_04/index>` · :doc:`Summary <dist_04/summary>` · :doc:`Notes <dist_04/notes>`
+* Distinctio V: :doc:`Latin <dist_05/la>` · :doc:`English <dist_05/index>` · :doc:`Summary <dist_05/summary>` · :doc:`Notes <dist_05/notes>`
+* Distinctio VI: :doc:`Latin <dist_06/la>` · :doc:`English <dist_06/index>` · :doc:`Summary <dist_06/summary>` · :doc:`Notes <dist_06/notes>`
+* Distinctio VII: :doc:`Latin <dist_07/la>` · :doc:`English <dist_07/index>` · :doc:`Summary <dist_07/summary>` · :doc:`Notes <dist_07/notes>`
+* Distinctio VIII: :doc:`Latin <dist_08/la>` · :doc:`English <dist_08/index>` · :doc:`Summary <dist_08/summary>` · :doc:`Notes <dist_08/notes>`
 
 ----
 
