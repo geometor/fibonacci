@@ -34,7 +34,7 @@ Books in This Collection
       .. container:: home-actions
 
          * :doc:`Open Practica Geometriae → <practica_geometriae/index>`
-         * :doc:`Distinctio I (Pisan Metrology) → <practica_geometriae/dist_01/dist_01-en>`
+         * :doc:`Distinctio I (Pisan Metrology) → <practica_geometriae/dist_01/index>`
          * :doc:`Symbolic Demos → <demos/index>`
 
 .. container:: home-book-hero no-thumb
@@ -48,8 +48,8 @@ Books in This Collection
       .. container:: home-actions
 
          * :doc:`Open Liber Abbaci → <liber_abbaci/index>`
-         * :doc:`Chapter I (Nine Indian Figures) → <liber_abbaci/cap_01/cap_01-en>`
-         * :doc:`Chapter XII.7 (The Rabbit Problem) → <liber_abbaci/cap_12/cap_12-en>`
+         * :doc:`Chapter I (Nine Indian Figures) → <liber_abbaci/cap_01/index>`
+         * :doc:`Chapter XII.7 (The Rabbit Problem) → <liber_abbaci/cap_12/index>`
 
 Key Features
 ------------

@@ -35,12 +35,12 @@ Conspectus Totius Operis
 Capitulum I — De Novem Figuris Indorum
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:doc:`Latin <cap_01/cap_01-la>` · :doc:`English <cap_01/cap_01-en>` · :doc:`Summary <cap_01/cap_01-summary>` · :doc:`Notes <cap_01/cap_01-notes>`
+:doc:`Latin <cap_01/la>` · :doc:`English <cap_01/index>` · :doc:`Summary <cap_01/summary>` · :doc:`Notes <cap_01/notes>`
 
 Capitulum XII — De Quaestionibus Arithmeticae et de Paribus Cuniculorum
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:doc:`Latin <cap_12/cap_12-la>` · :doc:`English <cap_12/cap_12-en>` · :doc:`Summary <cap_12/cap_12-summary>` · :doc:`Notes <cap_12/cap_12-notes>`
+:doc:`Latin <cap_12/la>` · :doc:`English <cap_12/index>` · :doc:`Summary <cap_12/summary>` · :doc:`Notes <cap_12/notes>`
 
 ----
 

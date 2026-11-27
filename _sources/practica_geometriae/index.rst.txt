@@ -38,15 +38,6 @@ Table of Distinctions
 .. collection::
    :sort: order
 
-   dist_01/dist_01-en
-   dist_02/dist_02-en
-   dist_03/dist_03-en
-   dist_04/dist_04-en
-   dist_05/dist_05-en
-   dist_06/dist_06-en
-   dist_07/dist_07-en
-   dist_08/dist_08-en
-
 Scholarly Apparatus
 -------------------
 
@@ -54,56 +45,6 @@ Scholarly Apparatus
 * :ref:`Bibliography — Critical Editions & Classical Sources <bibliography>`
 * :ref:`People — Biographical Register of Geometers, Translators & Patrons <persons>`
 * :ref:`Glossary — Pisan Metrology, Scholastic Geometry & Algebraic Lexicon <glossary>`
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: English Edition
-
-   dist_01/dist_01-en
-   dist_02/dist_02-en
-   dist_03/dist_03-en
-   dist_04/dist_04-en
-   dist_05/dist_05-en
-   dist_06/dist_06-en
-   dist_07/dist_07-en
-   dist_08/dist_08-en
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: Latin Edition
-
-   dist_01/dist_01-la
-   dist_02/dist_02-la
-   dist_03/dist_03-la
-   dist_04/dist_04-la
-   dist_05/dist_05-la
-   dist_06/dist_06-la
-   dist_07/dist_07-la
-   dist_08/dist_08-la
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: Summaries & GEOMETOR Commentary
-
-   dist_01/dist_01-summary
-   dist_01/dist_01-notes
-   dist_02/dist_02-summary
-   dist_02/dist_02-notes
-   dist_03/dist_03-summary
-   dist_03/dist_03-notes
-   dist_04/dist_04-summary
-   dist_04/dist_04-notes
-   dist_05/dist_05-summary
-   dist_05/dist_05-notes
-   dist_06/dist_06-summary
-   dist_06/dist_06-notes
-   dist_07/dist_07-summary
-   dist_07/dist_07-notes
-   dist_08/dist_08-summary
-   dist_08/dist_08-notes
 
 .. toctree::
    :maxdepth: 1
